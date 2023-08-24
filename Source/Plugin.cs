@@ -11,7 +11,7 @@ using UnityEngine.TextCore.Text;
 
 namespace MoreTranslations
 {
-    [BepInPlugin("MoreTranslations_DontTouchFranky", "MoreTranslations", "1.1.0")]
+    [BepInPlugin("MoreTranslations_DontTouchFranky", "MoreTranslations", "1.1.1")]
     public class Plugin : BaseUnityPlugin
     {
         private static Dictionary<string, Dictionary<string, string>> TextStrings;
@@ -62,7 +62,7 @@ namespace MoreTranslations
             string thisPath = Paths.PluginPath; // use bepinex path. fonts are expected to be in the Plugins folder along with the dll
             selectedLanguage = PlayerPrefs.GetString("linguaSelezionata");
             string filePath = thisPath;
-            if (selectedLanguage.ToLower() == "jp" || selectedLanguage.ToLower() == "japanese") // added font for jp lang
+            if (selectedLanguage.ToLower() == "jp" || selectedLanguage.ToLower() == "japanese" || selectedLanguage.ToLower() == "russian" || selectedLanguage.ToLower() == "ru") // added font for jp lang
                 filePath += "/NotoSerifJP-Regular.otf";
             else
                 filePath += "/CantoraOne-Regular Fix.ttf";

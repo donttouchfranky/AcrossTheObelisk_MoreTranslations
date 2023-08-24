@@ -7,10 +7,11 @@ using BepInEx;
 using HarmonyLib;
 using TMPro;
 using UnityEngine;
+using UnityEngine.TextCore.Text;
 
 namespace MoreTranslations
 {
-    [BepInPlugin("MoreTranslations_DontTouchFranky", "MoreTranslations", "1.0.1")]
+    [BepInPlugin("MoreTranslations_DontTouchFranky", "MoreTranslations", "1.1.0")]
     public class Plugin : BaseUnityPlugin
     {
         private static Dictionary<string, Dictionary<string, string>> TextStrings;
@@ -26,7 +27,7 @@ namespace MoreTranslations
             Harmony.CreateAndPatchAll(typeof(Plugin));
         }
 
-        [HarmonyPatch(typeof(AtOManager), "Update"), HarmonyPrefix]
+        /*[HarmonyPatch(typeof(AtOManager), "Update"), HarmonyPrefix]
         static void Update()
         {
             // Utilizzo un font diverso in caso di caratteri speciali
@@ -35,29 +36,44 @@ namespace MoreTranslations
                 List<TMP_Text> texts = new List<TMP_Text>(FindObjectsOfType<TMP_Text>());
                 for (int i = 0; i < texts.Count; i++)
                 {
-                    texts[i].font.fallbackFontAssetTable = new List<TMP_FontAsset>() { alternativeFont };
+                    Debug.Log("i: " + i + "   outlineColor: " + texts[i].outlineColor.ToString() + "   outlineWidth: " + texts[i].outlineWidth);
+                    if (forceFont)
+                        texts[i].font = alternativeFont;
+                    else
+                        texts[i].font.fallbackFontAssetTable = new List<TMP_FontAsset>() { alternativeFont };
+                    Debug.Log("j: " + i + "   outlineColor: " + texts[i].outlineColor.ToString() + "   outlineWidth: " + texts[i].outlineWidth);
                 }
             }
+        }*/
+
+        // switched to OnEnable - it's faster and less laggy
+        [HarmonyPatch(typeof(TextMeshPro), "OnEnable"), HarmonyPostfix]
+        public static void FontPatchTMPText(TextMeshPro __instance)
+        {
+            // Utilizzo un font diverso in caso di caratteri speciali
+            if (alternativeFont != null)
+                __instance.font.fallbackFontAssetTable = new List<TMP_FontAsset>() { alternativeFont };
         }
 
         [HarmonyPatch(typeof(GameManager), "Start"), HarmonyPrefix]
         static void Start()
         {
             // Carico il font CantoraOne-Regular Fix SDF.asset dalla cartella attuale
-            string thisPath = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
-            string filePath = thisPath + "/CantoraOne-Regular Fix.ttf";
+            string thisPath = Paths.PluginPath; // use bepinex path. fonts are expected to be in the Plugins folder along with the dll
+            selectedLanguage = PlayerPrefs.GetString("linguaSelezionata");
+            string filePath = thisPath;
+            if (selectedLanguage.ToLower() == "jp" || selectedLanguage.ToLower() == "japanese") // added font for jp lang
+                filePath += "/NotoSerifJP-Regular.otf";
+            else
+                filePath += "/CantoraOne-Regular Fix.ttf";
             if (File.Exists(filePath))
             {
                 Font font = new Font(filePath);
                 TMP_FontAsset fontAsset = TMP_FontAsset.CreateFontAsset(font);
 
                 if (fontAsset != null)
-                {
                     alternativeFont = fontAsset;
-                }
             }
-
-            selectedLanguage = PlayerPrefs.GetString("linguaSelezionata");
 
             TextStrings = new Dictionary<string, Dictionary<string, string>>((IEqualityComparer<string>)StringComparer.OrdinalIgnoreCase);
             TextKeynotes = new Dictionary<string, Dictionary<string, string>>((IEqualityComparer<string>)StringComparer.OrdinalIgnoreCase);
@@ -136,15 +152,12 @@ namespace MoreTranslations
 
         static void GetTranslationLanguages()
         {
-            string thisPath = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
-
             // Cerco tra tutte le cartelle 
-            string pluginsPath = thisPath + "/../";
-            string[] folders = Directory.GetDirectories(pluginsPath);
+            string[] folders = Directory.GetDirectories(Paths.PluginPath); // use bepinex path
             foreach (string cartella in folders)
             {
                 // Check if moretranslations.txt exists in folder
-                string moretranslationsPath = cartella + "/moretranslations.txt";
+                string moretranslationsPath = Path.Combine(cartella, "moretranslations.txt");
                 if (File.Exists(moretranslationsPath))
                 {
                     string[] lines = File.ReadAllLines(moretranslationsPath);
@@ -242,10 +255,10 @@ namespace MoreTranslations
         {
             if (selectedLanguage != "")
             {
-                string thisPath = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
+                // string thisPath = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
 
                 // Cerco tra tutte le cartelle 
-                string pluginsPath = thisPath + "/../";
+                string pluginsPath = Paths.PluginPath; // use bepinex path
                 string translationsPath = "";
                 string[] folders = Directory.GetDirectories(pluginsPath);
                 foreach (string cartella in folders)
@@ -461,6 +474,31 @@ namespace MoreTranslations
                     }
                 }
             }
+        }
+        public static void ExportEnglishTextForTranslation() // for when vanilla texts are updated
+        {
+            ActualExport("en");
+            ActualExport("en_keynotes");
+            ActualExport("en_traits");
+            ActualExport("en_auracurse");
+            ActualExport("en_events");
+            ActualExport("en_nodes");
+            ActualExport("en_cards");
+            ActualExport("en_cardsfluff");
+            ActualExport("en_class");
+            ActualExport("en_monsters");
+            ActualExport("en_requirements");
+            ActualExport("en_tips");
+            File.WriteAllText(Path.Combine(Paths.PluginPath, "MoreTranslations_Export", "moretranslations.txt"), "English");
+        }
+        public static void ActualExport(string fileName)
+        {
+            Debug.Log("Exporting " + fileName);
+            UnityEngine.TextAsset textAsset = Resources.Load("Lang/" + fileName) as UnityEngine.TextAsset;
+            DirectoryInfo medsDI = new DirectoryInfo(Path.Combine(Paths.PluginPath, "MoreTranslations_Export"));
+            if (!medsDI.Exists)
+                medsDI.Create();
+            File.WriteAllText(Path.Combine(Paths.PluginPath, "MoreTranslations_Export", (fileName == "en" ? "English" : fileName.Replace("en_", "English_")) + ".txt"), textAsset.ToString());
         }
     }
 }

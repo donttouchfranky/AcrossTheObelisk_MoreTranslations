@@ -136,3 +136,12 @@ wardenquest_name=Saving the treants
 wardenquest_description=Bree has entrusted you with one Ylmer's seed to plant in a suitable location.
 ylmerseed_name=Ylmer's seed
 ylmerseed_description=One of the few remaining Ylmer seeds.
+/////////////////// new DLC Ulminin ///////////////////////////////////////////
+brillianttopaz_name=Brilliant Topaz
+brillianttopaz_description=A brilliant topaz that you found in a beetle nest.
+fallenquest1_name=Searching for the source
+fallenquest1_description=Navalea asks you to search the east for the source of her curse.
+fallenquest2_name=Lifting the curse
+fallenquest2_description=Search Navalea's homeland for a sacred place to purify the source of the curse.
+paladinquest_name=The Void bells
+paladinquest_description=Laia asked you to ring the silver bell three times, on an ancient battlefield.

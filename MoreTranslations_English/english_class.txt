@@ -56,3 +56,11 @@ youngheiner_name=Model C
 youngmagnus_name=Magnus
 youngottis_name=Ottis
 youngyogger_name=Yogger
+//////////////////////////
+fallen_name=Navalea
+fallen_description=Navalea, first paladin of Basthet, broke her oath when she joined her people in the war against the Archons. When she returned from the war, Basthet cursed her and had her locked up alive forever.<br><br>Believing she did good, her hatred grew for centuries corrupting her body and soul. Until one day her confinement ended and a group of adventurers helped her lift her curse.
+fallen_strength=A warrior who is proficient in the way of the mage.
+paladin_name=Laia
+paladin_description=For generations, the felines of Ulminin, in order to maintain Basthet's blessing, have the custom of offering her a young girl when her paladin dies. Laia was chosen to be the next paladin and was raised and trained by Basthet.<br><br>Basthet promised her that one day she would be released from her duties and prophesied that she would find a group of adventurers who would prove worthy of her.
+paladin_strength=A healer who is proficient in the way of the warrior.
+

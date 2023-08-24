@@ -1,6 +1,6 @@
 # Across The Obelisk - MoreTranslations Mod
 
-Updated for Sands of Ulminin DLC and JP language.
+A fork of DontTouchFranky's MoreTranslations mod, updated for Sands of Ulminin DLC and JP language.
 
 With this mod you can easily create custom translations for the game without having to edit the game files.
 

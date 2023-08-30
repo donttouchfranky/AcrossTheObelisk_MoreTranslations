@@ -65,4 +65,5 @@ If you want to contribute to the project, you can do it by translating the game 
 
 > Every translation is made by the community and is not official. You may find some errors in the translations. If you find any errors, please report them.
 
-* <img src="https://www.worldometers.info/img/flags/it-flag.gif" alt= “Italiano” height="20px"> &ensp; [Italiano](https://github.com/donttouchfranky/AcrossTheObelisk_MoreTranslations/tree/main/MoreTranslations_Italiano) **: <span style="color:green">95%</span>**
+* [Russian](https://across-the-obelisk.thunderstore.io/package/iBarin/MoreTranslations_Russian/)
+* [Italiano](https://github.com/donttouchfranky/AcrossTheObelisk_MoreTranslations/tree/main/MoreTranslations_Italiano) _(not updated for Sands of Ulminin)_

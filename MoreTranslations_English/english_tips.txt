@@ -23,6 +23,5 @@ tip21=Is the combat too slow for you? You can activate 'Fast mode' under the Gam
 tip22=Always watch out for <icon=thorns>. You will be damaged if you attack a monster protected by this effect.
 tip23=Are elemental monsters a problem for your party?<br><icon=insulate> will increase your elemental resistances.
 tip24=Want to get rid of that annoying <icon=burn> effect?<br><icon=wet> is a fast way to remove it fully.
-//////////////////////////////// TRANSLATION ENDS HERE
 tip25=Do you want faster games or a more randomized mode? Play the Obelisk Challenge!
 tip26=When a hero equips the same item twice, the item will transform into its corrupted version.

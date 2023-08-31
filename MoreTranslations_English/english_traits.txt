@@ -158,8 +158,7 @@ pillage=Pillage
 sausagefactory=Sausage Factory
 feedtherich=Feed The Rich
 givetothepoor=Give To The Poor
-//////////////////////////////// TRANSLATION ENDS HERE
-threestarchef_description=The talent "Butcher" always guarantees "Gourmet Meat". In the talent "Dinner Is Ready", "Spoiled meat" is replaced by "Gourmet meat".
+//////////////////////////////// SANDS OF ULMININ DLC
 overflow=Overflow
 overflow_description=At full health, Sanctify heals for 35% of the health that would have healed you at your sides instead.
 hatred=Hatred

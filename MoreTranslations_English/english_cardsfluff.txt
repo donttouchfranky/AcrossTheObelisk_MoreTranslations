@@ -238,7 +238,6 @@ c_threatenb_fluff=Work or be my dinner!
 c_winteriscomingm_fluff=Brace yourselves, winter is coming!
 c_winteriscomingma_fluff=Brace yourselves, winter is coming!
 c_winteriscomingmb_fluff=Brace yourselves, winter is coming!
-///////////////////////////
 c_chainlightningmg_fluff=You will be responsible for the downfall of the werewolves!
 c_frostrunem_fluff=The chieftain has given us his protection!
 c_hound_fluff=I'll feed you to my hounds!
@@ -249,7 +248,7 @@ c_thunderrunem_fluff=Yogger... You could have been my right hand man!
 c_unforgivingnaturem_fluff=I will clean this forest of werewolves!
 c_wildhuntm_fluff=Lord Hanshek is not to be trusted!
 c_wildroarm_fluff=Traitors! I'll take your skins to the chieftain!
-///////// New DLC //////
+///////// New Sands of Ulminin DLC //////
 c_divinejustice_fluff=Ashes to ashes, dust to dust.
 c_divinejusticea_fluff=Ashes to ashes, dust to dust.
 c_divinejusticeb_fluff=Ashes to ashes, dust to dust.

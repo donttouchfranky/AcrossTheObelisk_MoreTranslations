@@ -227,7 +227,6 @@ voidlow_6_name=Statue
 voidlow_7_name=Statue
 voidlow_8_name=Shop
 voidlow_9_name=Ruins
-/////////////////////////////
 forge_0_name=Bridge
 forge_1_name=Corridor
 forge_2_name=Stairs
@@ -270,10 +269,10 @@ wolf_8_name=Excavation
 wolf_9_name=Deep Forest
 sen_45_name=Forest
 sen_46_name=Bandit Camp
-///////////
 aqua_43_name=Ladder
 faen_40_name=Ladder
 velka_36_name=Ladder
+//////// NEW DLC - Sands of Ulminin
 voidhigh_14_name=Battlefield
 voidhigh_15_name=Cathedral
 pyr_0_name=Entrance

@@ -3873,7 +3873,6 @@ e_challengehigh_8_rp17=rptd_e_challengehigh_8_rp1
 e_challengehigh_8_rp17_s=rptd_e_challengehigh_8_rp1_s
 e_challengehigh_9_rp18=rptd_e_challengehigh_9_rp2
 e_challengehigh_9_rp18_s=rptd_e_challengehigh_9_rp2_s
-/////////////////////////////////////////// TRANSLATION ENDS HERE ////////////////////////
 e_challengehigh_11_nm=The Chromatic Slime
 e_challengehigh_11_dsc=In one of the ruins, you come across a peculiar slime. As you approach it, it surprises you by talking to you:<br><br>"Hello adventurers. As you can see, I am an intelligent slime of a very special kind. My species can produce all kinds of colored blobs.<br><br>As I am a business slime, I offer to produce and sell you several blobs, for only 1200g.
 e_challengehigh_11_dsca=If you are interested, tell me which types you prefer."
@@ -4436,9 +4435,7 @@ e_velka36_b_rp7=rptd_e_aquar43_b_rp7
 e_velka36_b_rp7_s=rptd_e_aquar43_a_rp3_s
 e_velka36_b_rp8=rptd_e_aquar43_b_rp8
 e_velka36_b_rp8_s=rptd_e_aquar43_a_rp3_s
-//////////////////////////////////////////////////////
-//  		New dlc 
-//////////////////////////////////////////////
+////////////New DLC - Sands of Ulminin//////////
 e_aquar43_b_rp9=You offer him the brilliant topaz for 1,200g.
 e_aquar43_b_rp9_s=rptd_e_aquar43_a_rp3_s
 e_faen40_b_rp9=rptd_e_aquar43_b_rp9

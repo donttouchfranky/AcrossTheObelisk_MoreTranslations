@@ -46,7 +46,6 @@ warden_strength=Tactical warrior who specializes in thorns.
 warlock_name=Zek
 warlock_description=When he was young, Zek found a special lantern discarded deep underground. His fellow ratmen claimed magic was useless and only brought danger, especially living under an elven city. To prove them wrong, he learned the magic arts in secret until an unfortunate disaster.<br><br>Zek was separated from his lantern and exiled by his clan. When he learned that the sewers were frozen, he saw an opportunity to return.
 warlock_strength=Mage specialized in shadow magic and curses.
-//////////////////////////////
 bandit_name=Yogger
 bandit_description=In the Wolf Wars, Yogger fought on the side of the kingdom in a werewolf platoon led by Magnus. When the werewolf chieftain fell, Yogger took the opportunity to betray Magnus and lead the rest of the werewolves deep into the forest.<br><br>Now, he is the leader of a bandit gang that terrorizes the forests of Senenthia.
 bandit_strength=An offensive warrior who likes to play with his food.
@@ -56,7 +55,7 @@ youngheiner_name=Model C
 youngmagnus_name=Magnus
 youngottis_name=Ottis
 youngyogger_name=Yogger
-//////////////////////////
+////////////////////////// New Sands of Ulminin DLC ////
 fallen_name=Navalea
 fallen_description=Navalea, first paladin of Basthet, broke her oath when she joined her people in the war against the Archons. When she returned from the war, Basthet cursed her and had her locked up alive forever.<br><br>Believing she did good, her hatred grew for centuries corrupting her body and soul. Until one day her confinement ended and a group of adventurers helped her lift her curse.
 fallen_strength=A warrior who is proficient in the way of the mage.

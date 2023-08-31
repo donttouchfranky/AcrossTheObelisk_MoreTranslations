@@ -51,3 +51,7 @@ stress_description=Pesca <r><ChargesMultiplier> meno carte</r> al prossimo turno
 vulnerable_description>Tutte le resistenze<r>  -<ResistAux1>%</r>.<br3>Cariche massime<y>  <MaxCharges></y>.
 weak_description=Danno e guarigione inflitti <r>-50%</r>.
 wet_description=<lig>Danno da fulmine</lig> subito<y>  +<ChargesAux1></y>.<br3>Previene<g>  <ChargesMultiplier>  </g><y>cariche Bruciatura</y>.
+//////////////////////////////// TRANSLATION ENDS HERE
+zeal_description=All resistances<g> +<ResistAux1>%</g>.<br3>Healing received from <w>Sanctify</w> <g>+<ChargesMultiplier>%</g>.<br3>Damage done<y> +<DamageZeal>%</y>.
+scourge_description=Damage received from <w>Dark explosion</w> <y>+<ChargesMultiplier>%</y><br3>Spread <y>50%</y> of the <w>Dark charges</w> of this target to this target's sides, and suffer <sha><ChargesAux1_chill> Shadow damage </sha> at the <w>start of the turn</w>.
+luckyscarab_description=Complete the requirements of each scarab to get a bonus at the end of the combat.<br3><y>Golden Scarab:</y> Kill it <w>before it escapes</w> to earn <nobr>+150 <sprite name=gold></nobr> per hero.<br3><col>Crystal Scarab:</col> Kill it <w>after it uses the Crystallize card</w> and <w>before it escapes</w> to earn <nobr>+150 <sprite name=dust></nobr> per hero. <br3><g>Jade Scarab:</g> Kill it <w>before it escapes</w> to earn <nobr>+50 <sprite name=gold></nobr>, <nobr>+50 <sprite name=dust></nobr> and <nobr>+50 <sprite name=experience></nobr> per hero.

@@ -1,65 +1,46 @@
 # Across The Obelisk - MoreTranslations Mod
 
-A fork of DontTouchFranky's MoreTranslations mod, updated for Sands of Ulminin DLC and JP language.
+A fork of DontTouchFranky's MoreTranslations mod, updated for Sands of Ulminin DLC and JP/RU languages.
 
 With this mod you can easily create custom translations for the game without having to edit the game files.
 
-## How to install the mod?
+## Installation
 
-This mod requires the [BepInEx AcrossTheObelisk](https://across-the-obelisk.thunderstore.io/package/BepInEx/BepInExPack_AcrossTheObelisk/) plugin.
+Install [BepInEx](https://across-the-obelisk.thunderstore.io/package/BepInEx/BepInExPack_AcrossTheObelisk/).
 
-* Install from [Thunderstore](https://across-the-obelisk.thunderstore.io/) Mod Manager
+Download the [latest release](https://github.com/stiffmeds/AcrossTheObelisk_MoreTranslations/releases/latest) and put it in your BepInEx _plugins_ folder.
 
-    or
+Download a language pack and put it in your BepInEx _plugins_ folder.
 
-* Download the folder **MoreTranslations_DontTouchFranky** from this repository and place it in the **BepInEx/plugins** folder.
+To change the language, go to the game settings (you'll see a new language dropdown) and select the desired language.
 
-## How to install a new language?
+If the mod can't find the translation for the selected language, it will use the default language selected in the main language dropdown.
 
-You can install a new language by downloading the translation files from [Thunderstore](https://across-the-obelisk.thunderstore.io/) or **manually** from this repository.
+## How do I create a new translation?
 
-If you plan to do it **manually**, you just need to place the folder of the language inside the plugins folder.
+> A complete English example of a language pack can be found in the [MoreTranslations_English](https://github.com/stiffmeds/AcrossTheObelisk_MoreTranslations/tree/main/MoreTranslations_English) folder.
 
-## How do i change language?
-
-* To change the language, go to the game settings (you'll see a new language dropdown) and select the desired language.
-
-    If the mod can't find the translation for the selected language, it will use the default language selected in the main language dropdown.
-
-## How to create a new translation?
-
-> A complete example of a language pack can be found in the [MoreTranslations_English](https://github.com/donttouchfranky/AcrossTheObelisk_MoreTranslations/tree/main/MoreTranslations_English) folder.
-
-1. Create a new folder that has the name of the language to be translated.
-
-    es: `MoreTranslations_English` for English
+1. Create a new folder that has the name of the language to be translated, e.g. `MoreTranslations_English` for English.
 
 2. Copy all the .txt translation files inside the folder you just created.
 
-3. Edit the file names to match the language you want to translate. 
-
-    es: `english.txt` for English Default File, `english_cards.txt` for English Cards File
+3. Edit the file names to match the language you want to translate, e.g. `english.txt` for English default texts, `english_cards.txt` for English card texts.
 
 4. Edit the files with the desired translations.
 
-5. Create `moretranslations.txt` file inside the folder and write the name of the language you want to translate.
-
-    es: `English` for English
+5. Create a `moretranslations.txt` file inside the folder and write the name of the language you want to translate, e.g. `English` for English.
 
 6. Place the created folder inside the plugins folder.
 
 7. Done!
 
-
 > **Note:** The files must be in the same format as the original files.
 >
 > **Leave the tags of the game texts as they are, do not change them.**
 
+## How can I contribute?
 
-
-## How to contribute?
-
-If you want to contribute to the project, you can do it by translating the game into your language or by correcting the translations of the existing languages.
+If you want to contribute to the project, you can do so by translating the game into your language or correcting existing translations.
 
 ## Available Translations
 

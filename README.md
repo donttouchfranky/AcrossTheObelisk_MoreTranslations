@@ -19,9 +19,13 @@ If the mod can't find the translation for the selected language, it will use the
 ## How do I create a new translation?
 
 > A complete English example of a language pack can be found in the [MoreTranslations_English](https://github.com/stiffmeds/AcrossTheObelisk_MoreTranslations/tree/main/MoreTranslations_English) folder.
+
 > Puede encontrar un ejemplo completo en español de un paquete de idioma en la carpeta [MoreTranslations_español](https://github.com/stiffmeds/AcrossTheObelisk_MoreTranslations/tree/main/MoreTranslations_espa%C3%B1ol).
+
 > Ett komplett svenskt exempel på ett språkpaket finns i mappen [MoreTranslations_svenska](https://github.com/stiffmeds/AcrossTheObelisk_MoreTranslations/tree/main/MoreTranslations_svenska).
+
 > 完整的简体中文语言包示例可以在 [MoreTranslations_简体中文](https://github.com/stiffmeds/AcrossTheObelisk_MoreTranslations/tree/main/MoreTranslations_%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87) 文件夹中找到。
+
 > 언어 팩의 전체 한국어 예는 [MoreTranslations_한국인](https://github.com/stiffmeds/AcrossTheObelisk_MoreTranslations/tree/main/MoreTranslations_%ED%95%9C%EA%B5%AD%EC%9D%B8) 폴더에서 찾을 수 있습니다.
  
 1. Create a new folder that has the name of the language to be translated, e.g. `MoreTranslations_English` for English.

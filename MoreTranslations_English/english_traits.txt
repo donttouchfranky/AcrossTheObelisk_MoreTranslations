@@ -34,8 +34,8 @@ endlessfury=Endless Fury
 endlessfury_description=Fury +3.
 energizer=Energizer
 energizer_description=Energize +1.
-engineer=Engineer
-engineer_description=At the start of your turn, grant 1 Energize to a random hero.
+inventor=Inventor
+inventor_description=At the start of your turn, grant 1 Energize to a random hero.
 envenom=Envenom
 envenom_description=When dealing damage with a Hit, apply 3 Poison.
 eternalbond=Eternal Bond
@@ -158,7 +158,8 @@ pillage=Pillage
 sausagefactory=Sausage Factory
 feedtherich=Feed The Rich
 givetothepoor=Give To The Poor
-//////////////////////////////// SANDS OF ULMININ DLC
+//////////////////////////////// TRANSLATION ENDS HERE
+threestarchef_description=The talent "Butcher" always guarantees "Gourmet Meat". In the talent "Dinner Is Ready", "Spoiled meat" is replaced by "Gourmet meat".
 overflow=Overflow
 overflow_description=At full health, Sanctify heals for 35% of the health that would have healed you at your sides instead.
 hatred=Hatred

@@ -1,0 +1,1786 @@
+gameExpired=Denna Alpha-version har löpt ut.<br>Tack för att du har provat Across the Obelisk.
+notAvailable=** Funktionen <b>är inte tillgänglig</b> i denna EA-version.
+accept=Accept
+cancel=Cancel
+select=\"Välj\"
+continue=\"Fortsätt\"
+password=\"Lösenord\"
+close=Close
+exit=Utgång
+shuffle=Blanda
+modify=Ändra
+resign=Avsluta
+reloadCombat=Ladda om<br>Strid
+combat=Combat
+settings=Settings
+allCards=Alla kort
+ready=Ready
+success=Success
+successCritical=Kritisk framgång
+fail=Misslyckande
+failCritical=Kritiskt misslyckande
+immune=Immune
+health=Hälsa
+speed=Hastighet
+energy=Energi
+rarity=Sällsynthet
+cardsTier=Kortnivåer
+maximumAbb=Max.
+sold=Såld
+stats=Statistik
+perks=Fördelar
+skin=Utseenden
+rank=Rank
+cardback=Kortbaksidor
+combatStats=Stridsstatistik
+mainStats=Huvudstatistik
+dataPerTurn=<%>/turn
+baseResist=Baskraft
+baseDamage=Basdamm
+baseValue=Basvärde
+baseDT=Bas skadetak
+allDamage=All skada
+healDone=Läkning utförd
+healTaken=Läkning mottagen
+damageResistance=Skaderesistens
+damageResistanceMax=(95 max.)
+damagePercentMin=(-50% min.)
+damageDone=Skada utförd
+damageTaken=Skada mottagen
+damageBlocked=Blockad skada
+directDamage=Direkt skada
+detailedDamage=Detaljerad skada
+globalModifiers=Globala modifierare
+damage=Skada
+resistance=Resistance
+resistances=Motstånd
+resistancesAndBonus=Motstånd och bonus
+activeEffects=Aktiva effekter
+immunities=Immuniteter
+chargeBonus=Aura/förbannelsbonusar
+remove=Remove
+corrupt=Korrumperad
+skip=Skip
+blocked=Blockerad
+evaded=Undvikande
+resisted=Motståndade
+currentHp=Aktuell HP
+#########
+######### CreateTextMenu
+#########
+menuPlay=Play
+menuLoadGame=Load Game
+menuChallenge=Obelisk Utmaning
+menuWeekly=Veckoutmaning
+menuMultiplayer=Flera spelare
+menuTome=Kunskapens Bok
+menuStatistics=Statistik
+menuOptions=Settings
+menuQuit=Avsluta spel
+mainMenu=Huvudmeny
+inputNameMultiplayer=Vänligen ange ditt smeknamn nedan i textrutan för att kunna delta i eller skapa flerspelarspel.
+playersReady=Spelare redo
+waitingForPlayers=Väntar på spelare
+wantToQuitGame=Vill du avsluta spelet?
+wantToRemoveSave=Vill du ta bort detta sparade spel?
+wantToRemoveSavePermanent=Det kommer att raderas permanent.
+saveAvailable=[Available]
+back=Back
+backMainMenu=<size=+10><< Tillbaka</size><br>Huvudmeny
+singleplayer=Enspelarläge
+multiplayer=Flera spelare
+weeklySingleplayer=Veckovis Enspelarläge
+weeklyMultiplayer=Veckovis Flerspelarläge
+obeliskChallenge=Obelisk Utmaning
+obeliskChallengeSingleplayer=Obelisk Utmaning Enspelarläge
+obeliskChallengeMultiplayer=Obelisk Utmaning Flerspelarläge
+weekNumber=Vecka {0}
+mainMenuSaveSingle=Enspelarspel
+mainMenuSaveMulti=Fler spelare-spel
+mainMenuCreateNewGame=Skapa nytt spel
+mainMenuClickUseThis=Klicka här för att använda den här platsen
+mainMenuDelete=Delete
+mainMenuSaveDescription=Välj en sparplats för det här spelet (eller ladda in ett tidigare sparade spel).
+mainMenuGameModeChoose=Välj spelläge.
+//mainMenuAdventureDescription=<color=#FFD98F>Avslöja historien om Senenthia.</color><br><br>Upptäck nya karaktärer, lås upp kort och bekämpa onda bossar i detta roguelite-äventyr.
+mainMenuObeliskDescription=<color=#FFD98F>Ett helt slumpmässigt roguelike-äventyr.</color><br><br>Varje spel kommer att vara annorlunda när du fortsätter genom tomrummet och försöker nå Obelisken.
+mainMenuWeeklyDescription=<color=#FFD98F>Tävla mot andra spelare.</color><br><br>Varje vecka väntar en ny uppsättning regler och fasta karaktärer. Se vem som kan få högst poäng.
+modeAdventure=Äventyrsläge
+modeObelisk=Utmaning vid Obelisken
+modeWeekly=Veckoutmaning
+obeliskNeedCharacter=Du behöver en karaktär med rang 3
+joinMultiplayer=Anslut till en multiplayer-spel
+abortMultiplayer=En spelare har kopplat från. Spelet kommer att stängas nu. Du kan skapa en nytt spel och ladda från den senaste sparpunkten.
+abortSave=Det uppstod ett fel när spelet skulle sparas. Spelet kommer nu att stängas för att undvika ytterligare problem. Du kan skapa en nytt spel och ladda från den senaste sparpunkten.
+enterText=Ange text...
+waitingPlayers=Waiting for players...
+exitRoom=Lämna rummet
+steamInvite=Bjud in Steam-vänner
+roomFull=Rummet är fullt.
+openSlot=[open slot]
+roomId=Rums ID
+master=Mästare
+slash=Slashing
+piercing=Piercing
+blunt=Slö
+fire=Fire
+cold=Kall
+lightning=Blixt
+mind=Mind
+holy=Helig
+shadow=Shadow
+#########
+######### CreateTextGameplay
+#########
+index=Index
+loading=Loading
+deck=Kortlek
+characterMenuCards=<sprite name=cards> Hjältekortlek
+characterMenuLevel=<sprite name=experience> Nivå och Egenskaper
+characterMenuItems=<sprite name=block> Utrustning
+characterMenuStats=<sprite name=sheet> Karaktärsblad
+characterMenuPerks=<sprite name=perk> Fördelar
+characterMenuCombatDraw=<sprite name=cards> Dragningskort
+characterMenuCastedCards=<sprite name=cards> Kastade kort
+characterMenuCombatDiscard=<sprite name=cardsdiscard> Kasthög
+characterMenuCombatVanish=<sprite name=vanish> Försvunna kort
+traits=Traits
+activatedTraits=Aktiverade egenskaper
+traitsList=Inbyggd<br>Nivå 2<br>Nivå 3<br>Nivå 4<br>Nivå 5
+item=Föremål
+initialCards=Inledande kort
+incrementMaxHp=+<N> Max HP
+level=Level
+levelNumber=Nivå <N>
+warriors=Warriors
+mages=Magiker
+healers=Helare
+scouts=Utforskare
+mageknights=Magiska riddare
+monsters=Monster
+warriorCards=Krigarkort
+mageCards=Magikort
+healerCards=Helarkort
+scoutCards=Utforskarkort
+injuries=Skador
+boons=Välsignelser
+equipment=Equipment
+upgradedCard=Uppgraderad
+upgradesTo=Uppgraderar till
+upgradedFrom=Uppgraderad från
+transmutesTo=Omvandlas till
+sourceCard=Källkort
+unlockedCard=Unlocked
+unlockedHero=Unlocked
+unlockedCards=Olåsta kort
+unlockTable=Olåsta element
+glossary=Ordlista
+termsGlossary=Termer i ordlistan
+termsDescription=Sammanfattningar och beskrivningar av termerna som används i spelet, auras, förbannelser och effekter.
+gameplayStatistics=Spelstatistik
+bestScoreTome=Bästa poäng:
+lastRuns=Tidigare spel
+scoreboards=Poängtavlor
+chooseScoreboard=Välj en poängtavla.
+scoresNotFound=Poäng hittades inte
+travelPath=Resväg
+path=Väg
+cardsUnlockedTome=Låsta kort:
+adventuresPlayedTome=Äventyr spelade:
+treasuresClaimedTome=Samlade skatter:
+monstersKilledTome=Odjur dödade:
+bossesKilledTome=Bossar dödade:
+corruptionsCompleted=Avslutade förvrängningar:
+adventureCompleted=Äventyr avslutat:
+uniqueBosses=Unika bossar
+experienceGainedTome=Fått erfarenhet:
+equipmentDiscoveredTome=Upptäckt utrustning:
+heroDeaths=Hjältedödsfall:
+totalResources=Total resurser:
+gold=Gold
+shards=Skärvor
+goldGainedTome=Fått guld:
+dustGainedTome=Fått splittringar:
+cardsCraftedTome=Byggda kort:
+cardsUpgradedTome=Förbättrade kort:
+purchasedItemsTome=Köpta föremål:
+corruptionsCompletedTome=Avslutade förvrängningar:
+Melee_Attack=Närstridsattack
+Ranged_Attack=Fernstridsattack
+Magic_Attack=Magisk attack
+Defense=Defense
+Fire_Spell=Eldformel
+Cold_Spell=Kylaformel
+Lightning_Spell=Blixtformel
+Mind_Spell=Sinha formel
+Shadow_Spell=Skuggformel
+Holy_Spell=Helig formel
+Curse_Spell=Förbannelsesformel
+Healing_Spell=Helande formel
+Book=Bok
+Small_Weapon=Små vapen
+Song=Sångstav
+Skill=Färdighet
+Power=Kraft
+Injury=Skada
+Attack=Attack
+Spell=Spell
+Boon=Tillgång
+weapon=Vapen
+armour=Armor
+armor=Armor
+jewelry=Smycken
+accesory=Tillbehör
+enchantment=Enchantment
+enchantments=Enchantments
+itemActivated=Aktiverad
+itemChargeUsed=Använda laddning
+itemsDescription=Endast en enhet av samma typ är tillåten för varje hjälte. Var försiktig när du ska utrusta en ny enhet: den gamla kommer att tas bort för alltid.
+cardNotUnlockedPopup=<voffset=-2><size=26><sprite name=lock></size></voffset>Kortet är inte upplåst
+minDeckCards=Minimum antal kort i en lek (exklusive Boons och Skador): <size=+1><color=#FFFFFF><n></color>
+shopDiscount=Rabatt
+shopIncrease=Öka
+heroCards=<hero> kort
+heroEquipment={0}<br><color=#bbb>Utrustning</color>
+heroInjuries=<hero> skador
+heroInjuriesBoons=<hero> fördelar och skador
+heroDrawPile=<hero> kort i draghögen
+heroDiscardPile=<hero> kort i avslagningshögen
+heroCastedCards=<hero> kastade kort
+heroVanishedCards=<hero> försvunna kort
+town=Stad
+townPlace={0} Stad
+townIntro=Ta din tid och hantera dina kort innan äventyret. När du är klar, tryck på redo!
+charReceive=<char> mottar
+charsReceives=<chars> mottar
+freeCost=Gratis
+oldCost=(Gamalt pris: {0})
+reaminingUses=Återstående användningar
+noMoreUses=Inga fler användningar tillåtna
+removeCards=Kyrka
+removeCardsButtonDes=Ta bort kort från dina lekar
+removeCardsDes=Du kan ta bort kort från din lek så länge du uppfyller det minimiantal kort som krävs.
+upgradeCards=Altare
+upgradeCardsButtonDes=Uppgradera dina kort och förvandla dem till kraftfullare versioner.
+upgradeCardsDes=Varje kort har olika uppgraderingar som är kraftfullare än den grundläggande versionen.<br><br>Du kan göra ett erbjudande av skärvor för att uppgradera ett kort.<br><br>Dessutom är det möjligt att omvandla ett kort mellan sina uppgraderade versioner.<br><br><color=#FFC88F>Ju högre sällsynthet kortet har, desto högre är kostnaden för att uppgradera det.</color>
+reset=Reset
+upgradedCards=Uppgraderad
+upgradedCardsDes=Visa de uppgraderade korten. Du kan också uppgradera kort på altaret.
+filterCards=Filtrera
+filterCardsDes=Filtrera kort baserat på explicita modifierare.
+affordableCards=Tillgängligt
+affordableCardsDes=Visa endast kort som du kan skapa med ditt nuvarande antal fragment.
+craftCards=Magisk smide
+craftCardsButtonDes=Skapa kort för dina lekar.
+craftRarityBlocked=Denna sällsynthet är inte tillåten här.
+craftMaxCards=Max. antal tillverkningar tillåtna för detta kort
+treasureClaimButtonDes=Tryck här för att hämta denna belöning.
+wantToClaimTreasure=Vill du hämta denna skatt?
+lastRunsRewards=Senaste belöningar
+lastRunsRewardsDes=Varje spel belönar din prestation med guld och fragment.<br><br>Du kommer kunna hämta upp till tre av de senaste belöningarna varje gång du startar ett spel.
+lastRunsRewardsStack=Du kan stapla upp till 3 kistor.
+communityRewards=Samhällsbelöningar
+expiresInHoursMinutes=Upphör om {0} timme(r) {1} minut(er)
+expiresInMinutes=Upphör om {0} minut(er)
+divinationCards=Zingarian vagn
+divinationCardsButtonDes=Betala guld till den vackra Zingara och få en spådomsrunda.
+divinationCardsDes=Om du har tillräckligt med pengar kommer Zingara ge dig en spådomskortomgång.<br><br>I en flerspelaromgång kommer alla att dra nytta av denna spådomsrunda.<br><br>Ju högre kostnad för en spådomsrunda, desto större chans att få bättre kort.
+divinationT0=Snabb spådom
+divinationT1=Bas-spådom
+divinationT2=Avancerad spådom
+divinationT3=Premium-spådom
+divinationT4=Högis-spådom
+divinationRoundJoin={0} just betalade för en omgång spådomskort. Tryck på knappen för att gå med när du är redo.
+divinationRoundExists=Det pågår redan en rund av Kortdivination.
+divinationRoundLaunch=Laddar rund av Kortdivination...
+sell=Sell
+buyItems=Armory
+buyItemsButtonDes=Köp utrustning till dina hjältar.
+deckPile=Kortlek
+discardPile=Utplacerasa kort
+pressWhenReady=Tryck på knappen när du är redo.
+cardsNum=({0} kort)
+youCanDiscardUpTo=Du kan kasta bort upp till: {0} kort.
+youCanVanishUpTo=Du kan försvinna med upp till: {0} kort.
+youCanAdd=Du kan lägga till: 1 kort
+youCanAddPlural=Du kan lägga till: {0} kort
+#########
+######### performance bonus
+#########
+roundNumber=Omgång {0}
+excellent=Excellent
+good=Good
+poor=Poor
+satisfactory=Tillfredsställande
+underwhelming=Inte imponerande
+dreadful=Fruktansvärd
+great=Great
+performanceBonus=Prestandabonus
+combatPerformance=Stridsprestanda
+combatPerformanceDes=Döda dina fiender snabbt och använd färre omgångar för att få bättre belöningar. Varje omgång räknas...
+dreadfulNoReward=Din stridsprestanda var fruktansvärd, därför får du inga kortbelöningar.
+#########
+######### rewards
+#########
+combatRewards=Stridsbelöningar
+eventRewards=Händelsebelöningar
+eventRewardsSubtitle=Välj en kort eller en hög med skärvor
+eventYouGet=Du får:
+divinationRoundRewards=Spådomsbelöningar
+itemRewards=Föremålsbelöningar
+itemRewardsSelection=Du kan välja ett av föremålen eller följande guldbelopp:
+itemRewardsChosing=Val av karaktär:
+chooseCards=Välj ett av dessa kort
+chooseDust=Välj skärvor
+notEnoughGold=Inte tillräckligt med guld/skärvor
+#########
+######### finish run
+#########
+finishRun=Belöning baserad på din äventyrs prestation. I början av ett nytt spel kommer du att kunna hämta denna belöning när du är i staden.
+questEndsIn=Din quest slutar om
+actNumber=Akt {0}
+prologue=Prolog
+congratulations=Grattis
+placesVisited=Besökta platser
+placeOfDeath=Plats för död
+experienceGained=Förtjänad erfarenhet
+bossesKilled=Dräpta bosses
+finalScore=Slutlig poäng
+timePlayed=Speltid {0}
+gameScore=Spelets poäng
+finishBestScore=Bästa poängen!
+currencyRetention=Valutor bevarade
+currencyRetentionBonus=<q>% av totalen
+gameReward=Spelbelöning
+mpBonus=Bonus i multiplayer (+<q>%)
+itemBonus=Bonus poäng (+<q>%) för föremål
+#########
+######### event rolls
+#########
+eventRolls=Händelsekast:
+singleDesc=Alla drar en kort och resultaten är individuella per karaktär.
+groupDesc=Alla drar en kort och resultaten läggs samman.
+competitionDesc=Alla drar en kort och tävlar mot varandra.
+single=Ensam
+competition=Tävling
+group=Grupp
+character=Karaktär
+higherThan=högre än
+higherOrEqual={0} eller högre
+lowerThan=lägre än
+lowerOrEqual={0} eller lägre
+rollCard={0} kort
+highest=högsta
+lowest=lägsta
+closest=närmast
+#########
+######### event actions
+#########
+healPercent=[Heal {0}%]
+eventBag=Denna påse innehåller alla användbara föremål som du hittar under ditt äventyr.
+eventMissingOptions=Dolda alternativ
+eventMissingOptionsDesc=Vissa svar har speciella krav som skärvor, guld, olika karaktärer...
+continueAction=Continue
+joinAction=Join
+combatAction=Combat
+jumpAction=Jump
+runAction=Kör
+bribeAction=Muta
+threatenAction=Hotelse
+persuadeAction=Övertyga
+stealthAction=Smyga
+stealAction=Stjäla
+sneakAwayAction=Smussla iväg
+leaveAction=Leave
+lootAction=Plundra
+profaneAction=Besmittad
+forageAction=Söka
+declineAction=Decline
+acceptAction=Accept
+extorsionAction=Utpressning
+ambushAction=Bakhåll
+raceAction=Race
+restAction=Vila
+buryAction=Begrava
+digAction=Gräva
+breakAction=Bryta
+betAction=Lägga ett vad
+playAction=Play
+fishingAction=Fiska
+payAction=Betala
+bargainAction=Förhandla
+exploreAction=Explore
+enterAction=Enter
+pretendAction=Låtsas
+captureAction=Capture
+throwAction=Throw
+lookAction=Titta
+examineAction=Undersöka
+repairAction=Repair
+rebuildAction=Bygga om
+healAction=Heal
+climbAction=Klättra
+evadeAction=Undvika
+useAction=Använda
+askAction=Fråga
+answerAction=Svara
+openAction=Open
+buyAction=Köpa
+murderAction=Mord
+burnAction=Bränna
+killAction=Döda
+giveAction=Ge
+talkAction=Prata
+singAction=Sjunga
+readAction=Läsa
+confirm=Confirm
+hide=Gömma
+show=Visa
+chooseEnergy=Välj hur mycket energi du vill spendera på att kasta denna besvärjelse.
+chooseEnergyAvailable=Tillgänglig energi:
+chooseEnergyMax=Max. energi att tilldela:
+#########
+######### CreateTextLobby
+#########
+exitGameConfirm=Är du säker på att du vill avsluta?
+exitGameConfirmLoss=All din progress kommer att gå förlorad.
+exitGameConfirmSave=Din nuvarande progress kommer att sparas.
+exitGameRewards=Du måste hämta dina belöningar innan du avslutar spelet.
+exitGameEvent=Du måste avsluta den aktiva händelsen innan du avslutar spelet.
+exitRoomConfirm=Är du säker på att du vill avsluta spelrummet?
+inputPasswordRoom=Vänligen ange rummets lösenord och tryck på knappen.
+inputIDRoom=Vänligen ange rummets ID
+joinById=Anslut med ID
+launchGame=Starta spel
+inviteSteamFriends=Invite Steam Friends
+statusMP=Status för flera spelare
+statusConnecting=Ansluter till multiplayer-servern
+statusJoinedLobby=Anslutna lobby
+statusConnected=Ansluten till servern
+chatPlayerJoined=%p är nu med i spelet.
+chatPlayerLeft=%p har lämnat spelet.
+chatPlayerKicked=%p har blivit sparkad från spelet.
+masterKickedYou=Du har blivit sparkad från spelet.
+playersInGame=Spelare i spelet:
+multiplayerDescription=Spela med upp till 3 andra vänner! Skapa ett spel eller anslut till ett annat spelares rum. Välj dina hjältar och påbörja äventyret.
+multiplayerSubDescription=* I ett multiplayer-spel kan du bara välja hjältar du tidigare har låst upp. Å andra sidan, att låsa upp hjältar i ett multiplayer-spel kommer att låta dig spela med dessa hjältar i vilken tillgänglig läge som helst.
+availableRooms=Tillgängliga rum
+chooseRoom=Välj en spelrum.
+createRoom=Skapa ett spelrum.
+roomDescription=Spelbeskrivning
+numberOfPlayers=Antal spelare
+privateRoom=Privat rum
+roomPasswordDesc=** Endast användare som känner till lösenordet kommer att kunna ansluta till rummet.
+createRoomButton=Skapa rum
+disconnect=Koppla bort
+selectRegion=Välj region
+connectedRegion=Ansluten <br>Region: [{0}]
+regionEU=EU-region
+regionUS=US-region
+regionASIA=ASIEN-region
+lfgLobby=<color=#DB9D6A>Letar du efter personer att spela co-op med?</color><br>Gå med i #LFG-kanalen i vår officiella Discord!
+#########
+######### CreateTextSelection
+#########
+adventure=Äventyr
+beginAdventure=Börja äventyret
+teamSelection=Teamläge
+dragCharacters=Dra karaktärerna som du vill använda i detta spel.<br>Vissa attacker kan bara rikta sig mot främre, bakre eller mellersta enheter.
+heroselectionWeekly=Detta är de karaktärer som du kan kontrollera i denna utmaning.
+dragRecommended=* Rekommenderad klass för denna position
+positionFront=Fram
+positionBack=Back
+masterAssign=Mästaren för spelet måste tilldela en spelare till varje plats. När alla spelare har valts minst en gång kommer spelet att vara redo att börja.
+helpCharacterHealth=Tecken hälsopoäng
+helpCharacterEnergy=Tecknets inledande energi och den mängd som kommer att vinnas i början av deras tur
+helpCharacterSpeed=Teckenets hastighet Tecknet med högst hastighet kommer att vara den första att flytta på varje omgång.
+tutorialTownTitle=Stadsåtgärder
+tutorialTown=Du kan skapa nya kort till dina lekar, uppgradera alla kort du har och köpa utrustning till dina hjältar. Du kommer också att kunna hämta belöningar från tidigare spel.
+tutorialCombatSpeedTitle=Hastighet och teckenordning
+tutorialCombatSpeed=Alla tecken har ett hastighetsvärde (som kan ändras med kort, föremål och egenskaper). Detta värde avgör vilka som rör sig först. Vid lika läge kommer den närmaste hjälten till centrum att ha prioritet.
+tutorialFirstTurnEnergyTitle=Energihantering och kort
+tutorialFirstTurnEnergy=Du kan kasta kort tills du inte har någon energi kvar.<br><br>När du avslutar en tur sparas energi som inte har använts till nästa tur för den här hjälten.
+tutorialCombatCardTargetTitle=Kortmål
+tutorialCombatCardTarget=Den här rutan visar de tillgängliga målen.<br><br>Om det finns flera mål för ett kort måste du välja vilket som kommer att påverkas. Om det bara finns ett kommer kortet att väljas automatiskt när det släpps.
+tutorialCombatResistsTitle=Skador och resistenser
+tutorialCombatResists=Det finns 9 olika typer av skador (och resistenser).<br><br>Skadevärdena som anges på ett kort kommer att minska med målets resistensprocent.
+tutorialEventRollsTitle=Händelsedragningar
+tutorialEventRolls=Vissa val kommer att tvinga dig att rulla för att bestämma resultatet av handlingen. Varje karaktär använder kort från sin egen lek.
+tutorialTownRewardsTitle=Avslutat spelmottagningspris
+tutorialTownRewards=När du är i stan kan du hämta belöningar som du har fått i tidigare spel. Vänta inte för länge med att hämta dessa belöningar: enbart de tre senaste kommer att sparas.
+tutorialCardsRewardTitle=Låsta kort
+tutorialCardsReward=Under dina äventyr kommer du att upptäcka nya kort efter varje strid. Alla visade kort kommer att låsas upp. Kom ihåg: du kommer bara kunna skapa låsta kort.
+tutorialCharactersTitle=Välj ditt lag.
+tutorialCharacters=Lås upp nya karaktärer genom att slutföra uppdrag under dina äventyr. Karaktärsuppdragen är markerade med denna ikon  <size=+.5><sprite name=questBegin></size>.
+tutorialPerksTitle=Karaktärsförmåner
+tutorialPerks=I slutet av ett äventyr kommer alla karaktärer i din grupp att få erfarenhetspoäng (varje rangnivå ger perk poäng). Du kan spendera dessa poäng på karaktärsuppgraderingar.
+tutorialTownCraftTitle=Skapa kort
+tutorialTownCraft=När ett kort har låsts upp genom att plundra det, kommer du kunna skapa det för dina hjältar.<line-height=160%><br></line-height><color=#FFC555>Skapa \"{0}\" kortet med {1}</color>.
+watchingTutorial=[Please Wait]<br>En annan spelare tittar på en tutorial.
+castNPCTitle=Monsterkort
+castNPC=Korten som monster ska kasta är dolda som standard. Effekten \"sight\"  <sprite name=sight> kommer att avslöja dessa kort och låter dig planera dina rörelser i förväg.
+levelUp=Nivå upp!
+cantLevelUp=Du kan bara gå upp i nivå när du är i staden eller på kartskärmen.
+cantGiveGoldDivination=Du kan inte ge guld eller skärvor när det finns en spådomsrunda som väntar.
+gameSeed=Spelkod
+gameSeedInput=Var god ange en ny spelkod.
+#########
+######### CreateTextCards
+#########
+requireSkill=Kräver {0}
+priority=Prioritet: {0}
+global=Globalt
+friends=Friends
+self=Själv
+random=Slumpmässig
+hero=Hero
+anyone=Någon
+heroes=Heroes
+allHeroes=Alla Hjältar
+randomHero=Slumpmässig Hjälte
+frontHero=Front Hjälte
+backHero=Bakre Hjälte
+middleHero=Mellan Hjälte
+slowestHero=Långsammaste Hjälte
+fastestHero=Snabbaste Hjälte
+leastHPHero=Hjälte med Lägst HP
+mostHPHero=Hjälte med Högst HP
+otherHero=Annat Hjälte
+monster=Monster
+allMonsters=Alla Monster
+randomMonster=Slumpmässigt Monster
+frontMonster=Framsidemonster
+backMonster=Bakre Monster
+middleMonster=Mittmonstrum
+slowestMonster=Långsammaste Monster
+fastestMonster=Snabbaste Monster
+leastHPMonster=Lägst HP Monster
+mostHPMonster=Högst HP Monster
+priorityBack=Back
+priorityMiddle=Mitt Hjältar
+priorityFront=Fram
+priorityAnyButBack=Vilket som helst, men inte bakåt
+priorityLessHealthPercent=Lägsta procentuell hälsa
+priorityMoreHealthPercent=Högsta procentuell hälsa
+priorityLessHealthFlat=Lägsta hälsa
+priorityMoreHealthFlat=Högsta hälsa
+priorityLessHealthAbsolute=Lägre absolut hälsa
+priorityMoreHealthAbsolute=Högsta absoluta hälsa
+priorityLessInitiative=Slowest
+priorityMoreInitiative=Snabbast
+damageType=Skadetyp
+damageTypes=Skadetyper
+aura=Aura
+curse=Förbannelse
+deal=Skada
+apply=Apply
+gain=Få
+youGain=Du får
+suffer=Lida
+youSuffer=Du lider
+lose=Förlora
+youLose=Du förlorar
+grant=Bevilja
+heal=Heal
+draw=Oavgjort
+discard=Kasta bort
+discover=Upptäcka
+reveal=Avslöja
+pick=Välj
+place=Placera
+look=Titta
+onDraw=Vid drag
+onEndTurn=Vid tursslut
+endTurn=End Turn
+#########
+######### CreateTextCombat
+#########
+newTurn=Ny tur
+chooseDiscard=Välj kort att kasta bort.
+chooseTopDeck=Välj kort att placera överst på leken.
+cardsLeft=Kort kvar:
+combatEffects=Stridseffekter
+combatVictory=Victory!
+combatFail=Din quest slutar här...
+combatOnlyMasterCanResign=Endast spelets mästare kan avgå.
+combatWantToRetry=<color=#BBB>Ibland är det att ta en annan approach nyckeln till framgång.</color><line-height=50><br></line-height>Vill du försöka striden igen?
+combatWantToRetryClient=(Väntar på att mästaren ska fatta ett beslut.)
+combatWantToResign=<color=#f88>Vill du avgå?</color>
+combatWantToResignEnd=Din äventyr kommer att sluta här.
+removeProgressQuestion=Vill du verkligen ta bort all din sparade progress?
+resetTutorialQuestion=Vill du verkligen återställa handledningen?
+mapNodes=Kartnoder
+mapEntryPoint=Ingångspunkt
+mapLegend=Kartlegend
+mapLegendEvent=Händelse (sällsynthet)
+mapLegendCard=Kortnoder
+mapLegendCrafter=Tillverkarnoder
+mapLegendMapTransition=Kartövergång
+mapLegendShop=Artikelbutik
+mapLegendRest=Viloplatsnod
+mapLegendCharacter=Karaktär
+mapLegendQuestEnd=Uppdrag avslut
+mapLegendBoss=Regional boss
+typeCardsUnlocked={0} låsta kort
+relatedCard=Relaterat kort
+basicValues=* Detta är de grundläggande värdena för korten (utan karaktärstalanger, karaktärförmågor eller föremålsbonusar).
+corruptedVersion=Korrumperad Version
+specialCard=Specialkort
+characterCard=Karaktärskort
+rareVersion=Sällsynt Version
+cardsAnd={0} och {1}
+cardsDealDamage=Skada med {0}
+cardsSuffer=Upplev {0}
+cardsYouSuffer=Du upplever {0}
+cardsYouLose=Du förlorar {0}
+cardsTargetSides=Mål sidor {0}
+cardsGrant=Ge {0}
+cardsGain=Få {0}
+cardsYouGain=Du får {0}
+cardsApply=Tillämpa {0}
+cardsDispel=Avskaffa {0}
+cardsDispelAll=Avskaffa alla
+cardsPurge=Rensa {0}
+cardsPurgeAll=Rensa allt
+cardsTransferCurse=Överför {0} förbannelser
+cardsReduceCurse=Minska förbannelsens laddningar med {0}%
+cardsCast=kasta kort {0}
+cardsRepeat=Upprepa {0}
+cardsRepeatUpTo=Upprepa upp till {0}
+cardsRepeatChain=Förena {0}
+cardsRepeatJump=Hoppa {0}
+cardsIgnoreBlock=Ignorera blockering
+cardsTransformInto=Transform <nobr>{0} into {1}</nobr>
+cardsTransformIntoAnd=Transform <nobr>{0} into {1} and {2}</nobr>
+cardsXEqualsYourHand=(X equals your <nobr>hand {0}{1}</nobr>)
+cardsXEqualsYourDeck=(X motsvarar din <nobr>dragningshög {0}{1}</nobr>)
+cardsXEqualsYourDiscard=(X motsvarar din <nobr>kasthög {0}{1}</nobr>)
+cardsXEqualsYourVanish=(X equals your <nobr>vanish pile {0}{1}</nobr>)
+cardsXEqualsYourHp=(X equals your HP {0})
+cardsXEqualsYour=(X equals your {0}{1})
+cardsXEqualsTarget=(X equals target {0}{1})
+cardsXEqualsTargetHp=(X equals target HP {0})
+cardsXEqualsTargetDeck=(X motsvarar mål <nobr>draghög {0}{1}</nobr>)
+cardsXEqualsTargetDiscard=(X motsvarar mål <nobr>avföringshög {0}{1}</nobr>)
+cardsXEqualsTargetVanish=(X motsvarar mål <nobr>försvinnhög {0}{1}</nobr>)
+cardsShareYour=Dela upp din {0}
+cardsDoubleYour=Dubbla dina {0}
+cardsDoubleTarget=Dubbla målet {0}
+cardsTripleYour=Trippla dina {0}
+cardsTripleTarget=Trippla målet {0}
+cardsLosePercentYour=Förlora {0}% av din {1}
+cardsLosePercentTarget=Målet förlorar {0}% {1}
+cardsHeal=Läka {0}
+cardsHealSelf=Självläkning {0}
+cardsHealSelfPerDamage=Läk dig själv för {0}% av den skada som orsakats
+cardsConsume=Förbruka {0}
+cardsConsumeYour=Förbruka din {0}
+cardsDispelYour=Avfärda din {0}
+cardsPurgeYour=Rensa din {0}
+cardsOverCharge=Överladdning {0}
+cardsLoseHp=Förlora {0}
+cardsDraw=Dra {0}
+cardsDiscard=Släng {0}
+cardsDiscardAny=Släng valfri av dem
+cardsDiscardUpTo=Släng upp till {0} av dem
+cardsVanishUpTo=Försvinn upp till {0} av dem
+cardsLook=Titta på {0}
+cardsCost=Kostnad {0}
+cardsCostReducedBy=Minskad med {0}
+cardsCostUntilDiscarded=tills kasserad
+cardsAddCost=(kostnad {0})
+cardsAddCostVanish=(kostnad {0} och försvinn)
+cardsAddCostVanishTurn=(kostnad {0} och försvinn denna omgång)
+cardsAddCostTurn=(kostnad {0} tills det avlägsnas)
+cardsAddCostReduced=(kostnad reducerad med {0})
+cardsAddCostReducedVanish=(kostnad reducerad med {0} och försvinna)
+cardsAddCostReducedTurn=(kostnad reducerad med {0} tills det avlägsnas)
+cardsAddCostReducedVanishTurn=(kostnad reducerad med {0} och försvinna den här rundan)
+cardsDiscoverToDeck=Finns {0} och blanda dem i din lek
+cardsDiscoverNumberToTopDeck=Upptäck {0} och placera {1} överst på din lek
+cardsDiscoverNumberToHand=Upptäck {0} och lägg {1} i din hand
+cardsDiscoverNumberToDeck=Upptäck {0} och blanda in {1} i din lek
+cardsDiscoverToHand=Upptäck {0} och lägg dem i din hand
+cardsPlaceToTop=Placera {0} från din hand överst på din lek
+cardsRevealThemToHand=Avslöja {0} från din draghög och lägg dem i din hand
+cardsRevealItToHand=Avslöja {0} från din draghög och lägg det i din hand
+cardsRevealNumberToHand=Avslöja {0} från din draghög och lägg {1} i din hand
+cardsRevealItToTopDeck=Avslöja {0} från din draghög och placera det överst på din lek
+cardsRevealThemToTopDeck=Avslöja {0} från din draghög och placera dem överst på din lek
+cardsRevealNumberToTopDeck=Avslöja {0} från din draghög och placera {1} överst på din lek
+cardsPickToTop=Ta {0} från din sårhög och placera den överst i din lek
+cardsPickToHand=Välj {0} från din förstörda hög och lägg det i din hand
+cardsFromVanishToTop=Välj {0} från din försvinn hög och lägg det överst på din lek
+cardsFromVanishToHand=Välj {0} från din försvinn hög och lägg det i din hand
+cardsDuplicateToHand=Duplicera {0} från din hand// 0: > kortnamn
+cardsDuplicateToTargetTopDeck=Duplicera {0} från din hand och placera det överst på målpersonens lek// 0: > kortnamn
+cardsDuplicateToTargetRandomDeck=Duplicera {0} från din hand och blanda det in i målpersonens lek// 0: > kortnamn
+cardsIDShuffleDeck=Blanda in {0} i din lek// 0: > cardname
+cardsIDShuffleTargetDeck=Blanda in {0} i målets lek// 0: > cardname
+cardsIDPlaceHand=Lägg {0} i din hand// 0: > cardname
+cardsIDPlaceTopDeck=Placera {0} överst i din lek// 0: > cardname
+cardsIDPlaceTargetTopDeck=Lägg {0} överst i målets lek// 0: > cardname
+cardsIDPlaceTargetDiscard=Placera {0} i målets utkastningshög// 0: > cardname
+cardsDuplicateHand=Lägg en kopia av det i din hand// 0 : > cardname
+cardsSummon=Kalla på {0}
+cardsImmuneTo=Immun mot: {0}
+cardsTransformDamage=Omvandla skada till {0}
+cardsPassEventRoll=100% framgång i enkla teckenrullningar
+killPet=Döda hjältens husdjur
+requiredPoints={0} använda poäng som krävs
+cantDrawAnyCard=Kan inte dra något kort
+missesThisTurn=Missar denna runda
+itemMaxHp=Max HP {0}
+itemAllResistances=All resistances {0}
+itemXResistances={0} resistance {1}
+itemSpeed=Speed {0}
+itemInitialEnergy=Initial energy {0}
+itemInitialCurrency=Initial gold and shards {0}
+itemCharges={0} charges {1}
+itemEnergyRegeneration={0} återgenerering {1}
+itemAllDamages=Alla skador {0}
+itemSingleDamage={0} {1} skada  /// +1 skada
+itemXDamages={0} skada {1}
+itemHealDone=helande utfört {0}
+itemCombatStart=Strid börjar
+itemCombatEnd=Strid avslutas
+itemFirstTurn=Första tur
+itemEachTurn=Varje tur
+itemOncePerTurn=1 gång/tur
+itemTwicePerTurn=2 gånger/tur
+itemThricePerTurn=3 gånger/tur
+itemFourPerTurn=4 gånger/tur
+itemFivePerTurn=5 gånger/tur
+itemDamageDone=Skada med träff
+itemWhenDamaged=Skadad av andra//När skadad
+itemWhenDamagedBelow=Skadad av andra <{0}
+itemWhenHitted=När träffad
+itemWhenHealed=När helad
+itemWhenEvaded=När undvikit
+itemWhenEvade=När du undviker
+itemWhenBlock=När du blockerar
+itemHealDoneAction=När du helar en hjälte
+itemWhenHandEmpty=Om du spelar en  <sprite name=card>som lämnar din hand tom
+itemChanceToDispel={0} chans att: <br> upphäver {1}
+itemEveryRound=Varje tur
+itemEveryNRounds=Var {0} tur
+itemForEveryCharge=För varje {0} laddning du applicerar, /// \"haste\"
+itemApplyEnemies=Applicera {0} på alla monster/// \"haste\"
+itemApplyHeroesFromMonster=Applicera {0} på alla hjältar/// \"haste\"
+itemApplyHeroes=Alla hjältar får {0}/// \"haste\"
+itemApplyRandomHero=En slumpmässig hjälte får {0}/// \"haste\"
+itemApplyRandomEnemy=Tillämpa {0} på en slumpmässig monster/// \"haste\"
+itemApplyHighestFlatHpEnemy=Tillämpa {0} på monster med högst HP/// \"haste\"
+itemApplyLowestFlatHpEnemy=Tillämpa {0} på monster med lägst HP/// \"haste\"
+itemApplyHighestFlatHpHero=Tillämpa {0} på hjälte med högst HP/// \"haste\"
+itemApplyLowestFlatHpHero=Applicera {0} på den hjälte med lägst HP /// \"haste\"
+itemApplyForEvery=För varje {0} laddning du applicerar, applicera {1}/// \"haste\"
+itemApplyForEnergyUsed=För varje {0} använd:
+itemWhenYouPlay=När du spelar en {0}/// \"Kall stava\"
+itemWhenYouApply=När du applicerar {0}/// \"Kall stava\"
+itemCustomTextMaxChargesIncrasedYouApply={0} du använder har {1} Max. laddningar
+itemCustomTextMaxChargesIncrasedOnHeroes={0} på hjältar har {1} Max. kostnader
+itemCustomTextMaxChargesIncrasedOnEnemies={0} på monster har {1} max. laddningar
+itemCustomTextExplodeChargesMonsters={0}laddningar på monster exploderar efter {1}
+itemCustomTextAllResistHealingReceived={0} på hjältar ger +{1}% all motstånd och +{2}% läkning mottagen per laddning
+itemTheNext=Nästa {0}{1}
+itemWhenKilled=När du dör
+itemDestroyStartTurn=Varar i en runda
+itemLastUse=Varar 1 användning
+itemLastUses=Varar {0} användningar
+itemOncePerCombat=En gång per strid
+itemRecoverSelf=återhämtar {0} HP
+itemRecoverLowestHPMonster=monstret med lägst HP återhämtar {0} HP
+itemRecoverHeroes=Alla hjältar återhämtar {0} HP/// Alla hjältar får \"hastighet\"
+itemReduce=Minska kostnaden för {0} slumpmässiga {1} i din hand {3} med {2}/// minska kostnaden för 1 slumpmässig \"Song\" i din hand med 1
+itemReduceTurn=Minska kostnaden för {0} slumpmässiga {1} i din hand {3} med {2} till dess att den kastas bort /// minska kostnaden för 1 slumpmässig \"Song\" i din hand med 1 den här rundan
+itemReduceHighestTurn=Minska kostnaden för de {0}högst kostsamma {1} i din hand {3} med {2} tills den slängs bort/// minska kostnaden för 1 slumpmässig \"Sång\" i din hand med 1 den här rundan
+itemReduceHighestPermanent=Minska kostnaden för de {0}högst kostsamma {1} i din hand {3} med {2}
+itemDiscount={0} extra rabatt i Magiforge, altaren och föremålsbutiker
+itemDieRetain=När du dör, behåll ytterligare {0} guld och splittedelar
+itemResurrectHP=återupplivas med {0} HP
+customSOR=När du dör, återuppstå med 50% av ditt HP och förstör Scroll of Resurrection
+customSORRare=När du dör, återuppstå med 100% av ditt HP och förstör Scroll of Resurrection
+customBurnedI=-Om du leker med elden kommer du bli bränd-
+customBrokenI=-Den som skyndar sig för mycket, slösar bort-
+customVoidMemory=-Du kommer bara ihåg att du har glömt något-
+customLowSelf=-En skamlig påminnelse om att något inte gick enligt plan-
+customSuccess=-Mot alla odds har du utmanat ödet och vunnit-
+customTombstone=-R.I.P.-
+customSurpriseBox=<size=-.2><color=#3A3A3A>[Combat start]</color><br></size>Få en av dessa:<br><bl>2</bl><i=fast>, <bl>2</bl><i=powerful>, <bl>2</bl><i=bless>,<br><rd>2</rd><i=slow>, <rd>2</rd><i=vulnerable>, <rd>2</rd><i=mark>
+customSurpriseBoxRare=<size=-.2><color=#3A3A3A>[Combat start]</color><br></size>Få en av dessa:<br><bl>4</bl><i=fast>, <bl>4</bl><i=powerful>, <bl>4</bl><i=bless>,<br><rd>4</rd><i=slow>, <rd>4</rd><i=vulnerable>, <rd>4</rd><i=mark>
+customSurpriseGiftBox=<size=-.2><color=#3A3A3A>[Combat start]</color><br></size>Alla hjältar får en av dessa:<br><bl>2</bl><i=fast>, <bl>2</bl><i=powerful>, <bl>2</bl><i=bless>,<br><rd>2</rd><i=slow>, <rd>2</rd><i=vulnerable>, <rd>2</rd><i=mark>
+customSurpriseGiftBoxRare=<size=-.2><color=#3A3A3A>[Combat start]</color><br></size>Alla hjältar får en av dessa:<br><bl>4</bl><i=fast>, <bl>4</bl><i=powerful>, <bl>4</bl><i=bless>,<br><rd>4</rd><i=slow>, <rd>4</rd><i=vulnerable>, <rd>4</rd><i=mark>
+customBurningBlood=Transform<i=bleed>into<i=burn>x0.3<br>Vinna <bl>X</bl><i=fury><br><size=-.15><gl>(X equals your<i=bleed>x0.3)</gl></size>
+customBurningBloodA=Transform<i=bleed>into<i=burn>x0.3<br>Vinna <bl>X</bl><i=fury><br><size=-.15><gl>(X equals your<i=bleed>x0.3)</gl></size>
+customBurningBloodB=Omvandla<i=bleed>till<i=burn>x0.5<br>Vinst <bl>X</bl><i=fury><br><size=-.15><gl>(X är lika med ditt<i=bleed>x0.5)</gl></size>
+customBurningBloodRare=Transform<i=bleed>into<i=burn>x0.5<br>Vinna <bl>X</bl><i=fury><br><size=-.15><gl>(X motsvarar ditt<i=bleed>)</gl></size>
+customArmagedon=<gl>Alla monster får:</gl><br>All skada <bl>+2</bl><br>Immuna mot <i=burn><i=crack><br><gl>-Varje omgång-</gl><br>Lägg till <crd=meteorite,1> på alla monster.
+customArmagedonA=<gl>Alla monster får:</gl><br>All skada <bl>+2</bl><br>Immuna mot <i=burn><i=crack><br><gl>-Varje omgång-</gl><br>Lägg till <crd=meteorite,1> på alla monster.
+customArmagedonB=<gl>Alla monster får:</gl><br>All skada <bl>+3</bl><br>Immuna mot <i=burn><i=crack><br><gl>-Varje omgång-</gl><br>Lägg till <crd=meteorite,1> på alla monster.
+customArmagedonRare=<gl>Alla monster får:</gl><br>All skada <bl>+4</bl><br>Immuna mot <i=burn><i=crack><br><gl>-Varje runda-</gl><br>Lägg till <crd=meteorite,1> till alla monster.
+customThunderstorm=<gl>Alla monster får:</gl><br>All skada <bl>+1</bl><br><i=lightning> motstånd <bl>+15%</bl><br><gl>-Varje runda-</gl><br>Lägg till <crd=storm,1> till ett slumpmässigt monster.
+customThunderstormA=<gl>Alla monster får:</gl><br>All skada <bl>+2</bl><br><i=lightning> motstånd <bl>+20%</bl><br><gl>-Varje runda-</gl><br>Lägg till <crd=storm,1> till ett slumpmässigt monster.
+customThunderstormB=<gl>Alla monster får:</gl><br>All skada <bl>+2</bl><br><i=lightning> resistans <bl>+25%</bl><br><gl>-Varje runda-</gl><br>Lägg till <crd=storm,1> till ett slumpmässigt monster.
+customThunderstormRare=<gl>Alla monster får:</gl><br>All skada <bl>+3</bl><br><i=lightning> resistans <bl>+30%</bl><br><gl>-Varje runda-</gl><br>Lägg till <crd=storm,1> till ett slumpmässigt monster.
+customWindsofAmnesia=<gl>Alla monster får:</gl><br>Max HP <bl>+15</bl><br><gl>-Varje rond-</gl><br>Lägg till <crd=tabularasa,1> på ett slumpmässigt monster.</color>
+customWindsofAmnesiaA=<gl>Alla monster får:</gl><br>Max HP <bl>+25</bl><br><gl>-Varje runda-</gl><br>Lägg till <crd=tabularasa,1> på en slumpmässig monster.</color>
+customWindsofAmnesiaB=<gl>Alla monster får:</gl><br>Max HP <bl>+35</bl><br><gl>-Varje omgång-</gl><br>Lägg <crd=tabularasa,1> till ett slumpmässigt monster.</color>
+customWindsofAmnesiaRare=<gl>Alla monster får:</gl><br>Max HP <bl>+45</bl><br><gl>-Varje runda-</gl><br>Lägg till <crd=tabularasa,1> på en slumpmässig monster.</color>
+customNoxiousParasites=<gl>Alla monster får:</gl><br>All skada <bl>+2</bl><br>Immuna mot <i=poison><br><gl>-Varje runda-</gl><br>Blanda <crd=hatchcorrupt,1> in i varje hjältekortlek.
+customNoxiousParasitesA=<gl>Alla monster får:</gl><br>All skada <bl>+2</bl><br>Immuna mot <i=poison><br><gl>-Varje runda-</gl><br>Blanda <crd=hatchcorrupt,1> in i varje hjältekortlek.
+customNoxiousParasitesB=<gl>Alla monster får:</gl><br>All skada <bl>+3</bl><br>Immuna mot <i=poison><br><gl>-Varje runda-</gl><br>Blanda <crd=hatchcorrupt,1> i varje hjältelek.
+customNoxiousParasitesRare=<gl>Alla monster får:</gl><br>All skada <bl>+4</bl><br>Immun mot <i=poison><br><gl>-Varje rond-</gl><br>Blanda <crd=hatchcorrupt,1> in i varje hjältekortlek.
+customMelancholy=<gl>Alla monster får:</gl><br>Max HP <bl>+15</bl><br>Alla motstånd <bl>+10%</bl><br>Immuna mot <i=insane><br><gl>-Varje runda-</gl><br>Blanda <crd=sad,2> till varje hjältekortlek.</color>
+customMelancholyA=<gl>Alla monster får:</gl><br>Max HP <bl>+25</bl><br>Alla motstånd <bl>+15%</bl><br>Immun mot <i=insane><br><gl>-För varje runda-</gl><br>Blanda <crd=sad,2> in i varje hjältens kortlek.</color>
+customMelancholyB=<gl>Alla monster får:</gl><br>Max HP <bl>+35</bl><br>All resistances <bl>+20%</bl><br>Immune to <i=insane><br><gl>-Varje runda-</gl><br>Blanda <crd=sad,2> in i varje hjältekortlek.</color>
+customMelancholyRare=<gl>Alla monster får:</gl><br>Max HP <bl>+45</bl><br>Alla motstånd <bl>+25%</bl><br>Immuna mot <i=insane><br><gl>-Varje runda-</gl><br>Shuffle <crd=sad,2> in i varje hjältedäck.</color>
+customFungalOutbreak=<gl>Alla monster får:</gl><br>All skada <bl>+1</bl><br><i=mind> motstånd <bl>+15%</bl><br><gl>-Varje runda-</gl><br>Placera <crd=magicmushroom,1> överst i en slumpvis hjältes lek.
+customFungalOutbreakA=<gl>Alla monster får:</gl><br>All skada <bl>+2</bl><br><i=mind> motstånd <bl>+20%</bl><br><gl>-Varje runda-</gl><br>Placera <crd=magicmushroom,1> överst på en slumpmässig hjältes lek.
+customFungalOutbreakB=<gl>Alla monster får:</gl><br>All skada <bl>+2</bl><br><i=mind> motstånd <bl>+25%</bl><br><gl>-Varje runda-</gl><br>Placera <crd=magicmushroom,1> överst på en slumpmässig hjältes lek.
+customFungalOutbreakRare=<gl>Alla monster får:</gl><br>All skada <bl>+3</bl><br><i=mind> motstånd <bl>+30%</bl><br><gl>-Varje omgång-</gl><br>Placera <crd=magicmushroom,1> överst i en slumpmässig hjältes lek.
+customEmpower=<gl>Alla monster får:</gl><br>All skada <bl>+1</bl><br><gl>-Varje runda-</gl><br>Få <bl>3</bl><i=powerful>
+customEmpowerA=<gl>Alla monster får:</gl><br>All skada <bl>+2</bl><br><gl>-Varje omgång-</gl><br>Få <bl>3</bl><i=powerful>
+customEmpowerB=<gl>Alla monster får:</gl><br>All skada <bl>+2</bl><br><gl>-Varje omgång-</gl><br>Få <bl>4</bl><i=powerful>
+customEmpowerRare=<gl>Alla monster får:</gl><br>All skada <bl>+3</bl><br><gl>-Varje runda-</gl><br>Får <bl>4</bl><i=powerful>
+customPoisonFields=<gl>Alla monster får:</gl><br>All skada <bl>+2</bl><br>Immuna mot <i=poison><br><gl>-Varje runda-</gl><br>Alla hjältar lider <rd>3<rd><i=poison>
+customPoisonFieldsA=<gl>Alla monster får:</gl><br>All skada <bl>+2</bl><br>Immuna mot <i=poison><br><gl>-Varje runda-</gl><br>Alla hjältar tar <rd>5<rd><i=poison>
+customPoisonFieldsB=<gl>Alla monster får:</gl><br>All skada <bl>+3</bl><br>Immun mot <i=poison><br><gl>-Varje runda-</gl><br>Alla hjältar lider <rd>7<rd><i=poison>
+customPoisonFieldsRare=<gl>Alla monster får:</gl><br>All skada <bl>+4</bl><br>Immuna mot <i=poison><br><gl>-Varje runda-</gl><br>Alla hjältar lider <rd>9<rd><i=poison>
+customPacifism=<gl>Alla monster får:</gl><br><i=slashing><i=blunt><i=piercing><br>Resistances <bl>+15%</bl><br><gl>-Varannan runda-</gl><br>Alla hjältar lider <rd>1</rd><i=disarm></size>
+customPacifismA=<gl>Alla monster får:</gl><br><i=slashing><i=blunt><i=piercing><br>Motstånd <bl>+20%</bl><br><gl>-Varannan omgång-</gl><br>Alla hjältar lider <rd>1</rd><i=disarm></size>
+customPacifismB=<gl>Alla monster får:</gl><br><i=slashing><i=blunt><i=piercing><br>Resistanser <bl>+25%</bl><br><gl>-Varannan runda-</gl><br>Alla hjältar lider av <rd>1</rd><i=disarm></size>
+customPacifismRare=<gl>Alla monster får:</gl><br><i=slashing><i=blunt><i=piercing><br>Resistances <bl>+30%</bl><br><gl>-Vartannat rund-</gl><br>Alla hjältar lider <rd>1</rd><i=disarm></size>
+customIronclad=<gl>Alla monster får:</gl><br>Alla motstånd <bl>+10%</bl><br><gl>-Strid börjar-</gl><br>Får<br><bl>14</bl><i=block> <bl>2</bl><i=reinforce>
+customIroncladA=<gl>Alla monster får:</gl><br>Alla resistanser <bl>+15%</bl><br><gl>-Start av strid-</gl><br>Få<br><bl>20</bl><i=block> <bl>3</bl><i=reinforce>
+customIroncladB=<gl>Alla monster får:</gl><br>Alla motstånd <bl>+20%</bl><br><gl>-Strid börjar-</gl><br>Få<br><bl>26</bl><i=block> <bl>3</bl><i=reinforce>
+customIroncladRare=<gl>Alla monster får:</gl><br>Alla resistanser <bl>+25%</bl><br><gl>-Kamp börjar-</gl><br>Får<br><bl>32</bl><i=block> <bl>4</bl><i=reinforce>
+customVigorous=<gl>Alla monsters får:</gl><br>Max HP <bl>+30</bl><br>All skada <bl>+1</bl>
+customVigorousA=<gl>Alla monsters får:</gl><br>Max HP <bl>+45</bl><br>All skada <bl>+1</bl>
+customVigorousB=<gl>Alla monster får:</gl><br>Max HP <bl>+60</bl><br>All damage <bl>+2</bl>
+customVigorousRare=<gl>Alla monster får:</gl><br>Max HP <bl>+75</bl><br>All damage <bl>+2</bl>
+customUpwind=<gl>Alla monster får:</gl><br>Hastighet <bl>+3</bl><br>Alla resistanser <bl>+5%</bl><br><gl>-Strid start-</gl><br>Alla hjältar lider av <bl>2</bl><i=slow>
+customUpwindA=<gl>Alla monster får:</gl><br>Hastighet <bl>+3</bl><br>Alla motstånd <bl>+10%</bl><br><gl>-Strid börjar-</gl><br>Alla hjältar lider <bl>3</bl><i=slow>
+customUpwindB=<gl>Alla monster får:</gl><br>Hastighet <bl>+4</bl><br>Alla motstånd <bl>+15%</bl><br><gl>-Kampstart-</gl><br>Alla hjältar lider <bl>3</bl><i=slow>
+customUpwindRare=<gl>Alla monster får:</gl><br>Hastighet <bl>+5</bl><br>Alla motstånd <bl>+20%</bl><br><gl>-Strid start-</gl><br>Alla hjältar lider <bl>4</bl><i=slow>
+customSacredGround=<gl>Alla monster får:</gl><br>All skada <bl>+1</bl><br><i=holy> motstånd <bl>+15%</bl><br><gl>-Strid börjar-</gl><br>Alla hjältar lider <bl>7</bl><i=sanctify>
+customSacredGroundA=<gl>Alla monster får:</gl><br>All skada <bl>+2</bl><br><i=holy> motstånd <bl>+20%</bl><br><gl>-Strid startar-</gl><br>Alla hjältar lider <bl>11</bl><i=sanctify>
+customSacredGroundB=<gl>Alla monster får:</gl><br>All skada <bl>+2</bl><br><i=holy> motstånd <bl>+25%</bl><br><gl>- Strid börjar -</gl><br>Alla hjältar lider <bl>15</bl><i=sanctify>
+customSacredGroundRare=<gl>Alla monster får:</gl><br>All skada <bl>+3</bl><br><i=holy> motstånd <bl>+30%</bl><br><gl>-Strid börjar-</gl><br>Alla hjältar lider <bl>19</bl><i=sanctify>
+customHypotermia=<gl>Alla monster får:</gl><br>All skada <bl>+1</bl><br><i=cold> motstånd <bl>+15%</bl><br><gl>När en hjälte spelar ett kort,</gl> drabbas <rd>2</rd><i=chill>
+customHypotermiaA=<gl>Alla monster får:</gl><br>All skada <bl>+2</bl><br><i=cold> resistans <bl>+20%</bl><br><gl>När en hjälte spelar ett kort,</gl> lider <rd>3</rd><i=chill>
+customHypotermiaB=<gl>Alla monster får:</gl><br>Allt skada <bl>+2</bl><br><i=cold> motstånd <bl>+25%</bl><br><gl>När en hjälte spelar ett kort,</gl> lider <rd>4</rd><i=chill>
+customHypotermiaRare=<gl>Alla monster vinner:</gl><br>All skada <bl>+3</bl><br><i=cold> resistans <bl>+30%</bl><br><gl>När en hjälte spelar ett kort,</gl> lider <rd>5</rd><i=chill>
+customBacklash=<gl>Alla monster får:</gl><br>All skada <bl>+2</bl><br>All motstånd <bl>+5%</bl><br><gl>När en hjälte spelar en \"Trollformel\" lider</gl> av <rd>3</rd><i=dark> <rd>2</rd><i=insane>
+customBacklashA=<gl>Alla monster får:</gl><br>All skada <bl>+2</bl><br>All motstånd <bl>+10%</bl><br><gl>När en hjälte spelar en \"Spell\",</gl> lider <rd>4</rd><i=dark> <rd>2</rd><i=insane>
+customBacklashB=<gl>Alla monster får:</gl><br>Skada <bl>+3</bl><br>Alla resistanser <bl>+15%</bl><br><gl>När en hjälte spelar en \"Trollformel\",</gl> drabbas <rd>4</rd><i=dark> <rd>3</rd><i=insane>
+customBacklashRare=<gl>Alla monster får:</gl><br>All skada <bl>+4</bl><br>Alla motstånd <bl>+20%</bl><br><gl>När en hjälte spelar en \"Spell\",</gl> mottar <rd>5</rd><i=dark> <rd>3</rd><i=insane>
+customSubZero=<gl>Alla monster får:</gl><br>All skada <bl>+2</bl><br>Immuna mot <i=chill><i=slow><br><gl>-Vartannat omgång-</gl><br>Lägg till <crd=freezecorruption,1> för alla monster.
+customSubZeroA=<gl>Alla monster får:</gl><br>All skada <bl>+2</bl><br>Immuna mot <i=chill><i=slow><br><gl>-Vartannat omgång-</gl><br>Lägg till <crd=freezecorruption,1> för alla monster.
+customSubZeroB=<gl>Alla monster får:</gl><br>All skada <bl>+3</bl><br>Immun mot <i=chill><i=slow><br><gl>-Vartannat varv-</gl><br>Lägg till <crd=freezecorruption,1> till alla monster.
+customSubZeroRare=<gl>Alla monster får:</gl><br>All skada <bl>+4</bl><br>Immun mot <i=chill><i=slow><br><gl>-Varannan rund-</gl><br>Lägg till <crd=freezecorruption,1> för alla monster.
+customRevenge=<gl>Alla monster får:</gl><br>All skada <bl>+2</bl><br>Immun mot <i=bleed><br><gl>När en hjälte spelar ett \"Anfall\",</gl> får alla monster <bl>3</bl><i=fury>
+customRevengeA=<gl>Alla monster får:</gl><br>All skada <bl>+2</bl><br>Immun mot <i=bleed><br><gl>När en hjälte spelar en \"Attack\",</gl> alla monster får <bl>4</bl><i=fury>
+customRevengeB=<gl>Alla monster får:</gl><br>All skada <bl>+3</bl><br>Immunt mot <i=bleed><br><gl>När en hjälte spelar ett \"Attack\",</gl> alla monster får <bl>5</bl><i=fury>
+customRevengeRare=<gl>Alla monster får:</gl><br>All skada <bl>+4</bl><br>Immunt mot <i=bleed><br><gl>När en hjälte spelar ett \"Anfall\",</gl> får alla monster <bl>6</bl><i=fury>
+customBurningWeapons=<gl>Alla monster får:</gl><br>All skada <bl>+1</bl><br><i=fire> motstånd <bl>+15%</bl><br><gl>När ett monster orsakar skada,</gl> appliceras det <rd>1</rd><i=burn>
+customBurningWeaponsA=<gl>Alla monster får:</gl><br>All skada <bl>+2</bl><br><i=fire> motstånd <bl>+20%</bl><br><gl>När ett monster orsakar skada,</gl> tillämpar det <rd>2</rd><i=burn>
+customBurningWeaponsB=<gl>Alla monster får:</gl><br>All skada <bl>+2</bl><br><i=fire> motstånd <bl>+25%</bl><br><gl>När ett monster gör skada,</gl> appliceras det <rd>3</rd><i=burn>
+customBurningWeaponsRare=<gl>Alla monster får:</gl><br>All skada <bl>+3</bl><br><i=fire> motstånd <bl>+30%</bl><br><gl>När ett monster gör skada,</gl> applicerar den <rd>4</rd><i=burn>
+customPutrefaction=<gl>Alla monster får:</gl><br>All skada <bl>+2</bl><br>Immuna mot <i=dark><i=decay><br><gl>När ett monster orsakar skada,</gl> appliceras <rd>2</rd><i=dark><rd>1</rd><i=decay>
+customPutrefactionA=<gl>Alla monster får:</gl><br>All skada <bl>+2</bl><br>Immuna mot <i=dark><i=decay><br><gl>När ett monster gör skada,</gl> appliceras <rd>3</rd><i=dark><rd>1</rd><i=decay>
+customPutrefactionB=<gl>Alla monster får:</gl><br>Allt skada <bl>+3</bl><br>Immun mot <i=dark><i=decay><br><gl>När ett monster gör skada,</gl> det applicerar <rd>3</rd><i=dark><rd>2</rd><i=decay>
+customPutrefactionRare=<gl>Alla monster får:</gl><br>All skada <bl>+4</bl><br>Immun mot <i=dark><i=decay><br><gl>När ett monster gör skada,</gl> applicerar det <rd>4</rd><i=dark><rd>2</rd><i=decay>
+customHexproof=<gl>Alla monster får:</gl><br>Max HP <bl>+15</bl><br>All skada <bl>+2</bl><br><gl>-Varje runda-</gl><br>Får <bl>5</bl><i=buffer>
+customHexproofA=<gl>Alla monster får:</gl><br>Max HP <bl>+20</bl><br>All damage <bl>+2</bl><br><gl>-Varje omgång-</gl><br>Få <bl>6</bl><i=buffer>
+customHexproofB=<gl>Alla monster får:</gl><br>Max HP <bl>+25</bl><br>All skada <bl>+3</bl><br><gl>-Varje rund-</gl><br>Få <bl>7</bl><i=buffer>
+customHexproofRare=<gl>Alla monster får:</gl><br>Max HP <bl>+30</bl><br>All skada <bl>+4</bl><br><gl>-Varje rond-</gl><br>Få <bl>8</bl><i=buffer>
+customHeavyWeaponry=<gl>Alla monster får:</gl><br>Alla skador <bl>+3</bl><br>Immun mot <i=vulnerable><br><gl>När ett monster skadar,</gl> appliceras det <rd>1</rd><i=vulnerable><rd>1</rd><i=slow>
+customHeavyWeaponryA=<gl>Alla monster får:</gl><br>All skada <bl>+4</bl><br>Immuna mot <i=vulnerable><br><gl>När ett monster gör skada,</gl> applicerar det <rd>2</rd><i=vulnerable><rd>1</rd><i=slow>
+customHeavyWeaponryB=<gl>Alla monster får:</gl><br>All skada <bl>+4</bl><br>Immunitet mot <i=vulnerable><br><gl>När ett monster gör skada,</gl> applicerar det <rd>2</rd><i=vulnerable><rd>2</rd><i=slow>
+customHeavyWeaponryRare=<gl>Alla monster får:</gl><br>All skada <bl>+5</bl><br>Immun mot <i=vulnerable><br><gl>När ett monster gör skada,</gl> tillämpas det <rd>2</rd><i=vulnerable><rd>2</rd><i=slow>
+customThornProliferation=<gl>Alla monster får:</gl><br>Max HP <bl>+15</bl><br>All skada <bl>+2</bl><br><gl>När en hjälte spelar ett kort,</gl> får ett slumpmässigt monster <rd>1</rd><i=thorns>
+customThornProliferationA=<gl>Alla monster vinner:</gl><br>Max HP <bl>+25</bl><br>All skada <bl>+2</bl><br><gl>När en hjälte spelar ett kort,</gl> får ett slumpmässigt monster <rd>2</rd><i=thorns>
+customThornProliferationB=<gl>Alla monster får:</gl><br>Max Health <bl>+35</bl><br>Allt skada <bl>+3</bl><br><gl>När en hjälte spelar ett kort,</gl> ett slumpmässigt monster får <rd>2</rd><i=thorns>
+customThornProliferationRare=<gl>Alla monster får:</gl><br>Maximalt HP <bl>+45</bl><br>All skada <bl>+4</bl><br><gl>När en hjälte spelar ett kort,</gl> får ett slumpmässigt monster <rd>3</rd><i=thorns>
+innate=Inneboende
+vanish=Försvinna
+frail=Frail
+mitigate=Minska
+stanzai=Stanza I
+stanzaii=Stanza II
+stanzaiii=Stanza III
+chain=Kedja
+dispel=Förviga
+"jump(bonus%)"=Hoppa X (bonus%)
+overcharge=Overcharge
+overchargeAcronym=ÖL
+purge=Rena
+repeat=Upprepa X
+repeatupto=Upprepa upp till X
+bless=Bless
+block=Block
+buffer=Buffert
+courage=Mod
+energize=Energisera
+evasion=Evasion
+fast=Fast
+fortify=Förstärka
+fury=Raseri
+haste=Hastighet
+inspire=Inspirera
+insulate=Isolera
+invulnerable=Invulnerable
+powerful=Kraftfull
+regeneration=Regeneration
+reinforce=Förstärka
+sharp=Sharp
+shield=Shield
+stanza=Vers
+stealth=Smyga
+taunt=Taunt
+thorns=Törne
+vitality=Vitalitet
+bleed=Blödning
+burn=Bränna
+chill=Kyla
+crack=Spricka
+dark=Dark
+daze=Förvirra
+decay=Förfalla
+disarm=Avväpna
+doom=Dödsöde
+fatigue=Trötthet
+paralyze=Förlama
+insane=Sinnesrubbad
+mark=Mark
+poison=Gift
+sanctify=Sanctify
+shackle=Fängsla
+sight=Syn
+silence=Tystnad
+slow=Slow
+spark=Funka
+stress=Stress
+vulnerable=Sårbar
+weak=Weak
+wet=Wet
+transfer=Överföra
+cards=Kort
+challenge=Utmaning
+items=Items
+pet=Husdjur
+pets=Husdjur
+petShopWarning=** Du kan bara adoptera 1 husdjur.
+ifUnlockSigils=Att låsa upp innehåll kommer att belöna dig med sigilpoäng. Använd dessa poäng för att öka kraften hos dina favoritkort.
+challengeSelection=Utmaning kortval
+challengeSelectionIntro=Försök alltid välja paket med mest synergier och glöm inte bort energikostnaden.
+challengeReroll=Rerolla paket
+challengeRound=Omgång
+challengeRoundPerks=Utvalda förmåner
+challengeSelectionPerk=Utmaning förmånsval
+challengeSelectionPerkIntro=När du har valt dina kort måste du välja 4 förmåner som kommer att tilldelas din hjälte.
+challengeEnergy=Genomsnittlig energikostnad
+rankProgress=Grad {0}
+rankTier=Nivå {0}
+rankPointsAvailable=<sprite name=perk>Tillgängliga poäng
+rankPointsHowto=En förmån är en annan typ av bonus som du kan tilldela dina hjältar. Du får förmånspoäng att fördela i slutet av dina äventyr.
+rankPointsHighest=Antalet förmånspoäng som är tillgängliga för dina karaktärer baseras på rangnivån för din <color=#F1D2A9>högsta karaktär</color>. (1 poäng för varje nivå och max 36 poäng)
+rankPerkPoints={0} Förmånspoäng
+rankPerkPointsGain=Du kan tilldela förmånspoäng till hjältar när du spelar en ny omgång.
+rankPerkPress=Tryck för att tilldela förmån
+rankPerkNotEnough=Inte tillräckligt med poäng
+rankDescription0=Startobjekt (blå)
+rankDescription1=Ny kortbakgrund
+rankDescription2=Startkort (blå)
+rankDescription3=Ny hud
+rankDescription4=Talangkort (blå)
+rankDescription5=Ny kortbakgrund
+rankDescription6=Startobjekt (gult)
+rankDescription7=Ny hud
+rankDescription8=Startkort (gult)
+rankDescription9=Ny kortbakgrund
+rankDescription10=Talangkort (gult)
+rankLevelDescrition=Varje karaktär kommer att få poäng efter ett äventyr. Med varje ny rang kommer karaktären att låsa upp nya funktioner.
+cantModifyPerkMP=Du kan inte ändra färdighetspoäng under en laddad spelomgång.
+perkNone=Den här karaktären har inga aktiva färdigheter för det här spelet.
+perkAuraDescription=Laddar upp {0}som du tillämpar
+skinRequiredRankLevel=För att använda den här skinnet måste din karaktär vara:<br> av Rangnivå {0}
+requiredAdventureComplete=Du måste slutföra Äventyrs-läget.
+requiredAdventureLevel=Du måste slutföra Äventyrs-läget i vansinne nivå {0}.
+requiredObeliskComplete=Du måste slutföra Obelisk Utmanings-läget.
+requiredObeliskLevel=Du måste slutföra Obelisk Utmanings-läget i vansinne nivå {0}.
+senenthia=Kungadömet Senenthia
+velkarath=Velkarathbergen
+aquarfall=Den Aquarfall Marsh
+theHatch=Hatchen
+spiderLair=Spider Lair
+theVoid=The Void
+act0Intro=Hur hände det, frågar du? Allt började under prinsessans 16-årsdag. Alla var i gården och väntade otåligt på henne. Hon skulle bli inskriven i Trollkarlsakademin, en ära reserverad för de som visar fallenhet (och hon hade verkligen en gåva).<br><br>Plötsligt exploderade det från prinsessans kammare, följt av en våg av energi som svepte genom kungariket Senenthia. De kungliga vakterna utforskade varje hörn av slottet, men hittade inga tecken på henne eller Lord Hanshek, hovmagikern och rådgivaren till kungen.<br><br>Trots att kungen sände soldater över hela kungariket, återvände ingen av dem. Det sista han hörde var att hennes spår hade gått förlorat djupt inne i Gamla skogen, nära den uråldriga obelisken som hade varit vilande i århundraden... tills nu.<br><br>Förtvivlad utfärdade kungen en kunglig förordning och meddelade att han skulle belöna den som förde prinsessan hem säkert. Nyheten spred sig snabbt genom kungariket. Många äventyrargrupper förberedde sig för att bege sig in i skogen och undersöka obelisken för att hitta prinsessan.<br><br>Detta är historien om en av dessa grupper.
+act1Intro=Gruppen gick över obelisken och befann sig på ett ögonblick på en annan plats, långt ifrån Senenthia's skog.<br><br>En av mysterierna med obelisken har just avslöjats för dem... På forntiden användes obelisken som ett transportmedel, då det skulle ta flera dagar att nå detta land med vägen.<br><br>De letade efter tecken på att prinsessan eller Lord Hanshek hade varit där och fann två par fotspår som ledde bort från området.<br><br>Gruppen tittade mot horisonten och såg att det fanns en annan obelisk i detta område som var aktiv. Utan tvekan hade prinsessan och Lord Hanshek något att göra med aktiveringen av obeliskerna. Gruppens nästa destination var tydlig. 
+act2Intro=Gruppen passerade sin andra obelisk och som tidigare hittade de en nyligen ledtråd om prinsessan och Lord Hanshek.<br><br>De kommer ihåg att drottningen av Senenthia, känd för sina stora magiska krafter, också försvann för några år sedan. Kan prinsessan ha ärvt dessa krafter? Och utnyttjar Lord Hanshek detta?<br><br>De hade för många frågor för att vända tillbaka nu. De måste nå Lord Hanshek till varje pris.<br><br>I detta område blev de inte förvånade att se att det också fanns en aktiv obelisk på horisonten.<br><br>Den här gången hade gruppen en känsla av att om de skyndade sig kanske de skulle kunna hinna ifatt.
+act3Intro=Även om de hade blivit vana vid att korsa obeliskerna, hade denna gång känslan varit något annorlunda.<br><br>När de tittade runt sig var de förvånade. Oändliga moln och forntida ruiner flöt omkring dem... Var befann de sig? Detta ställe kunde definitivt inte nås till fots eller på något normalt sätt.<br><br>Gruppen kunde känna den intensiva magin och utan tvekan var detta Lord Hansheks mål med obeliskerna.<br><br>På horisonten såg de en stor trappa resa sig över molnen... Dit var gruppen tvungen att gå för att ta reda på vad Lord Hanshek höll på med.
+actEndGame=Grattis! Du har klarat spelet på normal svårighetsgrad.<br><br>Du har låst upp galenskapsnivåerna. Nu kan du öka svårighetsgraden och anpassa spelet efter dina preferenser, till exempel genom att ha slumpmässiga fiender i varje strid.<br><br>Dessutom dyker nya korrumperade föremål upp i galenskapsnivåerna. Dessa föremål är betydligt mer kraftfulla versioner av de vanliga föremålen. Varje svårighetsgrad ökar sannolikheten för att dessa föremål och korrumperade kort ska dyka upp.<br><br>Vi hoppas att du har haft kul med spelet. Det kommer mer framöver! Hälsningar, Adam, Javier och Juanjo.
+goldDescription=Guld: Används för att köpa utrustning, ta bort kort och slutföra mål i vissa händelser
+dustDescription=Splitter: Används för att skapa och transmutera kort
+supplyDescription=Förnödenheter: Används för att förbättra byggnader i en stad och dess tjänster<br>(Max. 500)
+corruptionReward=Korruptionsbelöning
+corruptionAltarUpgrade=Gruppen kommer att få tillgång till en <color=#E0A44E>uppgradering av altaret</color>.
+corruptionGainGold=Partiet får<br><sprite name=gold> {0}  <sprite name=dust> {1} 
+corruptionGainGold2=Partiet får<br><sprite name=gold> {0}  <sprite name=dust> {1}  <sprite name=supply> {2}
+corruptionRemoveCard=Varje hjälte kommer att kunna <color=#E0A44E>ta bort ett kort</color> gratis från leken.
+corruptionRemoveCard2=Varje hjälte kommer att kunna <color=#E0A44E>ta bort två kort</color> gratis från leken.
+corruptionRareShop=Gänget kommer att få tillgång till en <color=#E0A44E>butik för sällsynt utrustning</color>.
+corruptionRareShopDiscount=Gänget kommer att få tillgång till en <color=#E0A44E>butik för sällsynt utrustning</color> (med 30% rabatt).
+corruptionRandomCardUpgrade=Ett slumpmässigt grundkort <color=#E0A44E>kommer att uppgraderas</color> för varje hjälte.
+corruptionHeal20=Gänget kommer att <color=#34FF46>läka 30%</color> av sin maximala HP vid slutet av striden.
+corruptionHeroFreeCard={0} kommer att få <color={1}>\"{2}\"</color> kort gratis.
+corruptionFreeCardUpgrade=Varje hjälte kommer att få en <color=#E0A44E>gratis uppgradering av kort</color>.
+corruptionExoticShop=Partyt kommer att få tillgång till en <color=#E0A44E>exotisk utrustningsaffär</color>.
+corruptionExoticShopDiscount=Partyt kommer att få tillgång till en <color=#E0A44E>exotisk utrustningsaffär</color> (med 30% rabatt).
+corruptionIncreasedQuality=Öka <color=#E0A44E>kvalitet och kvantitet av kortbelöningar</color> i slutet av striden.
+corruptionRewardScore=(poäng: +{0})
+corruptionTitle=<sprite name=corruption>Obeliskkorruption
+corruptionDesc=Obelisken påverkar monster i detta område och gör dem korrupta. Du kan välja att bekämpa dem under korruptions effekter för att öka svårigheten och få ytterligare belöningar.
+corruptionAccept=Vill du acceptera utmaningen?
+corruptionChoose=Välj en av dessa belöningar
+corruptionSelect=Innan du accepterar utmaningen måste du välja en belöning.
+townUpgrades=<sprite name=supply> Byuppgraderingar
+townUpgrade_1_1=Det finns <c>vanliga kort</c> tillgängliga för hantverk 2.
+townUpgrade_1_2=Den <c>totala kostnaden för att skapa</c> kort har minskat (15% totalt).
+townUpgrade_1_3=The <c>Ovanliga kort</c> tillgängliga för att skapa har ökat till 2.
+townUpgrade_1_4=<c>Sällsynta kort</c> upplåsta för att skapa i startstaden.
+townUpgrade_1_5=Den <c>totala kostnaden för att skapa</c> kort har minskat (30% totalt).
+townUpgrade_1_6=<c>Episka kort</c> upplåsta för att skapa i den andra staden.
+townUpgrade_2_1=<c>kostnaden för att omvandla</c> kort minskas (totalt 25%).
+townUpgrade_2_2=<c>Kostnaden för att uppgradera</c> kort minskas med (totalt 15%).
+townUpgrade_2_3=Kostnaden för att omvandla</c> kort minskas med <c>(totalt 50%).
+townUpgrade_2_4=Kostnaden för att uppgradera</c> kort minskas med <c>(totalt 30%).
+townUpgrade_2_5=Att omvandla kort är <c>gratis</c>.
+townUpgrade_2_6=Kostnaden för att uppgradera</c> kort minskas med <c>(totalt 50%).
+townUpgrade_3_1=Att ta bort kort i startstaden är <c>gratis</c>.
+townUpgrade_3_2=Kostnaden för att bota skador <c>är reducerad med 15% totalt</c> .
+townUpgrade_3_3=Kostnaden för att ta bort kort <c>är reducerad med 25% totalt</c> .
+townUpgrade_3_4=Kostnaden för att bota skador <c>är reducerad med 30% totalt</c> .
+townUpgrade_3_5=Kostnaden för att ta bort kort <c>är reducerad med 50% totalt</c> .
+townUpgrade_3_6=Att ta bort kort i den andra staden kostar <c>gratis</c>.
+townUpgrade_4_1=Kostnaden för <c>spådomsrundor</c> minskas (10% totalt).
+townUpgrade_4_2=<c>Grundläggande spådom</c> låst upp i startstaden.
+townUpgrade_4_3=Kostnaden för <c>spådomsrundor</c> minskas (25% totalt).
+townUpgrade_4_4=<c>Avancerad spådom</c> låst upp i den andra staden.
+townUpgrade_4_5=Kostnaden för <c>spådomsrundor</c> minskas (40% totalt).
+townUpgrade_4_6=<c>Avancerad spådom</c> upplåst i startstaden.
+townUpgrade_5_1=Upplås möjligheten att <c>rullera föremål</c> i stadens vapenrum.
+townUpgrade_5_2=Kostnaden för <c>föremål</c> i stadens vapenrum minskas (15% totalt).
+townUpgrade_5_3=Ökade sällsyntheten av föremålen i stadens vapenbod med <c></c> .
+townUpgrade_5_4=Kostnaden för att rerolla föremål</c> i stadens vapenlager minskas med <c>(totalt 50%).
+townUpgrade_5_5=Kostnaden för föremål</c> i stadsarsenalen minskas med <c>(totalt 30%).
+townUpgrade_5_6=Ökade sällsyntheten av föremålen i stadens vapenbod med <c></c> .
+townUpgrade_6_1=<c>Valutabevarande</c> ökar i slutet av spelet (totalt 10%).
+townUpgrade_6_2=Lås upp djuraffären</c> inne i stadsarsenalen <c>.
+townUpgrade_6_3=<c>Valutabehållning</c> i slutet av spelet ökar (totalt 20%).
+townUpgrade_6_4=Lås upp <c>karavan nod</c> utanför startstaden.
+townUpgrade_6_5=<c>Valutabehållning</c> vid slutet av ett spel ökade (totalt 30%).
+townUpgrade_6_6=Lås upp möjligheten att <c>sälja förnödenheter</c> för guld och skärvor.
+townRequired=<color=#FFF>[Requires]</color>  {0} fler förnödenheter spenderade.
+townAssignWarning=Vill du köpa den här uppgraderingen? <color=#AAAAAA>Detta åtgärd kan inte ångras.</color>
+rerollButton=Rull om {0}
+rerollButtonCostSP=Rerollkostnaden ökar i varje akt. Objekt som redan köpts kommer inte att visas.
+rerollButtonCostCoop=Total kostnad för omkastning baseras på de karaktärer du kontrollerar och ökar i varje akt. Objekt som redan köpts kommer inte att visas.
+rerollLock=Endast en omkastning är tillgänglig i varje stad i Madness basnivå större än 3.
+rerollWarning=(Endast en tillgänglig)
+helpDeck=Draghög
+helpCasted=Kastade Kort
+saveLoad=<size=+.2><sprite name=nodeDivination></size> Spara/Ladda Däck
+saveLoadReturn=Tillbaka till Smide
+saveLoadDes=Du kan spara din nuvarande lek eller ladda tidigare sparade.
+save=Save
+inputSaveName=Ange namnet för denna lek
+emptySave=[empty slot]
+decks=Lekar
+savedDecks=Sparade lekar
+savedDeckDeleteConfirm=Vill du ta bort denna lek?
+craftDeck=Crafta leken
+craftWillCost=Det kommer att kosta att crafta denna lek:
+craftCant=Du kan inte crafra denna lek.
+craftDeckNeed=För att skapa en sparad kortlek behöver du att alla kort finns tillgängliga i Magi-smedjan.<br><br>Om din nuvarande kortlek har ett <color=#FFF>Skada, Välsignelse, Special eller Korrupt kort</color>, <color=#F00>kommer du inte att kunna</color> spara/ladda.
+conflictPlayerChooses={0} väljer
+conflictPlayerWins={0} vinner
+ngDescription=Hårdare spelläge avsett för högrankade Hjältar och uppgraderade städer. I detta läge faller korrumperade kort oftare.
+needSteam=Du behöver vara ansluten till Steam för att spela Across the Obelisk.
+desyncError=<b><color=#f88>Hoppsan, något gick fel!</color></b><br><size=-6>Spelet är ur synk mellan spelarna. För att undvika att göra problemet värre kommer striden att startas om.</size>
+reloadForced=<color=#FFD78F>Vill du ladda om striden?</color><br><size=-6>Om du vill ladda om striden på grund av en bugg eller synkfel, var god anslut till vår Discord och rapportera det så att vi kan fixa det!</size>
+comingSoon=Kommer snart
+onlyMasterCorruption=Endast mästaren i spelet kan acceptera en korruption och dess belöningar.
+onlyMasterButton=Endast mästaren kan trycka på knappen.
+easy=Easy
+average=Genomsnittlig
+hard=Hard
+extreme=Extrem
+corruption=Korrumption
+versionMismatch=Spelet kan inte starta. Spelversionerna är olika.
+selectSupplyAmount=Välj det antal leveranser som du vill sälja.
+selectGiveGold=Välj det antal guld som du vill ge till denna spelare.
+selectGiveShards=Välj det antal skärvor som du vill ge till denna spelare.
+giveGold=Ge guld
+giveShards=Ge skärvor
+giveGoldShards=Ge guld och skärvor
+general=General
+audio=Audio
+gameplay=Spelupplevelse
+screenResolution=Skärmupplösning
+fullScreen=Helskärm
+vsync=VSync
+resetTutorial=Återställ handledning
+resetTutorialDes=Detta låter dig titta på handledningsbeskrivningarna igen.
+resetSavedData=Återställ kontodata
+resetSavedDataDes=VARNING: Om du aktiverar det här alternativet kommer allt ditt kontoprogress, sparade spel och upplåsta kort att tas bort.
+masterVolume=Huvudvolym
+musicVolume=Musikvolym
+effectsVolume=Effektljudvolym
+ambienceVolume=Stämningsvolym
+backgroundMute=Tyst bakgrund
+backgroundMuteDes=Inaktivera ljud när spelet inte är i fokus
+fastMode=Snabbt läge
+fastModeDes=Kampfarten ökar
+autoEnd=Automatisk avslutning
+autoEndDes=Om du inte har något tillgängligt kort att spela ut kommer spelet att passera din tur
+showEffects=Visa effekter
+showEffectsDes=Visa kort- och karaktäreffekter under strid
+extendedDescriptions=Utökade beskrivningar
+extendedDescriptionsDes=Visa ytterligare information för auras och förbannelser
+acBackground=Bakgrund för status effekter
+acBackgroundDes=Visa en bakgrund bakom ikoner för karaktärsstatus effekter
+restartCombatOption=Starta om striden vid nederlag
+restartCombatOptionDes=Visa ett alternativ att starta om striden vid nederlag
+enableShakeOption=Aktivera skärm skakning
+enableShakeOptionDes=Skärmen kommer att skaka när hög skada inträffar under striden
+currentScore=Nuvarande poäng
+synchronizing=[Synchronizing]
+madnessChallengeSelect=Välj den Galenskapsnivå du vill ha för nästa spel (varje nivå kommer också att modifieras av de tidigare).
+madnessChallengeBeat=Om du besegrar Obelisk-utmaningen på en galenskapsnivå får du tillgång till nästa.
+madness=Galenskap
+madnessNumber=Galenskap {0}
+madnessTitle=Val av galenskapsnivå
+madnessDescription=Välj den galenskapsnivå du vill ha för spelet. Dessutom kan du aktivera olika korrumperare som kommer att modifiera spelet och öka galenskapsnivån.
+madnessBasicInfo=Det här är den grundläggande svårighetsnivån i spelet. Slutför äventyret för att låsa upp ytterligare nivåer och korrumperare.<br><br>För att kunna välja en ny svårighetsnivå måste du slutföra den föregående, oavsett om du spelar själv eller i ett samarbetsläge.
+madnessBasic=<i=taunt> Utmanare är starkare och deras förmågor har förbättrats.
+madnessObeliskLevel5=<sprite name=perk> Hjältarnas startkort, startföremål och förtrollningar uppgraderas till blått.<br><sprite name=energy> Alla hjältar får +1 startenergi
+madnessObeliskLevel8=<sprite name=perk> Hjältarnas startkort, startföremål och förtrollningar uppgraderas till gula.<br><sprite name=energy> Alla hjältar får +1 startenergi.<br><sprite name=dice> Slumpmässigt frö.
+madnessPerAct=<color=#AAA><size=-.5>(per akt, respektive)</size></color>
+madnessExhaust=<i=vanish> Exhaust
+madnessSeriousInjuries=<i=bleed> Allvarliga skador
+madnessSeriousInjuriesDesc=Skadekort är starkare
+madnessDeadlyInjuries=<i=bleed> Dödliga skador
+madnessDeadlyInjuriesDesc=Skadekort är dödliga
+madnessNoChest=<i=nodeShop> Inga Bröstbelöningar, {0} guld/fragment per hjälte
+madnessMonsterHp=<i=heart> Max HP för monster: {0} {1}
+madnessMonsterSpeed=<i=fast> Monsterhastighet: {0} {1}
+madnessMonsterDamageTaken=<i=mitigate> Monster skadedebitering: {0} {1}
+madnessMonsterDamageDone=<i=slashing> Monster skadad levererat: {0} {1}
+madnessHeroSpeed=<i=slow> Hjälteshastighet: {0}
+madnessHeroEnergy=<i=energy> Hjältes startenergi: {0}
+madnessInfrequent=<i=cards> Minskat antal ovanliga kort tillgängliga med 1
+madnessDisabledCards=<i=nodeUpgrade> Sällsynta kort avaktiverade i startstaden. Episka kort avaktiverade i den andra staden.
+madnessRandomSeed=<i=dice> Tvingad slumpmässig start
+madnessHarderEvents=<i=events> Svårare händelseroller
+madnessReroll=<i=jewelry> Begränsat till 1 omkast av föremål i stadens vapenförråd
+madnessDoubledeath=<i=weak> När en hjälte dör, får de två \"Dödens Dörr\"
+madnessNoSupplyExchange=<i=supply> Leveransutbyte är inte tillgängligt
+madnessCorruptor0=<i=doom> Förestående fördärv
+madnessCorruptor0Help=I strid, när prestandabonusen når \"Underwhelming\", drabbas alla hjältar av \"Fördärv\", vilket dödar dem på 2 rundor.
+madnessCorruptor1=<i=decay> Förfall
+madnessCorruptor1Help=Alla hjältar har -3 i utfört helande, <nobr>-25%</nobr> i mottaget helande och Vitalitet ger endast 50% av den maximala HP:n
+madnessCorruptor2=<i=bless> Begränsad kraft
+madnessCorruptor2Help=Auras/Förbannelser har Max. charges:<line-height=120%><br></line-height>( 50 ) Bless, Mark, Regeneration, Sharp, Stealth, Vitality, Wet<line-height=120%><br></line-height>( 100 ) Crack, Fury, Insane, Sanctify, Sight<line-height=120%><br></line-height>( 200 ) Bleed, Burn, Chill, Poison, Shield, Spark, Thorns<line-height=120%><br></line-height>( 400 ) Block
+madnessCorruptor3=<i=insulate> Resistant Monsters
+madnessCorruptor3Help=Alla monster får ytterligare +10% resistans på allt. Maximalt sårbara laddningar på monster är 6.
+madnessCorruptor4=<i=gold> Fattigdom
+madnessCorruptor4Help=Tillgång på guld och skärvor minskas med 50%. Föremål med extra rabatter är inte tillgängliga.
+madnessCorruptor5=<i=powerful> Överladdade monster
+madnessCorruptor5Help=All monsterkort får +1 laddning på sina auror eller förbannelser.
+madnessCorruptor6=<i=dice> Slumpmässiga strider
+madnessCorruptor6Help=Icke-eventstrider genereras slumpmässigt. I varje slumpmässig strid dyker en \"Mästare\" monster upp med en slumpmässigt tilldelad immunitet.
+madnessCorruptor7=<i=bossIcon> Förtvivlan
+madnessCorruptor7Help=Fiender har de mest kraftfulla korten och förtrollningarna tillgängliga för dem.<line-height=120%><br></line-height>Denna korruptor ökar svårighetsgraden avsevärt.
+championMonster=Mästarmynter
+help=Hjälp
+madnessCorruptors=Tillgängliga korruptorer
+madnessLevel=Vansinnesnivå
+cardCommon=Vanligt kort
+cardUncommon=Ovanligt kort
+cardRare=Sällsynt kort
+cardEpic=Episkt kort
+cardMythic=Mytiskt kort
+common=Vanligt
+uncommon=Uncommon
+rare=Sällsynt
+epic=Episk
+mythic=Mytisk
+eventCommon=Vanlig händelse
+eventUncommon=Ovanlig händelse
+eventRare=Sällsynt händelse
+eventEpic=Episk händelse
+eventMythic=Mytisk händelse
+eventCharacter=Karaktärshändelse
+cardPlayerDescription=Även de minsta besluten formar din öde. Var uppmärksam: <color=#C59559>efter att dessa kort har blandats</color>, måste du välja ett.
+chooseWisely=Välj klokt
+madnessHelp=<align=left><color=#FFF>Varje vansinnes-svårighetsnivå lägger till nya modifierare som gör spelet svårare överlag. Vissa av dessa förklaras mer detaljerat nedan.</color><br><br><u>Utan Avrättning:</u> När du använder ett kort som orsakar att leken cyklar, drabbas du av Utan Avrättning, vilket gör att alla kort som kommer in i din hand under den rundan kostar extra energi.<br><br><u>Allvarliga och Dödliga skador:</u> De skador du får när du misslyckas med en händelse ersätts av kraftfullare varianter.<br><br><u>Inga Kistbelöningar:</u> Belöningskistor från tidigare spel kan inte plockas upp och startguld/bitar är begränsade. Med denna modifierare får du inte belöningskistor i slutet av ett spel.<br><br><u>Svårare händelseantal:</u> Antalet som krävs för att passera ett utfall i en händelse är svårare att uppnå, högre eller lägre beroende på händelsen.</align>
+exhaust=<u>Utmattning:</u> När du får din kortlek att blanda om under din tur, drabbas du av Utmattning, vilket gör att alla nya kort som läggs till din hand från din dragbunk, kasthög eller försvinnbunke kostar 1 mer fram till slutet av turen. Utmattning kan staplas, kan inte avlägsnas och tas bort i slutet av turen.
+madnessOptionsText=GALSKAP {0} BONUSLISTA
+replyProbability=Sannolikhet för framgång:{0}
+masterSelected=Vald av spelets mästare
+notStack=Staplas inte
+notStackPlain=Laddningar staplas inte
+searchCards=Sök kort
+perksNotChallenge=Förmåner och rankförbättringar är inte tillgängliga i <color=#F1D2A9>Obelisken och Veckoutmaningen</color> lägen.
+rightClickCard=Högerklicka <br><size=-.7>(mer info)
+traitAddCard=Lägg till en kopia av kortet \"{0}\" i din lek
+addCardInstructions=Välj korten att lägga till
+lowerObelisk=Lägre Obelisk
+upperObelisk=Övre Obelisk
+finalObelisk=Slutlig Obelisk
+notOriginalPlayers=De nuvarande spelarna är inte samma spelare som skapade spelet, därför kommer <color=#F3404E>inte det slutliga resultatet att visas</color> på resultattavlan.
+basicDifficulty=Grundsvårighet
+basicDifficultyDesc=Detta är grundsvårigheten för denna spelläge.
+dangerousMonsters=Farliga monster
+dangerousMonstersDesc=Monster skadad: +3
+decadence=Förfall
+decadenceDesc=Alla hjältar har -3 i utförd läkning, <nobr>-25%</nobr> i mottagen läkning och Vitalitet återställer endast 50% av max HP.
+doubleBoons=Dubbla förmåner
+doubleBoonsDesc=När du får en välsignelse, få en extra kopia.
+doubleInjuries=Dubbla Skador
+doubleInjuriesDesc=När du får en skada, få en extra kopia.
+elementalMonsters=Elementmonster
+elementalMonstersDesc=Monster Eld / Kyla / Blixtmotstånd: +10%
+energizedHeroes=Energiska Hjältar
+energizedHeroesDesc=Hjältens startenergi: +1
+exhaustion=Utmattning
+exhaustionDesc=När du använder ett kort som får leken att blandas, drabbas du av utmattning.
+fastHeroes=Snabba Hjältar
+fastHeroesDesc=Hjältens Hastighet: +1
+fastMonsters=Snabba Monster
+fastMonstersDesc=Monsterhastighet: +1
+gargantuanMonsters=Gigantiska Monster
+gargantuanMonstersDesc=Monster Max HP: +50%
+hardcoreBosses=Hardcore Bossar
+hardcoreBossesDesc=Bossar är svårare, och deras förmågorna har förbättrats.
+impedingDoom=Förestående Fördärv
+impedingDoomDesc=Alla hjältar lider av 2 \"Doom\" när prestationen blir förödande.
+ironcladMonsters=Förtjänta Monster
+ironcladMonstersDesc=Monster tar -3 i skada
+lucky=Lucky
+luckyDesc=Event-rullningar är enklare.
+ludicrousSpeed=Ludicrous Speed
+ludicrousSpeedDesc=Monster Speed: +3
+moreChampions=Fler Mästare
+moreChampionsDesc=Fler mästare dyker upp på kartan.
+overchargedMonsters=Laddade monster
+overchargedMonstersDesc=Alla monsterkort har +1 i laddning.
+poverty=Fattigdom
+povertyDesc=Fångst av guld och fragment minskar med 30%.
+prosperity=Välstånd
+prosperityDesc=Fångst av guld och fragment ökar med 50%.
+punyMonsters=Små monster
+punyMonstersDesc=Monster Max HP: -25%
+reinforcedMonsters=Förstärkta Monster
+reinforcedMonstersDesc=Monsterhugg / Trubbigt / Genomträngande motstånd: +10%
+resistantMonsters=Motståndskraftiga Monster
+resistantMonstersDesc=Alla monster får ytterligare +10% resistans på allt. Maximalt sårbara laddningar på monster är 6.
+restrictedPower=Begränsad Kraft
+restrictedPowerDesc=Auras och förbannelser har en begränsning på Max. antal staplar.
+slowHeroes=Långsamma hjältar
+slowHeroesDesc=Hjälterörelsehastighet: -1
+slowMonsters=Långsamma monster
+slowMonstersDesc=Monsterhastighet: -1
+smartHeroes=Smartare hjältar
+smartHeroesDesc=Uppnådd erfarenhet ökar med 50%.
+spiritualMonsters=Andliga monster
+spiritualMonstersDesc=Monster Helighet / Skugga / Själs resistans: +10%
+tougherMonsters=Starkare monster
+tougherMonstersDesc=Monster är starkare och deras förmågor har förbättrats.
+unlucky=Oturlig
+unluckyDesc=Händelsekast är svårare.
+vigorousMonsters=Livfulla monster
+vigorousMonstersDesc=Monster Max HP: +25%
+vulnerableMonsters=Sårbara monster
+vulnerableMonstersDesc=Alla monsterresistenser: -15%
+wealthyHeroes=Rika hjältar
+wealthyHeroesDesc=Varje hjälte börjar med ytterligare 300 guld/skärvor.
+weeklyModificatorsDescription=Detta är de spelmodifieringar som är aktiva för denna utmaning.
+incompatible=Inkompatibel med denna version
+weeklyModifiers=Veckovisa modifierare
+weeklyModifiersStyled=<size=+.2><size=+.3><color=#FFF>Veckovis</color></size><br> Modifikatorer</size>
+openCharacterStats=<sprite name=sheet> Öppna karaktärsstatistik
+corruptionSacrifyDust=Betala {0} ytterligare skärvor för +{1}% chans
+corruptionSacrifySpeed=Offer {0} Hastighet för ytterligare +{1}% chans
+corruptionSacrifyHealth=Offera {0} % av din maximala hälsa för en extra{1}% chans
+corruptionSacrifyResistance=Offera {0} poäng från alla resistanser för en extra{1}% chans
+cardCorruptionTitle=Kortkorruption
+cardCorruptionDesc=Du kan korrumpera ett valfritt kort och omvandla det till den mest kraftfulla versionen.<br><br>Detta är dock ingen lätt uppgift, och misslyckas du kommer kortet att skadas istället.<br><br>Du kan också öka chansen till framgång genom offer.
+cardCorruptionChance=Chans
+deathScreenTitle={0} har krossats!
+deathScreenBody=Om ditt team överlever, kommer du återuppstå med {0}% av ditt totala liv, men kom ihåg att ingenting kommer utan ett pris, och du kommer bära denna stigmatisering resten av ditt liv.
+crusader=korsriddare
+devotee=anhängare
+friar=munk
+healer=läkare
+heretic=kättare
+justicar=rättviseförvaltare
+mentalist=mentalisten
+protector=beskyddare
+saint=helgon
+seer=siare
+shaman=shaman
+zealot=Iver
+aeromancer=luftmagiker
+cryomancer=frostmagiker
+enchanter=trollkarl
+glacier=glaciär
+inferno=inferno
+scribe=skrivare
+shadowmancer=skuggmagiker
+sorcerer=trollkarl
+tempest=storm
+witch=häxa
+wizard=trollkarl
+bard=bard
+bowman=bågskytt
+explorer=upptäckare
+fencer=fäktare
+hunter=jägare
+ninja=ninja
+plague=pest
+poisoner=förgiftare
+reaver=plundrare
+rogue=skojare
+scoundrel=skurk
+skald=skald
+sniper=sniperskytt
+avenger=hämnare
+axman=yxman
+brawler=bråkstake
+commander=befälhavare
+defender=försvarare
+destroyer=förstörare
+gladiator=gladiator
+guardian=väktare
+marauder=plundrare
+swordman=svärdsman
+warlord=krigsherre
+pyromancer=eldkonstyrlare
+ranger=jägare
+elementalist=elementalist
+berserker=berserker
+sentinel=vakt
+mercenary=legosoldat
+voodoo_witch=voodoohäxa
+prophet=profet
+priest=präst
+cleric=klerk
+assassin=assassin
+loremaster=mästersångare
+voodoowitch=Voodoo Witch
+warden=Warden
+archer=Archer
+deathknight=Dödsknight
+inquisitor=Inquisitor
+minstrel=Minstrel
+paladin=Paladin
+valkyrie=Valkyrie
+warlock=Krigshäxer
+AdventureCompletedCardback=Äventyr
+AdventureCompletedMadnessCardback=Galenskap
+ObeliskCompletedCardback=Obelisk
+ObeliskCompletedMadnessCardback=Demens
+preturnEffects=Börja tur-effekter
+postturnEffects=Avsluta tur-effekter
+characterDies=Karaktären dör
+followTheLeader=Följ ledaren
+followTheLeaderDesc=Du kommer automatiskt att välja samma alternativ som spelgruppens ledare (kartnoder, händelsesvar, etc.).
+magnusPet1=Sluta klappa mig... jag har ett rykte, för bövelen!
+magnusPet2=...Grrr... Mmm... Kan du göra det igen?
+conflictTitle=<sprite name=cardrandom>Konflikthantering
+conflictDescription=När det uppstår en oenighet mellan spelarna krävs en konflikthanteringskastning för att avgöra vem som vinner. Vid flera lika (3) kommer vinnaren att väljas slumpmässigt.
+conflictButton0=Lägsta kort
+conflictButton1=Närmaste kort till 2
+conflictButton2=Högsta kort
+noEnergy=Ingen energi
+physical=Physical
+elemental=Elemental
+mystical=Mystisk
+confirmPerks=Bekräfta perk-tilldelning
+cardsStealAuras=Stjäl {0} auras
+steal=Stjäla
+previousRequired=Föregående nod krävd
+usedPoints=Använda poäng {0}
+export=Export
+import=Import
+pressForCopyPaste=Dela kod för denna perk-konfiguration
+pressForImportTree=Skriv eller klistra in importkoden
+importPerkTreeNotPoints=Du har inte tillräckligt med totala perk-poäng ({0}) för att importera denna perk-konfiguration.
+invalidImportTalentTreeCode=Denna kod är inte giltig för att importera en perk-konfiguration.
+importedTree=Perk-konfigurationen har importerats
+wantOverwritePerks=Vill du ladda den här platsen och skriva över din perk-konfiguration?
+loadThisPerkConf=Ladda denna perk-konfiguration ({0} använda poäng)
+wantExitPerks=Du har osparade ändringar. Vill du stänga fönstret för perk-konfiguration?
+itemInitialCurrencySingle=Startguld {0}
+itemInitialShardsSingle=Inledande skärvor {0}
+default=Default
+perkTreeDescription=Du kan ändra dina fördelar innan spelet börjar och i den första staden (med vissa begränsningar).<br><br>Du kan också spara och ladda olika konfigurationer av fördelar innan spelet börjar.
+saveSlots=Sparplatser
+inputConfigSaveName=Ange namnet för denna konfiguration
+savedConfigDeleteConfirm=Vill du radera denna konfiguration?
+savedConfigCant=Sparplatser kan bara användas innan spelet börjar.
+perkBarDescription=Alla dina hjältar kommer att få fördelspoäng genom att spela spelet.
+chooseOnePerk=Välj <u>en</u> av följande fördelar.
+slashing=Slashing /// detta måste ha samma översättning som \"slash\"
+customMainperkPoison2b=Gifter på fiender minskar också Skuggmotstånd med 0,3% per laddning.
+customMainperkPoison2c=Gifter på fiender gör 50% mer skada men förlorar alla laddningar i slutet av rundan.
+customMainperkDark2b=Mörker på den här hjälten exploderar vid 38 laddningar.
+customMainperkDark2c=Explosion av mörker på fiender gör 35% mer skada.
+customMainperkDark2d=Mörkerladdningar på fiender exploderar också i slutet av rundan.
+customMainperkThorns1a=Taggar på hjältar förlorar inte laddningar när de träffas.
+customMainperkThorns1b=Taggar på den här hjälten gör istället Helig skada.
+customMainperkThorns1c=Taggar på den här hjälten applicerar 50% av sina laddningar som Gift till angriparen, istället för att göra skada.
+customMainperkSanctify2b=Helgigheten på fiender minskar heliga motståndet med 1,5% per laddning.
+customMainperkSanctify2c=När hjälten träffar en monster med Helgighet, gör den också 25% av målets Helgighet laddningar som Helig skada.
+customMainperkChill2b=Kylan på fiender minskar också trubbigt motstånd med 0,3% per laddning.
+customMainperkChill2c=Kylan på fiender minskar istället Hastighet med 1 per 4 laddningar.
+customMainperkChill2d=Kylan på denna hjälte minskar istället Hastighet med 1 per 8 laddningar och ger också 1 Förstärkelse per 14 laddningar i slutet av tur. 
+customMainperkBurn2b=Bränna på denna hjälte ökar också Hastighet med 1 per 8 laddningar och minskar istället eld motstånd med 0,3% per laddning.
+customMainperkBurn2c=Brinnande skada mot fiender gör Kall skada och minskar Eld och Kall resistens med 0,3% per laddning.
+customMainperkVulnerable0b=Maximala laddningar av Sårbar på fiender ökas med 1. Laddningarna minskas istället med 1 i slutet av rundan.
+customMainperkVulnerable0c=Sårbar på fiender minskar endast Slask, Genomborrning och Trubbig resistens, men minskningen ökar till 8% per laddning.
+customMainperkDecay1b=Förruttnelse på fiender minskar även läkning med 75% och kan inte avlägsnas om inte förbestämt.
+customMainperkDecay1c=Förruttnelse på fiender minskar också Skuggmotstånd med 8% per laddning.
+customMainperkTaunt1b=Hot på denna hjälten ökar också Slashing, Piercing och Blunt-motstånd med 10% per laddning.
+customMainperkTaunt1c=Hot på denna hjälten ökar också Eld-, Kyla- och Blixt-motstånd med 10% per laddning.
+customMainperkTaunt1d=Hot på denna hjälten ökar också Heliga, Skugg- och Sinnes-motstånd med 10% per laddning.
+customMainperkBless1a=Välsignels på denna hjälten ökar skada utförd med 1,5 per laddning, men ökar inte längre mottagen läkning.
+customMainperkBless1b=Välsignelse på denna hjälten ökar också utförd läkning med 1% per laddning.
+customMainperkBless1c=Välsignelse på hjältar ökar också helig resistans med 0,5% per laddning och förlorar inte laddningar i slutet av rundan.
+customMainperkVitality1a=Livskraft på den här hjälten ökar istället maximalt HP med 8 per laddning.
+customMainperkVitality1b=När den här hjälten får Livskraft, avlägsnas blödning.
+customMainperkVitality1c=Livskraft på hjältar ökar också sinnets resistans med 0,5% per laddning och förlorar inte laddningar i början av rundan.
+customMainperkRegeneration1a=Regeneration på den här hjälten läker också hjältarna vid deras sida.
+customMainperkRegeneration1b=Regeneration på hjältar ökar också läkning som tas emot med 1% per laddning.
+customMainperkRegeneration1c=Regeneration på hjältar ökar också Skuggmotståndet med 0,5% per laddning och förlorar inte laddningar i början av rundan.
+customMainperkPowerful1b=Kraftfulla maximala laddningar på denna hjälte ökade med 2. Laddningar minskas istället med 1 i slutet av rundan.
+customMainperkPowerful1c=Kraftfull på denna hjälte ökar skada och läkning med 10% per laddning och förlorar alla laddningar i slutet av rundan.
+customMainperkEnergy2a=När denna hjälte spelar ett kort som kostar 6 energi eller mer, återbetalas 1 energi.
+customMainperkEnergy2b=I omgång 2 får denna hjälte 1 energi i början av rundan.
+customMainperkEnergy2c=I omgång 4 får denna hjälte 2 energi i början av rundan.
+customMainperkMark1a=Denna hjälte är immun mot Markering.
+customMainperkMark1b=Märkningen på fiender förlorar inte laddningar när man förhindrar Smyg och i slutet av rundan.
+customMainperkMark1c=Märkningen på fiender minskar också Slashing-resistans med 0,3 % per laddning.
+customMainperkSight1b=Synen på fiender tar också bort Smyg när den används och kan inte försvinna om det inte anges.
+customMainperkSight1c=Laddar att du använder +3. Utsikt över fiender kan inte förhindras av buffert eller immun mot Utsikt, men förlorar alla laddningar i slutet av rundan.    
+customMainperkStealth1a=Stealth på hjältar ökar skada och läkning med 25% per laddning.
+customMainperkStealth1b=Stealth på denna hjälte förlorar inte laddningar i början av rundan.
+customMainperkStealth1c=Stealth på hjältar ökar också alla motstånd med 5% per laddning.
+customMainperkFury1b=Raseri på denna hjälte ökar istället skada med 1% per laddning men applicerar inte längre blödning i slutet av rundan.
+customMainperkFury1c=Raseri på denna hjälte ökar istället skada med 5% per laddning. Blödning på denna hjälte gör 50% mer skada och kan inte förhindras av buffert eller immun mot Blödning. 
+customMainperkBleed2b=Förblöda på den här hjälten skadar istället i slutet av rundan, men kan inte rensas om det inte specificeras. Förtörnans maximala laddningar på den här hjälten är 25. 
+customMainperkBleed2c=Laddningar som du applicerar +2. Förblöda på fiender skadar istället i slutet av rundan, men kan inte förhindras av Buffer eller immunitet mot Förblöda.
+customMainperkSharp1a=Skärpa på den här hjälten ökar istället Skärpskada med 1,5 per laddning, men ökar inte Sticksårsskada längre.
+customMainperkSharp1b=Skärpa på den här hjälten ökar istället Sticksårsskada med 1,5 per laddning, men ökar inte Skärpskada längre.
+customMainperkSharp1c=Skärpa på hjältar förlorar inte laddningar i slutet av rundan och kan inte rensas om det inte specificeras.
+customMainperkStanza0a=Vers på hjältar ökar all skada istället för endast Mentalskada.
+customMainperkStanza0b=Stanza I på den här hjälten ger också 1 Inspiration i slutet av rundan.
+customMainperkStanza0c=Den här hjälten kan inte få Stanza III.
+customMainperkReinforce0=Den här hjälten får 1 Förstärkning i början av striden. Förstärkning på den här hjälten kan inte avlägsnas om det inte anges.
+customMainperkReinforce1b=Förstärkning på hjältar ökar istället Slashing, Piercing och Blunt motstånd med 35%.
+customMainperkReinforce1c=Förstärkning på den här hjälten kan staplas och ökar istället Slashing, Piercing och Blunt motstånd med 7% per laddning. Maximalt antal laddningar är 8. 
+customMainperkInsulate0=Den här hjälten får 1 Isolering i början av striden. Isolering på den här hjälten kan inte avlägsnas om det inte anges.
+customMainperkInsulate1b=Isolera istället hjältarna ökar eld-, kyla- och blixtresistanser med 35%.
+customMainperkInsulate1c=Isolera på den här hjälten kan staplas och istället öka eld-, kyla- och blixtningsmotstånden med 7% per laddning. Maximalt antal laddningar är 8. 
+customMainperkCourage0=Den här hjälten får 1 Mod vid stridens början. Mod på den här hjälten kan inte avlägsnas om inte annat anges.
+customMainperkCourage1b=Mod på hjältar ökar istället heliga-, skugg- och sinnesmotståndet med 35%.
+customMainperkCourage1c=Mod på den här hjälten kan staplas och istället öka heliga-, skugg- och sinnesmotståndet med 7% per laddning. Maximalt antal laddningar är 8.
+customMainperkInspire0a=Den här hjälten får 1 Inspirera vid stridens början.
+customMainperkInspire0b=Inspirera har maximalt antal laddningar på den här hjälten är 1, men Inspirera drar 2 kort vid turstarten.
+customMainperkInspire0c=Denna hjälte är immun mot Stress.
+customMainperkInsane2b=Insane på fiender minskar även deras Max HP med 2 per laddning.
+customMainperkInsane2c=Insane på hjältar minskar istället Motstånd mot Sinne med 0.5 per laddning och skada orsakad med 0.3% per laddning.
+customMainperkWet1a=Våt på fiender ökar också den Kyla-skada som tas emot med 1 per laddning.
+customMainperkWet1b=Våt på fiender minskar också Motstånd mot Blixt med 1% per laddning och tappar inte laddningar i slutet av rundan.
+customMainperkWet1c=Våt på hjältar förhindrar istället 3 Bränning-laddningar per laddning och tappar inte laddningar i slutet av rundan.
+customMainperkFortify1a=Förstärkning på den här hjälten kan staplas och ökar Stump och Eld skada med 1 per laddning. Maximalt antal laddningar är 50. 
+customMainperkFortify1b=Denna hjälten får 1 Förstärkning på sin första tur. Förstärkning på den här hjälten kan inte rensas om det inte anges.
+customMainperkFortify1c=Förstärkning på hjältar förlorar alla laddningar i slutet av rundan och ger också 10 Block per borttagen laddning.
+customMainperkSpark2b=Funken på fiender tillämpar också 30% av sina laddningar som Funks laddningar till sidorna, i början av tur. 
+customMainperkSpark2c=Funken på fiender tillämpar också 1 Förlamning per 14 laddningar i slutet av tur.
+customMainperkCrack2b=Spricka på fiender minskar också Blockladdningarna med 0,5 per laddning.
+customMainperkCrack2c=Spricka på fiender tillämpar också 1 Sårbar per 14 laddningar i slutet av rundan.
+faeborg=Faeborg Forest
+cinematicIntro0=Allt började på prinsessans 16-årsdag.
+cinematicIntro1=När plötsligt en energiexplosion bröt ut från prinsessans kammare
+cinematicIntro2=och svepte genom kungariket Senenthia.
+cinematicIntro3=De kungliga vakterna utforskade varje hörn av slottet, 
+cinematicIntro4=men hittade inget tecken på henne eller Lord Hanshek, hovmagikern.
+cinematicIntro5=Kungen sände ut soldater över hela kungariket, men ingen av dem kom tillbaka.
+cinematicIntro6=Prinsessans spår försvann djupt inne i den Gamla Skogen, 
+cinematicIntro7=nära den uråldriga obelisken som hade varit vilande i århundraden...
+cinematicIntro8=Förtvivlad proklamerade kungen en kunglig förordning.
+cinematicIntro9=Meddelandes en belöning för den som förde prinsessan säkert hem. 
+cinematicIntro10=Nyheter spred sig snabbt över hela kungariket.
+cinematicIntro11=Många grupper av äventyrare förberedde sig för att undersöka obelisken.
+cinematicIntro12=Detta är historien om en av dessa grupper.
+cinematicOutro0=Det här är historien om hur de räddade mig...
+selectLanguage=Language
+selectLanguageChanged=Språkändringar träder i kraft nästa gång du startar spelet.
+steamErrorConnect=Misslyckades med att initialisera Steam API. Starta om Steam och försök igen.
+immortal=Immortal
+emotes=Emotes
+selectTheTarget=Välj målet
+credits=Credits
+gameDeveloper=Spelet utvecklare
+gameDesigner=Spelet designer
+gameArtDirector=Konstnärlig ledare
+gameLeadArtist=Lead-artist
+gameSeniorArtis=Senior artist
+effects=Effects
+paradoxPublishing=Paradox Publishing
+collaborations=Samarbeten
+music=Music
+sound=Ljud
+art=Konst
+iconArt=Ikon konst
+specialThanks=Särskilda tack
+huntress=jägare
+reaper=skördare
+creditsAnd={0} och alla som hjälper oss varje dag för att göra ett bättre spel.
+partyMembersWithPerk=Medlemmar i partiet med denna förmån:
+multiplayerNotWorkLowerVersion=Multispel fungerar inte för versioner som är lägre än {0}
+pleaseUpdate=Uppdatera ditt spel
+crackedVersion=Någon använder en krossad version av spelet. Spelet stängs nu.
+lastPlayedCard=Senast spelade kort
+restart=Restart
+restartInfo=Du kommer att ångra alla val som gjorts och processen börjar om
+restartClient={0} begär en återgång. Vill du starta om den här skärmen?
+customMainperkBurn2d=Bränna på fiender gör dubbelt så mycket skada om målet har två eller färre förbannelser (inklusive Bränna)
+customMainperkSharp1d=Skarp på hjältar ökar också Mörker-skadan med 1 per laddning.
+abortMultiplayerPlayer=En spelare blev frånkopplad. När spelaren ansluter igen kan du fortsätta spelet från den senaste sparpunkten.
+abortMultiplayerMaster=Spelets mästare blev frånkopplad. Spelet kommer att stängas nu. Du kan skapa ett nytt spel och ladda från den senaste sparpunkten.
+errorSteamAuth=Det var ett fel vid autentiseringen av Steam. Försök igen senare.
+lfmRoom=Letar efter medlemmar
+joinOldGame=Du verkar ha kopplat bort från spelet. Vill du försöka att återansluta till ditt tidigare spel?
+darkestnight=Mörkaste natten
+darkestnightDesc=Mörka laddningar exploderar även i slutet av rundan.
+challengeSpooky=Läskig Natt
+customSpookyNight=<gl>Alla monster får:</gl><br>All skada <bl>+1</bl><br><gl>-Varje runda-</gl><br>Alla hjältar lider av <rd>3</rd><i=dark>
+customSugarRush=<gl>Alla monster får:</gl><br>All skada <bl>+2</bl><br><gl>-Varje omgång-</gl><br>Blanda <crd=candy,1> in i varje hjältekortlek.
+customDeathGrip=<gl>Alla monster får:</gl><br>All skada <bl>+2</bl><br><gl>-Varje tur-</gl><br>Applicera <rd>1<i=shackle> 3</rd><i=dark> till en slumpmässig karaktär.
+itemApplyRandom=Applicera {0} till en slumpmässig karaktär
+recommended=Recommended
+cardsReduceAura=Minska aura-laddningar med {0}%
+cardsIncreaseCurse=Öka förbannelseladdningar med {0}%
+cardsIncreaseAura=Öka auraspänningar med {0}%
+transmute=Omvandla
+transform=Transform
+upgrade=Uppgradera
+cardbackDLCSpooky=Bus
+cardbackWeeklyHalloween=Gottgörelse
+requiredDLC=Du måste äga DLC <nobr>\"<color=#FFF>{0}</color>\"</nobr>
+requiredWeekly=Du måste slutföra den Veckovisa Utmaningen <nobr>\"<color=#FFF>{0}</color>\"</nobr><br><line-height=-20%><br><line-height=100%><size=-3>*Vissa utmaningar är endast tillgängliga under speciella evenemang
+weeklyCardbackReward=När du slutför utmaningen kommer du att få den här kortleken.
+customTrickorTreat=<gl>Alla monster får:</gl><br>All skada <bl>+1</bl><br><gl>-Kampstart-</gl><br>Blanda <crd=trick,1> eller <crd=treat,1> överst på varje hjältekortlek.
+profileMenu=Nuvarande profil: <size=+5><color=#B0B0B0>{0}</color></size>
+profileCreate=[Create profile]
+challengeThirdFloorReward=Nå tredje våningen av utmaningen för att låsa upp detta kort
+langCommunity=*Skapat av communityt
+itemCorruptionUpgrade=* När en hjälte utrustar samma föremål två gånger kommer föremålet att förvandlas till sin korrumperade version
+0: ///////////////////////////////////////////////////////////////////////////
+challengeYlmer=Skogsvaknar
+challengeYogger=Hotfulla tjut
+challengeIgnidoh=Golvet är lava
+challengeFaeborg=Frusen in i benet
+challengeTulah=Grönt blod
+challengeMinotaur=Vilda mästare
+challengeNhir=Kolsvart
+sacredthorns=Heliga törnen
+sacredthornsDesc=Törnen orsakar Heligt skada istället för Genomträngningsskada.
+extremeburning=Extremt brinnande
+extremeburningDesc=Brännskada orsakar dubbelskada om målet har två eller färre förbannelser (inräknat Brinnande).
+frostfire=Frosteld
+frostfireDesc=Brännskada orsakar Kyla-skada och minskar eld- och kylresistens med 0,3% per laddning.
+intensecold=Intensiv kyla
+intensecoldDesc=Kyla minskar Hastighet med 1 per 4 laddningar istället för var 5:e laddning.
+lethalpoison=Dödlig gift
+lethalpoisonDesc=Gift gör 50% mer skada men förlorar alla laddningar i slutet av rundan.
+hemorrhage=Blödning
+hemorrhageDesc=Bleed avgifter +2. Blödning orsakar skada i slutet av omgången men kan inte förhindras av Buffer eller immunitet mot Blödning.
+containedfury=Innesluten raseri
+containedfuryDesc=Raseri ökar skadan med 2% per avgift men tillämpar inte längre Blödning i slutet av omgången.
+customChaoticWind=<gl>Alla monster får:</gl><br>Hastighet <bl>+1</bl><br><gl>-Varje tur-</gl><br>Applicera <rd>1<i=fast> 2</rd><i=insane> på en slumpmässig karaktär.
+customChaoticWindA=<gl>Alla monster får:</gl><br>Hastighet <bl>+1</bl><br><gl>-Varje rund-</gl><br>Applicera <rd>2<i=fast> 2</rd><i=insane> till en slumpmässig karaktär.
+customChaoticWindB=<gl>Alla monster får:</gl><br>Hastighet <bl>+2</bl><br><gl>-Varje tur-</gl><br>Applicera <rd>2<i=fast> 2</rd><i=insane> på en slumpmässig karaktär.
+customChaoticWindRare=<gl>Alla monster får:</gl><br>Hastighet <bl>+3</bl><br><gl>-Varje tur-</gl><br>Applicera <rd>2<i=fast> 3</rd><i=insane> på en slumpmässig karaktär.
+customLivingForest=<gl>Alla monster får:</gl><br>Max HP <bl>+15</bl><br>All skada <bl>+2</bl><br><gl>-Varje runda-</gl><br>En slumpmässig monster får <rd>2<i=thorns> 2</rd><i=regeneration>
+customLivingForestA=<gl>Alla monster får:</gl><br>Max HP <bl>+25</bl><br>All skada <bl>+2</bl><br><gl>-Varje tur-</gl><br>Ett slumpmässigt monster får <rd>3<i=thorns> 3</rd><i=regeneration>
+customLivingForestB=<gl>Alla monster får:</gl><br>Max HP <bl>+35</bl><br>Skada <bl>+3</bl><br><gl>-Varje tur-</gl><br>Ett slumpmässigt monster får <rd>4<i=thorns> 4</rd><i=regeneration>
+customLivingForestRare=<gl>Alla monster får:</gl><br>Maximal HP <bl>+45</bl><br>All skada <bl>+4</bl><br><gl>-Varje tur-</gl><br>Ett slumpmässigt monster får <rd>5<i=thorns> 4</rd><i=regeneration>
+customStarryNight=<gl>Alla monster får:</gl><br>Max HP <bl>+15</bl><br><gl>-Varje tur-</gl><br>Göra <rd>4<i=holy></rd> och applicera <rd>1<i=sanctify> 1</rd><i=burn> på en slumpmässig hjälte.
+customStarryNightA=<gl>Alla monster får:</gl><br>Max HP <bl>+15</bl><br><gl>-Varje tur-</gl><br>Skada <rd>5<i=holy></rd> och applicera <rd>2<i=sanctify> 2</rd><i=burn> på en slumpad hjälte.
+customStarryNightB=<gl>Alla monster får:</gl><br>Max HP <bl>+15</bl><br><gl>-Varje tur-</gl><br>Försörjning <rd>6<i=holy></rd> och applicera <rd>3<i=sanctify> 3</rd><i=burn> på en slumpmässig hjälte.
+customStarryNightRare=<gl>Alla monster får:</gl><br>Maximalt HP <bl>+15</bl><br><gl>-Varje tur-</gl><br>Gör <rd>7<i=holy></rd> och applicera <rd>4<i=sanctify> 4</rd><i=burn> på en slumpmässig hjälte.
+customRoseGarden=<gl>Alla monster får:</gl><br>Max HP <bl>+15</bl><br><gl>-Combat start-</gl><br>Få <bl>5</bl><i=thorns>
+customRoseGardenA=<gl>Alla monster får:</gl><br>Max HP <bl>+20</bl><br><gl>-Matchstart-</gl><br>Få <bl>9</bl><i=thorns>
+customRoseGardenB=<gl>Alla monster får:</gl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Få <bl>12</bl><i=thorns>
+customRoseGardenRare=<gl>Alla monster får:</gl><br>Max HP <bl>+30</bl><br><gl>-Kampstart-</gl><br>Få <bl>16</bl><i=thorns>
+customBombLottery=<gl>Alla monster får:</gl><br>All skada <bl>+1</bl><br><gl>-Varje runda-</gl><br>Blanda <crd=bomb,1> innan slumpmässig hjälters kortlek.
+customBombLotteryA=<gl>Alla monster får:</gl><br>All skada <bl>+2</bl><br><gl>-Varje rond-</gl><br>Blanda <crd=bomb,1> in i en slumpmässig hjältes lek.
+customBombLotteryB=<gl>Alla monster får:</gl><br>All skada <bl>+1</bl><br><gl>-Varje runda-</gl><br>Blanda <crd=bomb,1> innan slumpmässig hjälters kortlek.
+customBombLotteryRare=<gl>Alla monster får:</gl><br>All skada <bl>+3</bl><br><gl>-Varje omgång-</gl><br>Blanda <crd=bomb,1> in i en slumpmässig hjälteslek.
+customAshySky=<gl>Alla monster får:</gl><br>All skada <bl>+2</bl><br>Alla motstånd <bl>+5%</bl><br><gl>-Varje runda-</gl><br>Lägg till <crd=ashstorm,1> till ett slumpmässigt monster.
+customAshySkyA=<gl>Alla monster får:</gl><br>All skada <bl>+2</bl><br>Alla motstånd <bl>+10%</bl><br><gl>-Varje runda-</gl><br>Lägg till <crd=ashstorm,1> till en slumpmässig monster.
+customAshySkyB=<gl>Alla monster får:</gl><br>All skada <bl>+3</bl><br>All motstånd <bl>+15%</bl><br><gl>-Every round-</gl><br>Lägg <crd=ashstorm,1> till en slumpmässig monster.
+customAshySkyRare=<gl>Alla monster får:</gl><br>All skada <bl>+4</bl><br>All motstånd <bl>+20%</bl><br><gl>-Varje omgång-</gl><br>Lägg till <crd=ashstorm,1> till ett slumpmässigt monster.
+customSnowfall=<gl>Alla monster får:</gl><br>Max HP <bl>+15</bl><br><gl>-Kamp start-</gl><br>Place <crd=coldhands,1> överst på varje hjältes kortlek och applicera <rd>5<i=chill>
+customSnowfallA=<gl>Alla monster får:</gl><br>Max HP <bl>+25</bl><br><gl>-Strid börjar-</gl><br>Placera <crd=coldhands,1> överst i varje hjälteslek och applicera <rd>8<i=chill>
+customSnowfallB=<gl>Alla monster får:</gl><br>Max HP <bl>+35</bl><br><gl>-Combat start-</gl><br>Placera <crd=coldhands,1> överst i varje hjältes lek och tillämpa <rd>10<i=chill>
+customSnowfallRare=<gl>Alla monster får:</gl><br>Max HP <bl>+45</bl><br><gl>-Strid start-</gl><br>Placera <crd=coldhands,1> överst i varje hjältes lek och applicera <rd>12<i=chill>
+customMeatFeast=<gl>Alla monster får:</gl><br>All skada <bl>+2</bl><br><gl>-Varje omgång-</gl><br>Lägg till <crd=premiummeato,1>, <crd=meato,1> eller <crd=spoiledmeato,1> till alla monster.
+customMeatBag=<act>[First turn]</act><br>Blanda <crd=premiummeat,1>, <crd=meat,1> eller <crd=spoiledmeat,1> in i din lek.
+customMeatBagA=<i=slashing>motstånd <bl>+3%</bl><br><act>[First turn]</act><br>Blanda <crd=premiummeat,1>, <crd=meat,1> eller <crd=spoiledmeat,1> in i din lek.
+customMeatBagB=<i=slashing> motstånd <bl>+5</bl><br><act>[First turn]</act><br>Blanda <crd=premiummeat,1>, <crd=meat,1> eller <crd=spoiledmeat,1> in i din lek.
+customForestAllies=<gl>Alla monster får:</gl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Lägg till <crd=forestallya,1>, <crd=forestallyb,1> eller <crd=forestallyc,1> på alla monster.
+customLavaBursts=<gl>Alla monster får:</gl><br>Max HP <bl>+25</bl><br><gl>-Varje tur-</gl><br>Slå <rd>5<i=fire></rd> och applicera <rd>2<i=burn></rd> till en slumpmässig hjälte.
+customColdFront=<gl>Alla monster får:</gl><br>Max HP <bl>+25</bl><br><gl>-Varje tur-</gl><br>Gör <rd>5<i=cold></rd> och applicera <rd>2<i=chill></rd> på en slumpmässig hjälte.
+customLonelyBlob=<gl>Alla monster får:</gl><br>Max HP <bl>+15</bl><br><gl>-Combat start-</gl><br>Lägg till en slumpmässig <i=card><color=#5E3016>Blob</color> till ett slumpmässigt monster.
+customLonelyBlobA=<gl>Alla monster får:</gl><br>Max HP <bl>+25</bl><br><gl>-Strid start-</gl><br>Lägg till en slumpmässig <i=card><color=#5E3016>Blob</color> till ett slumpmässigt monster.
+customLonelyBlobB=<gl>Alla monster får:</gl><br>Max HP <bl>+35</bl><br><gl>-Combat börjar-</gl><br>Lägg till en slumpmässig <i=card><color=#5E3016>Blob</color> till ett slumpmässigt monster.
+customLonelyBlobRare=<gl>Alla monster får:</gl><br>Max HP <bl>+45</bl><br><gl>-Strid börjar-</gl><br>Lägg till en slumpmässig <i=card><color=#5E3016>Blob</color> till ett slumpmässigt monster.
+customColorfulPuddle=<gl>Alla monster får:</gl><br>Allt skada <bl>+1</bl><br>Max HP <bl>+15</bl><br><gl>-Kamp start-</gl><br>Lägg till en slumpmässig <i=card><color=#5E3016>Blob</color> till alla monster.
+customColorfulPuddleA=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Add a random <i=card><color=#5E3016>Blob</color> to all monsters.
+customColorfulPuddleB=<gl>Alla monster får:</gl><br>All skada <bl>+2</bl><br>Max HP <bl>+35</bl><br><gl>-Combat start-</gl><br>Lägg till en slumpmässig <i=card><color=#5E3016>Blob</color> till alla monster.
+customColorfulPuddleRare=<gl>Alla monster får:</gl><br>All skada <bl>+3</bl><br>Max HP <bl>+45</bl><br><gl>- Strid börjar -</gl><br>Lägg till en slumpmässig <i=card><color=#5E3016>Blobba</color> till alla monster.
+customBloodPuddle=<gl>Alla monster får:</gl><br>All skada <bl>+1</bl><br>Max HP <bl>+25</bl><br><gl>-Strid start-</gl><br>Lägg till <crd=bloodblob,1> på alla monster.
+customChaosPuddle=<gl>Alla monster får:</gl><br>All skada <bl>+1</bl><br>Max HP <bl>+25</bl><br><gl>-Kamp start-</gl><br>Lägg till <crd=chaosblob,1> till alla monster.
+customDarkPuddle=<gl>Alla monster får:</gl><br>All skada <bl>+1</bl><br>Max HP <bl>+25</bl><br><gl>-Kampen startar-</gl><br>Lägg till <crd=darkblob,1> för alla monster.
+customElectricPuddle=<gl>Alla monster får:</gl><br>All skada <bl>+1</bl><br>Max HP <bl>+25</bl><br><gl>-Strid börjar-</gl><br>Lägg till <crd=electricblob,1> till alla monster.
+customHolyPuddle=<gl>Alla monster får:</gl><br>All skada <bl>+1</bl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Lägg till <crd=holyblob,1> till alla monster.
+customIcyPuddle=<gl>Alla monster får:</gl><br>All skada <bl>+1</bl><br>Max HP <bl>+25</bl><br><gl>-Strid börjar-</gl><br>Lägg till <crd=icyblob,1> i alla monster.
+customLavaPuddle=<gl>Alla monster får:</gl><br>All skada <bl>+1</bl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Lägg till <crd=lavablob,1> till alla monster.
+customMetalPuddle=<gl>Alla monster får:</gl><br>All skada <bl>+1</bl><br>Max HP <bl>+25</bl><br><gl>-Strid börjar-</gl><br>Lägg till <crd=metalblob,1> till alla monster.
+customToxicPuddle=<gl>Alla monster får:</gl><br>All skada <bl>+1</bl><br>Max HP <bl>+25</bl><br><gl>-Strid börjar-</gl><br>Lägg till <crd=toxicblob,1> till alla monster.
+customWaterPuddle=<gl>Alla monster får:</gl><br>All skada <bl>+1</bl><br>Max HP <bl>+25</bl><br><gl>-Strid börjar-</gl><br>Lägg till <crd=waterblob,1> till alla monster.
+customGainPerHero=Få {0} per hjälte.
+customGainPerHeroAnd=Få {0} och {1} per hjälte.
+itemEveryRoundRound=Varje runda
+menuLog=Stridslogg
+youMustSelectHero=Du måste välja följande hjälte:<br><color=#FFC555>{0}</color>
+townTutorial=Stadstutorial
+townTutorialStep0=Gå in i Magic Forge och köp ett \"{0}\" kort för {1}.
+townTutorialStep1=Gå till Altaret och uppgradera \"{0}\" kortet för {1}.
+townTutorialStep2=Gå in i förrådet och köp en \"{0}\" för {1}.
+tutorialTownNeedComplete=Du måste slutföra stadsdelen själv
+tutorialTownCraftDoneTitle=Skapa kort
+tutorialTownCraftDone=Du kommer att låsa upp nya kort under dina äventyr. Gå nu till altaret för nästa tutorials steg.
+tutorialTownUpgradeTitle=Transformera kort
+tutorialTownUpgrade=Genom att betala med skärvor kan du uppgradera dina kort till mer kraftfulla versioner.<line-height=160%><br></line-height><color=#FFC555>Uppgradera kortet \"{0}\" från {1}</color>.
+tutorialTownUpgradeDoneTitle=Transformera kort
+tutorialTownUpgradeDone=Tänk på att kostnaden för att uppgradera ett kort kommer att baseras på kortets sällsynthet. Gå nu till Vapenhuset för att avsluta stadsövningen.
+tutorialTownLootTitle=Köp föremål
+tutorialTownLoot=I de städer och butiker som finns utspridda över världen kan du köpa föremål till dina hjältar som kommer att förbättra deras statistik och prestanda.<line-height=160%><br></line-height><color=#FFC555>Köp \"{0}\" med {1}</color>.
+tutorialTownLootDoneTitle=Köp föremål
+tutorialTownLootDone=Grattis! Du har avslutat stads-tutorialen och är redo att påbörja ditt äventyr!
+terrainCondition=Terrängförhållande
+terrainConditionDesc=En speciell typ av terräng där hjältarna startar striden med olika förhållanden:
+heavyRain=Starkt regn
+extremeHeat=Extrem hetta
+freezingCold=Isande kyla
+holyGround=Helig Mark
+graveyard=Gravplats
+poisonousAir=Giftig Luft
+frozenSewers=De Frusna Avloppen
+blackForge=Svarta Smedjan
+wolfWars=Vargkrigen
+wolfWarsIntro=Flera år efter att ha gift sig med kungen av Senenthia startade drottning Amelia en kampanj för att stärka banden och välkomna alla olika raser i kungariket under en gemensam flagga.<br><br>De flesta av raserna, som alltid har trakasserats och jagats av varulvar, accepterade förslaget med hopp. Dock ville hövdingen Gorio fortsätta styra den nordöstra delen av skogen och hävdade rätten att fritt jaga för sina varulvar.<br><br>Efter månader av förhandlingar mellan drottning Amelia och hövding Gorio avbröts förhandlingarna av den senare. Gorio förklarade att hans varulvar inte skulle tämjas och att vem som än gick in i skogen skulle bli hans byten.<br><br>Rörd av vädjan från alla raser i kungariket och i hopp om att skydda dem, beslutade drottning Amelia att starta en offensiv för att avsätta Gorio.
+bandit=Bandit
+food=Mat
+roadmapHomeText=<tit>Välkommen, allihopa!</tit>Vi har precis släppt version 1.1 av spelet, med massor av gratis innehåll som två nya underområden, nya föremål och nya funktioner som stridsloggen.<br><br>Dessutom har vi släppt vårt första berättelsedLC, The Wolf Wars, som inkluderar en ny hjälte, skin, etc. Vi hoppas att ni gillar det!<br><br><tit>Vad händer härnäst?</tit>Vi kommer att arbeta på heropedian med en liten twist. Och vi kommer att fokusera på den första stora DLC-en, en stor zon för akt 2 och 3 fylld med nya fiender, föremål, händelser och nya hjältar!
+requiredEvent=Du måste slutföra evenemanget \"{0}\"
+challengeHydra=Dangerous Waters
+icydeluge=Icy Deluge
+icydelugeDesc=Blötslask +1. Blötslask ökar också kyla-skada med 1 per laddning.
+cardbackDangerousWaters=rptd_challengeHydra
+cardbackFloorIsLava=rptd_challengeIgnidoh
+cardbackForestAwakens=rptd_challengeYlmer
+cardbackFrozenToTheBone=rptd_challengeFaeborg
+cardbackGreenBlood=rptd_challengeTulah
+cardbackPitchBlack=rptd_challengeNhir
+cardbackThreateningHowls=rptd_challengeYogger
+cardbackWildChampions=rptd_challengeMinotaur
+1: ////////////////////////// ny inte skickat /////
+dlcAcronymForCharSelection=DLC
+cardbackTitle0=Karaktär
+cardbackTitle1=General
+cardbackTitle2=Andra
+customHeavenlyArmaments=<gl>Alla monster får:</gl><br>Max HP <bl>+15</bl><br>Immun mot <i=sanctify><br><gl>-Varje runda-</gl><br>Få <bl>2</bl><i=bless><bl>2</bl><i=regeneration><bl>2</bl><i=vitality><bl>1</bl><i=fast>
+customHeavenlyArmamentsA=<gl>Alla monster får:</gl><br>Max HP <bl>+30</bl><br>Immune to <i=sanctify><br><gl>-Varje omgång-</gl><br>Får <bl>3</bl><i=bless><bl>3</bl><i=regeneration><bl>2</bl><i=vitality><bl>1</bl><i=fast>
+customHeavenlyArmamentsB=<gl><span class=\"notranslate\">Alla monster tar emot:</span></gl><br><span class=\"notranslate\">Max HP</span> <bl>+45</bl><br><span class=\"notranslate\">Immun mot</span> <i=sanctify><br><gl><span class=\"notranslate\">-Varje runda-</span></gl><br><span class=\"notranslate\">Få</span> <bl></bl></bl><i=bless><bl><bl></bl><i=regeneration><bl><bl></bl><i=vitality><bl><br></bl><i=fast>
+customHeavenlyArmamentsRare=<gl>Alla monster får:</gl><br>Max HP <bl>+60</bl><br>Immuna mot <i=sanctify><br><gl>-Varje runda-</gl><br>Får <bl>4</bl><i=bless><bl>4</bl><i=regeneration><bl>3</bl><i=vitality><bl>2</bl><i=fast>
+itemRecoverLowestHPHero=lägsta HP hjälte återhämtar {0} HP
+customButchersTable=Max HP <bl>+10</bl><br><gl>[Every turn]</gl><br>Lägg <crd=premiummeat,1>, <crd=meat,1> eller <crd=spoiledmeat,1> i din hand.
+customButchersTableRare=Max HP <bl>+20</bl><br><gl>[Every turn]</gl><br>Lägg <crd=premiummeat,1>, <crd=meat,1> eller <crd=bloodsausage,1> i din hand.
+requiredDLCandQuest=Du måste äga DLC:n <nobr>\"<color=#FFF>{0}</color>\"</nobr> och slutföra ett event
+characterSkin=Karakterskin
+playerDontHaveDLC=Den här spelaren har inte DLC <nobr>\"<color=#FFF>{0}</color>\"</nobr>
+enableKeysOption=Aktivera tangentbordsgenvägar i strid//Visa tangentbordsgenvägar i strid.
+enableKeysOptionDes=Genvägsnummer kommer också att visas under strid//Den här inställningen aktiveras också om du använder någon tangentbordsgenväg under strid.
+consoleDraw=<color=#AAA>Drar kort ({0})</color> {1} // 0 är antalet kort och 1 är en lista över auror
+consoleCardToHand={0} <color=#AAA>sätter i handen</color> // {0} är karaktärsnamn
+consoleCardToTopDeck={0} <color=#AAA>placerar på översta däcket</color> // {0} är karaktärsnamn
+consoleCardToBottomDeck={0} <color=#AAA>placerar på understa däcket</color> // {0} är karaktärsnamn
+consoleCardToRandomDeck={0} <color=#AAA>blandar in i lek</color> // {0} är karaktärsnamn
+consoleCardToDiscard={0} <color=#AAA>kastar</color>
+consoleCardToVanish={0} <color=#AAA>flyttas till</color> och försvinner {0} är karaktärsnamn
+consoleCardModification={0} <color=#AAA>modifierar kort</color> och {0} är karaktärsnamn
+consoleCorruptionActivated=Korruption aktiverad
+consoleItemActivated=Föremål aktiverat
+consoleTraitActivated=Egenskap aktiverad
+consoleCharacterCasted={0} <color=#AAA>kastade</color> och {0} är karaktärsnamn
+consoleBeginTurn=<b>{0}</b> <link: {1}><color=#B7789E><u>Börja drag</u></color></link> // {0} är karaktärsnamn
+consoleEndTurn=<b>{0}</b> <link: {1}><color=#B7789E><u>Sluta tur</u></color></link> // {0} är karaktärsnamn
+consoleCombatStatus=Stridsstatus
+yoggerPet1=Vem tror du att jag är? Magnus?
+yoggerPet2=Hur vågar du! Jag gör dig till hackat kött!
+2: /////////////////  översättning slutar här ///////////////////////////////////
+fallen=Fallen
+vanguard=Vanguard
+wraith=Skepnad
+revenant=Revenant
+zeal=Zeal
+scourge=Scourge
+dualClassReward=* Dual-class characters always get 4 card rewards (2 for each character class).
+cardsXEqualsYourSpeed=(X equals your speed {0})
+cardsXEqualsTargetSpeed=(X equals target speed {0})
+cardsXEqualsDifferenceSpeed=(X equals speed difference between you and the target {0})
+customBookoftheDead=Alla skador <bl>+4</bl><br><color=#4D4D4D>[Character dies]</color><br>Kasta <crd=raisemage,1>, <crd=raisepriest,1> eller <crd=raisewarlock,1><br><color=#4D4D4D>[1 time / combat]
+customBookoftheDeadrare=Alla skador <bl>+6</bl><br><color=#4D4D4D>[Character dies]</color><br>Kasta <crd=raisemagerare,1>, <crd=raisepriestrare,1> eller <crd=raisewarlockrare,1><br><color=#4D4D4D>[1 time / combat]
+customMixedSalad=Max HP <bl>+5</bl><br><gl>[Every turn]</gl><br>Put <crd=tomato,1>, <crd=carrot,1> or <crd=broccoli,1> into your hand.
+customMixedSaladrare=Max HP <bl>+15</bl><br><gl>[Every turn]</gl><br>Lägg <crd=tomato,1>, <crd=carrot,1> eller <crd=broccoli,1> i din hand.
+pickRandomHero=Välj en slumpvis hjälte
+cardsXEqualsYourDiscardedCards=(X motsvarar bortkastade <space=.1><sprite name=card>{0})
+cardsXEqualsYourVanishedCards=(X är lika med försvunnen <space=.1><sprite name=card>{0})
+cardsXEqualsTargetMissingHealth=(X är lika med målets saknade hälsa {0})
+cardsXEqualsYourMissingHealth=(X är lika med din saknade hälsa {0})
+itemEveryRoundRoundN=Var {0} omgångar
+itemReduceCost=(med kostnad >:  {0})
+scarabBonus=Skarabébonus: {0} /per hjälte
+itemTwicePerCombat=Två gånger per strid
+itemThricePerCombat=Tre gånger per strid
+customCrystallize=Genererar en ytterligare belöning på 150<i=dust> per hjälte.
+escapes=Escapes
+luckyscarab=Lyckligt skalbagge
+useSupplies=Använd leveranser för att öka denna karaktärs rank.
+useSuppliesAvailable=[ {0}  <sprite name=supply> available ]  /// 10 <supplies> tillgängliga
+useSuppliesRequirement=*Kräver karaktärsrankning 10 och fullständigt upplåsta staduppgraderingar.
+cardsVanish=Försvinn {0}
+itemSixPerTurn=6 gånger/omgång
+itemSevenPerTurn=7 gånger/omgång
+itemEightPerTurn=8 gånger/omgång
+cardsIDPlaceDiscard=Lägg {0} på din avfallshög// 0 : > kortnamn
+ulminin=Ulminins öken

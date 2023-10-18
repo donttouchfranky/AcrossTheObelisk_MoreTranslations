@@ -1,0 +1,28 @@
+tip0=Ju mindre din lek är, desto större är chanserna att dra ett kort som du behöver.
+tip1=Ju snabbare du avslutar striden, desto bättre belöningar får du.
+tip2=Kela INTE Magnus. Han har ett rykte.
+tip3=Du kan skapa en grupp med vilken kombination av klasser som helst, inklusive flera karaktärer av samma klass.
+tip4=Ibland är det lika fördelaktigt att inte lägga till kort som att lägga till kort.
+tip5=Anslut till vår Discord-gemenskap för guider, hjälp, återkoppling och förslag! Det finns en länk för att ansluta på huvudmenyskärmen.
+tip6=Hitta andra personer att spela med i kanalen #LFG på den officiella Discord.
+tip7=Du kan alltid välja att slåss utan att acceptera korruption. Det är hög risk, hög belöning!
+tip8=Du behöver inte använda rekommenderade klasser. Prova olika lag för att skapa din egen stil!
+tip9=Kort med ikonen <icon=vanish> kan bara användas en gång per strid.
+tip10=<icon=fury> kan göra dig starkare, till priset av <icon=bleed> per tur. Kan du hantera kraften?
+tip11=<icon=thorns> och <icon=burn> skada kan båda blockeras av <icon=block>.<br>Se till att träffa dem först om du vill att denna skada ska tränga igenom!
+tip12=Håll utkik efter nyckelobjektsikoner på kartan. Det kan finnas en unik interaktion med ett objekt du har samlat in.
+tip13=Varje karaktär har sina egna dialogalternativ. Testa dem alla för att se vilka hemligheter du kan upptäcka.
+tip14=<icon=block> tas bort i slutet av rundan.<br>Den <icon=fortify> aura kommer att låta dig behålla den <icon=block> till nästa runda.
+tip15=Genom att öka dina motståndskrafter med auras som <icon=insulate>, <icon=reinforce> eller <icon=courage> , hjälper du ditt lag att ta mindre skada.
+tip16=Det är inte nödvändigt att slå dina kort i alla händelser. Om du har svårt, försök att spela säkert.
+tip17=Att vara den första att flytta är avgörande för vissa karaktärer. Håll koll på kort som modifierar hastigheten.
+tip18=Den <icon=energy> som inte används kommer att sparas för nästa omgång. Slösa inte bort den när det inte är nödvändigt.
+tip19=Du kan högerklicka på ett kort för att komma åt en skärm med all information om kortet.
+tip20=Att fokusera på en skadetyp kan vara kraftfullt, men du kan behöva en reservplan för fiender som kan motstå det.
+tip21=Är striden för långsam för dig? Du kan aktivera 'Snabbt läge' under fliken Spelinställningar.
+tip22=Var alltid uppmärksam på <icon=thorns>. Du kommer att bli skadad om du attackerar ett monster som skyddas av detta effekt.
+tip23=Er elementära monster ett problem för ditt team?<br><icon=insulate> kommer att öka dina elementresistanser.
+tip24=Vill du bli av med den irriterande <icon=burn> effekten?<br><icon=wet> är ett snabbt sätt att helt ta bort det.
+//////////////////////////////// ÖVERSÄTTNINGEN SLUTAR HÄR
+tip25=Vill du ha snabbare spel eller ett mer slumpmässigt läge? Spela Obeliskutmaningen!
+tip26=När en hjälte har samma föremål två gånger kommer föremålet att förvandlas till sin korrumperade version.

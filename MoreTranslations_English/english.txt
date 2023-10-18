@@ -1807,7 +1807,7 @@ customMainperkFortify1c=Fortify on heroes loses all charges at the end of the ro
 requiredDLCandQuest=You need to own the DLC <nobr>"<color=#FFF>{0}</color>"</nobr> and complete an event
 characterSkin=Character Skin
 playerDontHaveDLC=This player doesn't have the DLC <nobr>"<color=#FFF>{0}</color>"</nobr>
-enableKeysOption=Activate keyboard shortcuts in combat//Show key shortcuts in combat.
+enableKeysOption=Activate keyboard shortcuts
 enableKeysOptionDes=Shortcut numbers will also be shown during combat//This option will also be activated if you use any shortcut key during combat.
 
 consoleDraw=<color=#AAA>Draws cards ({0})</color> {1} // 0 is the number of cards and 1 is a list of auras
@@ -1851,7 +1851,8 @@ customMixedSalad=Max HP <bl>+5</bl><br><gl>[Every turn]</gl><br>Put <crd=tomato,
 customMixedSaladrare=Max HP <bl>+15</bl><br><gl>[Every turn]</gl><br>Put <crd=tomato,1>, <crd=carrot,1> or <crd=broccoli,1> into your hand.
 
 customBurningBlood=Transform<i=bleed>into<i=burn>x0.3<br>Gain <bl>X</bl><i=fury><br><size=-.15><gl>(X equals your<i=bleed>x0.3)</gl></size>
-customBurningBloodA=Transform<i=bleed>into<i=burn>x0.3<br>Gain <bl>X</bl><i=fury><br><size=-.15><gl>(X equals your<i=bleed>x0.3)</gl></size>
+customBurningBloodA=Transform<i=bleed>into<i=burn>x0.3<br>Grant <bl>X</bl><i=fury><br><size=-.15><gl>(X equals target<i=bleed>x0.3)</gl></size>
+customBurningBloodRare=Transform<i=bleed>into<i=burn>x0.5<br>Grant <bl>X</bl><i=fury><br><size=-.15><gl>(X equals target<i=bleed>)</gl></size>
 
 pickRandomHero=Pick a random hero
 cardsXEqualsYourDiscardedCards=(X equals discarded <space=.1><sprite name=card>{0})
@@ -1884,7 +1885,7 @@ resistantMonstersDesc=All monsters gain an additional +10% to all resistances.
 decadenceDesc=All heroes have <nobr>-20%</nobr> to healing received and Vitality heals only 50% of the max HP gained.
 
 customMainperkPowerful1c=Powerful on this hero increases damage and healing done by 10% per charge. Maximum charges reduced by 3 and loses all charges at the end of the turn.
-customMainperkInspire0a=This hero gains 1 Inspire at the start its turn.
+customMainperkInspire0a=This hero gains 1 Inspire on their first turn.
 customMainperkSharp1d=Sharp on this hero also increases the Shadow damage by 1 per charge.
 
 pyramid=The Ancient Pyramid
@@ -1894,8 +1895,8 @@ cardPlayerPairsRound=<color=#FFF>Round [{0}/{1}]</color><br><color={2}>{3}'s tur
 
 customArmagedon=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><i=fire><i=blunt> resistances <bl>+30%</bl><br><gl>-Every round-</gl><br>Add <crd=meteorite,1> to all monsters.
 customArmagedonA=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><i=fire><i=blunt> resistances <bl>+40%</bl><br><gl>-Every round-</gl><br>Add <crd=meteorite,1> to all monsters.
-customArmagedonB=<gl>All monsters gain:</gl><br>All damage <bl>+3</bl><br><i=fire><i=blunt> resistances <bl>+50%</bl><br><gl>-Every round-</gl><br>Add <crd=meteorite,1> to all monsters.
-customArmagedonRare=<gl>All monsters gain:</gl><br>All damage <bl>+4</bl><br><i=fire><i=blunt> resistances <bl>+50%</bl><br><gl>-Every round-</gl><br>Add <crd=meteorite,1> to all monsters.
+customArmagedonB=<gl>All monsters gain:</gl><br>All damage <bl>+3</bl><br><i=fire><i=blunt> resistances <bl>+45%</bl><br><gl>-Every round-</gl><br>Add <crd=meteorite,1> to all monsters.
+customArmagedonRare=<gl>All monsters gain:</gl><br>All damage <bl>+4</bl><br><i=fire><i=blunt> resistances <bl>+45%</bl><br><gl>-Every round-</gl><br>Add <crd=meteorite,1> to all monsters.
 
 customHeavenlyArmaments=<gl>All monsters gain:</gl><br>Max HP <bl>+15</bl><br><gl>-Every round-</gl><br>Gain <bl>2</bl><i=bless><bl>2</bl><i=regeneration><bl>2</bl><i=vitality><bl>1</bl><i=zeal><bl>1</bl><i=fast>
 customHeavenlyArmamentsA=<gl>All monsters gain:</gl><br>Max HP <bl>+30</bl><br><gl>-Every round-</gl><br>Gain <bl>3</bl><i=bless><bl>3</bl><i=regeneration><bl>2</bl><i=vitality><bl>2</bl><i=zeal><bl>1</bl><i=fast>
@@ -1908,14 +1909,14 @@ customPutrefactionB=<gl>All monsters gain:</gl><br>All damage <bl>+3</bl><br>Imm
 customPutrefactionRare=<gl>All monsters gain:</gl><br>All damage <bl>+4</bl><br>Immune to <i=scourge><i=decay><br><gl>When a monster deals damage,</gl> it applies <rd>4</rd><i=dark><rd>2</rd><i=decay>
 
 customMelancholy=<gl>All monsters gain:</gl><br>Max HP <bl>+15</bl><br>All resistances <bl>+10%</bl><br><i=mind> resistance <bl>+20%</bl><br><gl>-Every round-</gl><br>Shuffle <crd=sad,2> into each hero deck.</color>
-customMelancholyA=<gl>All monsters gain:</gl><br>Max HP <bl>+25</bl><br>All resistances <bl>+15%</bl><br><i=mind> resistance <bl>+25%</bl><br><gl>-Every round-</gl><br>Shuffle <crd=sad,2> into each hero deck.</color>
-customMelancholyB=<gl>All monsters gain:</gl><br>Max HP <bl>+35</bl><br>All resistances <bl>+20%</bl><br><i=mind> resistance <bl>+30%</bl><br><gl>-Every round-</gl><br>Shuffle <crd=sad,2> into each hero deck.</color>
-customMelancholyRare=<gl>All monsters gain:</gl><br>Max HP <bl>+45</bl><br>All resistances <bl>+25%</bl><br><i=mind> resistance <bl>+30%</bl><br><gl>-Every round-</gl><br>Shuffle <crd=sad,2> into each hero deck.</color>
+customMelancholyA=<gl>All monsters gain:</gl><br>Max HP <bl>+25</bl><br>All resistances <bl>+15%</bl><br><i=mind> resistance <bl>+20%</bl><br><gl>-Every round-</gl><br>Shuffle <crd=sad,2> into each hero deck.</color>
+customMelancholyB=<gl>All monsters gain:</gl><br>Max HP <bl>+35</bl><br>All resistances <bl>+20%</bl><br><i=mind> resistance <bl>+25%</bl><br><gl>-Every round-</gl><br>Shuffle <crd=sad,2> into each hero deck.</color>
+customMelancholyRare=<gl>All monsters gain:</gl><br>Max HP <bl>+45</bl><br>All resistances <bl>+25%</bl><br><i=mind> resistance <bl>+25%</bl><br><gl>-Every round-</gl><br>Shuffle <crd=sad,2> into each hero deck.</color>
 
 customNoxiousParasites=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><i=slashing><i=piercing><i=shadow> resistances <bl>+30%</bl><br><gl>-Every round-</gl><br>Shuffle <crd=hatchcorrupt,1> into each hero deck.
 customNoxiousParasitesA=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><i=slashing><i=piercing><i=shadow> resistances <bl>+40%</bl><br><gl>-Every round-</gl><br>Shuffle <crd=hatchcorrupt,1> into each hero deck.
-customNoxiousParasitesB=<gl>All monsters gain:</gl><br>All damage <bl>+3</bl><br><i=slashing><i=piercing><i=shadow> resistances <bl>+50%</bl><br><gl>-Every round-</gl><br>Shuffle <crd=hatchcorrupt,1> into each hero deck.
-customNoxiousParasitesRare=<gl>All monsters gain:</gl><br>All damage <bl>+4</bl><br><i=slashing><i=piercing><i=shadow> resistances <bl>+50%</bl><br><gl>-Every round-</gl><br>Shuffle <crd=hatchcorrupt,1> into each hero deck.
+customNoxiousParasitesB=<gl>All monsters gain:</gl><br>All damage <bl>+3</bl><br><i=slashing><i=piercing><i=shadow> resistances <bl>+45%</bl><br><gl>-Every round-</gl><br>Shuffle <crd=hatchcorrupt,1> into each hero deck.
+customNoxiousParasitesRare=<gl>All monsters gain:</gl><br>All damage <bl>+4</bl><br><i=slashing><i=piercing><i=shadow> resistances <bl>+45%</bl><br><gl>-Every round-</gl><br>Shuffle <crd=hatchcorrupt,1> into each hero deck.
 
 customPoisonFields=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br>All resistances <bl>+5%</bl><br><gl>-Every round-</gl><br>All heroes suffer <rd>3<rd><i=poison>
 customPoisonFieldsA=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br>All resistances <bl>+10%</bl><br><gl>-Every round-</gl><br>All heroes suffer <rd>5<rd><i=poison>
@@ -1929,8 +1930,8 @@ customRevengeRare=<gl>All monsters gain:</gl><br>All damage <bl>+4</bl><br><i=sl
 
 customSubZero=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><i=cold> resistance <bl>+30%</bl><br>Immune to <i=slow><br><gl>-Every two rounds-</gl><br>Add <crd=freezecorruption,1> to all monsters.
 customSubZeroA=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><i=cold> resistance <bl>+40%</bl><br>Immune to <i=slow><br><gl>-Every two rounds-</gl><br>Add <crd=freezecorruption,1> to all monsters.
-customSubZeroB=<gl>All monsters gain:</gl><br>All damage <bl>+3</bl><br><i=cold> resistance <bl>+50%</bl><br>Immune to <i=slow><br><gl>-Every two rounds-</gl><br>Add <crd=freezecorruption,1> to all monsters.
-customSubZeroRare=<gl>All monsters gain:</gl><br>All damage <bl>+4</bl><br><i=cold> resistance <bl>+50%</bl><br>Immune to <i=slow><br><gl>-Every two rounds-</gl><br>Add <crd=freezecorruption,1> to all monsters.
+customSubZeroB=<gl>All monsters gain:</gl><br>All damage <bl>+3</bl><br><i=cold> resistance <bl>+45%</bl><br>Immune to <i=slow><br><gl>-Every two rounds-</gl><br>Add <crd=freezecorruption,1> to all monsters.
+customSubZeroRare=<gl>All monsters gain:</gl><br>All damage <bl>+4</bl><br><i=cold> resistance <bl>+45%</bl><br>Immune to <i=slow><br><gl>-Every two rounds-</gl><br>Add <crd=freezecorruption,1> to all monsters.
 
 sandbox=Sandbox
 sandboxMode=Sandbox mode
@@ -1970,3 +1971,47 @@ unlimited=Unlimited
 always=Always
 all=All
 disabled=Disabled
+
+card=Card
+////////////// Christmas DLC
+keyQ=Q
+keyW=W
+keyE=E
+keyR=R
+keyT=T
+keyY=Y
+keyU=U
+keyI=I
+keyO=O
+keyP=P
+keyA=A
+keyS=S
+keyD=D
+keyF=F
+keyG=G
+keyH=H
+keyJ=J
+keyK=K
+keyL=L
+keyZ=Z
+keyX=X
+keyC=C
+keyV=V
+keyB=B
+keyN=N
+keyM=M
+keyShift=Shift
+keyReturn=Accept
+keyDelete=Delete
+
+customScaraby=All resistances <bl>+5%</bl><br>Increases the chance of a scarab spawning in Acts 2 and 3 by up to <bl>40%</bl>.
+customScarabyrare=All resistances <bl>+8%</bl><br>Increases the chance of a scarab spawning in Acts 2 and 3 by up to <bl>50%</bl>.<br>Scourge scarabs do not spawn.
+
+queen=Queen
+princess=Princess
+empress=Empress
+engineer=Engineer
+mechanic=Mechanic
+artificer=Artificer
+chatWelcome=Welcome to <u>{0}</u> game. You will be able to communicate with the rest of the players through this chat window. Also note that each one of them will be referenced with the same color for the rest of the game. Enjoy!
+maximumEnchantments=A character can have a maximum of three active enchantments. If a new one is applied, the oldest will be removed.

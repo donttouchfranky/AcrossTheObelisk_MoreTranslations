@@ -145,3 +145,5 @@ fallenquest2_name=Lifting the curse
 fallenquest2_description=Search Navalea's homeland for a sacred place to purify the source of the curse.
 paladinquest_name=The Void bells
 paladinquest_description=Laia asked you to ring the silver bell three times, on an ancient battlefield.
+goblinnecklace_name=Goblin Necklace
+goblinnecklace_description=A necklace you picked up from some dead goblin scouts.

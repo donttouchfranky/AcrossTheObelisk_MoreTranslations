@@ -46,6 +46,7 @@ warden_strength=Tactical warrior who specializes in thorns.
 warlock_name=Zek
 warlock_description=When he was young, Zek found a special lantern discarded deep underground. His fellow ratmen claimed magic was useless and only brought danger, especially living under an elven city. To prove them wrong, he learned the magic arts in secret until an unfortunate disaster.<br><br>Zek was separated from his lantern and exiled by his clan. When he learned that the sewers were frozen, he saw an opportunity to return.
 warlock_strength=Mage specialized in shadow magic and curses.
+//////////////////////////////
 bandit_name=Yogger
 bandit_description=In the Wolf Wars, Yogger fought on the side of the kingdom in a werewolf platoon led by Magnus. When the werewolf chieftain fell, Yogger took the opportunity to betray Magnus and lead the rest of the werewolves deep into the forest.<br><br>Now, he is the leader of a bandit gang that terrorizes the forests of Senenthia.
 bandit_strength=An offensive warrior who likes to play with his food.
@@ -55,11 +56,15 @@ youngheiner_name=Model C
 youngmagnus_name=Magnus
 youngottis_name=Ottis
 youngyogger_name=Yogger
-////////////////////////// New Sands of Ulminin DLC ////
+//////////////////////////
 fallen_name=Navalea
 fallen_description=Navalea, first paladin of Basthet, broke her oath when she joined her people in the war against the Archons. When she returned from the war, Basthet cursed her and had her locked up alive forever.<br><br>Believing she did good, her hatred grew for centuries corrupting her body and soul. Until one day her confinement ended and a group of adventurers helped her lift her curse.
 fallen_strength=A warrior who is proficient in the way of the mage.
 paladin_name=Laia
 paladin_description=For generations, the felines of Ulminin, in order to maintain Basthet's blessing, have the custom of offering her a young girl when her paladin dies. Laia was chosen to be the next paladin and was raised and trained by Basthet.<br><br>Basthet promised her that one day she would be released from her duties and prophesied that she would find a group of adventurers who would prove worthy of her.
 paladin_strength=A healer who is proficient in the way of the warrior.
-
+//////////////////////////
+queen_name=Amelia
+queen_description=After unifying the kingdom with the Wolf Wars, Amelia noticed that her magical powers were somehow becoming unstable over time. To protect the kingdom, she decided to exile herself far away.<br><br>When she learned of her daughter's kidnapping, her magical powers were unleashed and at that moment she decided to use them to create a spatial rift and return to Senenthia as soon as possible.
+queen_strength=Mage specialized in cold magic and vanishing cards.
+engineer_name=Nenukil

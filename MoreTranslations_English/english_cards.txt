@@ -1471,6 +1471,7 @@ c_transfusion_name=Transfusion
 c_warpaint_name=Warpaint
 c_whirlwind_name=Whirlwind
 c_wreckingball_name=Wrecking Ball
+///////////////// TRANSLATION
 c_acidrain_name=Acid Rain
 c_acrobaticstrikem_name=Acrobatic Strike
 c_baptismm_name=Baptism
@@ -1602,6 +1603,7 @@ c_deathgrip_name=Death Grip
 c_spookynight_name=Spooky Night
 c_sugarrush_name=Sugar Rush
 c_trickortreat_name=Trick or Treat
+////////////////////////////////////////////
 c_spikedball_name=Spiked Ball
 c_chaoticwind_name=Chaotic Wind
 c_livingforest_name=Living Forest
@@ -1794,8 +1796,8 @@ c_zapm_name=Zap
 c_sapphireamulet_name=Sapphire Amulet
 c_frozenheirloom_name=Frozen Heirloom
 c_gorge_name=Gorge
-c_butcherblock_name=Butcher Block
 ////////////////////////////////////// new Ulminin DLC /////////////////
+c_butcherblock_name=Butcher Block
 c_shieldstance_name=Shield Stance
 c_bloodrain_name=Blood Rain
 c_holyslash_name=Holy Slash

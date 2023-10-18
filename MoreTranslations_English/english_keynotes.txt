@@ -136,7 +136,7 @@ weak_description=Damage and heal done<r> -50%</r>.
 weak_descriptionExtended=Damage and heal done<r> -50%</r>.<br3>Remove 1 charge at the <w>end of the turn</w>.
 wet_description=<lig>Lightning damage</lig> taken <y>+1 per charge</y>.<br3>Prevents<g>  1  </g><y>Burn per charge</y>.<br3><w>Removes <o>Burn</o> from the target when applied</w>.
 wet_descriptionExtended=<lig>Lightning damage</lig> taken <y>+1 per charge</y>.<br3>Prevents<g>  1  </g><y>Burn per charge</y>, remove 1 charge when this happens.<br3><w>Removes <o>Burn</o> from the target</w> when applied.<br3>Remove 1 charge at the <w>end of the turn</w>.
-//////////////////////////////// NEW DLC - Sands of Ulminin
+//////////////////////////////// TRANSLATION ENDS HEREd
 zeal_description=All resistances<g> +7% per charge</g>.<br3>Healing received from <w>Sanctify</w> <g>+20% per charge</g>.<br3>Damage done<y> +1% </y>per<w> Burn charge</w>.<br3>Remove all charges at the <w>end of the turn</w>.
 zeal_descriptionExtended=All resistances<g> +7% per charge</g>.<br3>Healing received from <w>Sanctify</w> <g>+20% per charge</g>.<br3>Damage done<y> +1% </y>per<w> Burn charge</w>.<br3>Remove all charges at the <w>end of the turn</w>.
 scourge_description=Damage received from <w>Dark explosion</w> <y>+10% per charge</y>.<br3>Spread <y>50%</y> of the <w>Dark charges</w> of this target to this target's sides, and suffer <sha>1 Shadow damage </sha>per <w>Chill charge</w> at the <w>start of the turn</w>, then remove all charges.<br3>This damage <w>can be blocked</w> and is not affected by other modifiers.

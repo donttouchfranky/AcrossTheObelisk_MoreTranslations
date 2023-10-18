@@ -11,7 +11,7 @@ using UnityEngine.TextCore.Text;
 
 namespace MoreTranslations
 {
-    [BepInPlugin("MoreTranslations_DontTouchFranky", "MoreTranslations", "1.1.1")]
+    [BepInPlugin("MoreTranslations_DontTouchFranky", "MoreTranslations", "1.1.2")]
     public class Plugin : BaseUnityPlugin
     {
         private static Dictionary<string, Dictionary<string, string>> TextStrings;
@@ -289,8 +289,8 @@ namespace MoreTranslations
                 {
                     string path = "";
                     string[] lines = null;
-                    type = type.ToLower();
-                    switch (type)
+                    //type = type.ToLower();
+                    switch (type.ToLower())
                     {
                         case "":
                             path = translationsPath + "/" + selectedLanguage + ".txt";
@@ -373,7 +373,7 @@ namespace MoreTranslations
                                 {
                                     strArray[0] = strArray[0].Trim().ToLower();
                                     strArray[1] = Functions.SplitString("//", strArray[1])[0].Trim();
-                                    switch (type)
+                                    switch (type.ToLower())
                                     {
                                         case "keynotes":
                                             stringBuilder1.Append("keynotes_");
@@ -415,7 +415,7 @@ namespace MoreTranslations
                                     else
                                         TextStrings[selectedLanguage].Add(stringBuilder1.ToString(), strArray[1]);
 
-                                    if (type == "tips")
+                                    if (type.ToLower() == "tips")
                                     {
                                         tips.Add(strArray[1]);
                                     }
@@ -431,7 +431,7 @@ namespace MoreTranslations
                                             stringBuilder2.Clear();
                                         }
                                     }
-                                    else if (type == "events")
+                                    else if (type.ToLower() == "events")
                                     {
                                         if (strArray[1].StartsWith("rptd_", StringComparison.OrdinalIgnoreCase))
                                         {
@@ -442,7 +442,7 @@ namespace MoreTranslations
                                             stringBuilder2.Clear();
                                         }
                                     }
-                                    else if (type == "cards")
+                                    else if (type.ToLower() == "cards")
                                     {
                                         if (strArray[1].StartsWith("rptd_", StringComparison.OrdinalIgnoreCase))
                                         {
@@ -453,7 +453,7 @@ namespace MoreTranslations
                                             stringBuilder2.Clear();
                                         }
                                     }
-                                    else if (type == "monsters" && strArray[1].StartsWith("rptd_", StringComparison.OrdinalIgnoreCase))
+                                    else if (type.ToLower() == "monsters" && strArray[1].StartsWith("rptd_", StringComparison.OrdinalIgnoreCase))
                                     {
                                         stringBuilder2.Append("monsters_");
                                         stringBuilder2.Append(strArray[1].Substring(5).ToLower());
@@ -475,30 +475,61 @@ namespace MoreTranslations
                 }
             }
         }
-        public static void ExportEnglishTextForTranslation() // for when vanilla texts are updated
+        public static void ExportTextForTranslation() // for when vanilla texts are updated
         {
-            ActualExport("en");
-            ActualExport("en_keynotes");
-            ActualExport("en_traits");
-            ActualExport("en_auracurse");
-            ActualExport("en_events");
-            ActualExport("en_nodes");
-            ActualExport("en_cards");
-            ActualExport("en_cardsfluff");
-            ActualExport("en_class");
-            ActualExport("en_monsters");
-            ActualExport("en_requirements");
-            ActualExport("en_tips");
-            File.WriteAllText(Path.Combine(Paths.PluginPath, "MoreTranslations_Export", "moretranslations.txt"), "English");
+            ExportLanguage("en");
+            ExportLanguage("zh-CN");
+            ExportLanguage("es");
+            ExportLanguage("ko");
+            ExportLanguage("sv");
         }
-        public static void ActualExport(string fileName)
+        public static void ExportLanguage(string lang)
         {
-            Debug.Log("Exporting " + fileName);
-            UnityEngine.TextAsset textAsset = Resources.Load("Lang/" + fileName) as UnityEngine.TextAsset;
-            DirectoryInfo medsDI = new DirectoryInfo(Path.Combine(Paths.PluginPath, "MoreTranslations_Export"));
+            DirectoryInfo medsDI = new DirectoryInfo(Path.Combine(Paths.PluginPath, "MoreTranslations_" + LangShortToLong(lang)));
             if (!medsDI.Exists)
                 medsDI.Create();
-            File.WriteAllText(Path.Combine(Paths.PluginPath, "MoreTranslations_Export", (fileName == "en" ? "English" : fileName.Replace("en_", "English_")) + ".txt"), textAsset.ToString());
+            ActualExport(lang, lang);
+            ActualExport(lang + "_keynotes", lang);
+            ActualExport(lang + "_traits", lang);
+            ActualExport(lang + "_auracurse", lang);
+            ActualExport(lang + "_events", lang);
+            ActualExport(lang + "_nodes", lang);
+            ActualExport(lang + "_cards", lang);
+            ActualExport(lang + "_cardsfluff", lang);
+            ActualExport(lang + "_class", lang);
+            ActualExport(lang + "_monsters", lang);
+            ActualExport(lang + "_requirements", lang);
+            ActualExport(lang + "_tips", lang);
+            File.WriteAllText(Path.Combine(Paths.PluginPath, "MoreTranslations_" + LangShortToLong(lang), "moretranslations.txt"), LangShortToLong(lang));
+        }
+
+        public static void ActualExport(string fileName, string lang)
+        {
+            Debug.Log("Exporting " + fileName);
+            UnityEngine.TextAsset textAsset = Resources.Load("Lang/" + lang + "/" + fileName) as UnityEngine.TextAsset;
+            string writeName = fileName.Replace(lang + "_", LangShortToLong(lang) + "_");
+            writeName = LangShortToLong(writeName);
+            if (textAsset == null)
+            {
+                Debug.Log("textassetnull: " + fileName);
+                return;
+            }
+            File.WriteAllText(Path.Combine(Paths.PluginPath, "MoreTranslations_" + LangShortToLong(lang), writeName + ".txt"), textAsset.ToString());
+        }
+        public static string LangShortToLong(string lang)
+        {
+            string longLang = lang;
+            if (lang == "en")
+                longLang = "English";
+            if (lang == "zh-CN")
+                longLang = "简体中文";
+            if (lang == "es")
+                longLang = "español";
+            if (lang == "ko")
+                longLang = "한국인";
+            if (lang == "sv")
+                longLang = "svenska";
+            return longLang;
         }
     }
 }

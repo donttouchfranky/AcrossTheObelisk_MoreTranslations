@@ -1,0 +1,27 @@
+tip0=Cuanto más pequeño sea tu mazo, mayores serán las posibilidades de sacar una carta que necesites.
+tip1=Cuanto más rápido termines la pelea, mejores serán las recompensas.
+tip2=NO acaricies a Magnus. Tiene una reputación que mantener.
+tip3=Puedes crear un grupo con cualquier combinación de clases, incluidos varios personajes de la misma clase.
+tip4=A veces, no agregar cartas es tan beneficioso como agregarlas.
+tip5=¡Únete a nuestra comunidad de Discord para acceder a guías, ayuda, comentarios y sugerencias! Encontrarás un enlace para unirte en la pantalla del menú principal.
+tip6=Encuentra otras personas con las que jugar en el canal #LFG de la página oficial de Discord.
+tip7=Siempre puedes elegir combatir sin aceptar una corrupción. Pero recuerda: ¡a grandes riesgos, grandes recompensas!
+tip8=No tienes que usar las clases recomendadas. ¡Prueba diferentes combinaciones de equipos para crear tu propio estilo!
+tip9=Las cartas con el icono <icon=vanish> solo se pueden usar una vez por combate.
+tip10=<icon=fury> puede hacerte más fuerte, a costa de <icon=bleed> en cada turno. ¿Podrás manejar este poder?
+tip11=El daño de <icon=thorns> y <icon=burn> puede ser bloqueado por <icon=block>.<br>¡Asegúrate de golpearlos primero si quieres traspasar su defensa!
+tip12=Presta atención a los iconos de elementos clave en el mapa. Puede haber una interacción única con un objeto que hayas obtenido.
+tip13=Cada personaje tiene sus propias opciones de diálogo. Pruébalos todos para ver qué secretos descubres.
+tip14=<icon=block> se elimina al final de la ronda.<br>El aura <icon=fortify> te permitirá conservar ese <icon=block> para la próxima ronda.
+tip15=Aumentar tus resistencias con auras como <icon=insulate>, <icon=reinforce> o <icon=courage> ayudará a que tu grupo sufra menos daño.
+tip16=No hay necesidad de tirar cartas en todos los eventos. Si estás teniendo dificultades, trata de ir a lo seguro.
+tip17=Ser el primero en moverse es fundamental para algunos personajes. Presta atención a las cartas que modifican la velocidad.
+tip18=La <icon=energy> que no se utilice se guardará para el próximo turno; no la desperdicies cuando no sea necesario.
+tip19=Puedes hacer clic derecho en cualquier carta para acceder a una pantalla con toda la información relacionada con la misma.
+tip20=Concentrarse en un tipo de daño puede ser eficaz, pero es posible que necesites un plan B para los enemigos capaces de resistirlo.
+tip21=¿El combate es demasiado lento para ti? Puedes activar el modo rápido en la pestaña "Juego", en "Ajustes".
+tip22=Ten cuidado con las <icon=thorns>, ya que te dañarán si atacas a un monstruo protegido por este efecto.
+tip23=¿Son los monstruos elementales un problema para tu grupo?<br><icon=insulate> aumentará tus resistencias elementales.
+tip24=¿Quieres deshacerte de ese molesto efecto de <icon=burn>?<br><icon=wet> es una forma rápida de eliminarlo por completo.
+tip25=¿Quieres jugar partidas más rápidas o a un modo más aleatorio? ¡Juega al Desafío del obelisco!
+tip26=Cuando un héroe equipe el mismo objeto dos veces, este se transformará en su versión corrupta.

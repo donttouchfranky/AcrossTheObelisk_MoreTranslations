@@ -1,66 +1,58 @@
 # Across The Obelisk - MoreTranslations Mod
 
+A fork of DontTouchFranky's MoreTranslations mod, updated for Sands of Ulminin DLC and JP/RU languages.
+
 With this mod you can easily create custom translations for the game without having to edit the game files.
 
-## How to install the mod?
+## Installation
 
-This mod requires the [BepInEx AcrossTheObelisk](https://across-the-obelisk.thunderstore.io/package/BepInEx/BepInExPack_AcrossTheObelisk/) plugin.
+Install [BepInEx](https://across-the-obelisk.thunderstore.io/package/BepInEx/BepInExPack_AcrossTheObelisk/).
 
-* Install from [Thunderstore](https://across-the-obelisk.thunderstore.io/) Mod Manager
+Download the [latest release](https://github.com/stiffmeds/AcrossTheObelisk_MoreTranslations/releases/latest) and put it in your BepInEx _plugins_ folder.
 
-    or
+Download a language pack and put it in your BepInEx _plugins_ folder.
 
-* Download the folder **MoreTranslations_DontTouchFranky** from this repository and place it in the **BepInEx/plugins** folder.
+To change the language, go to the game settings (you'll see a new language dropdown) and select the desired language.
 
-## How to install a new language?
+If the mod can't find the translation for the selected language, it will use the default language selected in the main language dropdown.
 
-You can install a new language by downloading the translation files from [Thunderstore](https://across-the-obelisk.thunderstore.io/) or **manually** from this repository.
+## How do I create a new translation?
 
-If you plan to do it **manually**, you just need to place the folder of the language inside the plugins folder.
+> A complete English example of a language pack can be found in the [MoreTranslations_English](https://github.com/stiffmeds/AcrossTheObelisk_MoreTranslations/tree/main/MoreTranslations_English) folder.
 
-## How do i change language?
+> Puede encontrar un ejemplo completo en español de un paquete de idioma en la carpeta [MoreTranslations_español](https://github.com/stiffmeds/AcrossTheObelisk_MoreTranslations/tree/main/MoreTranslations_espa%C3%B1ol).
 
-* To change the language, go to the game settings (you'll see a new language dropdown) and select the desired language.
+> Ett komplett svenskt exempel på ett språkpaket finns i mappen [MoreTranslations_svenska](https://github.com/stiffmeds/AcrossTheObelisk_MoreTranslations/tree/main/MoreTranslations_svenska).
 
-    If the mod can't find the translation for the selected language, it will use the default language selected in the main language dropdown.
+> 完整的简体中文语言包示例可以在 [MoreTranslations_简体中文](https://github.com/stiffmeds/AcrossTheObelisk_MoreTranslations/tree/main/MoreTranslations_%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87) 文件夹中找到。
 
-## How to create a new translation?
-
-> A complete example of a language pack can be found in the [MoreTranslations_English](https://github.com/donttouchfranky/AcrossTheObelisk_MoreTranslations/tree/main/MoreTranslations_English) folder.
-
-1. Create a new folder that has the name of the language to be translated.
-
-    es: `MoreTranslations_English` for English
+> 언어 팩의 전체 한국어 예는 [MoreTranslations_한국인](https://github.com/stiffmeds/AcrossTheObelisk_MoreTranslations/tree/main/MoreTranslations_%ED%95%9C%EA%B5%AD%EC%9D%B8) 폴더에서 찾을 수 있습니다.
+ 
+1. Create a new folder that has the name of the language to be translated, e.g. `MoreTranslations_English` for English.
 
 2. Copy all the .txt translation files inside the folder you just created.
 
-3. Edit the file names to match the language you want to translate. 
-
-    es: `english.txt` for English Default File, `english_cards.txt` for English Cards File
+3. Edit the file names to match the language you want to translate, e.g. `english.txt` for English default texts, `english_cards.txt` for English card texts.
 
 4. Edit the files with the desired translations.
 
-5. Create `moretranslations.txt` file inside the folder and write the name of the language you want to translate.
-
-    es: `English` for English
+5. Create a `moretranslations.txt` file inside the folder and write the name of the language you want to translate, e.g. `English` for English.
 
 6. Place the created folder inside the plugins folder.
 
 7. Done!
 
-
 > **Note:** The files must be in the same format as the original files.
 >
 > **Leave the tags of the game texts as they are, do not change them.**
 
+## How can I contribute?
 
-
-## How to contribute?
-
-If you want to contribute to the project, you can do it by translating the game into your language or by correcting the translations of the existing languages.
+If you want to contribute to the project, you can do so by translating the game into your language or correcting existing translations.
 
 ## Available Translations
 
 > Every translation is made by the community and is not official. You may find some errors in the translations. If you find any errors, please report them.
 
-* <img src="https://www.worldometers.info/img/flags/it-flag.gif" alt= “Italiano” height="20px"> &ensp; [Italiano](https://github.com/donttouchfranky/AcrossTheObelisk_MoreTranslations/tree/main/MoreTranslations_Italiano) **: <span style="color:green">95%</span>**
+* [Russian](https://across-the-obelisk.thunderstore.io/package/iBarin/MoreTranslations_Russian/)
+* [Italiano](https://github.com/donttouchfranky/AcrossTheObelisk_MoreTranslations/tree/main/MoreTranslations_Italiano) _(not updated for Sands of Ulminin)_

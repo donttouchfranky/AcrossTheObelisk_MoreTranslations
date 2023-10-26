@@ -1,8 +1,8 @@
 {
-    "name": "MoreTranslations",
-    "version_number": "1.0.7",
-    "website_url": "https://github.com/donttouchfranky/AcrossTheObelisk_MoreTranslations",
-    "description": "With this mod you can easily create custom translations for the game without having to edit the game files.",
+    "name": "MoreTranslations_SoU",
+    "version_number": "1.1.1",
+    "website_url": "https://github.com/stiffmeds/AcrossTheObelisk_MoreTranslations",
+    "description": "Custom translations, updated for Sands of Ulminin.",
     "dependencies": [
         "BepInEx-BepInExPack_AcrossTheObelisk-5.4.21"
     ]

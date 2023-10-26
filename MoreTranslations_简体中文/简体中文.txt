@@ -1,0 +1,2017 @@
+gameExpired=本次 Alpha 版本已过期。<br>感谢你试玩《横跨方尖碑》。
+notAvailable=** 本次抢先体验版本<b>不具备</b>此功能。
+accept=接受
+cancel=取消
+select=选择
+continue=继续
+password=密码
+close=关闭
+exit=离开
+shuffle=洗牌
+modify=修改
+resign=投降
+reloadCombat=重新<br>战斗
+combat=战斗
+settings=设定
+allCards=全部卡牌
+ready=就绪
+success=成功
+successCritical=重大成功
+fail=失败
+failCritical=重大失败
+immune=免疫
+health=生命值
+speed=速度
+energy=能量
+rarity=稀有度
+cardsTier=卡牌级别
+maximumAbb=最大值
+sold=卖出
+stats=属性
+perks=专精
+skin=外观
+rank=级别
+cardback=卡背
+combatStats=战斗信息
+mainStats=主属性
+dataPerTurn=<%>／回合
+baseResist=基础抗性
+baseDamage=基础伤害
+baseValue=基础价值
+baseDT=基础承伤
+allDamage=全部伤害
+healDone=治疗输出
+healTaken=获得治疗
+damageResistance=伤害抗性
+damageResistanceMax=（最大值为 95）
+damagePercentMin=（最小值为 -50％）
+damageDone=伤害输出
+damageTaken=承受伤害
+damageBlocked=格挡伤害
+directDamage=直接伤害
+detailedDamage=伤害详情
+globalModifiers=全局修饰词缀
+damage=伤害
+resistance=抗性
+resistances=抗性
+resistancesAndBonus=抗性和加成
+activeEffects=主动效果
+immunities=免疫力
+chargeBonus=光环／诅咒加成
+remove=移除
+corrupt=腐化
+skip=跳过
+blocked=格挡
+evaded=闪避
+resisted=抵抗
+currentHp=当前生命值
+#########
+######### CreateTextMenu
+#########
+menuPlay=开始游戏
+menuLoadGame=载入游戏
+menuChallenge=方尖碑挑战
+menuWeekly=每周挑战
+menuMultiplayer=多人模式
+menuTome=知识之书
+menuStatistics=统计数据
+menuOptions=设定
+menuQuit=退出游戏
+menuChallenge=方尖碑挑战
+mainMenu=主菜单
+inputNameMultiplayer=请在下方文本框中输入你的昵称，以便加入或创建多人游戏。
+playersReady=玩家就绪
+waitingForPlayers=等待玩家
+wantToQuitGame=是否退出游戏？
+wantToRemoveSave=是否删除此存档？
+wantToRemoveSavePermanent=确定后将永久删除记录。
+saveAvailable=[可用]
+back=返回
+backMainMenu=<size=+10><< 返回</size><br>主菜单
+singleplayer=单人游戏
+multiplayer=多人模式
+weeklySingleplayer=每周单人游戏
+weeklyMultiplayer=每周多人模式
+obeliskChallenge=方尖碑挑战
+obeliskChallengeSingleplayer=方尖碑挑战：单人
+obeliskChallengeMultiplayer=方尖碑挑战：多人
+weekNumber=第 {0} 周
+mainMenuSaveSingle=单人游戏
+mainMenuSaveMulti=多人游戏
+mainMenuCreateNewGame=新建游戏
+mainMenuClickUseThis=点击使用该槽位
+mainMenuDelete=删除
+mainMenuSaveDescription=为本局游戏选择一个存档槽位（或载入先前的存档）。
+mainMenuGameModeChoose=选择游戏模式。
+mainMenuAdventureDescription=<color=#FFD98F>揭开瑟能西亚历史的神秘面纱。</color><br><br>在轻度 Rogue 冒险中，发现新的角色，解锁各类卡牌，挑战邪恶头目。
+mainMenuObeliskDescription=<color=#FFD98F>完全随机的类 Rogue 冒险。</color><br><br>每局游戏都会与众不同，穿行虚空，努力抵达方尖碑吧。
+mainMenuWeeklyDescription=<color=#FFD98F>与其他玩家相互比拼。</color><br><br>每周都有全新的规则和固定的角色在等着你。看谁能夺得最高分吧。
+modeAdventure=冒险模式
+modeObelisk=方尖碑挑战
+modeWeekly=每周挑战
+obeliskNeedCharacter=需要一名级别为 3 的角色
+joinMultiplayer=加入多人游戏
+abortMultiplayer=一名玩家断开了连接。本局游戏即将关闭。你可以创建新的游戏并载入最后存档点。
+abortSave=保存游戏时出现了错误。即将关闭游戏，以避免出现更多问题。你可以创建新的游戏并载入最后存档点。
+enterText=输入文字……
+waitingPlayers=正在等待玩家……
+exitRoom=离开房间
+steamInvite=邀请 Steam 好友
+roomFull=房间人数已满。
+openSlot=[空位]
+roomId=房间 ID
+master=房主
+slash=斩击
+piercing=刺击
+blunt=打击
+fire=火焰
+cold=寒冰
+lightning=闪电
+mind=心灵
+holy=神圣
+shadow=暗影
+#########
+######### CreateTextGameplay
+#########
+index=索引
+loading=加载中
+deck=牌组
+characterMenuCards=<sprite name=cards>英雄牌组
+characterMenuLevel=<sprite name=experience>等级和特性
+characterMenuItems=<sprite name=block>装备
+characterMenuStats=<sprite name=sheet>角色属性栏
+characterMenuPerks=<sprite name=perk>专精
+characterMenuCombatDraw=<sprite name=cards>抽牌堆
+characterMenuCastedCards=<sprite name=cards>释放卡牌
+characterMenuCombatDiscard=<sprite name=cardsdiscard>弃牌堆
+characterMenuCombatVanish=<sprite name=vanish>消耗堆
+traits=特性
+activatedTraits=已激活的特性
+traitsList=固有<br>等级 2<br>等级 3<br>等级 4<br>等级 5
+item=物品
+initialCards=初始卡牌
+incrementMaxHp=+<N> 最大生命值
+level=等级
+levelNumber=等级 <N>
+warriors=战士
+mages=法师
+healers=治疗者
+scouts=斥候
+mageknights=魔法骑士
+monsters=怪物
+warriorCards=战士卡牌
+mageCards=法师卡牌
+healerCards=治疗者卡牌
+scoutCards=斥候卡牌
+injuries=受伤
+boons=恩惠
+equipment=装备
+upgradedCard=已升级
+upgradesTo=升级至
+upgradedFrom=升级自
+transmutesTo=转换为
+sourceCard=源卡
+unlockedCard=已解锁
+unlockedHero=已解锁
+unlockedCards=已解锁卡牌
+unlockTable=已解锁元素
+glossary=术语表
+termsGlossary=术语表
+termsDescription=游戏内出现的术语、光环、诅咒和效果的概要与描述。
+gameplayStatistics=游戏统计
+bestScoreTome=最高分数：
+lastRuns=往期游戏
+scoreboards=排行榜
+chooseScoreboard=选择排行榜。
+scoresNotFound=未找到分数
+travelPath=旅行路线
+path=路线
+cardsUnlockedTome=解锁的卡牌：
+adventuresPlayedTome=游玩的冒险：
+treasuresClaimedTome=领取的宝藏：
+monstersKilledTome=击杀怪物：
+bossesKilledTome=击杀头目：
+corruptionsCompleted=完成的腐化：
+adventureCompleted=完成的冒险：
+uniqueBosses=独特头目
+experienceGainedTome=获得的经验：
+equipmentDiscoveredTome=发现的装备：
+heroDeaths=英雄死亡数：
+totalResources=总资源：
+gold=金币
+shards=碎片
+goldGainedTome=获得的金币：
+dustGainedTome=获得的碎片：
+cardsCraftedTome=锻造的卡牌：
+cardsUpgradedTome=升级的卡牌：
+purchasedItemsTome=购买的物品：
+corruptionsCompletedTome=完成的腐化：
+Melee_Attack=近战攻击
+Ranged_Attack=远程攻击
+Magic_Attack=魔法攻击
+Defense=防御
+Fire_Spell=火焰法术
+Cold_Spell=寒冰法术
+Lightning_Spell=闪电法术
+Mind_Spell=心灵法术
+Shadow_Spell=暗影法术
+Holy_Spell=神圣法术
+Curse_Spell=诅咒法术
+Healing_Spell=治疗法术
+Book=书
+Small_Weapon=小型武器
+Song=吟唱法术
+Skill=技能
+Power=强度
+Injury=受伤
+Attack=攻击
+Spell=法术
+Boon=恩惠
+weapon=武器
+armour=盔甲
+armor=盔甲
+jewelry=首饰
+accesory=饰品
+enchantment=附魔
+enchantments=附魔
+itemActivated=已激活
+itemChargeUsed=已使用的充能
+itemsDescription=每位英雄只能持有一件同类型的物品。请注意，装备新的物品时：原有物品将会被永久移除。
+cardNotUnlockedPopup=<voffset=-2><size=26><sprite name=lock></size></voffset>卡牌未解锁
+minDeckCards=牌组的最低卡牌数量：<color=#FFFFFF><n></color>
+shopDiscount=优惠
+shopIncrease=添加
+heroCards=<hero>卡牌
+heroEquipment={0}<br><color=#bbb>装备</color>
+heroInjuries=<hero>受伤
+heroInjuriesBoons=<hero>恩惠和受伤
+heroDrawPile=<hero>抽牌堆
+heroDiscardPile=<hero>弃牌堆
+heroCastedCards=<hero>释放卡牌
+heroVanishedCards=<hero>消耗堆
+town=城镇
+townPlace={0}城镇
+townIntro=在启程冒险之前，不必着急，慢慢完善你的牌组。完成操作后，请点击就绪！
+ready=就绪
+charReceive=<char>获得
+charsReceives=<chars>获得
+freeCost=免费
+oldCost=（原始费用：{0}）
+reaminingUses=剩余使用次数
+noMoreUses=使用次数已满
+removeCards=教堂
+removeCardsButtonDes=从牌组中移除卡牌
+removeCardsDes=只要卡牌数量满足最低要求，即可从牌组中移除卡牌。
+upgradeCards=祭坛
+upgradeCardsButtonDes=升级你的卡牌，并转化为更强大的版本。
+upgradeCardsDes=每张卡牌都有不同的升级，升级后的卡牌会比基础版本更强大。<br><br>你可以使用碎片升级卡牌。<br><br>此外，还可以在升级后的卡牌之间进行转换。<br><br><color=#FFC88F>卡牌的稀有度越高，所需的升级费用就越高。</color>
+reset=重置
+upgradedCards=已升级
+upgradedCardsDes=显示升级后的牌。你也可以在祭坛上升级卡牌。
+filterCards=筛选器
+filterCardsDes=使用明确的修饰词缀筛选卡牌。
+affordableCards=可用
+affordableCardsDes=仅显示当前碎片数量可以制作的卡牌。
+craftCards=魔力煅炉
+craftCardsButtonDes=为你的牌组锻造卡牌。
+craftRarityBlocked=该稀有度在此处不可用。
+craftMaxCards=该卡牌允许的最大锻造数
+treasureClaimButtonDes=点击此处领取奖励。
+wantToClaimTreasure=是否领取此宝藏？
+lastRunsRewards=上局奖励
+lastRunsRewardsDes=每局游戏都会根据你的表现发放金币和碎片奖励。<br><br>每次开始游戏时，你最多可领取三次上局奖励。
+lastRunsRewardsStack=你最多可存放 3 个宝箱。
+communityRewards=社区奖励
+expiresInHoursMinutes=将于 {0} 时 {1} 分钟后过期
+expiresInMinutes=将于 {0} 分钟后过期
+divinationCards=吉普赛马车
+divinationCardsButtonDes=向美丽的吉普赛女郎支付金币，获得一轮占卜。
+divinationCardsDes=如果你拥有足够的资金，吉普赛女郎将会给你进行一轮卡牌占卜。<br><br>在多人游戏中，每个人都会获得这一轮占卜的收益。<br><br>每轮占卜的费用越高，获得强力卡牌的机会就越大。
+divinationT0=快速占卜
+divinationT1=基础占卜
+divinationT2=进阶占卜
+divinationT3=高级占卜
+divinationT4=顶级占卜
+divinationRoundJoin={0}支付了一轮卡牌占卜。准备好了就点击按钮加入。
+divinationRoundExists=已有一轮卡牌占卜正在进行中。
+divinationRoundLaunch=正在加载卡牌占卜回合……
+sell=出售
+buyItems=军械库
+buyItemsButtonDes=为你的英雄购买装备。
+deckPile=卡牌牌组
+discardPile=弃牌堆
+pressWhenReady=准备好了就点击按钮加入。
+cardsNum=卡牌：{0}
+youCanDiscardUpTo=你最多可丢弃：{0} 张卡牌
+youCanVanishUpTo=你最多可消耗：{0} 张卡牌
+youCanAdd=你可以添加：1 张卡牌
+youCanAddPlural=你可以添加：{0} 张卡牌
+#########
+######### performance bonus
+#########
+roundNumber=回合 {0}
+excellent=卓越
+good=良好
+poor=一般
+satisfactory=满意
+underwhelming=失望
+dreadful=糟糕
+great=优秀
+performanceBonus=表现加成
+combatPerformance=战斗表现
+combatPerformanceDes=用更少的回合数尽快击杀你的敌人，以获得更好的奖励。每个回合都很重要……
+dreadfulNoReward=你的战斗表现很糟糕，因此你未能获得任何卡牌奖励。
+#########
+######### rewards
+#########
+combatRewards=战斗奖励
+eventRewards=事件奖励
+eventRewardsSubtitle=选择一张卡牌或一堆碎片
+eventYouGet=你获得了：
+divinationRoundRewards=占卜奖励
+itemRewards=物品奖励
+itemRewardsSelection=你可以选择以下物品中的一个或下列金币数额：
+itemRewardsChosing=角色正在选择：
+chooseCards=从下列卡牌中进行选择
+chooseDust=选择碎片
+notEnoughGold=金币／碎片不足
+#########
+######### finish run
+#########
+finishRun=奖励将根据你的冒险表现而有所不同。开始新的游戏时，你可以在城镇领取此奖励。
+questEndsIn=你的任务结束于
+actNumber=第 {0} 幕
+prologue=序幕
+congratulations=恭喜
+placesVisited=访问过的地方
+placeOfDeath=死亡地点
+combatPerformance=战斗表现
+experienceGained=获得的经验
+bossesKilled=击杀头目
+finalScore=最终分数
+timePlayed=游玩时间 {0}
+gameScore=游戏得分
+finishBestScore=最高分数！
+currencyRetention=货币保留
+currencyRetentionBonus=总数的 <q>%
+gameReward=游戏奖励
+mpBonus=多人模式加成（+<q>%）
+itemBonus=物品加成（+<q>%）
+#########
+######### event rolls
+#########
+eventRolls=事件掷点：
+singleDesc=每个人抽一张牌，結果只会单独影响一名角色。
+groupDesc=每个人抽一张牌，结果相互叠加。
+competitionDesc=每个人抽一张牌，相互竞争。
+single=单人
+competition=竞争
+group=队伍
+character=角色
+higherThan=高于
+higherOrEqual={0} 或以上
+lowerThan=低于
+lowerOrEqual={0} 或以下
+rollCard={0} 卡牌
+highest=最高
+lowest=最低
+closest=最接近
+#########
+######### event actions
+#########
+healPercent=[治疗 {0}%]
+eventBag=这个袋子含有你在冒险过程中发现的所有有用物品。
+eventMissingOptions=隐藏选项
+eventMissingOptionsDesc=部分回答会有特殊要求，如碎片、金币、不同的角色……
+continueAction=继续
+joinAction=加入
+combatAction=战斗
+jumpAction=跳跃
+runAction=逃跑
+bribeAction=贿赂
+threatenAction=威胁
+persuadeAction=说服
+stealthAction=潜行
+stealAction=偷窃
+sneakAwayAction=悄悄离开
+leaveAction=离开
+lootAction=战利品
+profaneAction=亵渎
+forageAction=搜寻
+declineAction=拒绝
+acceptAction=接受
+extorsionAction=敲诈
+ambushAction=伏击
+raceAction=竞赛
+restAction=休息
+buryAction=埋葬
+digAction=挖掘
+breakAction=打破
+betAction=押注
+playAction=开始
+fishingAction=钓鱼
+payAction=支付
+bargainAction=议价
+exploreAction=探索
+enterAction=进入
+pretendAction=伪装
+captureAction=捕捉
+throwAction=投掷
+lookAction=检视
+examineAction=检查
+repairAction=修理
+rebuildAction=重建
+healAction=治疗
+climbAction=攀爬
+evadeAction=闪避
+useAction=使用
+askAction=询问
+answerAction=回答
+openAction=打开
+buyAction=购买
+murderAction=谋杀
+burnAction=灼烧
+killAction=击杀
+giveAction=给予
+talkAction=交谈
+singAction=吟唱
+readAction=阅读
+confirm=确认
+hide=隐藏
+show=显示
+chooseEnergy=选择耗费多少能量来施放这个法术。
+chooseEnergyAvailable=可用能量：
+chooseEnergyMax=最大能量分配：
+#########
+######### CreateTextLobby
+#########
+exitGameConfirm=确定要离开？
+exitGameConfirmLoss=所有进度将会丢失。
+exitGameConfirmSave=当前进度已保存。
+exitGameRewards=离开游戏前必须领取你的奖励。
+exitGameEvent=离开游戏前必须完成你的活动事件。
+exitRoomConfirm=确定要离开游戏房间？
+inputPasswordRoom=请输入房间密码并点击按钮。
+inputIDRoom=请输入房间 ID
+joinById=使用 ID 加入
+launchGame=启动游戏
+inviteSteamFriends=邀请 Steam 好友
+statusMP=多人模式状态
+statusConnecting=正在连接多人模式服务器
+statusJoinedLobby=已加入大厅
+statusConnected=已连接服务器
+chatPlayerJoined=%p已加入游戏。
+chatPlayerLeft=%p已离开游戏。
+chatPlayerKicked=%p已被踢出游戏。
+masterKickedYou=你已被踢出游戏。
+playersInGame=游戏内玩家：
+multiplayerDescription=最多可与 3 名玩家一起游玩！创建新的游戏或加入其他玩家的房间。选择你的英雄，然后开始冒险。
+multiplayerSubDescription=* 在多人游戏中，你仅可以选择此前已解锁的英雄。此外，在多人游戏中解锁的英雄也可以在其他可用模式中游玩。
+availableRooms=可用房间
+chooseRoom=选择游戏房间。
+createRoom=新建游戏房间。
+roomDescription=游戏介绍
+numberOfPlayers=玩家数量
+privateRoom=私人房间
+roomPasswordDesc=** 仅有知道密码的用户才能加入房间。
+createRoomButton=新建房间
+disconnect=断开连接
+selectRegion=选择地区
+connectedRegion=已连接<br>地区：【{0}】
+regionEU=欧洲地区
+regionUS=美国地区
+regionASIA=亚洲地区
+lfgLobby=<color=#DB9D6A>你正在寻找伙伴一起游玩吗？</color><br>立即加入我们官方 Discord 社区的 #LFG 频道吧！
+#########
+######### CreateTextSelection
+#########
+adventure=冒险
+beginAdventure=开始冒险
+teamSelection=队伍选择
+dragCharacters=拖动你想在本次游戏中使用的角色。<br>部分攻击只能针对前排、后排或中间的单位。
+heroselectionWeekly=以下是你在本次挑战中可以控制的角色。
+dragRecommended=* 当前位置的推荐职业
+positionFront=前排
+positionBack=后排
+masterAssign=游戏的房主必须在每个槽位中指定一名玩家。对所有玩家至少完成一次选定后，即可开始游戏。
+helpCharacterHealth=角色的生命值
+helpCharacterEnergy=回合开始时，角色都会拥有相应的初始能量和能量值。
+helpCharacterSpeed=角色的速度。速度最高的英雄将在每个回合率先行动。
+tutorialTownTitle=城镇行动
+tutorialTown=你可以为你的牌组锻造新卡，升级你拥有的卡牌，为你的英雄购买装备。你还可以领取此前游戏的奖励。
+tutorialCombatSpeedTitle=速度和角色顺序
+tutorialCombatSpeed=所有角色都有一个速度值（受卡牌、物品和特性的影响）。此数值决定了角色的行动顺序。若双方速度相同，则最靠近中心的英雄将会优先行动。
+tutorialFirstTurnEnergyTitle=能量管理与卡牌
+tutorialFirstTurnEnergy=你可以释放卡牌，直到能量耗尽为止。<br><br>回合结束时，该英雄尚未使用的能量将会被储存到下一回合。
+tutorialCombatCardTargetTitle=卡牌目标
+tutorialCombatCardTarget=此方框显示了可用目标。<br><br>如果一张卡牌拥有多个可用目标，你必须选择将会受到影响的目标。如果目标只有一个，释放卡牌会自动选择它。
+tutorialCombatResistsTitle=伤害和抗性
+tutorialCombatResists=游戏存在 9 种不同的伤害类型（和抗性）。<br><br>卡牌上的伤害值将会按目标的抗性百分比相应减少。
+tutorialEventRollsTitle=事件掷点
+tutorialEventRolls=部分选项需要你投掷骰子才能确定行动的结果。每名角色都会使用其牌组的卡牌进行掷点。
+tutorialTownRewardsTitle=完成游戏的奖励
+tutorialTownRewards=在城镇时，你可以领取往期游戏获得的奖励。别忘了去领取这些奖励：最多可以存储最近获得的三次奖励。
+tutorialCardsRewardTitle=锁定卡牌
+tutorialCardsReward=在冒险过程中，你会在每次战斗后发现新的卡牌。发现的所有卡牌都会被解锁。请记住：你仅能制作未锁定的卡牌。
+tutorialCharactersTitle=选择你的队伍。
+tutorialCharacters=在冒险中完成任务可以解锁新角色。角色任务使用以下图标进行标记 <size=+.5><sprite name=questBegin></size>。
+tutorialPerksTitle=角色专精
+tutorialPerks=在冒险结束时，队伍中的角色均可获得经验值（每个级别等级都会奖励专精点）。你可以使用专精点来升级角色。
+tutorialTownCraftTitle=锻造卡牌
+tutorialTownCraft=在每座城镇里，你可以为英雄制作你此前已解锁的卡牌。根据你的城镇升级情况，将会相应适用部分限制。
+watchingTutorial=【稍等片刻】<br>另一名玩家正在观看教程。
+castNPCTitle=怪物卡牌
+castNPC=怪物即将释放的卡牌会默认隐藏。“预见”<sprite name=sight>效果可以揭示这些卡牌，允许你可以提前计划自己的行动。
+levelUp=升级！
+cantLevelUp=你只能在城镇或地图界面中提升等级。
+cantGiveGoldDivination=在占卜回合期间，你无法给予金币或碎片。
+gameSeed=游戏种子
+gameSeedInput=请输入新的游戏种子。
+#########
+######### CreateTextCards
+#########
+requireSkill=需要{0}
+priority=优先级：{0}
+global=全球
+friends=好友
+self=自己
+random=随机
+hero=英雄
+anyone=任何人
+heroes=英雄
+monsters=怪物
+allHeroes=全体英雄
+randomHero=随机英雄
+frontHero=前排英雄
+backHero=后排英雄
+middleHero=中排英雄
+slowestHero=速度最低的英雄
+fastestHero=速度最高的英雄
+leastHPHero=生命值最低的英雄
+mostHPHero=生命值最高的英雄
+otherHero=其他英雄
+monster=怪物
+allMonsters=全体怪物
+randomMonster=随机怪物
+frontMonster=前排怪物
+backMonster=后排怪物
+middleMonster=中排怪物
+slowestMonster=速度最低的怪物
+fastestMonster=速度最高的怪物
+leastHPMonster=生命值最低的怪物
+mostHPMonster=生命值最高的怪物
+priorityBack=后排
+priorityMiddle=中排英雄
+priorityFront=前排
+priorityAnyButBack=任意后排
+priorityLessHealthPercent=百分比生命值最低
+priorityMoreHealthPercent=百分比生命值最高
+priorityLessHealthFlat=生命值最低
+priorityMoreHealthFlat=生命值最高
+priorityLessHealthAbsolute=绝对生命值最低
+priorityMoreHealthAbsolute=绝对生命值最高
+priorityLessInitiative=速度最低
+priorityMoreInitiative=速度最高
+damageType=伤害类型
+damageTypes=伤害类型
+aura=光环
+curse=诅咒
+deal=造成
+apply=施加
+gain=获得
+youGain=你获得了
+suffer=遭受
+youSuffer=你遭受了
+lose=失去
+youLose=你失去了
+grant=赋予
+heal=治疗
+draw=抽牌
+discard=弃牌
+discover=发现
+reveal=揭示
+pick=挑选
+place=放置
+look=检视
+onDraw=抽牌阶段
+onEndTurn=结束阶段
+endTurn=回合结束
+#########
+######### CreateTextCombat
+#########
+newTurn=回合开始
+chooseDiscard=选择要丢弃的卡牌。
+chooseTopDeck=选择要放置在牌组顶部的卡牌。
+cardsLeft=剩余卡牌：
+combatEffects=战斗效果
+combatVictory=胜利！
+combatFail=你的任务在此结束……
+combatOnlyMasterCanResign=只有游戏的房主才可以投降。
+combatWantToRetry=<color=#BBB>有时，采取不同的对策是取得成功的关键。</color><line-height=50><br></line-height>是否重新进行战斗？
+combatWantToRetryClient=（等待房主作出决定。）
+combatWantToResign=<color=#f88>是否投降？</color>
+combatWantToResignEnd=你的冒险将在此结束。
+removeProgressQuestion=是否要移除所有存档？
+resetTutorialQuestion=是否要重置教程？
+mapNodes=地图节点
+mapEntryPoint=入口点
+mapLegend=地图图例
+mapLegendEvent=事件（稀有度）
+mapLegendCard=卡牌点
+mapLegendCrafter=工匠点
+mapLegendMapTransition=地图迁徙
+mapLegendShop=物品店
+mapLegendRest=休息点
+mapLegendCharacter=角色
+mapLegendQuestEnd=任务结束
+mapLegendBoss=地区头目
+typeCardsUnlocked=已解锁 {0} 张卡牌
+relatedCard=相关卡牌
+basicValues=* 这些是卡牌的基础值（不含角色天赋、角色专精和物品加成）。
+corruptedVersion=腐化版
+specialCard=特殊卡牌
+characterCard=角色卡牌
+rareVersion=稀有版
+cardsAnd={0}和{1}
+cardsDealDamage=造成 {0}
+cardsSuffer=遭受 {0}
+cardsYouSuffer=你遭受了 {0}
+cardsYouLose=你失去了 {0}
+cardsTargetSides=目标两侧 {0}
+cardsGrant=赋予 {0}
+cardsGain=获得 {0}
+cardsYouGain=你获得了 {0}
+cardsApply=施加 {0}
+cardsDispel=驱散 {0}
+cardsDispelAll=驱散所有
+cardsPurge=净化 {0}
+cardsPurgeAll=净化所有
+cardsTransferCurse=转移 {0} 个诅咒
+cardsReduceCurse=诅咒充能减少 {0}%
+cardsCast=释放卡牌 {0}
+cardsRepeat=重复 {0}
+cardsRepeatUpTo=最多可重复 {0}
+cardsRepeatChain=连锁 {0}
+cardsRepeatJump=跳跃 {0}
+cardsIgnoreBlock=无视格挡
+cardsTransformInto=<nobr>{0}转化为{1}</nobr>
+cardsTransformIntoAnd=<nobr>{0}转化为{1}和{2}</nobr>
+cardsXEqualsYourHand=（X 等同于你<nobr>手牌的{0}{1}</nobr>）
+cardsXEqualsYourDeck=（X 等同于你<nobr>抽牌堆的{0}{1}</nobr>）
+cardsXEqualsYourDiscard=（X 等同于你<nobr>弃牌堆的{0}{1}</nobr>）
+cardsXEqualsYourVanish=（X 等同于你<nobr>消耗堆的{0}{1}</nobr>）
+cardsXEqualsYourHp=（X 等同于你生命值的{0}）
+cardsXEqualsYour=（X 等同于你的{0}{1}）
+cardsXEqualsTarget=（X 等同于目标的{0}{1}）
+cardsXEqualsTargetHp=（X 等同于目标生命值的{0}）
+cardsXEqualsTargetDeck=（X 等同于目标的<nobr>抽牌堆的{0}{1}</nobr>）
+cardsXEqualsTargetDiscard=（X 等同于目标的<nobr>弃牌堆的{0}{1}</nobr>）
+cardsXEqualsTargetVanish=（X 等同于目标的<nobr>消耗堆的{0}{1}</nobr>）
+cardsShareYour=拆分你的{0}
+cardsDoubleYour=将你的{0}翻倍
+cardsDoubleTarget=将目标的{0}翻倍
+cardsTripleYour=将你的{0}翻三倍
+cardsTripleTarget=将目标的{0}翻三倍
+cardsLosePercentYour=你失去 {0}%{1}
+cardsLosePercentTarget=目标失去 {0}%{1}
+cardsHeal=治疗 {0}
+cardsHealSelf=自身治疗 {0}
+cardsHealSelfPerDamage=治疗自身相当于伤害值的 {0}%
+cardsConsume=耗费{0}
+cardsConsumeYour=耗费你的{0}
+cardsDispelYour=驱散你的{0}
+cardsPurgeYour=净化你的{0}
+cardsOverCharge=过载 {0}
+cardsLoseHp=失去 {0}
+cardsDraw=抽牌 {0}
+cardsDiscard=丢弃 {0}
+cardsDiscardAny=丢弃任意卡牌
+cardsDiscardUpTo=最多可丢弃 {0} 张卡牌
+cardsVanishUpTo=最多可消耗 {0} 张卡牌
+cardsLook=检视 {0}
+cardsCost=费用为 {0}
+cardsCostReducedBy=减少 {0}
+cardsCostUntilDiscarded=直到被丢弃为止
+cardsAddCost=（费用为 {0}）
+cardsAddCostVanish=（费用为 {0} 然后消耗）
+cardsAddCostVanishTurn=（在当前回合的费用为 {0} 然后消耗）
+cardsAddCostTurn=（费用为 {0}，直到被丢弃为止）
+cardsAddCostReduced=（费用减少 {0}）
+cardsAddCostReducedVanish=（费用减少 {0} 然后消耗）
+cardsAddCostReducedTurn=（费用减少 {0}，直到被丢弃为止）
+cardsAddCostReducedVanishTurn=（在当前回合的费用减少 {0} 然后消耗）
+cardsDiscoverToDeck=发现 {0} 并将其洗入牌组
+cardsDiscoverNumberToTopDeck=发现 {0} 并将 {1} 放置在牌组顶部
+cardsDiscoverNumberToHand=发现 {0} 并将 {1} 放入你的手牌
+cardsDiscoverNumberToDeck=发现 {0} 并将 {1} 洗入牌组
+cardsDiscoverToHand=发现 {0} 并将其放入你的手牌
+cardsPlaceToTop=将手牌中的 {0} 放置在牌组顶部。
+cardsRevealThemToHand=在你的抽牌堆中揭示 {0} 并将其放入手牌
+cardsRevealItToHand=在你的抽牌堆中揭示 {0} 并将其放入手牌
+cardsRevealNumberToHand=在你的抽牌堆中揭示 {0} 并将 {1} 放入手牌
+cardsRevealItToTopDeck=在你的抽牌堆中揭示 {0} 并将其放置在牌组顶部
+cardsRevealThemToTopDeck=在你的抽牌堆中揭示 {0} 并将其放置在牌组顶部
+cardsRevealNumberToTopDeck=在你的抽牌堆中揭示 {0} 并将 {1} 放置在牌组顶部
+cardsPickToTop=在你的弃牌堆中选择 {0} 并将其放置在牌组顶部
+cardsPickToHand=在你的弃牌堆中选择 {0} 并将其放入手牌
+cardsFromVanishToTop=在你的消耗堆中选择 {0} 并将其放置在牌组顶部
+cardsFromVanishToHand=在你的消耗堆中选择 {0} 并将其放入手牌
+cardsDuplicateToHand=复制手牌中的{0}// 0 => cardname
+cardsDuplicateToTargetTopDeck=在你的手牌中复制 {0} 并将其放入目标的牌组顶部// 0 => cardname
+cardsDuplicateToTargetRandomDeck=在你的手牌中复制{0}并将其洗入目标的牌组// 0 => cardname
+cardsIDShuffleDeck=将{0}洗入你的牌组// 0 => cardname
+cardsIDShuffleTargetDeck=将{0}洗入目标的牌组// 0 => cardname
+cardsIDPlaceHand=将{0}放入你的手牌// 0 => cardname
+cardsIDPlaceTopDeck=将{0}放置在你的牌组顶部// 0 => cardname
+cardsIDPlaceTargetTopDeck=将{0}放在目标的牌组顶部// 0 => cardname
+cardsIDPlaceTargetDiscard=将{0}放置在目标的弃牌堆// 0 => cardname
+cardsDuplicateHand=将这张牌的复制品放入你的手牌中// 0 => cardname
+cardsSummon=召唤{0}
+cardsImmuneTo=免疫：{0}
+cardsTransformDamage=将伤害转化为{0}
+cardsPassEventRoll=单一角色事件掷点 100% 成功
+killPet=击杀英雄的宠物
+requiredPoints=需要 {0} 已用点数
+cantDrawAnyCard=无法抽取任意卡牌
+missesThisTurn=跳过当前回合
+itemMaxHp=最大生命值 {0}
+itemAllResistances=所有抗性 {0}
+itemXResistances={0} 抗性 {1}
+itemSpeed=速度 {0}
+itemInitialEnergy=初始能量 {0}
+itemInitialCurrency=初始金币和碎片 {0}
+itemCharges={0} 充能 {1}
+itemEnergyRegeneration={0} 再生 {1}
+itemAllDamages=所有伤害 {0}
+itemSingleDamage={0} {1} 伤害 /// +1 damage
+itemXDamages={0} 伤害 {1}
+itemHealDone=治疗输出 {0}
+itemCombatStart=战斗开始
+itemCombatEnd=战斗结束
+itemFirstTurn=首个回合
+itemEachTurn=每个回合
+itemOncePerTurn=1 次／回合
+itemTwicePerTurn=2 次／回合
+itemThricePerTurn=3 次／回合
+itemFourPerTurn=4 次／回合
+itemFivePerTurn=5 次／回合
+itemDamageDone=命中伤害
+itemWhenDamaged=受到他人伤害//When damaged
+itemWhenDamagedBelow=受到他人伤害 <{0}
+itemWhenHitted=击中时
+itemWhenHealed=被治疗时
+itemWhenEvaded=被闪避时
+itemWhenEvade=闪避时
+itemWhenBlock=格挡时
+itemHealDoneAction=治疗一名英雄时
+itemWhenHandEmpty=如果你打出一张<sprite name=card>后手牌为空
+itemChanceToDispel={0} 机率：<br>驱散{1}
+itemEveryRound=每个回合
+itemEveryNRounds=每 {0} 个回合
+itemForEveryCharge=你每施加 {0} 个充能，/// "haste"
+itemApplyEnemies=对全体怪物施加 {0}/// "haste"
+itemApplyHeroesFromMonster=对全体英雄施加 {0}/// "haste"
+itemApplyHeroes=全体英雄获得 {0}/// "haste"
+itemApplyRandomHero=一名随机英雄获得 {0}/// "haste"
+itemApplyRandomEnemy=对一个随机怪物施加 {0}/// "haste"
+itemApplyHighestFlatHpEnemy=对生命值最高的怪物施加 {0}/// "haste"
+itemApplyLowestFlatHpEnemy=对生命值最低的怪物施加 {0}/// "haste"
+itemApplyHighestFlatHpHero=对生命值最高的英雄施加 {0}/// "haste"
+itemApplyLowestFlatHpHero=对生命值最低的英雄施加 {0}/// "haste"
+itemApplyForEvery=你每施加 {0} 个充能，施加 {1}/// "haste"
+itemApplyForEnergyUsed=每使用 {0}：
+itemWhenYouPlay=打出一个 {0}/// "Cold spell" 时
+itemWhenYouApply=施加 {0}/// "Cold spell" 时
+itemCustomTextMaxChargesIncrasedYouApply=你施加的 {0} 拥有 {1} 最大充能
+itemCustomTextMaxChargesIncrasedOnHeroes=英雄身上的{0}拥有 {1} 最大充能
+itemCustomTextMaxChargesIncrasedOnEnemies=怪物身上的{0}拥有 {1} 最大充能
+itemCustomTextExplodeChargesMonsters=怪物身上的{0}充能为 {1} 时爆炸
+itemCustomTextAllResistHealingReceived=英雄身上的每层{0}充能给予 +{1}% 所有抗性和 +{2}% 获得的治疗
+itemTheNext=下张{0}
+itemWhenKilled=死亡时
+itemDestroyStartTurn=最后一回合
+itemLastUse=最后 1 次使用次数
+itemLastUses=最后 {0} 次使用次数
+itemOncePerCombat=每场战斗一次
+itemTheNext=下张{0}{1}
+itemRecoverSelf=回复 {0} 生命值
+itemRecoverLowestHPMonster=生命值最低的怪物回复 {0} 生命值
+itemRecoverHeroes=全体英雄回复 {0} 生命值/// All heroes gain "haste"
+itemReduce=将你手牌中 {0} 张随机{1}的费用减少 {2} {3}/// reduce the cost of 1 random "Song" in your hand by 1
+itemReduceTurn=将你手牌中 {0} 张随机{1}的费用减少 {2} 直到丢弃为止 {3}/// reduce the cost of 1 random "Song" in your hand by 1 this turn
+itemReduceHighestTurn=将你手牌中 {0} 张费用最高的{1}，其费用减少 {2} 直到丢弃为止 {3}/// reduce the cost of 1 random "Song" in your hand by 1 this turn
+itemReduceHighestPermanent=将你手牌中 {0} 张费用最高的{1}，其费用减少 {2} {3}
+itemDiscount={0} 魔力煅炉、祭坛和物品店的额外折扣
+itemDieRetain=死亡时，额外保留 {0} 金币和碎片
+itemResurrectHP=以 {0} 的生命值复活
+customSOR=死亡时，以 50% 的生命值复活，并摧毁复活卷轴。
+customSORRare=死亡时，以 100% 的生命值复活，并摧毁复活卷轴。
+customBurnedI=- 引火上身，玩火自焚 -
+customBrokenI=- 欲速则不达 -
+customVoidMemory=- 你只记得自己忘记了什么 -
+customLowSelf=- 事与愿违的羞愧见证 -
+customSuccess=- 排除万难后，你向命运发起挑战并赢得胜利 -
+customTombstone=- 安息吧 -
+
+customSurpriseBox=<size=-.2><color=#3A3A3A>【战斗开始】</color><br></size>获得其中一项：<br><bl>2</bl><i=fast>、<bl>2</bl><i=powerful>、<bl>2</bl><i=bless>、<br><rd>2</rd><i=slow>、<rd>2</rd><i=vulnerable>、<rd>2</rd><i=mark>
+customSurpriseBoxRare=<size=-.2><color=#3A3A3A>【战斗开始】</color><br></size>获得其中一项：<br><bl>4</bl><i=fast>、<bl>4</bl><i=powerful>、<bl>4</bl><i=bless>、<br><rd>4</rd><i=slow>、<rd>4</rd><i=vulnerable>、<rd>4</rd><i=mark>
+
+customSurpriseGiftBox=<size=-.2><color=#3A3A3A>【战斗开始】</color><br></size>全体英雄获得其中一项：<br><bl>2</bl><i=fast>、<bl>2</bl><i=powerful>、<bl>2</bl><i=bless>、<br><rd>2</rd><i=slow>、<rd>2</rd><i=vulnerable>、<rd>2</rd><i=mark>
+customSurpriseGiftBoxRare=<size=-.2><color=#3A3A3A>【战斗开始】</color><br></size>全体英雄获得其中一项：<br><bl>4</bl><i=fast>、<bl>4</bl><i=powerful>、<bl>4</bl><i=bless>、<br><rd>4</rd><i=slow>、<rd>4</rd><i=vulnerable>、<rd>4</rd><i=mark>
+
+customBurningBlood=将<i=bleed>转化为 <i=burn><br>获得<bl> X </bl><i=fury><br><size=-.15><gl>（X 等同于你的 <i=bleed>x0.3）</gl></size>
+customBurningBloodA=将<i=bleed>转化为<i=burn><br>赋予<bl> X </bl><i=fury><br><size=-.15><gl>（X 等同于目标 <i=bleed>x0.5）</gl></size>
+customBurningBloodB=将<i=bleed>转化为<i=burn> x0.5 <br>获得<bl> X </bl><i=fury><br><size=-.15><gl>（X 等同于你的 <i=bleed>x0.5）</gl></size>
+customBurningBloodRare=将<i=bleed>转化为<i=burn>x0.5<br>获得<bl>X</bl><i=fury><br><size=-.15><gl>（X 等同于你的<i=bleed>）</gl></size>
+
+customArmagedon=<gl>全体怪物获得：</gl><br>所有伤害<bl>+2</bl><br>免疫<i=burn><i=crack><br><gl>- 每个回合 -</gl><br>增加<crd=meteorite,1>到全体怪物。
+customArmagedonA=<gl>全体怪物获得：</gl><br>所有伤害<bl>+2</bl><br>免疫<i=burn><i=crack><br><gl>- 每个回合 -</gl><br>增加<crd=meteorite,1>到全体怪物。
+customArmagedonB=<gl>全体怪物获得：</gl><br>所有伤害<bl>+3</bl><br>免疫<i=burn><i=crack><br><gl>- 每个回合 -</gl><br>增加<crd=meteorite,1>到全体怪物。
+customArmagedonRare=<gl>全体怪物获得：</gl><br>所有伤害<bl>+4</bl><br>免疫<i=burn><i=crack><br><gl>- 每个回合 -</gl><br>增加<crd=meteorite,1>到全体怪物。
+
+customThunderstorm=<gl>全体怪物获得：</gl><br>所有伤害<bl>+1</bl><br><i=lightning>抗性<bl>+15%</bl><br><gl>- 每个回合 -</gl><br>增加<crd=storm,1>到一个随机怪物。
+customThunderstormA=<gl>全体怪物获得：</gl><br>所有伤害<bl>+2</bl><br><i=lightning>抗性<bl>+20%</bl><br><gl>- 每个回合 -</gl><br>增加<crd=storm,1>到一个随机怪物。
+customThunderstormB=<gl>全体怪物获得：</gl><br>所有伤害<bl>+2</bl><br><i=lightning>抗性<bl>+25%</bl><br><gl>- 每个回合 -</gl><br>增加<crd=storm,1>到一个随机怪物。
+customThunderstormRare=<gl>全体怪物获得：</gl><br>所有伤害<bl>+3</bl><br><i=lightning>抗性<bl>+30%</bl><br><gl>- 每个回合 -</gl><br>增加<crd=storm,1>到一个随机怪物。
+
+customWindsofAmnesia=<gl>全体怪物获得：</gl><br>最大生命值<bl>+15</bl><br><gl>- 每个回合 -</gl><br>增加<crd=tabularasa,1>到一个随机怪物。</color>
+customWindsofAmnesiaA=<gl>全体怪物获得：</gl><br>最大生命值<bl>+25</bl><br><gl>- 每个回合 -</gl><br>增加<crd=tabularasa,1>到一个随机怪物。</color>
+customWindsofAmnesiaB=<gl>全体怪物获得：</gl><br>最大生命值<bl>+35</bl><br><gl>- 每个回合 -</gl><br>增加<crd=tabularasa,1>到一个随机怪物。</color>
+customWindsofAmnesiaRare=<gl>全体怪物获得：</gl><br>最大生命值<bl>+45</bl><br><gl>- 每个回合 -</gl><br>增加<crd=tabularasa,1>到一个随机怪物。</color>
+
+customNoxiousParasites=<gl>全体怪物获得：</gl><br>所有伤害<bl>+2</bl><br>免疫<i=poison><br><gl>- 每个回合 -</gl><br>将<crd=hatchcorrupt,1>洗入每位英雄的牌组。
+customNoxiousParasitesA=<gl>全体怪物获得：</gl><br>所有伤害<bl>+2</bl><br>免疫<i=poison><br><gl>- 每个回合 -</gl><br>将<crd=hatchcorrupt,1>洗入每位英雄的牌组。
+customNoxiousParasitesB=<gl>全体怪物获得：</gl><br>所有伤害<bl>+3</bl><br>免疫<i=poison><br><gl>- 每个回合 -</gl><br>将<crd=hatchcorrupt,1>洗入每位英雄的牌组。
+customNoxiousParasitesRare=<gl>全体怪物获得：</gl><br>所有伤害<bl>+4</bl><br>免疫<i=poison><br><gl>- 每个回合 -</gl><br>将<crd=hatchcorrupt,1>洗入每位英雄的牌组。
+
+customMelancholy=<gl>全体怪物获得：</gl><br>最大生命值<bl>+15</bl><br>所有抗性<bl>+10%</bl><br>免疫<i=insane><br><gl>- 每个回合 -</gl><br>将<crd=sad,2>洗入每位英雄的牌组。</color>
+customMelancholyA=<gl>全体怪物获得：</gl><br>最大生命值<bl>+25</bl><br>所有抗性<bl>+15%</bl><br>免疫<i=insane><br><gl>- 每个回合 -</gl><br>将<crd=sad,2>洗入每位英雄的牌组。</color>
+customMelancholyB=<gl>全体怪物获得：</gl><br>最大生命值<bl>+35</bl><br>所有抗性<bl>+20%</bl><br>免疫<i=insane><br><gl>- 每个回合 -</gl><br>将<crd=sad,2>洗入每位英雄的牌组。</color>
+customMelancholyRare=<gl>全体怪物获得：</gl><br>最大生命值<bl>+45</bl><br>所有抗性<bl>+25%</bl><br>免疫<i=insane><br><gl>- 每个回合 -</gl><br>将<crd=sad,2>洗入每位英雄的牌组。</color>
+
+customFungalOutbreak=<gl>全体怪物获得：</gl><br>所有伤害<bl>+1</bl><br><i=mind>抗性<bl>+15%</bl><br><gl>- 每个回合 -</gl><br>将<crd=magicmushroom,1>放置在一个随机英雄的牌组顶部。
+customFungalOutbreakA=<gl>全体怪物获得：</gl><br>所有伤害<bl>+2</bl><br><i=mind>抗性<bl>+20%</bl><br><gl>- 每个回合 -</gl><br>将<crd=magicmushroom,1>放置在一个随机英雄的牌组顶部。
+customFungalOutbreakB=<gl>全体怪物获得：</gl><br>所有伤害<bl>+2</bl><br><i=mind>抗性<bl>+25%</bl><br><gl>- 每个回合 -</gl><br>将<crd=magicmushroom,1>放置在一个随机英雄的牌组顶部。
+customFungalOutbreakRare=<gl>全体怪物获得：</gl><br>所有伤害<bl>+3</bl><br><i=mind>抗性<bl>+30%</bl><br><gl>- 每个回合 -</gl><br>将<crd=magicmushroom,1>放置在一个随机英雄的牌组顶部。
+
+customEmpower=<gl>全体怪物获得：</gl><br>所有伤害<bl>+1</bl><br><gl>- 每个回合 -</gl><br>获得 <bl>3</bl> 层<i=powerful>
+customEmpowerA=<gl>全体怪物获得：</gl><br>所有伤害<bl>+2</bl><br><gl>- 每个回合 -</gl><br>获得 <bl>3</bl> 层<i=powerful>
+customEmpowerB=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+2</bl><br><gl>- 每个回合 -</gl><br>获得 <bl>4</bl> 层<i=powerful>
+customEmpowerRare=<gl>全体怪物获得：</gl><br>所有伤害<bl>+3</bl><br><gl>- 每个回合 -</gl><br>获得 <bl>4</bl> 层<i=powerful>
+
+customPoisonFields=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+2</bl><br>免疫<i=poison><br><gl>- 每个回合 -</gl><br>全体英雄遭受 <rd>3<rd> 层<i=poison>
+customPoisonFieldsA=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+2</bl><br>免疫<i=poison><br><gl>- 每个回合 -</gl><br>全体英雄遭受 <rd>5<rd> 层<i=poison>
+customPoisonFieldsB=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+3</bl><br>免疫<i=poison><br><gl>- 每个回合 -</gl><br>全体英雄遭受 <rd>7<rd> 层<i=poison>
+customPoisonFieldsRare=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+4</bl><br>免疫<i=poison><br><gl>- 每个回合 -</gl><br>全体英雄遭受 <rd>9<rd> 层<i=poison>
+
+customPacifism=<gl>全体怪物获得：</gl><br><i=slashing><i=blunt><i=piercing><br>抗性 <bl>+15%</bl><br><gl>- 每两个回合 -</gl><br>全体英雄遭受 <rd>1</rd> 层<i=disarm></size>
+customPacifismA=<gl>全体怪物获得：</gl><br><i=slashing><i=blunt><i=piercing><br>抗性 <bl>+20%</bl><br><gl>- 每两个回合 -</gl><br>全体英雄遭受 <rd>1</rd> 层<i=disarm></size>
+customPacifismB=<gl>全体怪物获得：</gl><br><i=slashing><i=blunt><i=piercing><br>抗性 <bl>+25%</bl><br><gl>- 每两个回合 -</gl><br>全体英雄遭受 <rd>1</rd> 层<i=disarm></size>
+customPacifismRare=<gl>全体怪物获得：</gl><br><i=slashing><i=blunt><i=piercing><br>抗性 <bl>+30%</bl><br><gl>- 每两个回合 -</gl><br>全体英雄遭受 <rd>1</rd> 层<i=disarm></size>
+
+customIronclad=<gl>全体怪物获得：</gl><br>所有抗性<bl>+10%</bl><br><gl>- 战斗开始 -</gl><br>获得<br><bl>14</bl> 层<i=block><bl>2</bl> 层<i=reinforce>
+customIroncladA=<gl>全体怪物获得：</gl><br>所有抗性<bl>+15%</bl><br><gl>- 战斗开始 -</gl><br>获得<br><bl>20</bl> 层<i=block><bl>3</bl> 层<i=reinforce>
+customIroncladB=<gl>全体怪物获得：</gl><br>所有抗性<bl>+20%</bl><br><gl>- 战斗开始 -</gl><br>获得<br><bl>26</bl> 层<i=block><bl>3</bl> 层<i=reinforce>
+customIroncladRare=<gl>全体怪物获得：</gl><br>所有抗性<bl>+25%</bl><br><gl>- 战斗开始 -</gl><br>获得<br><bl>32</bl> 层<i=block> <bl>4</bl> 层<i=reinforce>
+
+customVigorous=<gl>全体怪物获得：</gl><br>最大生命值 <bl>+30</bl><br>所有伤害 <bl>+1</bl>
+customVigorousA=<gl>全体怪物获得：</gl><br>最大生命值 <bl>+45</bl><br>所有伤害 <bl>+1</bl>
+customVigorousB=<gl>全体怪物获得：</gl><br>最大生命值 <bl>+60</bl><br>所有伤害 <bl>+2</bl>
+customVigorousRare=<gl>全体怪物获得：</gl><br>最大生命值 <bl>+75</bl><br>所有伤害 <bl>+2</bl>
+
+customUpwind=<gl>全体怪物获得：</gl><br>速度 <bl>+3</bl><br>所有抗性 <bl>+5%</bl><br><gl>- 战斗开始 -</gl><br>全体英雄遭受 <bl>2</bl> 层<i=slow>
+customUpwindA=<gl>全体怪物获得：</gl><br>速度 <bl>+3</bl><br>所有抗性 <bl>+10%</bl><br><gl>- 战斗开始 -</gl><br>全体英雄遭受 <bl>3</bl> 层<i=slow>
+customUpwindB=<gl>全体怪物获得：</gl><br>速度 <bl>+4</bl><br>所有抗性 <bl>+15%</bl><br><gl>- 战斗开始 -</gl><br>全体英雄遭受 <bl>3</bl> 层<i=slow>
+customUpwindRare=<gl>全体怪物获得：</gl><br>速度 <bl>+5</bl><br>所有抗性 <bl>+20%</bl><br><gl>- 战斗开始 -</gl><br>全体英雄遭受 <bl>4</bl> 层<i=slow>
+
+customSacredGround=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+1</bl><br><i=holy>抗性 <bl>+15%</bl><br><gl>- 战斗开始 -</gl><br>全体英雄遭受 <bl>7</bl> 层<i=sanctify>
+customSacredGroundA=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+2</bl><br><i=holy>抗性 <bl>+20%</bl><br><gl>- 战斗开始 -</gl><br>全体英雄遭受 <bl>11</bl> 层<i=sanctify>
+customSacredGroundB=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+2</bl><br><i=holy>抗性 <bl>+25%</bl><br><gl>- 战斗开始 -</gl><br>全体英雄遭受 <bl>15</bl> 层<i=sanctify>
+customSacredGroundRare=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+3</bl><br><i=holy>抗性 <bl>+30%</bl><br><gl>- 战斗开始 -</gl><br>全体英雄遭受 <bl>19</bl> 层<i=sanctify>
+
+customHypotermia=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+1</bl><br><i=cold>抗性 <bl>+15%</bl><br><gl>英雄打出卡牌时，</gl> 遭受 <rd>2</rd> 层<i=chill>
+customHypotermiaA=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+2</bl><br><i=cold>抗性 <bl>+20%</bl><br><gl>英雄打出卡牌时，</gl> 遭受 <rd>3</rd> 层<i=chill>
+customHypotermiaB=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+2</bl><br><i=cold>抗性 <bl>+25%</bl><br><gl>英雄打出卡牌时，</gl> 遭受 <rd>4</rd> 层<i=chill>
+customHypotermiaRare=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+3</bl><br><i=cold>抗性 <bl>+30%</bl><br><gl>英雄打出卡牌时，</gl> 遭受 <rd>5</rd> 层<i=chill>
+
+customBacklash=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+2</bl><br>所有抗性<bl>+5%</bl><br><gl>英雄打出“法术牌”时， </gl>遭受 <rd>3</rd> 层<i=dark> <rd>2</rd> 层<i=insane>
+customBacklashA=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+2</bl><br>所有抗性<bl>+10%</bl><br><gl>英雄打出“法术牌”时， </gl>遭受 <rd>4</rd> 层<i=dark> <rd>2</rd> 层<i=insane>
+customBacklashB=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+3</bl><br>所有抗性<bl>+15%</bl><br><gl>英雄打出“法术牌”时， </gl>遭受 <rd>4</rd> 层<i=dark> <rd>3</rd> 层<i=insane>
+customBacklashRare=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+4</bl><br>所有抗性<bl>+20%</bl><br><gl>英雄打出“法术牌”时， </gl>遭受 <rd>5</rd> 层<i=dark> <rd>3</rd> 层<i=insane>
+
+customSubZero=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+2</bl><br>免疫<i=chill><i=slow><br><gl>- 每两个回合 -</gl><br>增加<crd=freezecorruption,1>到全体怪物。
+customSubZeroA=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+2</bl><br>免疫<i=chill><i=slow><br><gl>- 每两个回合 -</gl><br>增加<crd=freezecorruption,1>到全体怪物。
+customSubZeroB=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+3</bl><br>免疫<i=chill><i=slow><br><gl>- 每两个回合 -</gl><br>增加<crd=freezecorruption,1>到全体怪物。
+customSubZeroRare=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+4</bl><br>免疫<i=chill><i=slow><br><gl>- 每两个回合 -</gl><br>增加<crd=freezecorruption,1>到全体怪物。
+
+customRevenge=<gl>全体怪物获得：</gl><br>所有伤害<bl>+2</bl><br>免疫<i=bleed><br><gl>英雄打出“攻击牌”时，</gl>全体怪物获得 <bl>3</bl> 层<i=fury>
+customRevengeA=<gl>全体怪物获得：</gl><br>所有伤害<bl>+2</bl><br>免疫<i=bleed><br><gl>英雄打出“攻击牌”时，</gl>全体怪物获得 <bl>4</bl> 层<i=fury>
+customRevengeB=<gl>全体怪物获得：</gl><br>所有伤害<bl>+3</bl><br>免疫<i=bleed><br><gl>英雄打出“攻击牌”时，</gl>全体怪物获得 <bl>5</bl> 层<i=fury>
+customRevengeRare=<gl>全体怪物获得：</gl><br>所有伤害<bl>+4</bl><br>免疫<i=bleed><br><gl>英雄打出“攻击牌”时，</gl>全体怪物获得 <bl>6</bl> 层<i=fury>
+
+customBurningWeapons=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+1</bl><br><i=fire>抗性 <bl>+15%</bl><br><gl>怪物造成伤害时，</gl> 施加 <rd>1</rd> 层<i=burn>
+customBurningWeaponsA=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+2</bl><br><i=fire>抗性 <bl>+20%</bl><br><gl>怪物造成伤害时，</gl> 施加 <rd>2</rd> 层<i=burn>
+customBurningWeaponsB=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+2</bl><br><i=fire>抗性 <bl>+25%</bl><br><gl>怪物造成伤害时，</gl> 施加 <rd>3</rd> 层<i=burn>
+customBurningWeaponsRare=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+3</bl><br><i=fire>抗性 <bl>+30%</bl><br><gl>怪物造成伤害时，</gl> 施加 <rd>4</rd> 层<i=burn>
+
+customPutrefaction=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+2</bl><br>免疫<i=dark><i=decay><br><gl>怪物造成伤害时，</gl>施加 <rd>2</rd> 层<i=dark><rd>1</rd> 层<i=decay>
+customPutrefactionA=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+2</bl><br>免疫<i=dark><i=decay><br><gl>怪物造成伤害时，</gl>施加 <rd>3</rd> 层<i=dark><rd>1</rd> 层<i=decay>
+customPutrefactionB=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+3</bl><br>免疫<i=dark><i=decay><br><gl>怪物造成伤害时，</gl>施加 <rd>3</rd> 层<i=dark><rd>2</rd> 层<i=decay>
+customPutrefactionRare=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+4</bl><br>免疫<i=dark><i=decay><br><gl>怪物造成伤害时，</gl>施加 <rd>4</rd> 层<i=dark><rd>2</rd> 层<i=decay>
+
+customHexproof=<gl>全体怪物获得：</gl><br>最大生命值 <bl>+15</bl><br>所有伤害 <bl>+2</bl><br><gl>- 每个回合 -</gl><br>获得 <bl>5</bl> 层<i=buffer>
+customHexproofA=<gl>全体怪物获得：</gl><br>最大生命值 <bl>+20</bl><br>所有伤害 <bl>+2</bl><br><gl>- 每个回合 -</gl><br>获得 <bl>6</bl> 层<i=buffer>
+customHexproofB=<gl>全体怪物获得：</gl><br>最大生命值 <bl>+25</bl><br>所有伤害 <bl>+3</bl><br><gl>- 每个回合 -</gl><br>获得 <bl>7</bl> 层<i=buffer>
+customHexproofRare=<gl>全体怪物获得：</gl><br>最大生命值 <bl>+30</bl><br>所有伤害 <bl>+4</bl><br><gl>- 每个回合 -</gl><br>获得 <bl>8</bl> 层<i=buffer>
+
+customHeavyWeaponry=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+3</bl><br>免疫<i=vulnerable><br><gl>怪物造成伤害时，</gl>施加 <rd>1</rd> 层<i=vulnerable><rd>1</rd> 层<i=slow>
+customHeavyWeaponryA=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+4</bl><br>免疫<i=vulnerable><br><gl>怪物造成伤害时，</gl>施加 <rd>2</rd> 层<i=vulnerable><rd>1</rd> 层<i=slow>
+customHeavyWeaponryB=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+4</bl><br>免疫<i=vulnerable><br><gl>怪物造成伤害时，</gl>施加 <rd>2</rd> 层<i=vulnerable><rd>2</rd> 层<i=slow>
+customHeavyWeaponryRare=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+5</bl><br>免疫<i=vulnerable><br><gl>怪物造成伤害时，</gl>施加 <rd>2</rd> 层<i=vulnerable><rd>2</rd> 层<i=slow>
+
+customThornProliferation=<gl>全体怪物获得：</gl><br>最大生命值 <bl>+15</bl><br>所有伤害 <bl>+2</bl><br><gl>英雄打出卡牌时， </gl>一个随机怪物获得 <rd>1</rd> 层<i=thorns>
+customThornProliferationA=<gl>全体怪物获得：</gl><br>最大生命值 <bl>+25</bl><br>所有伤害 <bl>+2</bl><br><gl>英雄打出卡牌时， </gl>一个随机怪物获得 <rd>2</rd> 层<i=thorns>
+customThornProliferationB=<gl>全体怪物获得：</gl><br>最大生命值 <bl>+35</bl><br>所有伤害 <bl>+3</bl><br><gl>英雄打出卡牌时， </gl>一个随机怪物获得 <rd>2</rd> 层<i=thorns>
+customThornProliferationRare=<gl>全体怪物获得：</gl><br>最大生命值 <bl>+45</bl><br>所有伤害 <bl>+4</bl><br><gl>英雄打出卡牌时， </gl>一个随机怪物获得 <rd>3</rd> 层<i=thorns>
+
+innate=固有
+vanish=消耗
+frail=脆弱
+mitigate=中和
+stanzai=诗节 I
+stanzaii=诗节 II
+stanzaiii=诗节 III
+chain=连锁
+dispel=驱散
+jump(bonus%)=跳跃 X 次（加成 %）
+overcharge=过载
+overchargeAcronym=过载
+purge=净化
+repeat=重复 X 次
+repeatupto=最多可重复 X 次
+bless=祝福
+block=格挡
+buffer=缓冲
+courage=英勇
+energize=激励
+evasion=闪避
+fast=迅捷
+fortify=坚守
+fury=狂怒
+haste=急速
+inspire=启迪
+insulate=绝缘
+invulnerable=无敌
+powerful=强效
+regeneration=再生
+reinforce=加固
+sharp=锐利
+shield=护盾
+stanza=诗节
+stealth=潜行
+taunt=嘲讽
+thorns=荆棘
+vitality=活力
+bleed=流血
+burn=灼烧
+chill=冰冻
+crack=破甲
+dark=黑暗
+daze=晕眩
+decay=腐朽
+disarm=缴械
+doom=厄运
+fatigue=疲劳
+paralyze=麻痹
+insane=疯狂
+mark=标记
+poison=毒素
+sanctify=超度
+shackle=束缚
+sight=预见
+silence=沉默
+slow=减速
+spark=感电
+stress=压力
+vulnerable=易伤
+weak=虚弱
+wet=潮湿
+transfer=转移
+cards=卡牌
+challenge=挑战
+items=物品
+pet=宠物
+pets=宠物
+petShopWarning=** 你只能领养 1 只宠物。
+ifUnlockSigils=解锁内容将会奖励纹章点。使用这些点数来增强你最喜欢的卡牌。
+challengeSelection=挑战卡牌选择
+challengeSelectionIntro=尽量选择协同作用最强的组合，别忘了能量费用。
+challengeReroll=重掷组合
+challengeRound=回合
+challengeRoundPerks=已选中的专精
+challengeSelectionPerk=挑战专精选择
+challengeSelectionPerkIntro=卡牌选定完毕后，你必须为你的英雄分配 4 个专精。
+challengeEnergy=平均能量费用
+rankProgress=级别 {0}
+rankTier=级别 {0}
+rankPointsAvailable=<sprite name=perk>可用点数
+rankPointsHowto=专精是不同类型的加成，你可以分配给你的英雄。你将在冒险结束时获得可分配的专精点。
+rankPointsHighest=你的角色可获得的专精点数量基于级别等级<color=#F1D2A9>最高的角色</color>。（每级 1 点，最多 36 点）。
+rankPerkPoints={0} 专精点
+rankPerkPointsGain=开始新的游戏时，你可以对英雄的专精点进行分配。
+rankPerkPress=点击分配专精
+rankPerkNotEnough=点数不足
+rankDescription0=开局物品（蓝色）
+rankDescription1=新的卡背
+rankDescription2=开局卡牌（蓝色）
+rankDescription3=新的外观
+rankDescription4=天赋卡牌（蓝色）
+rankDescription5=新的卡背
+rankDescription6=开局物品（黄色）
+rankDescription7=新的外观
+rankDescription8=开局卡牌（黄色）
+rankDescription9=新的卡背
+rankDescription10=天赋卡牌（黄色）
+rankLevelDescrition=每名角色在冒险后都会获得点数。角色每提升一级级别，将会解锁新的功能。
+cantModifyPerkMP=在已加载的游戏中，你无法修改专精点。
+perkNone=该角色在当前游戏中没有激活任何专精
+perkAuraDescription=你施加的{0}充能
+skinRequiredRankLevel=如要使用这款外观，你的角色必须达到：<br>级别等级 {0}
+requiredAdventureComplete=你需要完成冒险模式。
+requiredAdventureLevel=你需要完成疯狂级别 {0} 的冒险模式。
+requiredObeliskComplete=你需要完成方尖碑挑战模式。
+requiredObeliskLevel=你需要完成疯狂级别 {0} 的方尖碑挑战模式。
+senenthia=瑟能西亚王国
+velkarath=维克拉斯山脉
+aquarfall=阿夸尔瀑布沼泽
+theHatch=舱门
+spiderLair=蜘蛛巢穴
+theVoid=虚空
+act0Intro=你问，这一切是怎么发生的？那是在公主 16 岁生日的时候。大家都在庭院里焦急地等待着公主的到来，她即将被录取到巫师学院，只有天资聪颖的人才能享有此项殊荣（她真的很有天赋）。<br><br>突然，公主的房间发生了爆炸，由此迸发的能量席卷了整个瑟能西亚王国。皇家卫队探索了城堡的每一个角落，还是没能发现公主和国王的顾问、宫廷魔术师汉什克公爵的踪迹。<br><br>国王派出士兵在王国范围内搜寻，却无一人返回。他最后听到的消息是，公主的踪迹消失在古老森林的深处，就在那块沉睡了数世纪之久的远古方尖碑附近……直到现在。<br><br>绝望之下，国王颁布了一项皇家法令，宣布他将奖励任何将公主安全送回的人。消息很快传遍了整个王国。不少冒险者小队摩拳擦掌，准备挺进森林，调查方尖碑，寻找公主。<br><br>而这是其中一支小队的故事。
+act1Intro=小队成员跨过方尖碑之时，瞬间发现自己来到了其他地方，离瑟能西亚的森林十分遥远。<br><br>由此揭开了方尖碑的一个奥秘：在古时候，人们需要沿路穿行数月，方可抵达这片土地，因此方尖碑曾被当作运输工具使用。<br><br>小队成员寻找着公主和汉什克公爵来过此地的迹象……但运气不佳，似乎很久没有人来过这片地方。<br><br>庆幸的是，他们发现地平线上矗立着另一座方尖碑，而且也似乎处于活跃之中。如今，他们唯一的希望就是抵达那里，再到另一个目的地碰碰运气。
+act2Intro=小队成员跨过第二座方尖碑。抵达新的地区后，他们找寻着公主或汉什克公爵曾在此地的迹象。这次他们发现了两对从到达区延伸出来的脚印，似乎是几天前才留下的。<br><br>小队终于看到了追上他们的希望，尽管他们并不知道自己到底要去哪里。<br><br>正当小队成员望向地平线时，另一座方尖碑映入了他们的眼帘。就在那一刻，方尖碑发出了明亮的光芒，与另外两座方尖碑在诵读符文时发出的光芒如出一辙。<br><br>成员们意识到，汉什克爵士和公主刚刚跨过了方尖碑，如果速度够快，就能赶上他们。
+act3Intro=第 4 幕介绍（文本工作正在进行中）
+actEndGame=恭喜！你成功完成了普通难度的游戏。<br><br>疯狂级别已解锁。现在你可以增加游戏的难度，并根据自己的喜好进行调整，例如在每场战斗中都会出现随机敌人等。<br><br>此外，在疯狂级别还会出现全新的腐化物品。腐化物品比普通物品更加强大。每一级的难度均会提升腐化物品与腐化牌的出现概率。<br><br>我们希望你能喜欢这款游戏，还有更多精彩内容即将到来，你真诚的亚当和哈维尔。
+goldDescription=金币：用于购买装备、移除卡牌和完成某些事件的目标
+dustDescription=碎片：用于锻造和转换卡牌
+supplyDescription=物资：用于改善城镇建筑及其服务<br>（最多 500）
+corruptionReward=腐化奖励
+corruptionAltarUpgrade=队伍将获得一次进入<color=#E0A44E>升级祭坛</color>的机会。
+corruptionGainGold=队伍将获得<br><sprite name=gold> {0} <sprite name=dust> {1} 
+corruptionGainGold2=队伍将获得<br><sprite name=gold> {0} <sprite name=dust> {1} <sprite name=supply> {2}
+corruptionRemoveCard=每位英雄将能够从牌组中免费<color=#E0A44E>移除一张牌</color>
+corruptionRemoveCard2=每位英雄将能够从牌组中免费<color=#E0A44E>移除两张牌</color>。
+corruptionRareShop=队伍将获得一次进入<color=#E0A44E>稀有装备商店</color>的机会。
+corruptionRareShopDiscount=队伍将获得一次进入<color=#E0A44E>稀有装备商店</color>的机会（提供 30% 优惠）。
+corruptionRandomCardUpgrade=每位英雄将随机<color=#E0A44E>升级</color>一张基础牌。
+corruptionHeal20=战斗结束时，队伍将<color=#34FF46>治疗其 30% </color>的最大生命值。
+corruptionHeroFreeCard={0} 将免费获得<color={1}>“{2}”</color>卡牌。
+corruptionFreeCardUpgrade=每位英雄将获得一次<color=#E0A44E>免费卡牌升级</color>。
+corruptionExoticShop=队伍将获得一次进入<color=#E0A44E>异域装备商店</color>的机会。
+corruptionExoticShopDiscount=队伍将获得一次进入<color=#E0A44E>异域装备商店</color>的机会（提供 30% 优惠）。
+corruptionIncreasedQuality=提升战斗结束时<color=#E0A44E>卡牌奖励的品质和数量</color>。
+corruptionRewardScore=（得分：+{0}）
+corruptionTitle=<sprite name=corruption>方尖碑腐化
+corruptionDesc=方尖碑的影响正在腐化这片地区的怪物。你可以选择在腐化的影响下与怪物作战，提升难度并获得额外奖励。
+corruptionAccept=接受挑战？
+corruptionChoose=选择其中一项奖励
+corruptionSelect=在接受挑战之前，你必须选择一项奖励。
+townUpgrades=<sprite name=supply>城镇升级
+
+townUpgrade_1_1=可供锻造的<c>普通卡牌</c>增加至 2 张。
+townUpgrade_1_2=卡牌的<c>锻造费用</c>降低（总数 15%）。
+townUpgrade_1_3=可供锻造的<c>罕见卡牌</c>增加至 2 张。
+townUpgrade_1_4=解锁可在初始城镇锻造<c>稀有卡牌</c>。
+townUpgrade_1_5=卡牌的<c>锻造费用</c>降低（总数 30%）。
+townUpgrade_1_6=解锁可在第二座城镇锻造<c>史诗卡牌 </c>。
+
+townUpgrade_2_1=卡牌的<c>转化费用</c>降低（总数 25%）。
+townUpgrade_2_2=卡牌的<c>升级费用</c>降低（总数 15%）。
+townUpgrade_2_3=卡牌的<c>转化费用</c>降低（总数 50%）。
+townUpgrade_2_4=卡牌的<c>升级费用</c>降低（总数 30%）。
+townUpgrade_2_5=<c>免费</c>转化卡牌。
+townUpgrade_2_6=卡牌的<c>升级费用</c>降低（总数 50%）。
+
+townUpgrade_3_1=在初始城镇可<c>免费</c>移除卡牌
+townUpgrade_3_2=<c>疗伤</c>的费用降低（总数 15%）。
+townUpgrade_3_3=<c>移除卡牌</c>的费用降低（总数 25%）。
+townUpgrade_3_4=<c>疗伤</c>的费用降低（总数 30%）。
+townUpgrade_3_5=<c>移除卡牌</c>的费用降低（总数 50%）。
+townUpgrade_3_6=在第二座城镇城镇可<c>免费</c>移除卡牌
+
+townUpgrade_4_1=<c>占卜回合</c>的费用降低（总数 10%）。
+townUpgrade_4_2=在初始城镇可进行<c>基础占卜</c>。
+townUpgrade_4_3=<c>占卜回合</c>的费用降低（总数 25%）。
+townUpgrade_4_4=在第二座城镇可进行<c>进阶占卜</c>。
+townUpgrade_4_5=<c>占卜回合</c>的费用降低（总数 40%）。
+townUpgrade_4_6=在初始城镇可进行<c>进阶占卜</c>。
+
+townUpgrade_5_1=解锁城镇军械库中<c>重掷物品</c>的能力。
+townUpgrade_5_2=城镇军械库的<c>物品费用</c>降低（总数 15%）。
+townUpgrade_5_3=提升城镇军械库中物品的<c>稀有度</c>。
+townUpgrade_5_4=城镇军械库的<c>重掷物品的费用</c>降低（共计 50%）。
+townUpgrade_5_5=城镇军械库的<c>物品费用</c>降低（总数 30%）。
+townUpgrade_5_6=提升城镇军械库中物品的<c>稀有度</c>。
+
+townUpgrade_6_1=提升游戏结束时的<c>货币保留</c>（总数 10%）。
+townUpgrade_6_2=解锁城镇军械库里的<c>宠物店</c>。
+townUpgrade_6_3=提升游戏结束时的<c>货币保留</c>（总数 20%）。
+townUpgrade_6_4=解锁初始城镇外面的<c>商队点</c>。
+townUpgrade_6_5=提升游戏结束时的<c>货币保留</c>（总数 30%）。
+townUpgrade_6_6=解锁<c>出售物资</c>换取金币和碎片的能力。
+
+townRequired=<color=#FFF>【需要】</color>花费 {0} 物资。
+townAssignWarning=是否购买此项升级？<color=#AAAAAA>此操作不能撤销。</color>
+rerollButton=重掷 {0}
+rerollButtonCostSP=重掷的费用在每一幕中都会增加。已经购买的物品将不再显示。
+rerollButtonCostCoop=全面重掷的费用基于你所控制的角色而定，并且在每一幕中都会增加。已经购买的物品将不再显示。
+rerollLock=在疯狂级别大于 3 的情况下，每座城镇仅有一次重掷的机会。
+rerollWarning=（仅有一次）
+helpDeck=抽牌堆
+helpCasted=释放卡牌
+saveLoad=<size=+.2><sprite name=nodeDivination></size>保存／加载牌组
+saveLoadReturn=返回锻炉
+saveLoadDes=你可以保存当前的牌组，或加载以前保存的牌组。
+save=保存
+inputSaveName=输入此牌组的名称
+emptySave=<empty slot>
+decks=牌组
+cardsNum=（{0} 张卡牌）
+savedDecks=已保存的牌组
+savedDeckDeleteConfirm=是否删除此牌组？
+craftDeck=锻造牌组
+craftWillCost=锻造此牌组的费用为：
+craftCant=你无法锻造此牌组。
+craftDeckNeed=锻造已保存的牌组需要所有卡牌可在魔力锻炉中使用。<br><br>如果你的当前牌组存在 <color=#FFF>受伤、恩惠、特殊或腐化牌 </color>，<color=#F00>你将无法</color>保存或加载牌组。
+conflictPlayerChooses={0}选择
+conflictPlayerWins={0}获胜
+ngDescription=难度更高的游戏模式，专为高级别的英雄和升级后的城镇准备。在此模式下，腐化牌会更频繁地掉落。
+needSteam=你需要连接 Steam 才能游玩《横跨方尖碑》。
+desyncError=<b><color=#f88>哎呀，出错了！</color></b><br><size=-6>玩家之间的游戏进度不同步。为避免问题恶化，战斗将重新开始。</size>
+reloadForced=<color=#FFD78F>是否重开战斗？</color><br><size=-6>如果你因为游戏出错或不同步而选择重开战斗，请加入我们的 Discord 社区并报告问题，以便我们能够进行修复！</size>
+comingSoon=即将到来
+onlyMasterCorruption=只有游戏的房主才能接受腐化及其奖励。
+onlyMasterButton=只有房主才能点击此按钮。
+easy=简单
+average=中等
+hard=困难
+extreme=极端
+corruption=腐化
+versionMismatch=游戏无法开始。游戏版本不一致。
+selectSupplyAmount=选择你想出售的物资数量。
+selectGiveGold=选择你想给予该玩家的金币数量。
+selectGiveShards=选择你想给予该玩家的碎片数量。
+giveGold=给予金币
+giveShards=给予碎片
+giveGoldShards=给予金币和碎片
+general=通用
+audio=音频
+gameplay=游戏设置
+screenResolution=屏幕分辨率
+fullScreen=全屏
+vsync=垂直同步
+resetTutorial=重置教程
+resetTutorialDes=此操作会让你再次观看教程说明。
+resetSavedData=重置账户数据
+resetSavedDataDes=警告：启用该选项将删除你所有的账户进度、游戏存档、解锁的卡牌等。
+masterVolume=主音量
+musicVolume=音乐音量
+effectsVolume=特效音量
+ambienceVolume=环境音量
+backgroundMute=背景静音
+backgroundMuteDes=当游戏在后台运行时禁用声音
+fastMode=快速模式
+fastModeDes=战斗速度加快
+autoEnd=自动结束
+autoEndDes=若你当前回合没有任何可用卡牌可以释放，则会自动跳过该回合
+showEffects=显示特效
+showEffectsDes=在战斗中显示卡牌和角色的特效
+extendedDescriptions=扩展说明
+extendedDescriptionsDes=显示光环和诅咒的更多资料
+acBackground=状态特效背景
+acBackgroundDes=在角色状态特效图标的后方显示背景
+restartCombatOption=失败时重开战斗
+restartCombatOptionDes=在失败时显示重开战斗的选项
+enableShakeOption=启用屏幕震动
+enableShakeOptionDes=在战斗中出现高额伤害时，屏幕会震动
+currentScore=当前得分
+synchronizing=【正在同步】
+madnessChallengeSelect=选择你想在下局游戏中使用的疯狂级别（每一级别将根据之前的级别所而发生变化）。
+madnessChallengeBeat=在疯狂级别中完成方尖碑挑战，即可进入下一级别。
+madness=疯狂
+madnessNumber=疯狂 {0}
+madnessTitle=疯狂难度选择
+madnessDescription=选择游戏的疯狂难度。此外，你还可以激活不同的腐化机制改变游戏体验，提升疯狂级别。
+madnessBasicInfo=这是游戏的基础难度级别。完成冒险以解锁更多级别和腐化者。<br><br>无论是合作还是单人游戏，你必须完成前一级难度才能选择新的难度。
+madnessBasic=<i=taunt>怪物变得更加强壮，其能力也得到了提高。
+madnessObeliskLevel5=<sprite name=perk>英雄的初始卡牌、初始物品和附魔均升级至蓝色品质。
+madnessObeliskLevel8=<sprite name=perk>英雄的初始卡牌、初始物品和附魔均升级至黄色品质。<br><sprite name=energy>全体英雄 +1 初始能量<br><sprite name=dice>随机种子
+madnessPerAct=<color=#AAA><size=-.5>（分别适用每一幕）</size></color>
+madnessExhaust=<i=vanish>衰竭
+madnessSeriousInjuries=<i=bleed>重伤
+madnessSeriousInjuriesDesc=受伤牌变得更加强大
+madnessDeadlyInjuries=<i=bleed>致死伤
+madnessDeadlyInjuriesDesc=受伤牌将会致命
+madnessNoChest=<i=nodeShop>无宝箱奖励，每位英雄 {0} 金币／碎片
+madnessMonsterHp=<i=heart>怪物最大生命值：{0} {1}
+madnessMonsterSpeed=<i=fast>怪物速度：{0} {1}
+madnessMonsterDamageTaken=<i=mitigate>怪物承受伤害：{0} {1}
+madnessMonsterDamageDone=<i=slashing>怪物伤害输出：{0} {1}
+madnessHeroSpeed=<i=slow>英雄速度：{0}
+madnessHeroEnergy=<i=energy>英雄初始能量：{0}
+madnessInfrequent=<i=cards>减少 1 张可用的罕见卡牌
+madnessDisabledCards=<i=nodeUpgrade>稀有卡牌在初始城镇中禁用。史诗卡牌在第二个城镇中禁用。
+madnessRandomSeed=<i=dice>强制随机种子
+madnessHarderEvents=<i=events>更难的事件掷点
+madnessReroll=<i=jewelry>城镇军械库物品重掷限制为 1 次
+madnessDoubledeath=<i=weak>英雄死亡时将会获得两张“死亡之门”
+madnessNoSupplyExchange=<i=supply>物资兑换不可用
+madnessCorruptor0=<i=doom>厄运来临
+madnessCorruptor0Help=在战斗中，如果表现加成达到“失望”，所有英雄都会遭受“厄运”，在 2 个回合内死亡。
+madnessCorruptor1=<i=decay>衰败
+madnessCorruptor1Help=全体英雄的治疗输出 -3，所获得的治疗 <nobr>-25%</nobr>。
+madnessCorruptor2=<i=bless>剥夺力量
+madnessCorruptor2Help=光环／诅咒充能拥有最大值：<line-height=120%><br></line-height>（50）祝福、标记、再生、锐利、潜行、活力、潮湿<line-height=120%><br></line-height>（100）破甲、狂怒、疯狂、超度、预见<line-height=120%><br></line-height>（200）流血、灼烧、冰冻、毒素、护盾、感电、荆棘<line-height=120%><br></line-height>（400）格挡
+madnessCorruptor3=<i=insulate>抵抗力强的怪物
+madnessCorruptor3Help=全体怪物获得额外 +15% 的所有抗性
+madnessCorruptor4=<i=gold>赤贫
+madnessCorruptor4Help=金币和碎片的收益减少 50%。不再提供带有额外优惠的物品。
+madnessCorruptor5=<i=powerful>过载怪物
+madnessCorruptor5Help=所有怪物卡牌的光环或诅咒充能 +1。
+madnessCorruptor6=<i=dice>随机战斗
+madnessCorruptor6Help=非事件的战斗均是随机生成。在每场随机战斗中，都会出现一个“冠军”怪物，并随机分配一种抗性。
+madnessCorruptor7=<i=bossIcon>绝望
+madnessCorruptor7Help=敌人拥有最强大的卡牌与附魔可供他们使用。<line-height=120%><br></line-height>腐化机制大大增加了难度。
+championMonster=冠军怪物
+help=帮助
+madnessCorruptors=可用腐化者
+madnessLevel=疯狂级别
+cardCommon=普通卡牌
+cardUncommon=罕见卡牌
+cardRare=稀有卡牌
+cardEpic=史诗卡牌
+cardMythic=神话卡牌
+common=普通
+uncommon=罕见
+rare=稀有
+epic=史诗
+mythic=神话
+eventCommon=普通事件
+eventUncommon=罕见事件
+eventRare=稀有事件
+eventEpic=史诗事件
+eventMythic=神话事件
+eventCharacter=角色事件
+cardPlayerDescription=即便是最细微的决定也会铸就你的命运。请注意：<color=#C59559>这些卡牌洗牌完毕后，你必须从中选择一张。</color>
+chooseWisely=做出明智的选择
+madnessHelp=<align=left><color=#FFF>每个疯狂难度级别都会增加新的修改因子，使游戏的整体难度增加。以下是部分因子的详细说明。</color><br><br><u>衰竭：</u>打出一张导致牌组重新洗牌的卡牌时，你会遭受衰竭，导致该回合内进入你手牌中的任何牌均需花费额外能量。<br><br><u>重伤和致命伤：</u>你在事件中失败时，获得的受伤牌将会变得更加强大。<br><br><u>无宝箱奖励：</u>无法拾取此前游戏的奖励宝箱，初始金币/碎片是有限的。使用这个修改因子，你在游戏结束时不会获得奖励宝箱。<br><br><u>更难的事件掷点：</u>事件掷点更难获得所需的点数，掷点高低视事件而定。</align>
+exhaust=<u>衰竭：</u>打出一张导致牌组重新洗牌的卡牌时，你会遭受衰竭，导致该回合内进入你手牌中的任何牌均需花费额外能量。
+madnessOptionsText=疯狂 {0} 加成列表
+replyProbability=成功概率：{0}
+masterSelected=由游戏的房主选择
+notStack=无法叠加
+notStackPlain=充能无法叠加
+searchCards=搜索卡牌
+perksNotChallenge=专精和级别提升在<color=#F1D2A9>方尖碑挑战和每周挑战</color>模式中不可用。
+rightClickCard=右键<br><size=-.7>（更多信息）
+traitAddCard=增加一张“{0}”牌的复制版到你的牌组
+addCardInstructions=选择要增加的卡牌
+lowerObelisk=下层方尖碑
+upperObelisk=上层方尖碑
+finalObelisk=终极方尖碑
+notOriginalPlayers=当前玩家不是游戏创建时的玩家，因此，<color=#F3404E>最终得分不会出现</color>在排行榜上。
+basicDifficulty=基本难度
+basicDifficultyDesc=这是当前游戏模式的基本难度。
+dangerousMonsters=凶猛的怪物
+dangerousMonstersDesc=怪物伤害输出：+3
+decadence=衰败
+decadenceDesc=全体英雄的治疗输出 -3，所获得的治疗 <nobr>-25%</nobr>，而且活力只能治疗已获得最大生命值的 50%
+doubleBoons=双倍恩惠
+doubleBoonsDesc=获得一张恩惠牌时，额外获得一张复制版。
+doubleInjuries=双倍受伤
+doubleInjuriesDesc=获得一张受伤牌时，额外获得一张复制版。
+elementalMonsters=元素怪物
+elementalMonstersDesc=怪物的火焰／寒冰／闪电抗性：+10%
+energizedHeroes=受激励的英雄
+energizedHeroesDesc=英雄初始能量：+1
+exhaustion=衰竭
+exhaustionDesc=打出一张导致牌组重新洗牌的卡牌时，遭受衰竭。
+fastHeroes=迅捷英雄
+fastHeroesDesc=英雄速度：+1
+fastMonsters=迅捷怪物
+fastMonstersDesc=怪物速度：+1
+gargantuanMonsters=巨型怪物
+gargantuanMonstersDesc=怪物最大生命值：+50%
+hardcoreBosses=硬核头目
+hardcoreBossesDesc=头目变得更难对付，其能力也得到了提高。
+impedingDoom=厄运来临
+impedingDoomDesc=如果表现加成达到“失望”时，所有英雄都会遭受 2 “厄运”。
+ironcladMonsters=铁甲怪物
+ironcladMonstersDesc=怪物承受伤害：-3
+lucky=幸运
+luckyDesc=事件掷点变得更加容易。
+ludicrousSpeed=极速
+ludicrousSpeedDesc=怪物速度：+3
+moreChampions=更多冠军
+moreChampionsDesc=地图上会出现更多冠军
+overchargedMonsters=过载怪物
+overchargedMonstersDesc=所有怪物卡牌的充能 +1。
+poverty=赤贫
+povertyDesc=金币和碎片的收益减少 30%。
+prosperity=繁荣
+prosperityDesc=金币和碎片的收益增加 50%。
+punyMonsters=矮小怪物
+punyMonstersDesc=怪物最大生命值：-25%
+reinforcedMonsters=强化怪物
+reinforcedMonstersDesc=怪物斩击／打击／刺击抗性：+10%
+resistantMonsters=抵抗力强的怪物
+resistantMonstersDesc=全体怪物抗性：+15%
+restrictedPower=剥夺力量
+restrictedPowerDesc=光环和诅咒存在最大叠加上限。
+slowHeroes=慢速英雄
+slowHeroesDesc=英雄速度：-1
+slowMonsters=慢速怪物
+slowMonstersDesc=怪物速度：-1
+smartHeroes=机敏英雄
+smartHeroesDesc=经验值收益增加 50%。
+spiritualMonsters=虔诚怪物
+spiritualMonstersDesc=怪物神圣／暗影／心灵抗性：+10%
+tougherMonsters=更强悍的怪物
+tougherMonstersDesc=怪物变得更加强壮，其能力也得到了提高。
+unlucky=倒霉
+unluckyDesc=事件掷点变得更加困难。
+vigorousMonsters=强壮的怪物
+vigorousMonstersDesc=怪物最大生命值：+25%
+vulnerableMonsters=脆弱的怪物
+vulnerableMonstersDesc=全体怪物抗性：-15%
+wealthyHeroes=富裕的英雄
+wealthyHeroesDesc=每位英雄在开局时额外获得 300 金币／碎片。
+weeklyModificatorsDescription=这些是本次挑战中的游戏修改。
+incompatible=不兼容此版本
+weeklyModifiers=每周修改因子
+weeklyModifiersStyled=<size=+.2><size=+.3><color=#FFF>每周</color></size><br>修改因子</size>
+openCharacterStats=<sprite name=sheet>打开角色属性
+corruptionSacrifyDust=额外支付 {0} 个碎片以获得 +{1}% 的机率
+corruptionSacrifySpeed=牺牲 {0} 速度以额外获得 +{1}% 的机率
+corruptionSacrifyHealth=牺牲 {0} 点最大生命值以额外获得 +{1}% 的机率
+corruptionSacrifyResistance=牺牲 {0} 点所有抗性以额外获得 +{1}% 的机率
+cardCorruptionTitle=卡牌腐化
+cardCorruptionDesc=你可以腐化选定的一张牌，并将其转化为最强大的版本。<br><br>然而，这不是一件容易的任务，如果失败，反而会损坏卡牌。<br><br>你也可以使用牺牲来增加成功的机率。
+cardCorruptionChance=机率
+deathScreenTitle={0}已被击溃！
+deathScreenBody=如果你的队伍幸存下来，你将以总生命值的 {0}% 复活，但请记住，没有什么是不要代价的，你的余生将会永远带着这个污点。
+crusader=十字军
+devotee=虔信者
+friar=修士
+healer=医者
+heretic=异端者
+justicar=执法官
+mentalist=催眠师
+protector=守护者
+saint=圣者
+seer=先知
+shaman=萨满
+zealot=狂热者
+aeromancer=风占师
+cryomancer=冰占师
+enchanter=魔法师
+glacier=极寒之灵
+inferno=烈火之灵
+scribe=书吏
+shadowmancer=暗影法师
+sorcerer=妖术师
+tempest=风暴之灵
+witch=女巫
+wizard=巫师
+bard=吟游诗人
+bowman=弓箭手
+explorer=探险家
+fencer=剑术师
+hunter=猎人
+ninja=忍者
+plague=瘟疫
+poisoner=毒物大师
+reaver=劫掠者
+rogue=侠盗
+scoundrel=恶棍
+skald=北地诗人
+sniper=狙击手
+avenger=复仇者
+axman=樵夫
+brawler=斗士
+commander=指挥官
+defender=捍卫者
+destroyer=毁灭者
+gladiator=角斗士
+guardian=卫士
+marauder=劫掠者
+swordman=剑士
+warlord=枭雄
+pyromancer=火占师
+ranger=游侠
+elementalist=元素师
+berserker=狂战士
+sentinel=哨兵
+mercenary=雇佣兵
+voodoo_witch=巫毒女巫
+prophet=预言家
+priest=祭司
+cleric=牧师
+assassin=刺客
+loremaster=博学士
+voodoowitch=巫毒女巫
+warden=典狱长
+archer=射手
+deathknight=死亡骑士
+inquisitor=审判官
+minstrel=流浪乐师
+paladin=圣骑士
+valkyrie=女武神
+warlock=术士
+AdventureCompletedCardback=冒险
+AdventureCompletedMadnessCardback=疯狂
+ObeliskCompletedCardback=方尖碑
+ObeliskCompletedMadnessCardback=失智
+preturnEffects=回合开始效果
+postturnEffects=回合结束效果
+characterDies=角色死亡
+followTheLeader=跟随领导者
+followTheLeaderDesc=你将自动选择与游戏房主相同的选项（地图节点、事件回复等）。
+magnusPet1=别再摸我了……我可是有身份的人！
+magnusPet2=……嗷呜……嗯嗯……可以再来一次吗？
+conflictTitle=<sprite name=cardrandom>冲突消解
+conflictDescription=如果玩家之间出现分歧，则需要借助“冲突消解掷点”来决定胜负。如果出现多个平局（3）的情况，则随机选择获胜者。
+conflictButton0=最低的卡牌
+conflictButton1=最接近 2 的卡牌
+conflictButton2=最高的卡牌
+noEnergy=没有能量
+physical=物理
+elemental=元素
+mystical=神秘
+confirmPerks=确认专精分配
+cardsStealAuras=偷窃 {0} 个光环
+steal=偷窃
+previousRequired=需要先前的节点
+usedPoints=已用点数 {0}
+export=导出
+import=导入
+pressForCopyPaste=分享此专精配置的代码
+pressForImportTree=编写或粘贴导入代码
+importPerkTreeNotPoints=你没有足够的专精点（{0}）来导入此专精配置。
+invalidImportTalentTreeCode=此代码导入专精配置的操作无效。
+importedTree=专精配置已导入
+wantOverwritePerks=是否加载此槽位并覆盖你的专精配置？
+loadThisPerkConf=加载专精配置（{0} 已用点数）
+wantExitPerks=拥有尚未保存的更改，是否关闭专精配置窗口？
+itemInitialCurrencySingle=初始金币 {0}
+itemInitialShardsSingle=初始碎片 {0}
+default=默认
+perkTreeDescription=你可以在游戏开始前以及在第一个城镇里修改你的专精（存在部分限制）。<br><br>你还可以在游戏开始前保存与加载不同的专精配置。
+saveSlots=保存槽位
+inputConfigSaveName=输入此配置的名称
+savedConfigDeleteConfirm=是否删除此配置？
+savedConfigCant=已保存的槽位只能在游戏开始前使用。
+perkBarDescription=所有英雄均可在游戏中获得专精点。
+chooseOnePerk=选择其中<u>一项</u>专精。
+slashing=斩击/// this must have the same translate as "slash"
+customMainperkPoison2b=敌人身上的每层毒素还会减少其 0.3% 的暗影抗性。
+customMainperkPoison2c=敌人身上的毒素会额外造成 50% 的伤害，回合结束时失去所有充能。
+customMainperkDark2b=该英雄身上的黑暗将在 38 层充能时爆炸。
+customMainperkDark2c=敌人受到的黑暗爆炸会额外造成 35% 的伤害。
+customMainperkDark2d=敌人身上的黑暗充能还会在回合结束时爆炸。
+customMainperkThorns1a=英雄身上的荆棘在被击中时不会失去充能。
+customMainperkThorns1b=该英雄身上的荆棘转而造成神圣伤害。
+customMainperkThorns1c=该英雄身上的荆棘不会造成伤害，转而对攻击者施加自身充能 50% 的毒素。
+customMainperkSanctify2b=敌人身上的每层超度会减少 1.5% 的神圣抗性。
+customMainperkSanctify2c=该英雄使用超度击中怪物时，还会对目标造成其超度充能 25% 的神圣伤害。
+customMainperkChill2b=敌人身上的每层冰冻也会减少其 0.3% 打击抗性。
+customMainperkChill2c=敌人身上的每 4 层冰冻转而减少 1 速度。
+customMainperkChill2d=该英雄身上的每 8 层冰冻转而减少 1 速度，回合结束时每 14 层冰冻也会获得 1 加固。 
+customMainperkBurn2b=该英雄身上的每 8 层灼烧也会增加 1 速度，每层灼烧转而减少 0.3% 火焰抗性。
+customMainperkBurn2c=灼烧会造成寒冰伤害。
+customMainperkVulnerable0b=敌人身上的易伤最多可叠加至 12 层，回合结束时会减少 1 层充能。
+customMainperkVulnerable0c=敌人身上的易伤只会削减其斩击、刺击和打击的抗性，每层充能的削减量提升至 8%。
+customMainperkDecay1b=敌人身上的腐朽转而使其获得的治疗减少 75%，只有处于指定状态下才能被驱散。
+customMainperkDecay1c=敌人身上的每层腐朽也会减少 8% 的暗影抗性。
+customMainperkTaunt1b=该英雄身上的每层嘲讽也会提升 10% 斩击、刺击和打击的抗性。
+customMainperkTaunt1c=该英雄身上的每层嘲讽也会提升 10% 火焰、寒冰和闪电的抗性。
+customMainperkTaunt1d=该英雄身上的每层嘲讽也会提升 10% 神圣、暗影和心灵的抗性。
+customMainperkBless1a=该英雄身上的每层祝福会提升 1.5% 的伤害输出，但不会增加获得的治疗。
+customMainperkBless1b=该英雄身上的每层祝福也会提升 1% 的治疗输出。
+customMainperkBless1c=该英雄身上的每层祝福也会提升 0.5% 的神圣抗性，回合结束时不会失去充能。
+customMainperkVitality1a=该英雄身上的每层活力转而使其最大生命值提升 8。
+customMainperkVitality1b=该英雄获得活力时，移除流血。
+customMainperkVitality1c=英雄身上的每层活力也会提升 0.5% 的心灵抗性，回合开始时不会失去充能。
+customMainperkRegeneration1a=该英雄身上的再生也会治疗其身边的英雄。
+customMainperkRegeneration1b=该英雄身上的每层再生也会使其获得的治疗提升 1%。
+customMainperkRegeneration1c=英雄身上的每层再生也会提升 0.5% 的暗影抗性，回合开始时不会失去充能。
+customMainperkPowerful1b=该英雄身上的强效最多可叠加至 12 层，回合结束时会减少 1 层。
+customMainperkPowerful1c=该英雄身上的每层强效会提升 10% 的伤害输出和治疗输出，回合结束时失去所有充能。
+customMainperkEnergy2a=该英雄打出一张费用为 6 能量或以上的卡牌时，返还 1 能量。
+customMainperkEnergy2b=在第 2 回合开始时，该英雄获得 1 能量。
+customMainperkEnergy2c=在第 4 回合开始时，该英雄获得 2 能量。
+customMainperkMark1a=该英雄对标记免疫。
+customMainperkMark1b=回合结束与阻挡潜行时，敌人身上的标记不会失去充能。
+customMainperkMark1c=敌人身上的每层标记也会减少 0.3% 的斩击抗性。
+customMainperkSight1b=敌人身上的预见也会在施加时移除潜行，只有处于指定状态下才能被驱散。
+customMainperkSight1c=你施加的充能 +3。敌人身上的预见无法被缓冲或免疫所阻挡，回合结束时失去所有充能。  
+customMainperkStealth1a=英雄身上的每层潜行会提升 25% 的伤害输出和治疗输出。
+customMainperkStealth1b=该英雄身上的潜行在回合开始时不会失去充能。
+customMainperkStealth1c=英雄身上的每层潜行也会提升 5% 的所有抗性。
+customMainperkFury1b=该英雄身上的每层狂怒转而提升 1% 的伤害，回合结束时不再施加流血。
+customMainperkFury1c=该英雄身上的每层狂怒转而提升 5% 的伤害。该英雄身上的流血会额外造成 50% 伤害，无法被缓冲或免疫阻挡。 
+customMainperkBleed2b=该英雄身上的流血会在回合结束时造成伤害，只有处于指定状态下才能被驱散。该英雄身上的狂怒最大充能层数为 25。 
+customMainperkBleed2c=你施加的充能 +2。敌人身上的流血会在回合结束时造成伤害，无法被缓冲或免疫所阻挡。
+customMainperkSharp1a=该英雄身上的每层锐利转而提升 1.5% 的斩击伤害，不再提升刺击伤害。
+customMainperkSharp1b=该英雄身上的每层锐利转而提升 1.5% 的刺击伤害，不再提升斩击伤害。
+customMainperkSharp1c=英雄身上的锐利在回合结束时不会失去充能，只有处于指定状态下才能被净化。
+customMainperkStanza0a=该英雄在首个回合获得诗节 I。
+customMainperkStanza0b=该英雄身上的诗节 I 在回合结束时也会提供 1 启迪。
+customMainperkStanza0c=该英雄无法获得诗节 III。
+customMainperkReinforce0=该英雄在首个回合获得 1 加固。该英雄身上的加固只有处于指定状态下才能被净化。
+customMainperkReinforce1b=英雄身上的加固转而提升 35% 斩击、刺击和打击的抗性。
+customMainperkReinforce1c=该英雄身上的每层加固转而提升 7% 斩击、刺击和打击的抗性。最大充能层数为 8。 
+customMainperkInsulate0=该英雄在首个回合获得 1 绝缘。该英雄身上的绝缘只有处于指定状态下才能被净化。
+customMainperkInsulate1b=英雄身上的绝缘转而提升 35% 火焰、寒冰和闪电的抗性。
+customMainperkInsulate1c=该英雄身上的每层绝缘转而提升 7% 火焰、寒冰和闪电的抗性。最大充能层数为 8。 
+customMainperkCourage0=该英雄在首个回合获得 1 英勇。该英雄身上的英勇只有处于指定状态下才能被净化。
+customMainperkCourage1b=英雄身上的英勇转而提升 35% 神圣、暗影和心灵的抗性。
+customMainperkCourage1c=该英雄身上的每层英勇转而提升 7% 神圣、暗影和心灵的抗性。最大充能层数为 8。
+customMainperkInspire0a=该英雄在战斗开始时获得 1 启迪。
+customMainperkInspire0b=该英雄身上的启迪最大充能层数为 1，但启迪会在回合开始时抽取 2 张卡牌。
+customMainperkInspire0c=该英雄对压力免疫。
+customMainperkInsane2b=敌人身上的每层疯狂也会使其最大生命值减少 2。
+customMainperkInsane2c=英雄身上的每层疯狂转而减少 0.5 心灵抗性和 0.3% 伤害输出。
+customMainperkWet1a=敌人身上的每层潮湿也会提升 1 寒冰伤害承受。
+customMainperkWet1b=敌人身上的每层潮湿也会减少 1% 的闪电抗性，回合结束时不会失去充能。
+customMainperkWet1c=英雄身上的每层潮湿转而阻挡 3 灼烧充能，回合结束时不会失去充能。
+customMainperkFortify1a=该英雄身上的坚守可以叠加，每层坚守会提升 1 打击和火焰伤害。最大充能层数为 50。 
+customMainperkFortify1b=该英雄在首个回合获得 1 坚守。该英雄身上的坚守只有处于指定状态下才能被净化。
+customMainperkFortify1c=回合结束时，英雄身上的每层坚守也会给予 7 格挡充能。
+customMainperkSpark2b=回合开始时，敌人身上的感电也会对其两侧施加自身充能 30% 的感电。 
+customMainperkSpark2c=回合结束时，敌人身上的每 14 层感电也会施加 1 减速。
+customMainperkCrack2b=敌人身上的每层破甲也会使其获得的格挡减少 0.5。
+customMainperkCrack2c=回合结束时，敌人身上的每 14 层破甲也会施加 1 易伤。
+emptySave=[空位]
+madnessCorruptor1Help=全体英雄的治疗输出 -3，所获得的治疗 <nobr>-25%</nobr>，而且活力只能提供已获得最大生命值 50% 的治疗
+faeborg=费堡森林
+act1Intro=小队成员跨过方尖碑之时，瞬间发现自己来到了其他地方，离瑟能西亚的森林十分遥远。<br><br>由此揭开了方尖碑的一个奥秘……在古时候，人们需要沿路穿行数日，方可抵达这片土地，因此方尖碑曾被当作运输工具使用。<br><br>他们寻找着公主和汉什克公爵来过此地的迹象，并发现了两组往外延伸的足迹。<br><br>小队成员朝地平线上望去，另一座方尖碑映入眼帘，并且处于活跃之中。方尖碑的激活无疑与公主和汉什克公爵有关，小队的下一个目的地已然明确。 
+act2Intro=小队跨过了第二座方尖碑，跟之前一样，他们发现了公主和汉什克公爵最近的踪迹。<br><br>此时他们想起，以强大的魔力著称的瑟能西亚女王也在前几年失踪了。公主会不会继承了这些力量？而汉什克公爵是否想将这些力量据为己用？<br><br>太多的疑问在心头萦绕，眼下已经无路可退。就算不惜一切代价，他们也要找到汉什克公爵。<br><br>不出意料，远方的地平线上也有一座活跃的方尖碑。<br><br>这一次，小队成员意识到，如果自己的速度够快，或许就能赶上他们。
+act3Intro=尽管早就习惯了穿越方尖碑，可这次的感觉却有所不同。<br><br>环顾四周之时，眼前的景象令小队成员感到十分震惊。万里烟云、古老废墟悬浮在他们的身旁……他们在哪里？显然，步行或其它正常途径是不可能来到这片地方的。<br><br>小队成员可以感受到四周弥漫着强烈的魔法气息，毫无疑问，这一定是汉什克公爵利用方尖碑的意图所在。<br><br>在远方地平线上，一座巨型楼梯升起于云层之上……那是小队成员必须抵达的地方，以此查明汉什克公爵到底在谋划什么。
+actEndGame=恭喜！你成功完成了普通难度的游戏。<br><br>疯狂级别已解锁。现在你可以增加游戏的难度，并根据自己的喜好进行调整，例如在每场战斗中都会出现随机敌人等。<br><br>此外，在疯狂级别还会出现全新的腐化物品。腐化物品比普通物品更加强大。每一级的难度均会提升腐化物品与腐化牌的出现概率。<br><br>我们希望你能喜欢这款游戏，还有更多精彩内容即将到来，你真诚的亚当和哈维尔。
+cinematicIntro0=一切都发生于公主 16 岁生日的时候。
+cinematicIntro1=那时，公主的房间突然迸发出一股能量，
+cinematicIntro2=席卷了整个瑟能西亚王国。
+cinematicIntro3=皇家卫队搜查了城堡的各个角落， 
+cinematicIntro4=还是没能发现公主以及宫廷魔术师汉什克公爵的踪迹。
+cinematicIntro5=国王派出士兵在王国范围内搜寻，却无一人返回。
+cinematicIntro6=公主的踪迹消失在古老森林的深处， 
+cinematicIntro7=就在那块沉睡了数世纪之久的远古方尖碑附近……
+cinematicIntro8=绝望之下，国王颁布了一项皇家法令。
+cinematicIntro9=宣布任何将公主安全送回的人将会予以嘉奖。 
+cinematicIntro10=消息很快传遍了整个王国。
+cinematicIntro11=不少冒险者小队摩拳擦掌，准备调查方尖碑。
+cinematicIntro12=而这是其中一支小队的故事。
+cinematicOutro0=而这也是他们如何拯救我的故事。
+selectLanguage=语言
+selectLanguageChanged=语言变更将在下次启动游戏时生效。
+steamErrorConnect=初始化 Steam API 失败。请重新启动 Steam 并再次尝试。
+immortal=不朽
+emotes=表情
+selectTheTarget=选择目标
+credits=制作人员名单
+gameDeveloper=游戏开发人员
+gameDesigner=游戏设计师
+gameArtDirector=美术指导
+gameLeadArtist=美术组长
+gameSeniorArtis=資深美术师
+effects=特效
+paradoxPublishing=Paradox 发行
+collaborations=合作
+music=音乐
+sound=音效
+art=美术
+iconArt=图标美术
+specialThanks=特别鸣谢
+huntress=女猎手
+reaper=收割者
+creditsAnd={0} 以及时刻帮助我们制作更好游戏的每一个人。
+partyMembersWithPerk=拥有该专精的队伍成员：
+multiplayerNotWorkLowerVersion=多人游戏不适用于 {0} 以下的版本
+pleaseUpdate=请更新你的游戏
+crackedVersion=有人正在使用破解版本的游戏。即将关闭游戏。
+lastPlayedCard=上一张打出的牌
+restart=重新开始
+restartInfo=你将会回滚所有已完成的选择，并重新开始整个流程
+restartClient={0} 要求进行回滚。你想重新开始当前界面吗？
+exhaust=<u>衰竭：</u>在你的回合内导致牌组重新洗牌时，你会遭受衰竭，导致从抽牌堆、弃牌堆或消耗堆进入你手牌中的卡牌均需额外花费 1 点能量，效果持续到回合结束。衰竭可以叠加，无法驱散，并在回合结束时移除。
+madnessCorruptor3Help=全体怪物获得额外 +10% 的所有抗性。怪物身上的易伤充能最多可叠加至 6 层。
+resistantMonstersDesc=全体怪物获得额外 +10% 的所有抗性。怪物身上的易伤充能最多可叠加至 6 层。
+customMainperkPowerful1b=该英雄身上的强效最大充能层数增加 2 层，回合结束时会减少 1 层。
+customMainperkVulnerable0b=敌人身上的易伤最大充能层数增加 1 层，回合结束时会减少 1 层充能。
+customMainperkReinforce0=该英雄在战斗开始时获得 1 加固。该英雄身上的加固只有处于指定状态下才能被净化。
+customMainperkInsulate0=该英雄在战斗开始时获得 1 绝缘。该英雄身上的绝缘只有处于指定状态下才能被净化。
+customMainperkCourage0=该英雄在战斗开始时获得 1 英勇。该英雄身上的英勇只有处于指定状态下才能被净化。
+customMainperkBurn2c=敌人身上的每层灼烧会造成寒冰伤害，并减少 0.3% 的火焰和寒冰抗性。
+customMainperkBurn2d=如果目标身上拥有两个或以下的诅咒（包括灼烧），则对敌人的灼烧会造成双倍伤害。
+customMainperkSharp1d=英雄身上的每层锐利也会增加 1 暗影伤害。
+customMainperkStanza0a=英雄身上的诗节不仅会提升心灵伤害，还会提升所有伤害。
+abortMultiplayerPlayer=一名玩家断开了连接。当该玩家重新加入时，你可以从最后的存档点继续游戏。
+abortMultiplayerMaster=游戏房主断开了连接。本局游戏即将关闭。你可以再次创建新的游戏并载入最后存档点。
+errorSteamAuth=Steam 认证失败。请稍后再试。
+lfmRoom=寻找成员
+joinOldGame=你似乎从游戏中断开了连接。是否重新加入原先的游戏？
+darkestnight=至暗之夜
+darkestnightDesc=黑暗充能也会在回合结束时爆炸。
+challengeSpooky=恐怖之夜
+customSpookyNight=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+1</bl><br><gl>每个回合 -</gl><br>全体英雄遭受 <rd>3</rd> 层<i=dark>
+customSugarRush=<gl>全体怪物获得：</gl><br>所有伤害<bl>+2</bl><br><gl>- 每个回合 -</gl><br>将<crd=candy,1>洗入每位英雄的牌组。
+customDeathGrip=<gl>全体怪物获得：</gl><br>所有伤害<bl>+2</bl><br><gl>- 每个回合 -</gl><br>对一个随机角色施加 <rd>1<i=shackle> 3</rd> 层<i=dark>。
+itemApplyRandom=对一个随机角色施加 {0}
+recommended=建议
+cardsReduceAura=光环充能减少 {0}%
+cardsIncreaseCurse=诅咒充能增加 {0}%
+cardsIncreaseAura=光环充能增加 {0}%
+transmute=转换
+transform=转化
+upgrade=升级
+cardbackDLCSpooky=使坏
+cardbackWeeklyHalloween=招待
+requiredDLC=你需要拥有 DLC “{0}”
+requiredWeekly=你需要完成每周挑战<nobr>“<color=#FFF>{0}</color>”</nobr><br><line-height=10%><br><line-height=100%><size=-3>* 部分挑战仅在特殊活动期间提供
+weeklyCardbackReward=完成挑战即可获得该卡背。
+customTrickorTreat=<gl>全体怪物获得：</gl><br>所有伤害<bl>+1</bl><br><gl>- 每个回合 -</gl><br>将<crd=trick,1>或<crd=treat,1>洗入每位英雄的牌组顶部。
+minDeckCards=牌组的最低卡牌数量（不包括恩惠牌和受伤牌）：<size=+1><color=#FFFFFF><n></color>
+profileMenu=当前档案：<size=+5><color=#B0B0B0>{0}</color></size>
+profileCreate=【新建档案】
+challengeThirdFloorReward=抵达挑战的第三层即可解锁卡牌。
+langCommunity=* 由社区成员创作
+itemCorruptionUpgrade=* 当英雄装备同一物品两次时，该物品将会转化为腐化版。
+//////////////////////////////////////////////////////////////////////////////////////////
+challengeYlmer=森林觉醒
+challengeYogger=威吓嚎叫
+challengeIgnidoh=熔岩地板
+challengeFaeborg=寒气刺骨
+challengeTulah=碧绿之血
+challengeMinotaur=狂野冠军
+challengeNhir=漆黑一片
+
+sacredthorns=神圣荆棘
+sacredthornsDesc=荆棘不会造成刺击伤害，转而造成神圣伤害。
+extremeburning=极端灼烧
+extremeburningDesc=如果目标身上拥有两个或以下的诅咒（包括灼烧），则灼烧会造成双倍伤害。
+frostfire=霜火
+frostfireDesc=每层灼烧会造成寒冰伤害，并减少 0.3% 的火焰和寒冰抗性。
+intensecold=极度冰寒
+intensecoldDesc=每 4 层冰冻会减少 1 速度（而不是每 5 层）。
+lethalpoison=致命毒素
+lethalpoisonDesc=毒素会额外造成 50% 的伤害，回合结束时失去所有充能。
+hemorrhage=大出血
+hemorrhageDesc=流血充能 +2。流血会在回合结束时造成伤害，无法被缓冲或免疫所阻挡。
+containedfury=怒意掌控
+containedfuryDesc=每层狂怒转而提升 2% 的伤害，回合结束时不再施加流血。
+
+customChaoticWind=<gl>全体怪物获得：</gl><br>速度<bl>+1</bl><br><gl>- 每个回合 -</gl><br>对一个随机角色施加 <rd>1<i=fast> 2</rd> 层<i=insane>。
+customChaoticWindA=<gl>全体怪物获得：</gl><br>速度<bl>+1</bl><br><gl>- 每个回合 -</gl><br>对一个随机角色施加 <rd>2<i=fast> 2</rd> 层<i=insane>。
+customChaoticWindB=<gl>全体怪物获得：</gl><br>速度<bl>+2</bl><br><gl>- 每个回合 -</gl><br>对一个随机角色施加 <rd>2<i=fast> 2</rd> 层<i=insane>。
+customChaoticWindRare=<gl>全体怪物获得：</gl><br>速度<bl>+3</bl><br><gl>- 每个回合 -</gl><br>对一个随机角色施加 <rd>2<i=fast> 3</rd> 层<i=insane>。
+
+customLivingForest=<gl>全体怪物获得：</gl><br>最大生命值<bl>+15</bl><br>所有伤害<bl>+2</bl><br><gl>- 每个回合 -</gl><br>一个随机怪物获得 <rd>2<i=thorns> 2</rd> 层<i=regeneration>
+customLivingForestA=<gl>全体怪物获得：</gl><br>最大生命值<bl>+25</bl><br>所有伤害<bl>+2</bl><br><gl>- 每个回合 -</gl><br>一个随机怪物获得 <rd>3<i=thorns> 3</rd> 层<i=regeneration>
+customLivingForestB=<gl>全体怪物获得：</gl><br>最大生命值<bl>+35</bl><br>所有伤害<bl>+3</bl><br><gl>- 每个回合 -</gl><br>一个随机怪物获得 <rd>4<i=thorns> 4</rd> 层<i=regeneration>
+customLivingForestRare=<gl>全体怪物获得：</gl><br>最大生命值<bl>+45</bl><br>所有伤害<bl>+4</bl><br><gl>- 每个回合 -</gl><br>一个随机怪物获得 <rd>5<i=thorns> 4</rd> 层<i=regeneration>
+
+customStarryNight=<gl>全体怪物获得：</gl><br>最大生命值<bl>+15</bl><br><gl>- 每个回合 -</gl><br>对一个随机英雄造成 <rd>4<i=holy></rd> 和施加 <rd>1<i=sanctify> 1</rd> 层<i=burn>。
+customStarryNightA=<gl>全体怪物获得：</gl><br>最大生命值<bl>+15</bl><br><gl>- 每个回合 -</gl><br>对一个随机英雄造成 <rd>5<i=holy></rd> 和施加 <rd>2<i=sanctify> 2</rd> 层<i=burn>。
+customStarryNightB=<gl>全体怪物获得：</gl><br>最大生命值<bl>+15</bl><br><gl>- 每个回合 -</gl><br>对一个随机英雄造成 <rd>6<i=holy></rd> 和施加 <rd>3<i=sanctify> 3</rd> 层<i=burn>。
+customStarryNightRare=<gl>全体怪物获得：</gl><br>最大生命值<bl>+15</bl><br><gl>- 每个回合 -</gl><br>对一个随机英雄造成 <rd>7<i=holy></rd> 和施加 <rd>4<i=sanctify> 4</rd> 层<i=burn>。
+
+customRoseGarden=<gl>全体怪物获得：</gl><br>最大生命值<bl>+15</bl><br><gl>- 战斗开始 -</gl><br>获得 <bl>5</bl> 层<i=thorns>
+customRoseGardenA=<gl>全体怪物获得：</gl><br>最大生命值<bl>+20</bl><br><gl>- 战斗开始 -</gl><br>获得 <bl>9</bl> 层<i=thorns>
+customRoseGardenB=<gl>全体怪物获得：</gl><br>最大生命值<bl>+25</bl><br><gl>- 战斗开始 -</gl><br>获得 <bl>12</bl> 层<i=thorns>
+customRoseGardenRare=<gl>全体怪物获得：</gl><br>最大生命值<bl>+30</bl><br><gl>- 战斗开始 -</gl><br>获得 <bl>16</bl> 层<i=thorns>
+
+customBombLottery=<gl>全体怪物获得：</gl><br>所有伤害<bl>+1</bl><br><gl>- 每个回合 -</gl><br>将<crd=bomb,1>洗入一个随机英雄的牌组。
+customBombLotteryA=<gl>全体怪物获得：</gl><br>所有伤害<bl>+2</bl><br><gl>- 每个回合 -</gl><br>将<crd=bomb,1>洗入一个随机英雄的牌组。
+customBombLotteryB=<gl>全体怪物获得：</gl><br>所有伤害<bl>+1</bl><br><gl>- 每个回合 -</gl><br>将<crd=bomb,1>洗入一个随机英雄的牌组。
+customBombLotteryRare=<gl>全体怪物获得：</gl><br>所有伤害<bl>+3</bl><br><gl>- 每个回合 -</gl><br>将<crd=bomb,1>洗入一个随机英雄的牌组。
+
+customAshySky=<gl>全体怪物获得：</gl><br>所有伤害<bl>+2</bl><br>所有抗性<bl>+5%</bl><br><gl>- 每个回合 -</gl><br>增加<crd=ashstorm,1>到一个随机怪物。
+customAshySkyA=<gl>全体怪物获得：</gl><br>所有伤害<bl>+2</bl><br>所有抗性<bl>+10%</bl><br><gl>- 每个回合 -</gl><br>增加<crd=ashstorm,1>到一个随机怪物。
+customAshySkyB=<gl>全体怪物获得：</gl><br>所有伤害<bl>+3</bl><br>所有抗性<bl>+15%</bl><br><gl>- 每个回合 -</gl><br>增加<crd=ashstorm,1>到一个随机怪物。
+customAshySkyRare=<gl>全体怪物获得：</gl><br>所有伤害<bl>+4</bl><br>所有抗性<bl>+20%</bl><br><gl>- 每个回合 -</gl><br>增加<crd=ashstorm,1>到一个随机怪物。
+
+customSnowfall=<gl>全体怪物获得：</gl><br>最大生命值<bl>+15</bl><br><gl>- 战斗开始 -</gl><br>将<crd=coldhands,1>放置在每位英雄的牌组顶部和施加 <rd>5 层<i=chill>
+customSnowfallA=<gl>全体怪物获得：</gl><br>最大生命值<bl>+25</bl><br><gl>- 战斗开始 -</gl><br>将<crd=coldhands,1>放置在每位英雄的牌组顶部和施加 <rd>8 层<i=chill>
+customSnowfallB=<gl>全体怪物获得：</gl><br>最大生命值<bl>+35</bl><br><gl>- 战斗开始 -</gl><br>将<crd=coldhands,1>放置在每位英雄的牌组顶部和施加 <rd>10 层<i=chill>
+customSnowfallRare=<gl>全体怪物获得：</gl><br>最大生命值<bl>+45</bl><br><gl>- 战斗开始 -</gl><br>将<crd=coldhands,1>放置在每位英雄的牌组顶部和施加 <rd>12 层<i=chill>
+
+customMeatFeast=<gl>全体怪物获得：</gl><br>所有伤害<bl>+2</bl><br><gl>- 每个回合 -</gl><br>增加<crd=premiummeato,1>、<crd=meato,1>或<crd=spoiledmeato,1>到全体怪物。
+
+customMeatBag=<gl>【首个回合】</gl><br>将<crd=premiummeat,1>、<crd=meat,1>或<crd=spoiledmeat,1>洗入你的牌组。
+customMeatBagA=最大生命值<bl>+3</bl><br><gl>【首个回合】</gl><br>将<crd=premiummeat,1>、<crd=meat,1>或<crd=spoiledmeat,1>洗入你的牌组。
+customMeatBagB=最大生命值<bl>+6</bl><br><gl>【首个回合】</gl><br>将<crd=premiummeat,1>、<crd=meat,1>或<crd=spoiledmeat,1>洗入你的牌组。
+
+customForestAllies=<gl>全体怪物获得：</gl><br>最大生命值<bl>+25</bl><br><gl>- 战斗开始 -</gl><br>增加<crd=forestallya,1>、<crd=forestallyb,1>或<crd=forestallyc,1>到全体怪物。
+
+customLavaBursts=<gl>全体怪物获得：</gl><br>最大生命值<bl>+25</bl><br><gl>- 每个回合 -</gl><br>对一个随机英雄造成 <rd>5<i=fire></rd> 和施加 <rd>2 层<i=burn></rd>。
+
+customColdFront=<gl>全体怪物获得：</gl><br>最大生命值<bl>+25</bl><br><gl>- 每个回合 -</gl><br>对一个随机英雄造成 <rd>5<i=cold></rd> 和施加 <rd>2 层<i=chill></rd>。
+
+customLonelyBlob=<gl>全体怪物获得：</gl><br>最大生命值<bl>+15</bl><br><gl>- 战斗开始 -</gl><br>增加一种随机<i=card><color=#5E3016>黏液</color>到一个随机怪物。
+customLonelyBlobA=<gl>全体怪物获得：</gl><br>最大生命值<bl>+25</bl><br><gl>- 战斗开始 -</gl><br>增加一种随机<i=card><color=#5E3016>黏液</color>到一个随机怪物。
+customLonelyBlobB=<gl>全体怪物获得：</gl><br>最大生命值<bl>+35</bl><br><gl>- 战斗开始 -</gl><br>增加一种随机<i=card><color=#5E3016>黏液</color>到一个随机怪物。
+customLonelyBlobRare=<gl>全体怪物获得：</gl><br>最大生命值<bl>+45</bl><br><gl>- 战斗开始 -</gl><br>增加一种随机<i=card><color=#5E3016>黏液</color>到一个随机怪物。
+
+customColorfulPuddle=<gl>全体怪物获得：</gl><br>所有伤害<bl>+1</bl><br>最大生命值<bl>+15</bl><br><gl>- 战斗开始 -</gl><br>增加一种随机<i=card><color=#5E3016>黏液</color>到全体怪物。
+customColorfulPuddleA=<gl>全体怪物获得：</gl><br>所有伤害<bl>+2</bl><br>最大生命值<bl>+25</bl><br><gl>- 战斗开始 -</gl><br>增加一种随机<i=card><color=#5E3016>黏液</color>到全体怪物。
+customColorfulPuddleB=<gl>全体怪物获得：</gl><br>所有伤害<bl>+2</bl><br>最大生命值<bl>+35</bl><br><gl>- 战斗开始 -</gl><br>增加一种随机<i=card><color=#5E3016>黏液</color>到全体怪物。
+customColorfulPuddleRare=<gl>全体怪物获得：</gl><br>所有伤害<bl>+3</bl><br>最大生命值<bl>+45</bl><br><gl>- 战斗开始 -</gl><br>增加一种随机<i=card><color=#5E3016>黏液</color>到全体怪物。
+
+customBloodPuddle=<gl>全体怪物获得：</gl><br>所有伤害<bl>+1</bl><br>最大生命值<bl>+25</bl><br><gl>- 战斗开始 -</gl><br>增加<crd=bloodblob,1>到全体怪物。
+customChaosPuddle=<gl>全体怪物获得：</gl><br>所有伤害<bl>+1</bl><br>最大生命值<bl>+25</bl><br><gl>- 战斗开始 -</gl><br>增加<crd=chaosblob,1>到全体怪物。
+customDarkPuddle=<gl>全体怪物获得：</gl><br>所有伤害<bl>+1</bl><br>最大生命值<bl>+25</bl><br><gl>- 战斗开始 -</gl><br>增加<crd=darkblob,1>到全体怪物。
+customElectricPuddle=<gl>全体怪物获得：</gl><br>所有伤害<bl>+1</bl><br>最大生命值<bl>+25</bl><br><gl>- 战斗开始 -</gl><br>增加<crd=electricblob,1>到全体怪物。
+customHolyPuddle=<gl>全体怪物获得：</gl><br>所有伤害<bl>+1</bl><br>最大生命值<bl>+25</bl><br><gl>- 战斗开始 -</gl><br>增加<crd=holyblob,1>到全体怪物。
+customIcyPuddle=<gl>全体怪物获得：</gl><br>所有伤害<bl>+1</bl><br>最大生命值<bl>+25</bl><br><gl>- 战斗开始 -</gl><br>增加<crd=icyblob,1>到全体怪物。
+customLavaPuddle=<gl>全体怪物获得：</gl><br>所有伤害<bl>+1</bl><br>最大生命值<bl>+25</bl><br><gl>- 战斗开始 -</gl><br>增加<crd=lavablob,1>到全体怪物。
+customMetalPuddle=<gl>全体怪物获得：</gl><br>所有伤害<bl>+1</bl><br>最大生命值<bl>+25</bl><br><gl>- 战斗开始 -</gl><br>增加<crd=metalblob,1>到全体怪物。
+customToxicPuddle=<gl>全体怪物获得：</gl><br>所有伤害<bl>+1</bl><br>最大生命值<bl>+25</bl><br><gl>- 战斗开始 -</gl><br>增加<crd=toxicblob,1>到全体怪物。
+customWaterPuddle=<gl>全体怪物获得：</gl><br>所有伤害<bl>+1</bl><br>最大生命值<bl>+25</bl><br><gl>- 战斗开始 -</gl><br>增加<crd=waterblob,1>到全体怪物。
+
+customGainPerHero=每位英雄获得 {0}。
+customGainPerHeroAnd=每位英雄获得 {0} 和 {1}。
+itemEveryRoundRound=每个回合
+menuLog=战斗日志
+youMustSelectHero=你必须选择下列英雄：<br><color=#FFC555>{0}</color>
+townTutorial=城镇教程
+townTutorialStep0=进入魔力煅炉，为 {1} 购买一张“{0}”卡牌。
+townTutorialStep1=进入祭坛，为 {1} 升级“{0}”卡牌。
+townTutorialStep2=进入军械库，为 {1} 购买一件“{0}”。
+tutorialTownNeedComplete=你需要完成城镇教程
+tutorialTownCraftTitle=锻造卡牌
+tutorialTownCraft=如果一张卡牌通过搜掠的方式解锁，则你可以为英雄锻造该卡牌。<line-height=160%><br></line-height><color=#FFC555>使用 {1} 锻造“{0}”卡牌</color>。
+tutorialTownCraftDoneTitle=锻造卡牌
+tutorialTownCraftDone=在冒险过程中，你将会解锁新的卡牌。现在前往祭坛进行下一步教学。
+tutorialTownUpgradeTitle=转化卡牌
+tutorialTownUpgrade=支付一定数量的碎片，即可将你的卡牌升级为更强大的版本。<line-height=160%><br></line-height><color=#FFC555>从 {1} 处升级卡牌“{0}”</color>。
+tutorialTownUpgradeDoneTitle=转化卡牌
+tutorialTownUpgradeDone=请注意，卡牌的升级费用将依据卡牌的稀有度而定。现在前往军械库完成城镇教程。
+tutorialTownLootTitle=购买物品
+tutorialTownLoot=在世界各地的城镇与商店里，你可以为英雄购买物品，提升他们的属性与战斗表现。<line-height=160%><br></line-height><color=#FFC555>使用{1}购买“{0}”</color>。
+tutorialTownLootDoneTitle=购买物品
+tutorialTownLootDone=恭喜！你已经完成了城镇教程，准备开启你的冒险之旅！
+terrainCondition=地形条件
+terrainConditionDesc=一种特殊的地形，英雄们将在不同的状况下开始战斗：
+heavyRain=大雨
+extremeHeat=酷热
+freezingCold=严寒
+holyGround=圣地
+graveyard=墓园
+poisonousAir=有毒空气
+frozenSewers=冻结的下水道
+blackForge=黑色熔炉
+wolfWars=狼之战争
+wolfWarsIntro=在嫁给瑟能西亚国王的数年之后，阿米莉亚女王努力增进国内各大种族的联系，并欢迎他们团结在同一旗帜之下。<br><br>由于不断遭受狼人的骚扰与猎杀，大多数种族满怀希望地接受了这个提议。然而，酋长戈里奥想要继续统治森林的东北部，并主张他的狼人享有自由狩猎的权利。<br><br>阿米莉亚女王与酋长戈里奥进行了数月的谈判，但最终后者选择了终止谈判。戈里奥悍然宣布，他的狼人不会被驯服，任何胆敢进入森林的人都将成为他的猎物。<br><br>在国内各大种族的恳求下，护民心切的阿米莉亚女王决定发起进攻，推翻戈里奥。
+bandit=强盗
+food=食物
+roadmapHomeText=<tit>大家好！</tit>我们的游戏刚刚发布了1.1版本更新，并且推出了大量免费内容：两个新的子区域、新的物品以及战斗日志等各种新功能。<br><br>此外，我们还发布了首个剧情 DLC——《狼之战争》，其中包括一位全新英雄、各种皮肤等其它内容。希望你们会喜欢这些新内容！<br><br><tit>接下来的安排？</tit>我们将会对英雄百科进行小幅调整。同时我们还会专注于首个大型 DLC 的更新、一个充满全新敌人、物品、事件的大型区域（出现在第 2 幕和第 3 幕），以及推出新的英雄！
+requiredEvent=你需要完成事件“{0}”
+
+challengeHydra=危险水域
+icydeluge=冰凌洪水
+icydelugeDesc=潮湿充能 +1。每层潮湿也会提升 1 寒冰伤害承受。
+
+cardbackDangerousWaters=rptd_challengeHydra
+cardbackFloorIsLava=rptd_challengeIgnidoh
+cardbackForestAwakens=rptd_challengeYlmer
+cardbackFrozenToTheBone=rptd_challengeFaeborg
+cardbackGreenBlood=rptd_challengeTulah
+cardbackPitchBlack=rptd_challengeNhir
+cardbackThreateningHowls=rptd_challengeYogger
+cardbackWildChampions=rptd_challengeMinotaur
+
+////////////////////////// new no enviado /////
+dlcAcronymForCharSelection=DLC
+
+cardbackTitle0=角色
+cardbackTitle1=通用
+cardbackTitle2=其它
+
+itemRecoverLowestHPHero=生命值最低的英雄回复 {0} 生命值
+
+customButchersTable=最大生命值 <bl>+10</bl><br><gl>【每个回合】</gl><br>将<crd=premiummeat,1>、<crd=meat,1>或<crd=spoiledmeat,1>放入你的手牌。
+customButchersTableRare=最大生命值 <bl>+20</bl><br><gl>【每个回合】</gl><br>将<crd=premiummeat,1>、<crd=meat,1>或<crd=bloodsausage,1>放入你的手牌。
+
+customMainperkFortify1c=回合结束时，英雄身上的坚守失去所有充能，被移除的每层坚守将会给予 10 格挡。
+requiredDLCandQuest=你需要拥有 DLC <nobr>“<color=#FFF>{0}</color>”</nobr>并完成一个事件
+characterSkin=角色皮肤
+playerDontHaveDLC=该玩家没有 DLC <nobr>“<color=#FFF>{0}</color>”</nobr>
+enableKeysOption=激活键盘快捷键
+enableKeysOptionDes=如果你在战斗中使用任意快捷键，也会激活此选项
+
+consoleDraw=<color=#AAA>抽取卡牌（{0} 张）</color> {1} // 0 is the number of cards and 1 is a list of auras
+consoleCardToHand={0} <color=#AAA>放入手牌</color> // {0} 是角色名称
+consoleCardToTopDeck={0} <color=#AAA>放置在牌组顶部</color> // {0} 是角色名称
+consoleCardToBottomDeck={0} <color=#AAA>放置在牌组底部</color> // {0} 是角色名称
+consoleCardToRandomDeck={0} <color=#AAA>洗入牌组</color> // {0} 是角色名称
+consoleCardToDiscard={0} <color=#AAA>弃牌</color>
+consoleCardToVanish={0} <color=#AAA>移动至消耗堆</color> // {0} 是角色名称
+consoleCardModification={0} <color=#AAA>修改卡牌</color> // {0} 是角色名称
+consoleCorruptionActivated=腐化已激活
+consoleItemActivated=物品已激活
+consoleTraitActivated=特性已激活
+consoleCharacterCasted={0} <color=#AAA>施放</color> // {0} 是角色名称
+consoleBeginTurn=<b>{0}</b> <link={1}><color=#B7789E><u>回合开始</u></color></link> // {0} 是角色名称
+consoleEndTurn=<b>{0}</b> <link={1}><color=#B7789E><u>回合结束</u></color></link> // {0} 是角色名称
+consoleCombatStatus=战斗状态
+
+/////////////////  Ulminin translation ///////////////////////////////////
+
+yoggerPet1=你以为我是谁？马格努斯？
+yoggerPet2=大胆！我要把你剁成肉酱！
+
+fallen=堕落者
+zealot=狂热者
+vanguard=先锋
+wraith=幻影
+revenant=亡魂
+zeal=狂热
+scourge=灾祸
+dualClassReward=* 双职业角色能够获得 4 张卡牌奖励（每个角色职业 2 张）。
+
+cardsXEqualsYourSpeed=（X 等同于你速度的{0}）
+cardsXEqualsTargetSpeed=（X 等同于目标速度的{0}）
+cardsXEqualsDifferenceSpeed=（X 等同于你和目标速度差值的{0}）
+
+customBookoftheDead=所有伤害<bl>+4</bl><br><color=#4D4D4D>【角色死亡】</color><br>施放<crd=raisemage,1>、<crd=raisepriest,1>或 <crd=raisewarlock,1><br><color=#4D4D4D>【每场战斗 1 次】
+customBookoftheDeadrare=所有伤害<bl>+6</bl><br><color=#4D4D4D>【角色死亡】</color><br>施放<crd=raisemagerare,1>、<crd=raisepriestrare,1>或 <crd=raisewarlockrare,1><br><color=#4D4D4D>【每场战斗 1 次】
+
+customMixedSalad=最大生命值<bl>+5</bl><br><gl>【每个回合】</gl><br>将<crd=tomato,1>、<crd=carrot,1>或<crd=broccoli,1>放入你的手牌。
+customMixedSaladrare=最大生命值<bl>+15</bl><br><gl>【每个回合】</gl><br>将<crd=tomato,1>、<crd=carrot,1>或<crd=broccoli,1>放入你的手牌。
+
+customBurningBlood=将<i=bleed>转化为<i=burn>x0.3<br>获得<bl>X</bl><i=fury><br><size=-.15><gl>（X 等同于你的<i=bleed>x0.3）</gl></size>
+customBurningBloodA=将<i=bleed>转化为<i=burn>x0.3<br>获得<bl>X</bl><i=fury><br><size=-.15><gl>（X 等同于目标<i=bleed>x0.3）</gl></size>
+customBurningBloodRare=将<i=bleed>转化为<i=burn>x0.5<br>获得<bl>X</bl><i=fury><br><size=-.15><gl>（X 等同于目标<i=bleed>）</gl></size>
+
+pickRandomHero=随机选择一个英雄
+cardsXEqualsYourDiscardedCards=（X 等同于丢弃的<space=.1><sprite name=card>{0}）
+cardsXEqualsYourVanishedCards=（X 等同于消耗的<space=.1><sprite name=card>{0}）
+cardsXEqualsTargetMissingHealth=（X 等同于目标已损生命值的{0}）
+cardsXEqualsYourMissingHealth=（X 等同于你已损生命值的{0}）
+itemEveryRoundRoundN=每{0}回合
+itemReduceCost=（费用 >={0}）
+scarabBonus=圣甲虫加成：每位英雄{0}
+itemTwicePerCombat=每场战斗两次
+itemThricePerCombat=每场战斗三次
+customCrystallize=每位英雄可获得 150<i=dust>的额外奖励。
+escapes=逃离
+luckyscarab=幸运圣甲虫
+useSupplies=使用补给来提高该角色的级别。
+useSuppliesAvailable=【 {0}  <sprite name=supply> 可用 】  /// 10 <supplies> 可用
+useSuppliesRequirement=* 需要角色级别达到 10 级且城镇升级完全解锁。
+
+customMeatBagA=<i=slashing>抗性<bl>+3%</bl><br><act>【第一回合】</act><br>将<crd=premiummeat,1>、<crd=meat,1>或<crd=spoiledmeat,1>洗入你的牌组。
+customMeatBagB=<i=slashing>抗性<bl>+5</bl><br><act>【第一回合】</act><br>将<crd=premiummeat,1>、<crd=meat,1>或<crd=spoiledmeat,1>洗入你的牌组。
+cardsVanish=消耗{0}
+
+itemSixPerTurn=每回合 6 次
+itemSevenPerTurn=每回合 7 次
+itemEightPerTurn=每回合 8 次
+cardsIDPlaceDiscard=将{0}置入弃牌堆// 0 => cardname
+ulminin=乌尔米宁沙漠
+impedingDoomDesc=如果表现加成达到“失望”时，所有英雄都会遭受 3 “厄运”。
+resistantMonstersDesc=全体怪物获得额外 +10% 的所有抗性
+decadenceDesc=全体英雄所获得的治疗 <nobr>-20%</nobr>，而且活力只能治疗已获得最大生命值的 50%
+
+customMainperkPowerful1c=该英雄身上的每层强效会提升 10% 的伤害输出和治疗输出，最大充能层数减少 3，回合结束时失去所有充能。
+customMainperkInspire0a=该英雄在回合开始时获得 1 启迪。
+customMainperkSharp1d=英雄身上的每层锐利也会增加 1 暗影伤害。
+
+pyramid=古金字塔
+cardPlayerPairsDescription=卡牌洗好后，角色将交替选择一张卡牌。如果选出的卡牌成对，<color=#C59559>两个角色都将获得奖励</color>，否则卡牌将再次隐盖。<br><br>选牌顺序随机，每两个回合洗一次牌。房主可以在每回合结束时终止游戏。
+finishGame=终止游戏
+cardPlayerPairsRound=<color=#FFF>轮到【{0}/{1}】</color><br><color={2}>{3}的回合</color>
+
+customArmagedon=<gl>全体怪物获得：</gl><br>所有伤害<bl>+2</bl><br><i=fire><i=blunt>抗性<bl>+30%</bl><br><gl>- 每个回合 -</gl><br>增加<crd=meteorite,1>到全体怪物。
+customArmagedonA=<gl>全体怪物获得：</gl><br>所有伤害<bl>+2</bl><br><i=fire><i=blunt>抗性<bl>+40%</bl><br><gl>- 每个回合 -</gl><br>增加<crd=meteorite,1>到全体怪物。
+customArmagedonB=<gl>全体怪物获得：</gl><br>所有伤害<bl>+3</bl><br><i=fire><i=blunt>抗性<bl>+45%</bl><br><gl>- 每个回合 -</gl><br>增加<crd=meteorite,1>到全体怪物。
+customArmagedonRare=<gl>全体怪物获得：</gl><br>所有伤害<bl>+4</bl><br><i=fire><i=blunt>抗性<bl>+45%</bl><br><gl>- 每个回合 -</gl><br>增加<crd=meteorite,1>到全体怪物。
+
+customHeavenlyArmaments=<gl>全体怪物获得：</gl><br>最大生命值<bl>+15</bl><br><gl>- 每个回合 -</gl><br>获得<bl>2</bl>层<i=bless><bl>2</bl>层<i=regeneration><bl>2</bl>层<i=vitality><bl>1</bl>层<i=zeal><bl>1</bl>层<i=fast>
+customHeavenlyArmamentsA=<gl>全体怪物获得：</gl><br>最大生命值<bl>+30</bl><br><gl>- 每个回合 -</gl><br>获得<bl>3</bl>层<i=bless><bl>3</bl>层<i=regeneration><bl>2</bl>层<i=vitality><bl>2</bl>层<i=zeal><bl>1</bl>层<i=fast>
+customHeavenlyArmamentsB=<gl>全体怪物获得：</gl><br>最大生命值<bl>+45</bl><br><gl>- 每个回合 -</gl><br>获得<bl>3</bl>层<i=bless><bl>3</bl>层<i=regeneration><bl>3</bl>层<i=vitality><bl>2</bl>层<i=zeal><bl>2</bl>层<i=fast>
+customHeavenlyArmamentsRare=<gl>全体怪物获得：</gl><br>最大生命值<bl>+60</bl><br><gl>- 每个回合 -</gl><br>获得<bl>3</bl>层<i=bless><bl>3</bl>层<i=regeneration><bl>3</bl>层<i=vitality><bl>3</bl>层<i=zeal><bl>2</bl>层<i=fast>
+
+customPutrefaction=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+2</bl><br>免疫<i=scourge><i=decay><br><gl>怪物造成伤害时，</gl>施加<rd>2</rd>层<i=dark><rd>1</rd>层<i=decay>
+customPutrefactionA=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+2</bl><br>免疫<i=scourge><i=decay><br><gl>怪物造成伤害时，</gl>施加<rd>3</rd>层<i=dark><rd>1</rd>层<i=decay>
+customPutrefactionB=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+3</bl><br>免疫<i=scourge><i=decay><br><gl>怪物造成伤害时，</gl>施加<rd>3</rd>层<i=dark><rd>2</rd>层<i=decay>
+customPutrefactionRare=<gl>全体怪物获得：</gl><br>所有伤害 <bl>+4</bl><br>免疫<i=scourge><i=decay><br><gl>怪物造成伤害时，</gl>施加<rd>4</rd>层<i=dark><rd>2</rd>层<i=decay>
+
+customMelancholy=<gl>全体怪物获得：</gl><br>最大生命值<bl>+15</bl><br>所有抗性<bl>+10%</bl><br><i=mind>抗性<bl>+20%</bl><br><gl>- 每回合 -</gl><br>将<crd=sad,2>洗入每位英雄的牌组。</color>
+customMelancholyA=<gl>全体怪物获得：</gl><br>最大生命值<bl>+25</bl><br>所有抗性<bl>+15%</bl><br><i=mind>抗性<bl>+20%</bl><br><gl>- 每回合 -</gl><br>将<crd=sad,2>洗入每位英雄的牌组。</color>
+customMelancholyB=<gl>全体怪物获得：</gl><br>最大生命值<bl>+35</bl><br>所有抗性<bl>+20%</bl><br><i=mind>抗性<bl>+25%</bl><br><gl>- 每回合 -</gl><br>将<crd=sad,2>洗入每位英雄的牌组。</color>
+customMelancholyRare=<gl>全体怪物获得：</gl><br>最大生命值<bl>+45</bl><br>所有抗性<bl>+25%</bl><br><i=mind>抗性<bl>+25%</bl><br><gl>- 每回合 -</gl><br>将<crd=sad,2>洗入每位英雄的牌组。</color>
+
+customNoxiousParasites=<gl>全体怪物获得：</gl><br>所有伤害<bl>+2</bl><br><i=slashing><i=piercing><i=shadow>抗性 <bl>+30%</bl><br><gl>- 每个回合 -</gl><br>将<crd=hatchcorrupt,1>洗入每位英雄的牌组。
+customNoxiousParasitesA=<gl>全体怪物获得：</gl><br>所有伤害<bl>+2</bl><br><i=slashing><i=piercing><i=shadow>抗性 <bl>+40%</bl><br><gl>- 每个回合 -</gl><br>将<crd=hatchcorrupt,1>洗入每位英雄的牌组。
+customNoxiousParasitesB=<gl>全体怪物获得：</gl><br>所有伤害<bl>+3</bl><br><i=slashing><i=piercing><i=shadow>抗性 <bl>+45%</bl><br><gl>- 每个回合 -</gl><br>将<crd=hatchcorrupt,1>洗入每位英雄的牌组。
+customNoxiousParasitesRare=<gl>全体怪物获得：</gl><br>所有伤害<bl>+4</bl><br><i=slashing><i=piercing><i=shadow>抗性 <bl>+45%</bl><br><gl>- 每个回合 -</gl><br>将<crd=hatchcorrupt,1>洗入每位英雄的牌组。
+
+customPoisonFields=<gl>全体怪物获得：</gl><br>所有伤害<bl>+2</bl><br>所有抗性 <bl>+5%</bl><br><gl>- 每个回合 -</gl><br>全体英雄遭受<rd>3 层<rd><i=poison>
+customPoisonFieldsA=<gl>全体怪物获得：</gl><br>所有伤害<bl>+2</bl><br>所有抗性 <bl>+10%</bl><br><gl>- 每个回合 -</gl><br>全体英雄遭受<rd>5 <rd>层<i=poison>
+customPoisonFieldsB=<gl>全体怪物获得：</gl><br>所有伤害<bl>+3</bl><br>所有抗性 <bl>+15%</bl><br><gl>- 每个回合 -</gl><br>全体英雄遭受<rd>7 <rd>层<i=poison>
+customPoisonFieldsRare=<gl>全体怪物获得：</gl><br>所有伤害<bl>+4</bl><br>所有抗性 <bl>+20%</bl><br><gl>- 每个回合 -</gl><br>全体英雄遭受<rd>9 <rd>层<i=poison>
+
+customRevenge=<gl>全体怪物获得：</gl><br>所有伤害<bl>+2</bl><br><i=slashing><i=blunt><i=piercing>抗性<bl>+20%</bl><br><gl>英雄打出“攻击牌”时，</gl>全体怪物获得<bl>3</bl>层<i=fury>
+customRevengeA=<gl>全体怪物获得：</gl><br>所有伤害<bl>+2</bl><br><i=slashing><i=blunt><i=piercing>抗性<bl>+25%</bl><br><gl>英雄打出“攻击牌”时，</gl>全体怪物获得<bl>4</bl>层<i=fury>
+customRevengeB=<gl>全体怪物获得：</gl><br>所有伤害<bl>+3</bl><br><i=slashing><i=blunt><i=piercing>抗性<bl>+30%</bl><br><gl>英雄打出“攻击牌”时，</gl>全体怪物获得<bl>5</bl>层<i=fury>
+customRevengeRare=<gl>全体怪物获得：</gl><br>所有伤害<bl>+4</bl><br><i=slashing><i=blunt><i=piercing>抗性<bl>+35%</bl><br><gl>英雄打出“攻击牌”时，</gl>全体怪物获得<bl>6</bl>层<i=fury>
+
+customSubZero=<gl>全体怪物获得：</gl><br>所有伤害<bl>+2</bl><br><i=cold>抗性<bl>+30%</bl><br>免疫<i=slow><br><gl>- 每两个回合 -</gl><br>增加<crd=freezecorruption,1>到全体怪物。
+customSubZeroA=<gl>全体怪物获得：</gl><br>所有伤害<bl>+2</bl><br><i=cold>抗性<bl>+40%</bl><br>免疫<i=slow><br><gl>- 每两个回合 -</gl><br>增加<crd=freezecorruption,1>到全体怪物。
+customSubZeroB=<gl>全体怪物获得：</gl><br>所有伤害<bl>+3</bl><br><i=cold>抗性<bl>+45%</bl><br>免疫<i=slow><br><gl>- 每两个回合 -</gl><br>增加<crd=freezecorruption,1>到全体怪物。
+customSubZeroRare=<gl>全体怪物获得：</gl><br>所有伤害<bl>+4</bl><br><i=cold>抗性<bl>+45%</bl><br>免疫<i=slow><br><gl>- 每两个回合 -</gl><br>增加<crd=freezecorruption,1>到全体怪物。
+
+sandbox=沙盒
+sandboxMode=沙盒模式
+sandboxModeTitle=沙盒模式<size=-2><color=#888>（仅在完成冒险后可用）
+sandboxEnable=启用沙盒
+sandboxDisable=禁用沙盒
+sandboxMideDescription=该模式下，你的分数不会保存，也无法解锁任何疯狂级别。
+sandboxStartingOptions=初始选项
+sandboxCombatOptions=战斗选项
+sandboxStartingEnergy=<sprite name=energy>初始能量
+sandboxSpeed=<sprite name=speedMini>英雄速度
+sandboxGold=<sprite name=gold>初始金币
+sandboxShards=<sprite name=dust>初始碎片
+sandboxAdventureOptions=冒险选项
+sandboxCraft=<sprite name=cards>卡牌锻造费用
+sandboxRemove=<sprite name=cards>卡牌移除费用
+sandboxTransform=<sprite name=cards>卡牌转化费用
+sandboxUpgrade=<sprite name=cards>卡牌升级费用
+sandboxEquipment=<sprite name=armor>装备费用
+sandboxPets=<sprite name=pet>宠物费用
+sandboxAllCards=<sprite name=cards>所有卡牌已解锁
+sandboxRarity=<sprite name=cards>卡牌锻造稀有度
+sandboxCraftAvailable=<sprite name=cards>可用卡牌限度
+sandboxDeckSize=<sprite name=cards>牌组最小体量
+sandboxRerolls=<sprite name=nodeShop>军械库重掷
+sandboxRerollsTimes=<sprite name=nodeShop>最大重掷次数
+sandboxDivination=<sprite name=cardrandom>占卜费用
+sandboxEvents=<sprite name=dice>事件掷点成功
+sandboxHeroes=<sprite name=experience>总英雄数
+sandboxMonstersHP=<sprite name=heart>怪物生命值
+sandboxMonstersDamage=<sprite name=damage>怪物伤害
+sandboxRemoveMonsters=<sprite name=doom>移除怪物
+sandboxDoubleChampions=<sprite name=boss>双料冠军
+yesRandomCombats=是<color=#888><size=-.5>（必须启用随机战斗）
+yes=是
+unlimited=无限制
+always=总是
+all=所有
+disabled=禁用
+
+card=卡牌
+////////////// Christmas DLC
+keyQ=手
+keyW=田
+keyE=水
+keyR=口
+keyT=廿
+keyY=卜
+keyU=山
+keyI=戈
+keyO=人
+keyP=心
+keyA=日
+keyS=尸
+keyD=木
+keyF=火
+keyG=土
+keyH=竹
+keyJ=十
+keyK=大
+keyL=中
+keyZ=Z
+keyX=難
+keyC=金
+keyV=女
+keyB=月
+keyN=弓
+keyM=一
+keyShift=Shift
+keyReturn=Accept
+keyDelete=Delete
+
+customScaraby=All resistances <bl>+5%</bl><br>Increases the chance of a scarab spawning in Acts 2 and 3 by up to <bl>40%</bl>.
+customScarabyrare=All resistances <bl>+8%</bl><br>Increases the chance of a scarab spawning in Acts 2 and 3 by up to <bl>50%</bl>.<br>Scourge scarabs do not spawn.
+
+queen=Queen
+princess=Princess
+empress=Empress
+engineer=Engineer
+mechanic=Mechanic
+artificer=Artificer
+chatWelcome=Welcome to <u>{0}</u> game. You will be able to communicate with the rest of the players through this chat window. Also note that each one of them will be referenced with the same color for the rest of the game. Enjoy!
+maximumEnchantments=A character can have a maximum of three active enchantments. If a new one is applied, the oldest will be removed.

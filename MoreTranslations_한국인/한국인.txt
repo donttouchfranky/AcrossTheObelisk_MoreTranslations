@@ -1,0 +1,2022 @@
+gameExpired=This Alpha version has expired.<br>Thank you for trying Across the Obelisk.
+notAvailable=** Feature <b>not available</b> on this EA version.
+accept=수락
+cancel=취소
+select=선택
+continue=계속
+password=비밀번호
+close=닫기
+exit=종료
+shuffle=섞기
+modify=수정
+resign=포기하기
+reloadCombat=전투<br>다시하기
+combat=전투
+settings=설정
+allCards=모든 카드
+ready=준비
+success=성공
+successCritical=대성공
+fail=실패
+failCritical=대실패
+immune=저항
+health=체력
+speed=속도
+energy=코스트
+rarity=희귀도
+cardsTier=카드 등급
+maximumAbb=최대.
+sold=판매
+stats=스탯
+perks=특성
+skin=스킨
+rank=순위
+cardback=카드 뒷면
+combatStats=전투 스탯
+mainStats=메인 스탯
+dataPerTurn=<%>/턴
+baseResist=기본 저항
+baseDamage=기본 데미지
+baseValue=기본 수치
+baseDT=받는 기본 데미지
+allDamage=모든 데미지
+healDone=주는 힐량
+healTaken=받는 힐량
+damageResistance=데미지 저항
+damageResistanceMax=(95 최대.)
+damagePercentMin=(-50% 최소.)
+damageDone=주는 데미지
+damageTaken=받는 데미지
+damageBlocked=데미지 차단
+directDamage=직접적인 데미지
+detailedDamage=상세 데미지
+globalModifiers=광역 수정
+damage=데미지
+resistance=저항
+resistances=저항
+resistancesAndBonus=저항 및 보너스
+activeEffects=액티브 효과
+immunities=면역
+chargeBonus=오라/저주 보너스
+remove=삭제
+corrupt=부패
+skip=넘기기
+blocked=막힘
+evaded=회피
+resisted=저항
+currentHp=현재 체력
+#########
+######### CreateTextMenu
+#########
+menuPlay=플레이
+menuLoadGame=게임 불러오기
+menuChallenge=오벨리스크 도전
+menuWeekly=주간 도전
+menuMultiplayer=멀티플레이어
+menuTome=정보
+menuStatistics=통계
+menuOptions=설정
+menuQuit=게임 종료
+menuChallenge=오벨리스크 도전
+mainMenu=메인 메뉴
+inputNameMultiplayer=멀티플레이어 게임에 참여하거나 생성하려면 아래 텍스트 상자에 닉네임을 입력하세요.
+playersReady=준비한 플레이어
+waitingForPlayers=플레이어를 기다리는 중
+wantToQuitGame=게임을 종료하시겠습니까?
+wantToRemoveSave=저장된 게임을 삭제하시겠습니까?
+wantToRemoveSavePermanent=영구적으로 삭제됩니다.
+saveAvailable=[사용 가능]
+back=뒤로
+backMainMenu=<size=+10><< 뒤로</size><br>메인 메뉴
+singleplayer=싱글플레이어
+multiplayer=멀티플레이어
+weeklySingleplayer=이번 주 싱글플레이어
+weeklyMultiplayer=이번 주 멀티플레이어
+obeliskChallenge=오벨리스크 도전
+obeliskChallengeSingleplayer=오벨리스크 도전 싱글플레이어
+obeliskChallengeMultiplayer=오벨리스크 도전 멀티플레이어
+weekNumber=Week {0}
+mainMenuSaveSingle=싱글플레이어 게임
+mainMenuSaveMulti=멀티플레이어 게임
+mainMenuCreateNewGame=새로운 게임 생성
+mainMenuClickUseThis=여기를 눌러 이 슬롯을 사용하세요
+mainMenuDelete=삭제
+mainMenuSaveDescription=이 게임의 저장 슬롯을 선택하거나 이전에 저장한 게임을 불러옵니다.
+mainMenuGameModeChoose=게임모드를 선택하세요.
+mainMenuAdventureDescription=<color=#FFD98F>세넨시아의 역사를 밝히세요.</color><br><br>이 로그라이트 모험에서 새로운 캐릭터를 발견하고, 카드를 잠금 해제하고, 사악한 보스와 싸우세요.
+mainMenuObeliskDescription=<color=#FFD98F>완전히 무작위적인 로그라이크 모험입니다.</color><br><br>오벨리스크에 도달하려고 하는 동안 공허를 통해 진행하여 모든 게임이 틀립니다.
+mainMenuWeeklyDescription=<color=#FFD98F>다른 플레이어와 경쟁하세요.</color><br><br>매주 새로운 규칙과 고정 캐릭터가 기다리고 있습니다. 누가 최고의 점수를 받을 지 확인하세요.
+modeAdventure=모험 모드
+modeObelisk=오벨리스크 도전
+modeWeekly=주간 도전
+obeliskNeedCharacter=랭크 3인 캐릭터가 필요합니다
+joinMultiplayer=멀티플레이어 게임 참가
+abortMultiplayer=한명의 플레이어가 종료하였습니다. 게임을 닫습니다. 새 게임을 만들거나 마지막 저장 지점부터 불러올 수 있습니다.
+abortSave=There was an error saving the game. The game will close now to avoid further problems. You can create a new game and load from the last save point.
+enterText=입력해주세요...
+waitingPlayers=플레이어를 기다리는 중...
+exitRoom=방 나가기
+steamInvite=친구 초대
+roomFull=방이 꽉찼습니다.
+openSlot=[열린 슬롯]
+roomId=방 ID
+master=마스터
+slash=베기
+piercing=관통
+blunt=둔기
+fire=화염
+cold=냉각
+lightning=전기
+mind=정신
+holy=신성
+shadow=그림자
+#########
+######### CreateTextGameplay
+#########
+index=인덱스
+loading=불러오는 중
+deck=덱
+characterMenuCards=<sprite name=cards> 영웅 덱
+characterMenuLevel=<sprite name=experience> 레벨 & 특성
+characterMenuItems=<sprite name=block> 장비
+characterMenuStats=<sprite name=sheet> 캐릭터 시트
+characterMenuPerks=<sprite name=perk> 특성
+characterMenuCombatDraw=<sprite name=cards> 뽑을 예정인 카드들
+characterMenuCastedCards=<sprite name=cards> 주문 카드들
+characterMenuCombatDiscard=<sprite name=cardsdiscard> 버린 카드들
+characterMenuCombatVanish=<sprite name=vanish> 소멸한 카드들
+traits=특성
+activatedTraits=활성화 된 특성
+traitsList=특성<br>레벨 2<br>레벨 3<br>레벨 4<br>레벨 5
+item=아이템
+initialCards=시작 카드
+incrementMaxHp=+<N> 최대. HP
+level=레벨
+levelNumber=레벨 <N>
+warriors=워리어
+mages=마법사
+healers=힐러
+scouts=스카웃
+mageknights=마법 검사
+monsters=몬스터
+warriorCards=워리어 카드
+mageCards=마법사 카드
+healerCards=힐러 카드
+scoutCards=스카웃 카드
+injuries=부상
+boons=Boons
+equipment=장비
+upgradedCard=강화됨
+upgradesTo=다음 강화
+upgradedFrom=이전 강화
+transmutesTo=변환
+sourceCard=소스 카드
+unlockedCard=잠금 해제됨
+unlockedHero=잠금 해제됨
+unlockedCards=잠금 해제된 카드
+unlockTable=잠금 해제된 속성
+glossary=사전
+termsGlossary=사전집
+termsDescription=게임, 오라, 저주 및 효과에 대한 설명이 나와있습니다.
+gameplayStatistics=게임플레이 통계
+bestScoreTome=최고 스코어:
+lastRuns=과거 게임들
+scoreboards=점수판
+chooseScoreboard=점수판을 선택하세요.
+scoresNotFound=점수판을 찾을 수 없습니다
+travelPath=여행 경로
+path=경로
+cardsUnlockedTome=잠금 해제 한 카드:
+adventuresPlayedTome=모험 플레이:
+treasuresClaimedTome=흭득한 보물:
+monstersKilledTome=사살한 몬스터:
+bossesKilledTome=사살한 보스:
+corruptionsCompleted=정화한 오염:
+adventureCompleted=모험을 마침:
+uniqueBosses=유니크 보스
+experienceGainedTome=얻은 경험치:
+equipmentDiscoveredTome=발견한 장비:
+heroDeaths=영웅 사망 횟수:
+totalResources=총 자원:
+gold=골드
+shards=샤드
+goldGainedTome=흭득한 골드:
+dustGainedTome=흭득한 샤드:
+cardsCraftedTome=제작한 카드:
+cardsUpgradedTome=강화한 카드:
+purchasedItemsTome=구매한 아이템:
+corruptionsCompletedTome=정화한 오염:
+Melee_Attack=근접 공격
+Ranged_Attack=원거리 공격
+Magic_Attack=마법 공격
+Defense=방어
+Fire_Spell=화염 주문
+Cold_Spell=냉각 주문
+Lightning_Spell=번개 주문
+Mind_Spell=정신 주문
+Shadow_Spell=그림자 주문
+Holy_Spell=신성 주문
+Curse_Spell=저주 주문
+Healing_Spell=회복 주문
+Book=책
+Small_Weapon=소형 무기
+Song=노래 주문
+Skill=스킬
+Power=파워
+Injury=부상
+Attack=공격
+Spell=스펠
+Boon=Boon
+weapon=무기
+armour=방어구
+armor=방어구
+jewelry=보석
+accesory=액세서리
+enchantment=마법
+enchantments=마법
+itemActivated=활성화 됨
+itemChargeUsed=Charge used
+itemsDescription=각 영웅에 대해 동일한 아이템 항목의 하나만 허용됩니다. 새 아이템을 장착하려고 할 때 주의하세요. 이전 아이템은 영원히 제거됩니다.
+cardNotUnlockedPopup=<voffset=-2><size=26><sprite name=lock></size></voffset>잠금 해제 안된 카드
+minDeckCards=덱에 필요한 최소 카드 수: <color=#FFFFFF><n></color>
+shopDiscount=할인
+shopIncrease=인상
+heroCards=<hero> 카드
+heroEquipment={0}<br><color=#bbb>장비</color>
+heroInjuries=<hero> 부상
+heroInjuriesBoons=<hero> 보너스 및 부상
+heroDrawPile=<hero> 뽑을 예정인 카드들
+heroDiscardPile=<hero> 버린 카드들
+heroCastedCards=<hero> 주문 카드
+heroVanishedCards=<hero> 소멸된 카드들
+town=마을
+townPlace={0} 마을
+townIntro=모험을 시작하기 전에 시간을 갖고 덱을 관리하세요. 완료되면 준비를 눌러주세요!
+ready=준비
+charReceive=<char> 받음
+charsReceives=<chars> 받음
+freeCost=무료
+oldCost=(이전 가격: {0})
+reaminingUses=남은 사용 횟수
+noMoreUses=더 이상 사용 불가합니다
+removeCards=교회
+removeCardsButtonDes=덱에서 카드를 제거합니다
+removeCardsDes=최소 카드 수 요구 사항을 충족하는 한 덱에서 카드를 제거할 수 있습니다.
+upgradeCards=제단
+upgradeCardsButtonDes=카드를 업그레이드하고 더 강력한 버전으로 변환하십시오.
+upgradeCardsDes=각 카드에는 기본 버전보다 더 강력한 강화가 있습니다.<br><br>카드를 강화하기 위해 샤드를 제안할 수 있습니다.<br><br>또한, 카드 사이에서 카드를 변환하는 것이 가능합니다.<br><br><color=#FFC88F>카드의 희귀도가 높을수록 강화 비용이 높아집니다.</color>
+reset=초기화
+upgradedCards=강화 됨
+upgradedCardsDes=강화 된 카드를 보여줍니다. 제단에서도 카드를 강화할 수 있습니다.
+filterCards=필터
+filterCardsDes=필터링하여 카드를 보여줍니다
+affordableCards=지불 가능한 카드
+affordableCardsDes=현재 샤드로 제작할 수 있는 카드만 표시합니다.
+craftCards=마법 연금
+craftCardsButtonDes=카드를 제작할 수 있습니다.
+craftRarityBlocked=현재 이 등급은 제작이 불가능합니다.
+craftMaxCards=이 카드를 제작할 수 있는 최대 횟수입니다.
+treasureClaimButtonDes=이 보상을 받으려면 여기를 클릭하세요.
+wantToClaimTreasure=이 보물을 흭득하기를 원하십니까?
+lastRunsRewards=마지막 보상
+lastRunsRewardsDes=매판마다 골드와 샤드로 보상해줍니다.<br><br>게임을 시작할 때마다 마지막 보상 중 최대 3개까지 흭득이 가능합니다.
+lastRunsRewardsStack=3개의 보물 상자까지 축적이 가능합니다.
+communityRewards=커뮤니티 보상
+expiresInHoursMinutes={0} 시간 {1} 분 후에 만료
+expiresInMinutes={0} 분 후에 만료
+divinationCards=운세 상점
+divinationCardsButtonDes=운세 상점에 돈을 사용하여 카드를 뽑으세요.
+divinationCardsDes=돈이 충분하다면 카드를 뽑을 수 있습니다.<br><br>멀티플레이어 게임에서는 모두가 이 혜택을 같이 받을 것입니다.<br><br>낸 비용이 높을수록 더 좋은 카드를 얻을 확률이 높아집니다.
+divinationT0=빠른 운세
+divinationT1=일반 운세
+divinationT2=고급 운세
+divinationT3=프리미엄 운세
+divinationT4=슈프림 운세
+divinationRoundJoin={0}님이 방금 운세 상점에 돈을 지불하였습니다. 준비가 되면 눌러 참여하세요.
+divinationRoundExists=이미 카드 운세를 보고 있습니다.
+divinationRoundLaunch=카드 운세를 불러오고 있습니다...
+sell=판매
+buyItems=무기고
+buyItemsButtonDes=영웅에게 필요한 장비를 구매합니다.
+deckPile=카드 덱
+discardPile=버린 카드들
+pressWhenReady=준비가 되면 버튼을 눌러주세요.
+cardsNum=카드: {0}
+youCanDiscardUpTo={0} 장의 카드까지 버릴 수 있습니다
+youCanVanishUpTo={0} 장의 카드까지 소멸시킬 수 있습니다.
+youCanAdd=추가할 수 있는 항목: 1 카드
+youCanAddPlural=추가할 수 있는 항목: {0} 카드
+#########
+######### performance bonus
+#########
+roundNumber=라운드 {0}
+excellent=완벽합니다
+good=좋아요
+poor=싫어요
+satisfactory=만족합니다
+underwhelming=압도적입니다
+dreadful=불쾌합니다
+great=훌륭합니다
+performanceBonus=점수 보너스
+combatPerformance=전투 점수
+combatPerformanceDes=더 나은 보상을 얻으려면 적을 빠르게 죽여 빠르게 클리어하세요. 각 라운드가 중요합니다...
+dreadfulNoReward=전투 점수가 형편 없었기 때문에 카드 보상을 받지 못했습니다.
+#########
+######### rewards
+#########
+combatRewards=전투 보상
+eventRewards=이벤트 보상
+eventRewardsSubtitle=하나의 카드 또는 샤드 더미를 선택하세요
+eventYouGet=흭득:
+divinationRoundRewards=운세 보상
+itemRewards=아이템 보상
+itemRewardsSelection=아이템 중 하나를 선택하거나 다음 골드 금액을 선택할 수 있습니다:
+itemRewardsChosing=선택중인 캐릭터:
+chooseCards=이 카드 중 하나를 선택하세요
+chooseDust=샤드 선택
+notEnoughGold=골드/샤드가 부족합니다
+#########
+######### finish run
+#########
+finishRun=모험의 성과에 따라 보상을 받습니다. 새 게임이 시작되면 마을에 있는 동안 보상을 받을 수 있습니다.
+questEndsIn=퀘스트가 종료되었습니다
+actNumber=액트 {0}
+prologue=프롤로그
+congratulations=축하합니다
+placesVisited=방문한 구역
+placeOfDeath=Place of death
+combatPerformance=전투 점수
+experienceGained=흭득한 경험치
+bossesKilled=사살한 보스
+finalScore=마지막 스코어
+timePlayed=플레이 시간 {0}
+gameScore=게임 스코어
+finishBestScore=최고 점수!
+currencyRetention=추가로 받은 보너스
+currencyRetentionBonus=총 합의 <q>%
+gameReward=게임 보상
+mpBonus=멀티플레이어 보너스 (+<q>%)
+itemBonus=아이템 보너스 (+<q>%)
+#########
+######### event rolls
+#########
+eventRolls=이벤트 뽑기:
+singleDesc=모든 사람이 카드를 뽑고 결과가 캐릭터마다 틀립니다.
+groupDesc=모든 사람이 카드를 뽑으면 결과가 합산됩니다.
+competitionDesc=모두가 카드를 뽑고 경쟁합니다.
+single=싱글
+competition=경쟁
+group=그룹
+character=캐릭터
+higherThan=높음
+higherOrEqual={0} 또는 높은
+lowerThan=낮음
+lowerOrEqual={0} 또는 낮은
+rollCard={0} 카드
+highest=가장 높은
+lowest=가장 낮은
+closest=가장 가까운
+#########
+######### event actions
+#########
+healPercent=[회복 {0}%]
+eventBag=이 가방에는 모험을 하는 동안 발견한 모든 유용한 아이템이 들어있습니다.
+eventMissingOptions=숨겨진 옵션
+eventMissingOptionsDesc=일부 응답에는 샤드, 골드, 캐릭터와 같은 특별한 요구 사항이 존재합니다...
+continueAction=계속
+joinAction=참가
+combatAction=전투
+jumpAction=뛰어넘기
+runAction=달리기
+bribeAction=뇌물
+threatenAction=협박
+persuadeAction=설득
+stealthAction=잠행
+stealAction=훔치기
+sneakAwayAction=슬그머니 떠나기
+leaveAction=떠나기
+lootAction=루트
+profaneAction=모독
+forageAction=연금
+declineAction=거절
+acceptAction=수락
+extorsionAction=강요
+ambushAction=매복
+raceAction=레이스
+restAction=쉬기
+buryAction=Bury
+digAction=파기
+breakAction=부수기
+betAction=도박
+playAction=플레이
+fishingAction=낚시
+payAction=지불
+bargainAction=할인
+exploreAction=탐험
+enterAction=참가하기
+pretendAction=연기하기
+captureAction=잡기
+throwAction=던지기
+lookAction=보기
+examineAction=조사
+repairAction=수리
+rebuildAction=재건
+healAction=회복
+climbAction=오르기
+evadeAction=회피
+useAction=사용
+askAction=질문
+answerAction=답변
+openAction=열기
+buyAction=구매
+murderAction=살인
+burnAction=방화
+killAction=사살
+giveAction=주기
+talkAction=말하기
+singAction=노래하기
+readAction=읽기
+confirm=수락
+hide=숨기기
+show=보이기
+chooseEnergy=이 주문을 사용하는데 사용할 코스트를 선택하세요.
+chooseEnergyAvailable=사용 가능한 코스트:
+chooseEnergyMax=최대. 할당해야 할 코스트:
+#########
+######### CreateTextLobby
+#########
+exitGameConfirm=정말로 종료하시겠습니까?
+exitGameConfirmLoss=모든 진행 사항이 사라집니다.
+exitGameConfirmSave=현재 진행 사항이 저장됩니다.
+exitGameRewards=게임을 종료하기 전에 보상을 받아야 합니다.
+exitGameEvent=게임을 종료하기 전에 활성 된 이벤트를 완료해야 합니다.
+exitRoomConfirm=게임 방에서 나가시겠습니까?
+inputPasswordRoom=방 비밀번호를 입력하고 눌러주세요.
+inputIDRoom=방 ID를 입력해주세요
+joinById=아이디로 참가
+launchGame=게임 시작
+inviteSteamFriends=친구 초대
+statusMP=멀티플레이어 상태
+statusConnecting=멀티플레이어 서버와 연결 중
+statusJoinedLobby=로비 참가
+statusConnected=서버 연결됨
+chatPlayerJoined=%p 님이 게임에 참가하였습니다.
+chatPlayerLeft=%p 님이 게임에서 나갔습니다.
+chatPlayerKicked=%p 님이 게임에서 추방당하였습니다.
+masterKickedYou=게임에서 추방당하였습니다.
+playersInGame=참가한 플레이어:
+multiplayerDescription=최대 3명의 다른 친구와 함께 플레이하세요! 게임을 만들거나 다른 플레이어의 방에 참여하세요. 영웅을 선택하고 모험을 시작하십시오. 
+multiplayerSubDescription=* 멀티플레이어 게임에서는 이전에 잠금 해제한 영웅만 선택할 수 있습니다. 반면에 멀티플레이어 게임에서 영웅을 잠금 해제하면 사용 가능한 모든 모드에서 해당 영웅과 함께 플레이할 수 있습니다.
+availableRooms=참여 가능한 방
+chooseRoom=게임 방을 선택하세요.
+createRoom=게임 방을 생성하세요.
+roomDescription=게임 설명
+numberOfPlayers=플레이어 수
+privateRoom=비공개 방
+roomPasswordDesc=** 비밀번호를 아는 유저만 참가가 가능합니다.
+createRoomButton=방 생성
+disconnect=접속 종료
+selectRegion=지역 선택
+connectedRegion=<br>지역: [{0}] 연결됨
+regionEU=EU 지역
+regionUS=US 지역
+regionASIA=아시아 지역
+lfgLobby=<color=#DB9D6A>협동 할 플레이어를 찾으시나요?</color><br>공식 디스코드의 #LFG 채널에 참가하세요!
+#########
+######### CreateTextSelection
+#########
+adventure=모험
+beginAdventure=모험 시작
+teamSelection=팀 선택
+dragCharacters=이 게임에서 사용할 캐릭터를 드래그하여 놓으세요.<br>일부 공격은 전위, 후위, 중위만 대상으로 할 수 있습니다.
+heroselectionWeekly=이 챌린지에서 사용 가능한 캐릭터입니다.
+dragRecommended=* 이 포지션에 적합한 클래스 추천
+positionFront=전위
+positionBack=후위
+masterAssign=게임의 마스터는 각 슬롯에 플레이어를 할당해야 합니다. 모든 플레이어가 한번 이상 선택하면 게임을 시작할 준비가 됩니다.
+helpCharacterHealth=캐릭터의 체력 포인트
+helpCharacterEnergy=Character's initial energy and the amount that will be gained at the beginning of their turn
+helpCharacterSpeed=Speed of the character The character with the highest speed will be the first to move each round.
+tutorialTownTitle=마을 행동
+tutorialTown=You can craft new cards for your decks, upgrade any card that you have, and buy equipment for your heroes. You will also be able to claim rewards from previous games.
+tutorialCombatSpeedTitle=속도 및 캐릭터 우선 순위
+tutorialCombatSpeed=All characters have a speed value (which can be modified by cards, items and traits). That value establishes who moves first. In case of a tie, the closest HERO to center will have priority.
+tutorialFirstTurnEnergyTitle=코스트 관리 및 카드
+tutorialFirstTurnEnergy=You can cast cards until you run out of energy.<br><br>When you end a turn, energy that hasn't been used will be saved for the next turn of this hero.
+tutorialCombatCardTargetTitle=카드 목표
+tutorialCombatCardTarget=This box shows the available targets.<br><br>If there are multiple targets for a card, you'll have to select which one will be affected. If there is only one, releasing the card will automatically select it.
+tutorialCombatResistsTitle=데미지 및 저항
+tutorialCombatResists=There are 9 different damage types (and resists).<br><br>The damage values listed on a card will be reduced by the target's resist percentage.
+tutorialEventRollsTitle=이벤트 굴리기
+tutorialEventRolls=Some options will force you to roll in order to determine the result of the action. Each character will use the cards from their own deck.
+tutorialTownRewardsTitle=Finished game rewards
+tutorialTownRewards=While in town, you can claim rewards obtained in past games. Don't wait too long to claim these rewards: only the last three will be stored.
+tutorialCardsRewardTitle=잠긴 카드
+tutorialCardsReward=During your adventures, you will discover new cards after each combat. All cards shown will be unlocked. Remember: you will only be able to craft unlocked cards.
+tutorialCharactersTitle=팀을 선택하세요.
+tutorialCharacters=Unlock new characters by completing quests during your adventures. Character quests are marked with this icon  <size=+.5><sprite name=questBegin></size>.
+tutorialPerksTitle=캐릭터 특성
+tutorialPerks=At the end of an adventure, all the characters in your group will get experience points (each rank level will award you perk points). You can spend these points on character upgrades.
+tutorialTownCraftTitle=Crafting cards
+tutorialTownCraft=In each town, you will be able to craft cards that you have previously unlocked for all your heroes. Some restrictions will apply based on your town upgrades.
+watchingTutorial=[Please Wait]<br>Another player is watching a tutorial.
+castNPCTitle=몬스터 카드
+castNPC=몬스터의 발동 카드들은 기본적으로 전부 숨겨져 있습니다. "관측"  <sprite name=sight> 효과는 이 카드들을 공개합니다, 이후 미리 행동을 계획할 수 있습니다.
+levelUp=레벨 업!
+cantLevelUp=마을이나 맵 화면에서만 레벨을 올릴 수 있습니다.
+cantGiveGoldDivination=운세 뽑기가 보류 중인 동안에는 골드나 샤드를 줄 수 없습니다.
+gameSeed=게임 시드
+gameSeedInput=새로운 게임 시드를 입력하세요.
+#########
+######### CreateTextCards
+#########
+requireSkill=필요 {0}
+priority=우선 사항: {0}
+global=글로벌
+friends=친구
+self=자신
+random=무작위
+hero=영웅
+anyone=모두 선택 가능
+heroes=영웅
+monsters=몬스터
+allHeroes=모든 영웅
+randomHero=무작위 영웅
+frontHero=전위 영웅
+backHero=후위 영웅
+middleHero=중위 영웅
+slowestHero=느린 영웅
+fastestHero=빠른 영웅
+leastHPHero=낮은 체력 영웅
+mostHPHero=높은 체력 영웅
+otherHero=기타 영웅
+monster=몬스터
+allMonsters=모든 몬스터
+randomMonster=무작위 몬스터
+frontMonster=전위 몬스터
+backMonster=후위 몬스터
+middleMonster=중위 몬스터
+slowestMonster=느린 몬스터
+fastestMonster=빠른 몬스터
+leastHPMonster=낮은 체력 몬스터
+mostHPMonster=높은 체력 몬스터
+priorityBack=후위
+priorityMiddle=중위
+priorityFront=전위
+priorityAnyButBack=Any but Back
+priorityLessHealthPercent=Lowest percent health
+priorityMoreHealthPercent=Highest percent health
+priorityLessHealthFlat=낮은 체력
+priorityMoreHealthFlat=높은 체력
+priorityLessHealthAbsolute=Lower absolute health
+priorityMoreHealthAbsolute=Highest absolute health
+priorityLessInitiative=느림
+priorityMoreInitiative=빠름
+damageType=데미지 타입
+damageTypes=데미지 타입
+aura=오라
+curse=저주
+deal=Deal
+apply=적용
+gain=흭득
+youGain=흭득
+suffer=디버프
+youSuffer=디버프
+lose=잃음
+youLose=잃음
+grant=부여
+heal=회복
+draw=뽑기
+discard=버리기
+discover=발견
+reveal=가져오기
+pick=뽑기
+place=배치
+look=보기
+onDraw=뽑기 시
+onEndTurn=턴 종료 시
+endTurn=턴 종료
+#########
+######### CreateTextCombat
+#########
+newTurn=새로운 턴
+chooseDiscard=버릴 카드를 선택하세요.
+chooseTopDeck=덱 맨 위에 놓을 카드를 선택하세요.
+cardsLeft=남은 카드:
+combatEffects=전투 효과
+combatVictory=승리!
+combatFail=퀘스트가 여기에서 종료돼다...
+combatOnlyMasterCanResign=방장만 사용 가능합니다.
+combatWantToRetry=<color=#BBB>때로는 다른 접근 방식을 취하는 것이 성공의 열쇠입니다.</color><line-height=50><br></line-height>전투를 다시 도전하시겠습니까?
+combatWantToRetryClient=(방장의 결정을 기다립니다.)
+combatWantToResign=<color=#f88>사임 하시겠습니까?</color>
+combatWantToResignEnd=모험 여기에서 종료돼다.
+removeProgressQuestion=저장된 진행 상황을 모두 삭제하시겠습니까?
+resetTutorialQuestion=튜토리얼을 리셋하시겠습니까?
+mapNodes=맵 노드
+mapEntryPoint=엔트리 포인트
+mapLegend=Map Legend
+mapLegendEvent=이벤트 (희귀)
+mapLegendCard=카드 노드
+mapLegendCrafter=제작 노드
+mapLegendMapTransition=맵 이동
+mapLegendShop=아티클 샵
+mapLegendRest=휴식 노드
+mapLegendCharacter=캐릭터
+mapLegendQuestEnd=퀘스트 종료
+mapLegendBoss=지역 보스
+typeCardsUnlocked={0} 카드 잠금 해제
+relatedCard=관련 카드
+basicValues=* 이것은 카드의 기본 수치입니다(캐릭터 재능, 캐릭터 특성, 아이템 보너스 미포함).
+corruptedVersion=손상된 버전
+specialCard=특수 카드
+characterCard=캐릭터 카드
+rareVersion=희귀 버전
+cardsAnd={0} 및 {1}
+cardsDealDamage={0} 데미지
+cardsSuffer={0} 디버프
+cardsYouSuffer={0} 디버프
+cardsYouLose={0} 잃음
+cardsTargetSides=목표 주변 {0} 입힘
+cardsGrant={0} 부여
+cardsGain={0} 흭득
+cardsYouGain={0} 흭득
+cardsApply={0} 적용
+cardsDispel={0} 정화
+cardsDispelAll=모두 정화
+cardsPurge={0} 제거
+cardsPurgeAll=모두 제거
+cardsTransferCurse={0} 저주로 변환
+cardsReduceCurse={0}% 만큼 저주 스택 감소
+cardsCast=주문 카드 {0}
+cardsRepeat={0} 반복
+cardsRepeatUpTo={0}번 까지 반복
+cardsRepeatChain={0} 연쇄 
+cardsRepeatJump={0} 팅김
+cardsIgnoreBlock=방어 무시
+cardsTransformInto=<nobr>{0}를 {1}으로 변환</nobr>
+cardsTransformIntoAnd=<nobr>{0}를 {1} 및 {2}으로 변환</nobr>
+cardsXEqualsYourHand=(X는 자신의 <nobr>들고 있는 패 {0}{1}</nobr>)
+cardsXEqualsYourDeck=(X는 자신의 <nobr>뽑을 카드 더미 {0}{1}</nobr>)
+cardsXEqualsYourDiscard=(X는 자신의 <nobr>버린 카드 더미 {0}{1}</nobr>)
+cardsXEqualsYourVanish=(X는 자신의 <nobr>소멸 카드 더미 {0}{1}</nobr>)
+cardsXEqualsYourHp=(X는 자신의 체력 {0})
+cardsXEqualsYour=(X는 자신의 {0}{1})
+cardsXEqualsTarget=(X는 타겟의 {0}{1})
+cardsXEqualsTargetHp=(X는 타겟의 체력 {0})
+cardsXEqualsTargetDeck=(X는 타겟의 <nobr>뽑을 카드 더미 {0}{1}</nobr>)
+cardsXEqualsTargetDiscard=(X는 타겟의 <nobr>버린 카드 더미 {0}{1}</nobr>)
+cardsXEqualsTargetVanish=(X는 타겟의 <nobr>소멸 카드 더미 {0}{1}</nobr>)
+cardsShareYour=자신의 {0} /2
+cardsDoubleYour=자신의 {0} x2
+cardsDoubleTarget=대상의 {0} x2
+cardsTripleYour=자신의 {0} x3
+cardsTripleTarget=대상의 {0} x3
+cardsLosePercentYour=자신의 {1} {0}% 잃음
+cardsLosePercentTarget=대상의 {1} {0}% 잃음 
+cardsHeal={0} 회복
+cardsHealSelf={0} 자가 회복
+cardsHealSelfPerDamage=입은 데미지의 {0}% 만큼 자신을 치유
+cardsConsume={0} 소모
+cardsConsumeYour=자신의 {0} 소모
+cardsDispelYour={0} 정화
+cardsPurgeYour=자신의 {0} 제거
+cardsOverCharge={0} 과충전
+cardsLoseHp={0} 잃음
+cardsDraw={0} 카드 뽑기
+cardsDiscard={0} 버리기
+cardsDiscardAny=한 장을 버림
+cardsDiscardUpTo=최대 {0} 까지 버림
+cardsVanishUpTo=최대 {0} 까지 소멸
+cardsLook={0} 발견
+cardsCost={0} 코스트
+cardsCostReducedBy={0} 감소
+cardsCostUntilDiscarded=버릴 때까지
+cardsAddCost=(코스트 {0})
+cardsAddCostVanish=({0} 코스트 및 소멸)
+cardsAddCostVanishTurn=({0} 코스트 및 이번 턴 소멸)
+cardsAddCostTurn=(버릴 때까지 {0} 코스트)
+cardsAddCostReduced=({0} 코스트 감소)
+cardsAddCostReducedVanish=({0} 코스트 감소 및 소멸)
+cardsAddCostReducedTurn=(버릴 때까지 {0} 코스트 감소)
+cardsAddCostReducedVanishTurn=({0} 코스트 감소 및 이번 턴 소멸)
+cardsDiscoverToDeck={0} 발견 및 덱에 섞음
+cardsDiscoverNumberToTopDeck={0} 발견 및 {1} 덱 맨위에 놓음
+cardsDiscoverNumberToHand={0} 발견 및 {1} 손에 집음
+cardsDiscoverNumberToDeck={0} 발견 및 {1} 덱에 섞음
+cardsDiscoverToHand={0} 및 손에 집음
+cardsPlaceToTop={0} 손에서 덱 맨 위로 옮김
+cardsRevealThemToHand=뽑을 예정인 카드에서 {0} 보여주고 손에 가져옴
+cardsRevealItToHand=뽑을 예정인 카드에서 {0} 보여주고 손에 가져옴
+cardsRevealNumberToHand=뽑을 예정인 카드에서 {0} 보여주고 {1} 손에 가져옴
+cardsRevealItToTopDeck=뽑을 예정인 카드에서 {0} 보여주고 덱 맨위에 놓음
+cardsRevealThemToTopDeck=뽑을 예정인 카드에서 {0} 보여주고 덱 맨위에 놓음
+cardsRevealNumberToTopDeck=뽑을 예정인 카드에서 {0} 보여주고 {1} 덱 맨위에 놓음
+cardsPickToTop=버린 더미에서 {0} 선택하여 덱 맨 위에 놓음
+cardsPickToHand=버린 더미에서 {0} 선택하여 손에 집음
+cardsFromVanishToTop=소멸 더미에서 {0} 선택하여 덱 맨 위에 놓음
+cardsFromVanishToHand=소멸 더미에서 {0} 선택하여 손에 집음
+cardsDuplicateToHand=내 손에서 {0} 복사// 0 => cardname
+cardsDuplicateToTargetTopDeck=내 손에서 {0} 복사하고 대상의 덱 맨 위에 놓음// 0 => cardname
+cardsDuplicateToTargetRandomDeck=내 손에서 {0} 복사하고 대상의 덱에서 섞음// 0 => cardname
+cardsIDShuffleDeck=덱에서 {0} 섞음// 0 => cardname
+cardsIDShuffleTargetDeck=목표의 덱에서 {0} 섞음// 0 => cardname
+cardsIDPlaceHand={0} 손에 집음// 0 => cardname
+cardsIDPlaceTopDeck={0} 덱 맨 위에 놓음// 0 => cardname
+cardsIDPlaceTargetTopDeck={0} 대상의 덱 맨 위에 놓음// 0 => cardname
+cardsIDPlaceTargetDiscard={0} 대상의 버린 카드 더미에 놓음// 0 => cardname
+cardsDuplicateHand=복사한 카드 손에 집음// 0 => cardname
+cardsSummon={0} 소환
+cardsImmuneTo={0} 면역
+cardsTransformDamage=데미지를 {0}로 바꿈
+cardsPassEventRoll=단일 캐릭터 이벤트 뽑기에서 100% 성공
+killPet=영웅의 펫 사살
+requiredPoints={0} 포인트 필요
+cantDrawAnyCard=뽑을 카드가 없음
+missesThisTurn=턴 놓침
+itemMaxHp=최대. 체력 {0}
+itemAllResistances=모든 저항 {0}
+itemXResistances={0} 저항 {1}
+itemSpeed=속도 {0}
+itemInitialEnergy=시작 코스트 {0}
+itemInitialCurrency=시작 골드 및 샤드 {0}
+itemCharges={0} {1} 충전
+itemEnergyRegeneration={0} 재생 {1}
+itemAllDamages=모든 데미지 {0}
+itemSingleDamage={0} {1} 데미지  /// +1 damage
+itemXDamages={0} 데미지 {1}
+itemHealDone=주는 힐량 {0}
+itemCombatStart=전투 시작
+itemCombatEnd=전투 종료
+itemFirstTurn=첫 턴
+itemEachTurn=각 턴
+itemOncePerTurn=1 번/턴
+itemTwicePerTurn=2 번/턴
+itemThricePerTurn=3 번/턴
+itemFourPerTurn=4 번/턴
+itemFivePerTurn=5 번/턴
+itemDamageDone=명중 시 데미지
+itemWhenDamaged=타인에게 데미지를 입을 때//When damaged
+itemWhenDamagedBelow=타인에게 입은 데미지 <{0}
+itemWhenHitted=명중 시
+itemWhenHealed=회복 시
+itemWhenEvaded=회피 시
+itemWhenEvade=자신 회피 시
+itemWhenBlock=자신 방어 시
+itemHealDoneAction=영웅 치유 시
+itemWhenHandEmpty=If you play a  <sprite name=card>that leaves your hand empty
+itemChanceToDispel={0} 확률로 <br> {1} 정화
+itemEveryRound=모든 턴
+itemEveryNRounds=모든 {0} 턴
+itemForEveryCharge=모두에게 {0} 적용, /// "haste"
+itemApplyEnemies=모든 몬스터에게 {0} 적용/// "haste"
+itemApplyHeroesFromMonster=모든 영웅에게 {0} 적용/// "haste"
+itemApplyHeroes=모든 영웅이 {0} 흭득/// "haste"
+itemApplyRandomHero=무작위 영웅이 {0} 흭득/// "haste"
+itemApplyRandomEnemy=무작위 몬스터에게 {0} 적용/// "haste"
+itemApplyHighestFlatHpEnemy=높은 체력의 몬스터에게 {0} 적용/// "haste"
+itemApplyLowestFlatHpEnemy=낮은 체력의 몬스터에게 {0} 적용/// "haste"
+itemApplyHighestFlatHpHero=높은 체력의 영웅에게 {0} 적용/// "haste"
+itemApplyLowestFlatHpHero=낮은 체력의 영웅에게 {0} 적용/// "haste"
+itemApplyForEvery=For every {0} charge you apply, apply {1}/// "haste"
+itemApplyForEnergyUsed=매 {0} 사용:
+itemWhenYouPlay={0} 사용 시/// "Cold spell"
+itemWhenYouApply={0} 적용 시/// "Cold spell"
+itemCustomTextMaxChargesIncrasedYouApply={0} 적용 최대 스택 {1}
+itemCustomTextMaxChargesIncrasedOnHeroes={0} 영웅 최대 스택 {1}
+itemCustomTextMaxChargesIncrasedOnEnemies={0} 몬스터 최대 스택 {1}
+itemCustomTextExplodeChargesMonsters=몬스터의 {0} 스택은 {1}에서 폭발합니다
+itemCustomTextAllResistHealingReceived=영웅의 {0}는 스택 당 모든 저항 +{1}% 및 받는 힐량 +{2}%를 제공합니다
+itemTheNext=The next {0}
+itemWhenKilled=사망 시
+itemDestroyStartTurn=1턴 지속
+itemLastUse=사용 횟수 1회
+itemLastUses=사용 횟수 {0}회
+itemOncePerCombat=전투당 1회
+itemTheNext=다음 {0}{1}
+itemRecoverSelf={0} 체력 회복
+itemRecoverLowestHPMonster=lowest HP monster recovers {0} HP
+itemRecoverHeroes=All heroes recover {0} HP/// All heroes gain "haste"
+itemReduce=Reduce the cost of {0} random {1} in your hand {3} by {2}/// reduce the cost of 1 random "Song" in your hand by 1
+itemReduceTurn=Reduce the cost of {0} random {1} in your hand {3} by {2} until discarded/// reduce the cost of 1 random "Song" in your hand by 1 this turn
+itemReduceHighestTurn=Reduce the cost of the {0}highest cost {1} in your hand {3} by {2} until discarded/// reduce the cost of 1 random "Song" in your hand by 1 this turn
+itemReduceHighestPermanent=Reduce the cost of the {0}highest cost {1} in your hand {3} by {2}
+itemDiscount={0} extra discount in the Magic forge, altars and item shops
+itemDieRetain=When you die, retain an additional {0} gold and shards
+itemResurrectHP=resurrect with {0} HP
+customSOR=When you die, resurrect with 50% of your HP and destroy Scroll of Resurrection
+customSORRare=When you die, resurrect with 100% of your HP and destroy Scroll of Resurrection
+customBurnedI=-If you play with fire, you're gonna get burned-
+customBrokenI=-Haste makes waste-
+customVoidMemory=-You only remember that you have forgotten something-
+customLowSelf=-A shameful reminder that something didn't go as planned-
+customSuccess=-Against all odds, you have challenged fate and won-
+customTombstone=-R.I.P.-
+
+customSurpriseBox=<size=-.2><color=#3A3A3A>[전투 시작]</color><br></size>이 중 하나를 흭득:<br><bl>2</bl><i=fast>, <bl>2</bl><i=powerful>, <bl>2</bl><i=bless>,<br><rd>2</rd><i=slow>, <rd>2</rd><i=vulnerable>, <rd>2</rd><i=mark>
+customSurpriseBoxRare=<size=-.2><color=#3A3A3A>[전투 시작]</color><br></size>이 중 하나를 흭득:<br><bl>4</bl><i=fast>, <bl>4</bl><i=powerful>, <bl>4</bl><i=bless>,<br><rd>4</rd><i=slow>, <rd>4</rd><i=vulnerable>, <rd>4</rd><i=mark>
+
+customSurpriseGiftBox=<size=-.2><color=#3A3A3A>[전투 시작]</color><br></size>모든 히어로가 이 중 하나를 흭득:<br><bl>2</bl><i=fast>, <bl>2</bl><i=powerful>, <bl>2</bl><i=bless>,<br><rd>2</rd><i=slow>, <rd>2</rd><i=vulnerable>, <rd>2</rd><i=mark>
+customSurpriseGiftBoxRare=<size=-.2><color=#3A3A3A>[전투 시작]</color><br></size>모든 히어로가 이 중 하나를 흭득:<br><bl>4</bl><i=fast>, <bl>4</bl><i=powerful>, <bl>4</bl><i=bless>,<br><rd>4</rd><i=slow>, <rd>4</rd><i=vulnerable>, <rd>4</rd><i=mark>
+
+customBurningBlood=<i=bleed>를<i=burn>로 변환<br><bl>X</bl><i=fury> 흭득<br><size=-.15><gl>(X는 자신의 <i=bleed>x0.3)</gl></size>
+customBurningBloodA=<i=bleed>를<i=burn>로 변환<br><bl>X</bl><i=fury> 부여<br><size=-.15><gl>(X 는 타겟의 <i=bleed>x0.5)</gl></size>
+customBurningBloodB=<i=bleed>를<i=burn>x0.5로 변환<br><bl>X</bl><i=fury> 흭득<br><size=-.15><gl>(X는 자신의 <i=bleed>x0.5)</gl></size>
+customBurningBloodRare=<i=bleed>를<i=burn>x0.5로 변환<br><bl>X</bl><i=fury> 흭득<br><size=-.15><gl>(X는 자신의 <i=bleed>)</gl></size>
+
+customArmagedon=<gl>모든 몬스터 흭득:</gl><br>모든 데미지 <bl>+2</bl><br><i=burn><i=crack> 면역<br><gl>-모든 라운드-</gl><br><crd=meteorite,1> 모든 몬스터에게 추가.
+customArmagedonA=<gl>모든 몬스터 흭득:</gl><br>모든 데미지 <bl>+2</bl><br><i=burn><i=crack> 면역<br><gl>-모든 라운드-</gl><br><crd=meteorite,1> 모든 몬스터에게 추가.
+customArmagedonB=<gl>모든 몬스터 흭득:</gl><br>모든 데미지 <bl>+3</bl><br><i=burn><i=crack> 면역<br><gl>-모든 라운드-</gl><br><crd=meteorite,1> 모든 몬스터에게 추가.
+customArmagedonRare=<gl>모든 몬스터 흭득:</gl><br>모든 데미지 <bl>+4</bl><br><i=burn><i=crack> 면역<br><gl>-모든 라운드-</gl><br><crd=meteorite,1> 모든 몬스터에게 추가.
+
+customThunderstorm=<gl>모든 몬스터 흭득:</gl><br><i=lightning> 데미지 <bl>+2</bl><br><i=lightning> 저항 <bl>+15%</bl><br><gl>-모든 라운드-</gl><br><crd=storm,1> 무작위 몬스터에게 추가.
+customThunderstormA=<gl>모든 몬스터 흭득:</gl><br><i=lightning> 데미지 <bl>+3</bl><br><i=lightning> 저항 <bl>+25%</bl><br><gl>-모든 라운드-</gl><br><crd=storm,1> 무작위 몬스터에게 추가.
+customThunderstormB=<gl>모든 몬스터 흭득:</gl><br><i=lightning> 데미지 <bl>+4</bl><br><i=lightning> 저항 <bl>+35%</bl><br><gl>-모든 라운드-</gl><br><crd=storm,1> 무작위 몬스터에게 추가.
+customThunderstormRare=<gl>모든 몬스터 흭득:</gl><br><i=lightning> 데미지 <bl>+5</bl><br><i=lightning> 저항 <bl>+45%</bl><br><gl>-모든 라운드-</gl><br><crd=storm,1> 무작위 몬스터에게 추가.
+
+customWindsofAmnesia=<gl>모든 몬스터 흭득:</gl><br>최대. 체력 <bl>+15</bl><br>모든 데미지 <bl>+1</bl><br><gl>-모든 라운드-</gl><br><crd=tabularasa,1> 무작위 몬스터에게 추가.</color>
+customWindsofAmnesiaA=<gl>모든 몬스터 흭득:</gl><br>최대. 체력 <bl>+25</bl><br>모든 데미지 <bl>+2</bl><br><gl>-모든 라운드-</gl><br><crd=tabularasa,1> 무작위 몬스터에게 추가.</color>
+customWindsofAmnesiaB=<gl>모든 몬스터 흭득:</gl><br>최대. 체력 <bl>+35</bl><br>모든 데미지 <bl>+2</bl><br><gl>-모든 라운드-</gl><br><crd=tabularasa,1> 무작위 몬스터에게 추가.</color>
+customWindsofAmnesiaRare=<gl>모든 몬스터 흭득:</gl><br>최대. 체력 <bl>+45</bl><br>모든 데미지 <bl>+3</bl><br><gl>-모든 라운드-</gl><br><crd=tabularasa,1> 무작위 몬스터에게 추가.</color>
+
+customNoxiousParasites=<gl>모든 몬스터 흭득:</gl><br>모든 데미지 <bl>+2</bl><br><i=poison> 면역<br><gl>-모든 라운드-</gl><br>각 히어로의 덱에 <crd=hatchcorrupt,1> 섞음.
+customNoxiousParasitesA=<gl>모든 몬스터 흭득:</gl><br>모든 데미지 <bl>+2</bl><br><i=poison> 면역<br><gl>-모든 라운드-</gl><br>각 히어로의 덱에 <crd=hatchcorrupt,1> 섞음.
+customNoxiousParasitesB=<gl>모든 몬스터 흭득:</gl><br>모든 데미지 <bl>+3</bl><br><i=poison> 면역<br><gl>-모든 라운드-</gl><br>각 히어로의 덱에 <crd=hatchcorrupt,1> 섞음.
+customNoxiousParasitesRare=<gl>모든 몬스터 흭득:</gl><br>모든 데미지 <bl>+4</bl><br><i=poison> 면역<br><gl>-모든 라운드-</gl><br>각 히어로의 덱에 <crd=hatchcorrupt,1> 섞음.
+
+customMelancholy=<gl>모든 몬스터 흭득:</gl><br>최대. 체력 <bl>+15</bl><br>모든 저항 <bl>+10%</bl><br><i=insane> 면역<br><gl>-모든 라운드-</gl><br>각 히어로의 덱에 <crd=sad,2> 섞음.</color>
+customMelancholyA=<gl>모든 몬스터 흭득:</gl><br>최대. 체력 <bl>+25</bl><br>모든 저항 <bl>+15%</bl><br><i=insane> 면역<br><gl>-모든 라운드-</gl><br>각 히어로의 덱에 <crd=sad,2> 섞음.</color>
+customMelancholyB=<gl>모든 몬스터 흭득:</gl><br>최대. 체력 <bl>+35</bl><br>모든 저항 <bl>+20%</bl><br><i=insane> 면역<br><gl>-모든 라운드-</gl><br>각 히어로의 덱에 <crd=sad,2> 섞음.</color>
+customMelancholyRare=<gl>모든 몬스터 흭득:</gl><br>최대. 체력 <bl>+45</bl><br>모든 저항 <bl>+25%</bl><br><i=insane> 면역<br><gl>-모든 라운드-</gl><br>각 히어로의 덱에 <crd=sad,2> 섞음.</color>
+
+customFungalOutbreak=<gl>모든 몬스터 흭득:</gl><br>모든 데미지 <bl>+1</bl><br><i=insane><br> 면역<gl>-모든 라운드-</gl><br>무작위 히어로의 덱 맨 위에 <crd=magicmushroom,1> 놓음.
+customFungalOutbreakA=<gl>모든 몬스터 흭득:</gl><br>모든 데미지 <bl>+1</bl><br><i=insane><br> 면역<gl>-모든 라운드-</gl><br>무작위 히어로의 덱 맨 위에 <crd=magicmushroom,1> 놓음.
+customFungalOutbreakB=<gl>모든 몬스터 흭득:</gl><br>모든 데미지 <bl>+2</bl><br><i=insane><br> 면역<gl>-모든 라운드-</gl><br>무작위 히어로의 덱 맨 위에 <crd=magicmushroom,1> 놓음.
+customFungalOutbreakRare=<gl>모든 몬스터 흭득:</gl><br>모든 데미지 <bl>+3</bl><br><i=insane> 면역<br><gl>-모든 라운드-</gl><br>무작위 히어로의 덱 맨 위에 <crd=magicmushroom,1> 놓음.
+
+customEmpower=<gl>모든 몬스터 흭득:</gl><br>모든 데미지 <bl>+1</bl><br><gl>-모든 라운드-</gl><br><bl>3</bl><i=powerful> 흭득
+customEmpowerA=<gl>모든 몬스터 흭득:</gl><br>모든 데미지 <bl>+1</bl><br><gl>-모든 라운드-</gl><br><bl>4</bl><i=powerful> 흭득
+customEmpowerB=<gl>모든 몬스터 흭득:</gl><br>모든 데미지 <bl>+2</bl><br><gl>-모든 라운드-</gl><br><bl>4</bl><i=powerful> 흭득
+customEmpowerRare=<gl>모든 몬스터 흭득:</gl><br>모든 데미지 <bl>+3</bl><br><gl>-모든 라운드-</gl><br><bl>5</bl><i=powerful> 흭득
+
+customPoisonFields=<gl>모든 몬스터 흭득:</gl><br>모든 데미지 <bl>+2</bl><br><i=poison> 면역<br><gl>-모든 라운드-</gl><br>모든 히어로 <rd>3<rd><i=poison> 디버프
+customPoisonFieldsA=<gl>모든 몬스터 흭득:</gl><br>모든 데미지 <bl>+2</bl><br><i=poison> 면역<br><gl>-모든 라운드-</gl><br>모든 히어로 <rd>5<rd><i=poison> 디버프
+customPoisonFieldsB=<gl>모든 몬스터 흭득:</gl><br>모든 데미지 <bl>+3</bl><br><i=poison> 면역<br><gl>-모든 라운드-</gl><br>모든 히어로 <rd>7<rd><i=poison> 디버프
+customPoisonFieldsRare=<gl>모든 몬스터 흭득:</gl><br>모든 데미지 <bl>+4</bl><br><i=poison> 면역<br><gl>-모든 라운드-</gl><br>모든 히어로 <rd>9<rd><i=poison> 디버프
+
+customPacifism=<gl>모든 몬스터 흭득:</gl><br><i=slashing><i=blunt><i=piercing><br>저항 <bl>+15%</bl><br><gl>-2 라운드 마다-</gl><br>모든 히어로 <rd>1</rd><i=disarm> 디버프</size>
+customPacifismA=<gl>모든 몬스터 흭득:</gl><br><i=slashing><i=blunt><i=piercing><br>저항 <bl>+25%</bl><br><gl>-2 라운드 마다-</gl><br>모든 히어로 <rd>1</rd><i=disarm> 디버프</size>
+customPacifismB=<gl>모든 몬스터 흭득:</gl><br><i=slashing><i=blunt><i=piercing><br>저항 <bl>+35%</bl><br><gl>-2 라운드 마다-</gl><br>모든 히어로 <rd>1</rd><i=disarm> 디버프</size>
+customPacifismRare=<gl>모든 몬스터 흭득:</gl><br><i=slashing><i=blunt><i=piercing><br>저항 <bl>+45%</bl><br><gl>-2 라운드 마다-</gl><br>모든 히어로 <rd>1</rd><i=disarm> 디버프</size>
+
+customIronclad=<gl>모든 몬스터 흭득:</gl><br>모든 저항 <bl>+10%</bl><br><gl>-전투 시작 시-</gl><br><br><bl>14</bl><i=block> <bl>2</bl><i=reinforce> 흭득
+customIroncladA=<gl>모든 몬스터 흭득:</gl><br>모든 저항 <bl>+15%</bl><br><gl>-전투 시작 시-</gl><br><br><bl>20</bl><i=block> <bl>3</bl><i=reinforce> 흭득
+customIroncladB=<gl>모든 몬스터 흭득:</gl><br>모든 저항 <bl>+20%</bl><br><gl>-전투 시작 시-</gl><br><br><bl>26</bl><i=block> <bl>3</bl><i=reinforce> 흭득
+customIroncladRare=<gl>모든 몬스터 흭득:</gl><br>모든 저항 <bl>+25%</bl><br><gl>-전투 시작 시-</gl><br><br><bl>32</bl><i=block> <bl>4</bl><i=reinforce> 흭득
+
+customVigorous=<gl>모든 몬스터 흭득:</gl><br>최대. 체력 <bl>+30</bl><br>모든 데미지 <bl>+1</bl>
+customVigorousA=<gl>모든 몬스터 흭득:</gl><br>최대. 체력 <bl>+50</bl><br>모든 데미지 <bl>+1</bl>
+customVigorousB=<gl>모든 몬스터 흭득:</gl><br>최대. 체력 <bl>+70</bl><br>모든 데미지 <bl>+2</bl>
+customVigorousRare=<gl>모든 몬스터 흭득:</gl><br>최대. 체력 <bl>+90</bl><br>모든 데미지 <bl>+2</bl>
+
+customUpwind=<gl>모든 몬스터 흭득:</gl><br>Speed <bl>+2</bl><br><gl>-전투 시작 시-</gl><br>모든 영웅 <bl>2</bl><i=slow> 디버프
+customUpwindA=<gl>모든 몬스터 흭득:</gl><br>Speed <bl>+3</bl><br><gl>-전투 시작 시-</gl><br>모든 영웅 <bl>3</bl><i=slow> 디버프
+customUpwindB=<gl>모든 몬스터 흭득:</gl><br>Speed <bl>+4</bl><br><gl>-전투 시작 시-</gl><br>모든 영웅 <bl>3</bl><i=slow> 디버프
+customUpwindRare=<gl>모든 몬스터 흭득:</gl><br>Speed <bl>+5</bl><br><gl>-전투 시작 시-</gl><br>모든 영웅 <bl>4</bl><i=slow> 디버프
+
+customSacredGround=<gl>모든 몬스터 흭득:</gl><br><i=holy> 데미지 <bl>+2</bl><br><i=holy> 저항 <bl>+15%</bl><br><gl>-전투 시작 시-</gl><br>모든 영웅 <bl>7</bl><i=sanctify> 디버프
+customSacredGroundA=<gl>모든 몬스터 흭득:</gl><br><i=holy> 데미지 <bl>+3</bl><br><i=holy> 저항 <bl>+25%</bl><br><gl>-전투 시작 시-</gl><br>모든 영웅 <bl>11</bl><i=sanctify> 디버프
+customSacredGroundB=<gl>모든 몬스터 흭득:</gl><br><i=holy> 데미지 <bl>+4</bl><br><i=holy> 저항 <bl>+35%</bl><br><gl>-전투 시작 시-</gl><br>모든 영웅 <bl>15</bl><i=sanctify> 디버프
+customSacredGroundRare=<gl>모든 몬스터 흭득:</gl><br><i=holy> 데미지 <bl>+5</bl><br><i=holy> 저항 <bl>+45%</bl><br><gl>-전투 시작 시-</gl><br>모든 영웅 <bl>19</bl><i=sanctify> 디버프
+
+customHypotermia=<gl>모든 몬스터 흭득:</gl><br><i=cold> 데미지 <bl>+2</bl><br><i=cold> 저항 <bl>+15%</bl><br><gl>영웅이 카드를 낼 시,</gl> <rd>2</rd><i=chill> 디버프
+customHypotermiaA=<gl>모든 몬스터 흭득:</gl><br><i=cold> 데미지 <bl>+3</bl><br><i=cold> 저항 <bl>+25%</bl><br><gl>영웅이 카드를 낼 시,</gl> <rd>3</rd><i=chill> 디버프
+customHypotermiaB=<gl>모든 몬스터 흭득:</gl><br><i=cold> 데미지 <bl>+4</bl><br><i=cold> 저항 <bl>+35%</bl><br><gl>영웅이 카드를 낼 시,</gl> <rd>4</rd><i=chill> 디버프
+customHypotermiaRare=<gl>모든 몬스터 흭득:</gl><br><i=cold> 데미지 <bl>+5</bl><br><i=cold> 저항 <bl>+45%</bl><br><gl>영웅이 카드를 낼 시,</gl> <rd>5</rd><i=chill> 디버프
+
+customBacklash=<gl>모든 몬스터 흭득:</gl><br>모든 데미지 <bl>+2</bl><br>모든 저항 <bl>+10%</bl><br><gl>영웅이 주문 카드를 낼 시,</gl> <rd>3</rd><i=dark> <rd>2</rd><i=insane> 디버프
+customBacklashA=<gl>모든 몬스터 흭득:</gl><br>모든 데미지 <bl>+2</bl><br>모든 저항 <bl>+15%</bl><br><gl>영웅이 주문 카드를 낼 시,</gl> <rd>4</rd><i=dark> <rd>2</rd><i=insane> 디버프
+customBacklashB=<gl>모든 몬스터 흭득:</gl><br>모든 데미지 <bl>+3</bl><br>모든 저항 <bl>+20%</bl><br><gl>영웅이 주문 카드를 낼 시,</gl> <rd>4</rd><i=dark> <rd>3</rd><i=insane> 디버프
+customBacklashRare=<gl>모든 몬스터 흭득:</gl><br>모든 데미지 <bl>+4</bl><br>모든 저항 <bl>+25%</bl><br><gl>영웅이 주문 카드를 낼 시,</gl> <rd>5</rd><i=dark> <rd>3</rd><i=insane> 디버프
+
+customSubZero=<gl>모든 몬스터 흭득:</gl><br>모든 데미지 <bl>+2</bl><br><i=chill><i=slow> 면역<br><gl>-2 라운드 마다-</gl><br>모든 몬스터에게 <crd=freezecorruption,1> 추가.
+customSubZeroA=<gl>모든 몬스터 흭득:</gl><br>모든 데미지 <bl>+2</bl><br><i=chill><i=slow> 면역<br><gl>-2 라운드 마다-</gl><br>모든 몬스터에게 <crd=freezecorruption,1> 추가.
+customSubZeroB=<gl>모든 몬스터 흭득:</gl><br>모든 데미지 <bl>+3</bl><br><i=chill><i=slow> 면역<br><gl>-2 라운드 마다-</gl><br>모든 몬스터에게 <crd=freezecorruption,1> 추가.
+customSubZeroRare=<gl>모든 몬스터 흭득:</gl><br>모든 데미지 <bl>+4</bl><br><i=chill><i=slow> 면역<br><gl>-2 라운드 마다-</gl><br>모든 몬스터에게 <crd=freezecorruption,1> 추가.
+
+customRevenge=<gl>모든 몬스터 흭득:</gl><br>모든 데미지 <bl>+2</bl><br><i=bleed> 면역<br><gl>영웅이 공격 시,</gl> 모든 몬스터 <bl>3</bl><i=fury> 흭득
+customRevengeA=<gl>모든 몬스터 흭득:</gl><br>모든 데미지 <bl>+2</bl><br><i=bleed> 면역<br><gl>영웅이 공격 시,</gl> 모든 몬스터 <bl>4</bl><i=fury> 흭득
+customRevengeB=<gl>모든 몬스터 흭득:</gl><br>모든 데미지 <bl>+3</bl><br><i=bleed> 면역<br><gl>영웅이 공격 시,</gl> 모든 몬스터 <bl>5</bl><i=fury> 흭득
+customRevengeRare=<gl>모든 몬스터 흭득:</gl><br>모든 데미지 <bl>+4</bl><br><i=bleed> 면역<br><gl>영웅이 공격 시,</gl> 모든 몬스터 <bl>6</bl><i=fury> 흭득
+
+customBurningWeapons=<gl>모든 몬스터 흭득:</gl><br><i=fire> 데미지 <bl>+1</bl><br><i=fire> 저항 <bl>+10%</bl><br><gl>몬스터가 데미지를 입힐 시,</gl> <rd>1</rd><i=burn> 적용
+customBurningWeaponsA=<gl>모든 몬스터 흭득:</gl><br><i=fire> 데미지 <bl>+2</bl><br><i=fire> 저항 <bl>+20%</bl><br><gl>몬스터가 데미지를 입힐 시,</gl> <rd>2</rd><i=burn> 적용
+customBurningWeaponsB=<gl>모든 몬스터 흭득:</gl><br><i=fire> 데미지 <bl>+3</bl><br><i=fire> 저항 <bl>+30%</bl><br><gl>몬스터가 데미지를 입힐 시,</gl> <rd>3</rd><i=burn> 적용
+customBurningWeaponsRare=<gl>모든 몬스터 흭득:</gl><br><i=fire> 데미지 <bl>+4</bl><br><i=fire> 저항 <bl>+40%</bl><br><gl>몬스터가 데미지를 입힐 시,</gl> <rd>4</rd><i=burn> 적용
+
+customPutrefaction=<gl>모든 몬스터 흭득:</gl><br>모든 데미지 <bl>+2</bl><br><i=dark><i=decay> 면역<br><gl>몬스터가 데미지를 입힐 시,</gl> <rd>2</rd><i=dark><rd>1</rd><i=decay> 적용
+customPutrefactionA=<gl>모든 몬스터 흭득:</gl><br>모든 데미지 <bl>+2</bl><br><i=dark><i=decay> 면역<br><gl>몬스터가 데미지를 입힐 시,</gl> <rd>3</rd><i=dark><rd>1</rd><i=decay> 적용
+customPutrefactionB=<gl>모든 몬스터 흭득:</gl><br>모든 데미지 <bl>+3</bl><br><i=dark><i=decay> 면역<br><gl>몬스터가 데미지를 입힐 시,</gl> <rd>3</rd><i=dark><rd>2</rd><i=decay> 적용
+customPutrefactionRare=<gl>모든 몬스터 흭득:</gl><br>모든 데미지 <bl>+4</bl><br><i=dark><i=decay> 면역<br><gl>몬스터가 데미지를 입힐 시,</gl> <rd>4</rd><i=dark><rd>2</rd><i=decay> 적용
+
+customHexproof=<gl>모든 몬스터 흭득:</gl><br>Max. HP <bl>+15</bl><br>모든 데미지 <bl>+2</bl><br><gl>-모든 라운드-</gl><br>모든 몬스터 <bl>5</bl><i=buffer> 흭득
+customHexproofA=<gl>모든 몬스터 흭득:</gl><br>Max. HP <bl>+20</bl><br>모든 데미지 <bl>+2</bl><br><gl>-모든 라운드-</gl><br>모든 몬스터 <bl>6</bl><i=buffer> 흭득
+customHexproofB=<gl>모든 몬스터 흭득:</gl><br>Max. HP <bl>+25</bl><br>모든 데미지 <bl>+3</bl><br><gl>-모든 라운드-</gl><br>모든 몬스터 <bl>7</bl><i=buffer> 흭득
+customHexproofRare=<gl>모든 몬스터 흭득:</gl><br>Max. HP <bl>+30</bl><br>모든 데미지 <bl>+4</bl><br><gl>-모든 라운드-</gl><br>모든 몬스터 <bl>8</bl><i=buffer> 흭득
+
+customHeavyWeaponry=<gl>모든 몬스터 흭득:</gl><br>모든 데미지 <bl>+3</bl><br>Immune to <i=vulnerable><br><gl>몬스터가 데미지를 입힐 시,</gl> <rd>1</rd><i=vulnerable><rd>1</rd><i=slow> 적용
+customHeavyWeaponryA=<gl>모든 몬스터 흭득:</gl><br>모든 데미지 <bl>+4</bl><br>Immune to <i=vulnerable><br><gl>몬스터가 데미지를 입힐 시,</gl> <rd>2</rd><i=vulnerable><rd>1</rd><i=slow> 적용
+customHeavyWeaponryB=<gl>모든 몬스터 흭득:</gl><br>모든 데미지 <bl>+5</bl><br>Immune to <i=vulnerable><br><gl>몬스터가 데미지를 입힐 시,</gl> <rd>2</rd><i=vulnerable><rd>2</rd><i=slow> 적용
+customHeavyWeaponryRare=<gl>모든 몬스터 흭득:</gl><br>모든 데미지 <bl>+6</bl><br>Immune to <i=vulnerable><br><gl>몬스터가 데미지를 입힐 시,</gl> <rd>2</rd><i=vulnerable><rd>3</rd><i=slow> 적용
+
+customThornProliferation=<gl>모든 몬스터 흭득:</gl><br>Max. HP <bl>+15</bl><br>모든 데미지 <bl>+2</bl><br><gl>영웅이 카드를 낼 시,</gl> 무작위 몬스터가 <rd>1</rd><i=thorns> 흭득
+customThornProliferationA=<gl>모든 몬스터 흭득:</gl><br>Max. HP <bl>+25</bl><br>모든 데미지 <bl>+2</bl><br><gl>영웅이 카드를 낼 시,</gl> 무작위 몬스터가 <rd>2</rd><i=thorns> 흭득
+customThornProliferationB=<gl>모든 몬스터 흭득:</gl><br>Max. HP <bl>+35</bl><br>모든 데미지 <bl>+3</bl><br><gl>영웅이 카드를 낼 시,</gl> 무작위 몬스터가 <rd>2</rd><i=thorns> 흭득
+customThornProliferationRare=<gl>모든 몬스터 흭득:</gl><br>Max. HP <bl>+45</bl><br>모든 데미지 <bl>+4</bl><br><gl>영웅이 카드를 낼 시,</gl> 무작위 몬스터가 <rd>3</rd><i=thorns> 흭득
+
+innate=스타트
+vanish=소멸
+frail=Frail
+mitigate=완화
+stanzai=음표 I
+stanzaii=음표 II
+stanzaiii=음표 III
+chain=연쇄
+dispel=정화
+jump(bonus%)=X회 팅김 (보너스%)
+overcharge=과충전
+overchargeAcronym=OC
+purge=제거
+repeat=X회 반복
+repeatupto=X회 이상 반복
+bless=축복
+block=방어
+buffer=버퍼
+courage=용기
+energize=활력
+evasion=회피
+fast=가속
+fortify=요새
+fury=분노
+haste=질주
+inspire=격려
+insulate=속성 저항
+invulnerable=무적
+powerful=힘
+regeneration=재생
+reinforce=강화
+sharp=날카로움
+shield=보호막
+stanza=음표
+stealth=은신
+taunt=도발
+thorns=가시
+vitality=생명
+bleed=출혈
+burn=화상
+chill=추위
+crack=균열
+dark=암흑
+daze=현혹
+decay=부식
+disarm=무장해제
+doom=처형
+fatigue=피로
+paralyze=마비
+insane=정신이상
+mark=표식
+poison=독
+sanctify=신성
+shackle=족쇄
+sight=관측
+silence=침묵
+slow=둔화
+spark=감전
+stress=스트레스
+vulnerable=취약
+weak=약화
+wet=젖음
+transfer=이전
+cards=카드
+challenge=도전
+items=아이템
+pet=펫
+pets=펫
+petShopWarning=** 펫은 1마리만 입양할 수 있습니다.
+ifUnlockSigils=콘텐츠를 잠금 해제하면 인장 포인트를 보상으로 받을 수 있습니다. 이 포인트를 사용하여 카드의 위력을 높이세요.
+challengeSelection=도전 카드 선택
+challengeSelectionIntro=항상 시너지를 고려하여 팩을 선택하고 코스트를 잊지 마세요.
+challengeReroll=팩 다시뽑기
+challengeRound=라운드
+challengeRoundPerks=Perks selected
+challengeSelectionPerk=Challenge perk selection
+challengeSelectionPerkIntro=Once you have selected your cards, you must select 4 perks that will be assigned to your hero.
+challengeEnergy=평균 코스트
+rankProgress={0} 랭크
+rankTier={0} 등급
+rankPointsAvailable=<sprite name=perk>사용 가능 포인트
+rankPointsHowto=A perk is a different kind of bonus that you can assign to your heroes. You will get perk points to distribute at the end of your adventures.
+rankPointsHighest=The number of perk points available for your characters is based on the rank level of your <color=#F1D2A9>highest character</color>. (1 point for each level and max. 36 points)
+rankPerkPoints={0} 특성 포인트
+rankPerkPointsGain=새 게임을 플레이할 때 영웅에게 특성 포인트를 할당 할 수 있습니다.
+rankPerkPress=클릭하여 특성을 할당하세요
+rankPerkNotEnough=포인트가 부족합니다
+rankDescription0=시작 아이템 (파랑)
+rankDescription1=New card back
+rankDescription2=시작 카드 (파랑)
+rankDescription3=새로운 스킨
+rankDescription4=재능 카드 (파랑)
+rankDescription5=New card back
+rankDescription6=시작 아이템 (노랑)
+rankDescription7=새로운 스킨
+rankDescription8=시작 아이템 (노랑)
+rankDescription9=New card back
+rankDescription10=재능 카드 (노랑)
+rankLevelDescrition=각 캐릭터는 모험 후에 포인트를 얻습니다. 새로운 등급이 나올 때마다 캐릭터는 새로운 기능을 잠금 해제합니다.
+cantModifyPerkMP=게임을 불러오는 중에는 특성 포인트 수정이 불가능합니다.
+perkNone=이 캐릭터는 활성화 된 특성을 가지고 있지 않습니다.
+perkAuraDescription=자신이 적용하는 디버프 효과 {0}
+skinRequiredRankLevel=이 스킨을 사용하려면 캐릭터 랭크가:<br> {0} 랭크 여야합니다.
+requiredAdventureComplete=모험 모드를 완료해야합니다.
+requiredAdventureLevel=You need to complete the Adventure mode in Madness level {0}.
+requiredObeliskComplete=You need to complete the Obelisk Challenge mode.
+requiredObeliskLevel=You need to complete the Obelisk Challenge mode in Madness level {0}.
+senenthia=세넨시아 왕국
+velkarath=벨카라스 산맥
+aquarfall=아쿠아폴 습지
+theHatch=The Hatch
+spiderLair=거미 동굴
+theVoid=공허
+act0Intro=How did it happen, you ask? It all started during the princess's 16th birthday. Everyone was in the courtyard, anxiously waiting for her. She was going to be inducted into the Wizard Academy, an honor reserved for those who show aptitude (and she really had a gift).<br><br>Suddenly, an explosion erupted from the princess's chamber, followed by a burst of energy that swept through the kingdom of Senenthia. The royal guards explored every corner of the castle, but found no sign of her or Lord Hanshek, the court magician and advisor to the king.<br><br>Though the king sent soldiers throughout the kingdom, none of them returned. The last thing he heard was that her trail had been lost deep in the Old Forest, near the ancient obelisk that had been dormant for centuries...until now.<br><br>Desperate, the king proclaimed a royal decree and announced that he would reward anyone who brought the princess home safely. The news quickly spread through the kingdom. Many groups of adventurers prepared to venture into the forest and investigate the obelisk to find the princess.<br><br>This is the story of one of those groups.
+act1Intro=The group went across the obelisk and, in an instant, found themselves elsewhere, far away from the Senenthia forest.<br><br>One of the mysteries of the obelisk was revealed: in ancient times, the obelisk had been used as a means of transport, since reaching this land by road would have taken months.<br><br>The group looked for signs that the princess and Lord Hanshek had passed through this place...but with no luck. It didn't seem like anyone had been there in a long time.<br><br>Luckily, on the horizon they saw that there was another obelisk, and it also seemed to be active. Their only hope now was to reach it and try their luck with another destination.
+act2Intro=The group crossed through their second obelisk. Upon arrival, they looked for signs that the princess or Lord Hanshek had been there. This time they found two pairs of footprints leading away from the arrival area, and they appeared to be only a few days old.<br><br>The group was finally on the right track to chase after them, even though they didn't really know where they were going.<br><br>As the group looked towards the horizon, they saw another obelisk. In that moment, the obelisk glowed brightly, the same way that the other two obelisks had when they read the runes.<br><br>They realized that at that moment Lord Hanshek and the princess had just crossed through the obelisk, and if they were fast enough, they would be able to catch them.
+act3Intro=액트 4 인트로 (텍스트 작업 진행 중)
+actEndGame=축하합니다! 보통 난이도로 게임을 클리어하였습니다.<br><br>미친 난이도가 잠금 해제되었습니다. Now you will be able to increase the difficulty of the game and adapt it to your preferences, such as having random enemies in every fight.<br><br>Also, new corrupted items appear in the madness levels. These items are much more powerful versions of the normal items. Each level of difficulty increases the probability of these items and corrupted cards appearing.<br><br>We hope you enjoyed the game. There is still much more to come! Sincerely, Adam, Javier and Juanjo.
+goldDescription=골드: 일부 이벤트에서 장비 구매, 카드 제거 및 목표 달성에 사용합니다.
+dustDescription=샤드: 카드 제작 또는 변환에 사용합니다
+supplyDescription=박스: 마을의 건물과 서비스를 개선하는데 사용됩니다<br>(최대. 500)
+corruptionReward=오염 보상
+corruptionAltarUpgrade=파티가 <color=#E0A44E>강화 제단에</color> 접근할 권한을 흭득합니다.
+corruptionGainGold=파티가<br><sprite name=gold> {0} 골드  <sprite name=dust> {1} 샤드를 흭득합니다
+corruptionGainGold2=파티가<br><sprite name=gold> {0} 골드  <sprite name=dust> {1} 샤드  <sprite name=supply> {2} 박스를 흭득합니다
+corruptionRemoveCard=각 히어로가 <color=#E0A44E>한개의 카드를</color> 덱에서 무료로 제거할 수 있는 권한을 흭득합니다.
+corruptionRemoveCard2=각 히어로가 <color=#E0A44E>두개의 카드를</color> 덱에서 무료로 제거할 수 있는 권한을 흭득합니다.
+corruptionRareShop=파티가 <color=#E0A44E>희귀 장비 상점</color>을 사용할 수 있는 권한을 흭득합니다.
+corruptionRareShopDiscount=파티가 <color=#E0A44E>희귀 장비 상점</color>을 사용할 수 있는 권한을 흭득합니다(30% 할인).
+corruptionRandomCardUpgrade=각 히어로의 무작위 기본 카드가 <color=#E0A44E>강화됩니다</color>.
+corruptionHeal20=파티가 전투 종료 시 최대 체력의 <color=#34FF46>30% 회복</color>을 받습니다.
+corruptionHeroFreeCard={0} 가 <color={1}>"{2}"</color> 카드를 무료로 얻습니다.
+corruptionFreeCardUpgrade=각 영웅이 <color=#E0A44E>무료 카드 강화</color>를 흭득합니다.
+corruptionExoticShop=파티는 <color=#E0A44E>전설 장비 상점</color>에 접근할 권한을 얻습니다.
+corruptionExoticShopDiscount=파티는 <color=#E0A44E>전설 장비 상점</color>을 이용할 수 있습니다(30% 할인).
+corruptionIncreasedQuality=전투 종료 시 받는 <color=#E0A44E>카드 보상이 더 좋아지며 수량이 늘어납니다</color>.
+corruptionRewardScore=(점수: +{0})
+corruptionTitle=<sprite name=corruption>오염된 오벨리스크
+corruptionDesc=오벨리스크의 영향으로 인해 이 지역의 몬스터들이 오염되었습니다. 난이도를 높여 오염된 몬스터들과 싸워 추가 보상을 얻을 수 있습니다.
+corruptionAccept=도전하시겠습니까?
+corruptionChoose=보상을 하나 선택해주세요
+corruptionSelect=도전을 수락하기 전에 하나의 보상을 선택해야합니다
+townUpgrades=<sprite name=supply> 마을 강화
+
+townUpgrade_1_1=<c>하급 카드</c> 제작 가능량이 2개로 증가하였습니다.
+townUpgrade_1_2=<c>카드를 제작하는데 드는 비용이</c> 감소합니다(총 15%).
+townUpgrade_1_3=<c>일반 카드</c> 제작 가능량이 2개로 증가하였습니다.
+townUpgrade_1_4=<c>희귀 카드</c>를 시작 마을에서 제작할 수 있습니다.
+townUpgrade_1_5=<c>카드를 제작하는데 필요한 비용이</c> 감소합니다(총 30%).
+townUpgrade_1_6=<c>에픽 카드</c>를 두 번째 마을부터 제작할 수 있습니다.
+
+townUpgrade_2_1=<c>카드 교환에 필요한 코스트가</c> 감소합니다(총 25%).
+townUpgrade_2_2=<c>카드 강화에 필요한 코스트가</c> 감소합니다(총 15%).
+townUpgrade_2_3=<c>카드 교환에 필요한 비용이</c> 감소합니다(총 50%).
+townUpgrade_2_4=<c>카드 강화에 필요한 비용이</c> 감소합니다(총 30%).
+townUpgrade_2_5=카드 교환은 <c>무료입니다</c>.
+townUpgrade_2_6=<c>카드를 강화에 필요한 비용이</c> 감소합니다(총 50%).
+
+townUpgrade_3_1=시작 마을에서 카드 제거가 <c>무료</c>입니다.
+townUpgrade_3_2=<c>부상 정화</c> 비용이 감소합니다(총 합 15%).
+townUpgrade_3_3=<c>카드 제거</c> 비용이 감소합니다(총 합 25%).
+townUpgrade_3_4=<c>부상 정화</c> 비용이 감소합니다(총 합 30%).
+townUpgrade_3_5=<c>카드 제거</c> 비용이 감소합니다(총 합 50%).
+townUpgrade_3_6=두 번째 마을에서 카드 제거가 <c>무료</c>입니다.
+
+townUpgrade_4_1=<c>운세 보기</c>의 비용이 감소합니다(총 합 10%).
+townUpgrade_4_2=<c>일반 운세</c>가 시작 마을에서 열립니다.
+townUpgrade_4_3=<c>운세 보기</c>의 비용이 감소합니다(총 합 25%).
+townUpgrade_4_4=<c>고급 운세</c>가 두 번째 마을에서 열립니다.
+townUpgrade_4_5=<c>운세 보기</c>의 비용이 감소합니다(총 합 40%).
+townUpgrade_4_6=<c>고급 운세</c>가 시작 마을에서 열립니다.
+
+townUpgrade_5_1=무기고의 <c>아이템 다시 뽑기</c>가 잠금 해제됩니다.
+townUpgrade_5_2=무기고의 <c>아이템 가격</c>이 감소합니다(총 합 15%).
+townUpgrade_5_3=무기고에서 나오는 아이템의 <c>등급</c>이 증가합니다.
+townUpgrade_5_4=무기고의 <c>아이템 다시 뽑기</c> 비용이 감소합니다(총 합 50%).
+townUpgrade_5_5=무기고의 <c>아이템 가격</c>이 감소합니다(총 합 30%).
+townUpgrade_5_6=무기고에서 나오는 아이템의 <c>등급</c>이 증가합니다.
+
+townUpgrade_6_1=게임 종료 시 받는 <c>돈 보너스</c>가 증가합니다(총 합 10%).
+townUpgrade_6_2=<c>애완동물 상점</c>이 무기고에서 잠금 해제됩니다.
+townUpgrade_6_3=게임 종료 시 받는 <c>돈 보너스</c>가 증가합니다(총 합 20%).
+townUpgrade_6_4=시작 마을 바깥에서 <c>캐러밴 노드</c>가 잠금 해제됩니다.
+townUpgrade_6_5=게임 종료 시 받는 <c>돈 보너스</c>가 증가합니다(총 합 30%).
+townUpgrade_6_6=<c>상자 판매</c> 능력이 잠금 해제되어 골드 및 샤드로 바꿀 수 있습니다.
+
+townRequired={0}개의 상자가 더 <color=#FFF>필요합니다.</color>
+townAssignWarning=이 업그레이드를 구매하시겠습니까? <color=#AAAAAA>이 작업은 취소할 수 없습니다.</color>
+rerollButton={0} 다시 뽑기
+rerollButtonCostSP=다시 뽑기 비용은 각 액트마다 증가합니다. 이미 구매한 아이템은 나오지 않습니다.
+rerollButtonCostCoop=총 다시 뽑기 비용은 자신의 캐릭터를 기반으로 하며 각 액트마다 증가합니다. 이미 구매한 아이템은 나오지 않습니다.
+rerollLock=광기 기본 난이도가 3 이상일 경우 각 마을에서 한 번 다시 뽑기가 가능합니다.
+rerollWarning=(한번만 사용 가능)
+helpDeck=뽑을 예정인 카드들
+helpCasted=주문 카드
+saveLoad=<size=+.2><sprite name=nodeDivination></size> 덱 저장/불러오기
+saveLoadReturn=연금소로 돌아가기
+saveLoadDes=현재 덱을 저장하거나 이전에 저장한 덱을 불러올 수 있습니다.
+save=저장
+inputSaveName=덱의 이름을 적어주세요
+emptySave=<빈 슬롯>
+decks=덱
+cardsNum=({0} 장)
+savedDecks=저장한 덱
+savedDeckDeleteConfirm=이 덱을 삭제하시겠습니까?
+craftDeck=덱 제작
+craftWillCost=이 덱을 만드는데 드는 비용:
+craftCant=이 덱을 제작할 수 없습니다.
+craftDeckNeed=저장된 덱을 만들려면 마법 연금소에서 사용할 수 있는 모든 카드가 필요합니다.<br><br>현재 덱에 <color=#FFF>부상, 혜택, 특수 카드 또는 타락한 카드</color>가 있는 경우, <color=#F00>저장/불러오기를</color> 할 수 없습니다.
+conflictPlayerChooses={0} 선택
+conflictPlayerWins={0} 승리
+ngDescription=높은 등급의 영웅과 업그레이드 된 마을을 위한 높은 난이도의 게임모드, 이 모드에서는 손상 된 카드가 드랍될 확률이 높아집니다.
+needSteam=오벨리스크 이후를 플레이하려면 스팀에 연결되어 있어야 합니다.
+desyncError=<b><color=#f88>무언가가 잘못되었습니다!</color></b><br><size=-6>플레이어 간 게임 동기화가 제대로 되지않았습니다. 문제가 악화되는 것을 방지하기 위해 전투를 다시 시작합니다.</size>
+reloadForced=<color=#FFD78F>전투를 다시 불러오시겠습니까?</color><br><size=-6>버그나 동기화 해제로 인해 전투를 다시 불러오고 싶다면 디스코드에 가입하여 신고해주세요!</size>
+comingSoon=곧 출시합니다
+onlyMasterCorruption=마스터만 오염을 깼을 때 얻는 보상을 선택 할 수 있습니다.
+onlyMasterButton=마스터만 사용 가능합니다.
+easy=쉬움
+average=평균
+hard=어려움
+extreme=익스트림
+corruption=오염
+versionMismatch=게임 버전이 틀립니다.
+selectSupplyAmount=Select the amount of supplies that you want to sell.
+selectGiveGold=Select the amount of gold that you want to give to this player.
+selectGiveShards=Select the amount of shards that you want to give to this player.
+giveGold=골드 주기
+giveShards=샤드 주기
+giveGoldShards=골드 & 샤드 주기
+general=일반
+audio=오디오
+gameplay=게임플레이
+screenResolution=해상도
+fullScreen=풀 스크린
+vsync=수직동기화
+resetTutorial=튜토리얼 초기화
+resetTutorialDes=튜토리얼 설명을 다시 볼 수 있습니다.
+resetSavedData=계정 데이터 초기화
+resetSavedDataDes=경고: 활성화 시 모든 진행 상황, 저장된 게임, 잠금 해제된 카드가 제거됩니다.
+masterVolume=마스터 볼륨
+musicVolume=음악 볼륨
+effectsVolume=효과음 볼륨
+ambienceVolume=배경음 볼륨
+backgroundMute=배경에서 음소거
+backgroundMuteDes=배경음을 끕니다
+fastMode=빠른 모드
+fastModeDes=전투 속도가 증가합니다
+autoEnd=자동 종료
+autoEndDes=현재 자신의 코스트로 할 수 있는 동작이 없을때 자동 종료합니다
+showEffects=효과 보기
+showEffectsDes=전투 중 카드 및 캐릭터 효과를 표시합니다.
+extendedDescriptions=확장된 설명
+extendedDescriptionsDes=오라 및 저주에 대한 추가 정보를 표시합니다.
+acBackground=상태 효과 배경
+acBackgroundDes=캐릭터 상태 효과 아이콘 뒤에 배경을 표시합니다.
+restartCombatOption=패배 시 전투 재개
+restartCombatOptionDes=패배 시 전투를 다시 시작하는 설정을 표시합니다.
+enableShakeOption=화면 흔들림 활성화
+enableShakeOptionDes=전투 중 큰 피해가 발생하면 화면이 흔들립니다.
+currentScore=현재 점수
+synchronizing=[동기화]
+madnessChallengeSelect=다음 게임에서 원하는 광기 레벨을 선택하세요(각 레벨은 이전 레벨에서도 수정가능합니다)
+madnessChallengeBeat=광기 레벨에서 오벨리스크 도전을 승리 할 경우 다음 도전 이용이 가능합니다.
+madness=광기
+madnessNumber=광기 {0}
+madnessTitle=광기 난이도 선택
+madnessDescription=게임에 대해 원하는 광기 난이도를 선택하세요. 또한 게임을 수정하고 광기 난이도를 높여 다양한 피해를 활성화 할 수 있습니다.
+madnessBasicInfo=게임의 기본 난이도입니다. 모험을 완료하여 난이도 추가와 오염된 자를 잠금 해제하세요.<br><br>새로운 난이도를 선택하려면 싱글플레이 또는 멀티플레이에서 이전 난이도를 완료해야합니다.
+madnessBasic=<i=taunt> 몬스터가 더 강해지고 능력치가 향상되었습니다.
+madnessObeliskLevel5=<sprite name=perk> 영웅의 시작 카드, 시작 아이템 및 강화가 파란색으로 강화됩니다.
+madnessObeliskLevel8=<sprite name=perk> 영웅의 시작 카드, 시작 아이템 및 강화가 노란색으로 강화됩니다.<br><sprite name=energy> 모든 영웅의 시작 코스트 +1<br><sprite name=dice> 무작위 시드
+madnessPerAct=<color=#AAA><size=-.5>(액트마다, 개별)</size></color>
+madnessExhaust=<i=vanish> Exhaust
+madnessSeriousInjuries=<i=bleed> 심각한 부상
+madnessSeriousInjuriesDesc=부상 카드가 강해집니다
+madnessDeadlyInjuries=<i=bleed> 치명적인 부상
+madnessDeadlyInjuriesDesc=부상 카드는 치명적입니다.
+madnessNoChest=<i=nodeShop> 상자 보상 없음, 영웅당 {0} 골드/샤드
+madnessMonsterHp=<i=heart> 몬스터 최대. 체력: {0} {1}
+madnessMonsterSpeed=<i=fast> 몬스터 속도: {0} {1}
+madnessMonsterDamageTaken=<i=mitigate> 몬스터가 입는 데미지: {0} {1}
+madnessMonsterDamageDone=<i=slashing> 몬스터가 입히는 데미지: {0} {1}
+madnessHeroSpeed=<i=slow> 영웅 속도: {0}
+madnessHeroEnergy=<i=energy> 시작 코스트: {0}
+madnessInfrequent=<i=cards> 카드의 사용 가능한 장 수를 1개로 줄였습니다.
+madnessDisabledCards=<i=nodeUpgrade> 희귀 카드가 시작 마을에서 비활성화 되었습니다. 에픽 카드가 두 번째 마을에서 비활성화 되었습니다.
+madnessRandomSeed=<i=dice> 강제 무작위 시드
+madnessHarderEvents=<i=events> 더 어려운 이벤트 뽑기
+madnessReroll=<i=jewelry> 마을 무기고 아이템은 1개로 제한됩니다.
+madnessDoubledeath=<i=weak> 영웅 사망 시, "죽음의 문턱" 카드 2장을 흭득합니다.
+madnessNoSupplyExchange=<i=supply> 상자 교환을 사용할 수 없습니다.
+madnessCorruptor0=<i=doom> 임박한 처형
+madnessCorruptor0Help=전투에서, 점수 보너스가 "압도적"에 도달하면 모든 영웅은 "처형" 카드를 얻고 2 라운드 안에 죽습니다.
+madnessCorruptor1=<i=decay> 데카당스
+madnessCorruptor1Help=모든 영웅이 치유량 -3 및 받는 치유량 <nobr>-25%</nobr>
+madnessCorruptor2=<i=bless> 제한된 힘
+madnessCorruptor2Help=오라/저주 최대. 스택:<line-height=120%><br></line-height>( 50 ) 축복, 표식, 재생, 신성, 날카로움, 은신, 생명, 젖음<line-height=120%><br></line-height>( 100 ) 균열, 분노, 정신이상, 관측<line-height=120%><br></line-height>( 200 ) 출혈, 화상, 추위, 독, 보호막, 감전, 가시<line-height=120%><br></line-height>( 400 ) 방어
+madnessCorruptor3=<i=insulate> 저항하는 몬스터
+madnessCorruptor3Help=모든 몬스터가 모든 저항 +15%를 흭득합니다. 
+madnessCorruptor4=<i=gold> 빈곤
+madnessCorruptor4Help=골드와 샤드 흭득량이 50% 감소합니다. 추가 아이템 할인은 사용할 수 없습니다.
+madnessCorruptor5=<i=powerful> 오버 스택 몬스터
+madnessCorruptor5Help=모든 몬스터 카드는 오라 또는 저주 스택이 +1 추가됩니다.
+madnessCorruptor6=<i=dice> 무작위 전투
+madnessCorruptor6Help=이벤트가 아닌 전투는 무작위로 생성됩니다. 각 무작위 전투에서, 무작위의 면역을 가진 "챔피언"이 등장합니다.
+madnessCorruptor7=<i=bossIcon> 절망
+madnessCorruptor7Help=적들은 강력한 카드와 주문을 사용합니다.<line-height=120%><br></line-height>이 오염은 난이도가 되게 높은 편입니다.
+championMonster=챔피언 몬스터
+help=도움
+madnessCorruptors=사용 가능한 오염자
+madnessLevel=광기 레벨
+cardCommon=하급 카드
+cardUncommon=일반 카드
+cardRare=희귀 카드
+cardEpic=에픽 카드
+cardMythic=유물 카드
+common=하급
+uncommon=일반
+rare=희귀
+epic=에픽
+mythic=유물
+eventCommon=하급 이벤트
+eventUncommon=일반 이벤트
+eventRare=희귀 이벤트
+eventEpic=에픽 이벤트
+eventMythic=유물 이벤트
+eventCharacter=캐릭터 이벤트
+cardPlayerDescription=아주 작은 결정도 운명을 만듭니다. 주의: <color=#C59559>이 카드를 섞은 후</color>, 하나를 선택해야 합니다.
+chooseWisely=현명하게 선택하세요
+madnessHelp=<align=left><color=#FFF>Each madness difficulty level adds new modifiers that make the game more difficult overall. Some of these are explained in more detail below.</color><br><br><u>Exhaust:</u> When you use a card that causes the deck to cycle, you suffer Exhaust, causing any card that comes into your hand during that turn to cost additional energy.<br><br><u>Serious and Deadly injuries:</u> The injuries you receive when you fail an event are replaced by more powerful versions.<br><br><u>No Chest Rewards:</u> Reward chests from other games cannot be picked up, and starting gold/shards are limited. With this modifier you do not get reward chests at the end of a game.<br><br><u>Harder event rolls:</u> The number needed to pass a roll in an event is harder to obtain, higher or lower depending on the event.</align>
+exhaust=<u>Exhaust:</u> 덱을 교체하는 카드를 사용하면 소진 상태가 되어 해당 턴에 손에 들어오는 모든 카드에 추가 에너지가 소모됩니다.
+madnessOptionsText=광기 {0} 보너스 목록
+replyProbability=성공 확률:{0}
+masterSelected=게임의 마스터가 선택함
+notStack=<br3><r>스택은 누적되지 않습니다</r> //from different sources (<w>highest value prevails</w>).
+notStackPlain=스택은 누적되지 않습니다
+searchCards=카드 검색
+perksNotChallenge=<color=#F1D2A9>오벨리스크 도전 및 주간 도전</color> 모드에서는 특성 및 랭크 강화를 사용할 수 없습니다.
+rightClickCard=우클릭 <br><size=-.7>(상세 정보)
+traitAddCard="{0}" 복사 된 카드를 덱에 추가합니다
+addCardInstructions=추가할 카드를 선택하세요
+lowerObelisk=하부 오벨리스크
+upperObelisk=상부 오벨리스크
+finalObelisk=마지막 오벨리스크
+notOriginalPlayers=The current players are not the same players that created the game, therefore, <color=#F3404E>the final score will not be reflected</color> on the scoreboards.
+basicDifficulty=기본 난이도
+basicDifficultyDesc=이것이 이 게임 모드의 기본 난이도입니다.
+dangerousMonsters=위험한 몬스터
+dangerousMonstersDesc=몬스터가 입히는 데미지: +3
+decadence=Decadence
+decadenceDesc=모든 히어로가 받는 힐량이 25% 감소합니다.
+doubleBoons=2x 보너스
+doubleBoonsDesc=혜택을 받으면 추가로 받습니다.
+doubleInjuries=2x 부상
+doubleInjuriesDesc=부상을 당하면 추가로 받습니다.
+elementalMonsters=속성 몬스터
+elementalMonstersDesc=화염 / 냉각 / 전기 저항: +10%
+energizedHeroes=힘이 넘치는 영웅들
+energizedHeroesDesc=영웅 시작 코스트: +1
+exhaustion=피로
+exhaustionDesc=덱을 섞는 카드를 사용하면 피로 상태가 됩니다.
+fastHeroes=빠른 영웅
+fastHeroesDesc=영웅 속도: +1
+fastMonsters=빠른 몬스터
+fastMonstersDesc=몬스터 속도: +1
+gargantuanMonsters=거대한 몬스터
+gargantuanMonstersDesc=몬스터 최대. 체력: +50%
+hardcoreBosses=하드코어 보스
+hardcoreBossesDesc=보스가 더 어려워지고 능력이 향상되었습니다.
+impedingDoom=임박한 처형
+impedingDoomDesc=모든 영웅이 점수가 압도적일 때 "처형" 디버프를 받습니다.
+ironcladMonsters=철갑 몬스터
+ironcladMonstersDesc=몬스터가 받는 데미지: -3
+lucky=행운
+luckyDesc=이벤트 뽑기가 더 쉽습니다.
+ludicrousSpeed=터무니없는 속도
+ludicrousSpeedDesc=몬스터 속도: +3
+moreChampions=많은 챔피언
+moreChampionsDesc=더 많은 챔피언이 지도에 나타납니다.
+overchargedMonsters=오버 스택 몬스터
+overchargedMonstersDesc=모든 몬스터 카드는 스택 +1이 적용됩니다.
+poverty=빈곤
+povertyDesc=골드와 샤드 흭득량이 30% 감소합니다.
+prosperity=번영
+prosperityDesc=골드와 샤드 흭득량이 50% 증가합니다.
+punyMonsters=약한 몬스터
+punyMonstersDesc=몬스터 최대. 체력: -25%
+reinforcedMonsters=강화된 몬스터
+reinforcedMonstersDesc=몬스터의 베기 / 둔기 / 관통 저항력: +10%
+resistantMonsters=저항 몬스터
+resistantMonstersDesc=모든 몬스터의 저항: +15%
+restrictedPower=제한된 힘
+restrictedPowerDesc=오라와 저주 최대치에 상한선이 존재합니다(스택).
+slowHeroes=느린 영웅들
+slowHeroesDesc=영웅 속도: -1
+slowMonsters=느린 몬스터들
+slowMonstersDesc=몬스터 속도: -1
+smartHeroes=똑똑한 영웅들
+smartHeroesDesc=흭득 경험치 증가 +50%.
+spiritualMonsters=영적 몬스터
+spiritualMonstersDesc=몬스터 신성 / 그림자 / 정신 저항: +10%
+tougherMonsters=매우 강한 몬스터
+tougherMonstersDesc=몬스터가 더 강해지고 능력치가 향상되었습니다.
+unlucky=불행
+unluckyDesc=이벤트 뽑기가 더 어렵습니다.
+vigorousMonsters=강력한 몬스터
+vigorousMonstersDesc=몬스터 최대. 체력: +25%
+vulnerableMonsters=취약한 몬스터
+vulnerableMonstersDesc=모든 몬스터의 저항: -15%
+wealthyHeroes=부유한 영웅
+wealthyHeroesDesc=각 영웅은 추가로 300 골드/샤드로 시작합니다.
+weeklyModificatorsDescription=다음은 이 도전에서 활성화 된 수정 사항입니다.
+incompatible=이 버전과 호환되지 않음
+weeklyModifiers=주간 수정
+weeklyModifiersStyled=<size=+.2><size=+.3><color=#FFF>주간</color></size><br> 수정</size>
+openCharacterStats=<sprite name=sheet> 캐릭터 스탯 열기
+corruptionSacrifyDust=+{1}% 확률을 위해 {0}개의 추가 샤드를 지불하세요.
+corruptionSacrifySpeed={0} 속도를 희생하여 추가 +{1}% 확률을 얻습니다.
+corruptionSacrifyHealth={0} 최대. 체력 포인트를 희생하여 추가 +{1}% 확률을 얻습니다.
+corruptionSacrifyResistance={0} 모든 저항 포인트를 희생하여 추가 +{1}% 확률을 얻습니다.
+cardCorruptionTitle=오염된 카드
+cardCorruptionDesc=선택한 카드를 오염시키고 가장 강력한 버전으로 변환할 수 있습니다.<br><br>그러나 확률이 높지 않으며 실패하면 카드가 오염됩니다.<br><br>디버프를 통해 성공 확률을 높일 수도 있습니다.
+cardCorruptionChance=확률
+deathScreenTitle={0} 처참하게 패배!
+deathScreenBody=팀원이 한명이라도 살아남는 경우 전체 체력의 {0}% 를 사용하여 부활할 수 있지만 대가로 낙인 카드가 주어집니다.
+crusader=crusader
+devotee=devotee
+friar=friar
+healer=healer
+heretic=heretic
+justicar=justicar
+mentalist=mentalist
+protector=protector
+saint=saint
+seer=seer
+shaman=shaman
+zealot=zealot
+aeromancer=aeromancer
+cryomancer=cryomancer
+enchanter=enchanter
+glacier=glacier
+inferno=inferno
+scribe=scribe
+shadowmancer=shadowmancer
+sorcerer=sorcerer
+tempest=tempest
+witch=witch
+wizard=wizard
+bard=bard
+bowman=bowman
+explorer=explorer
+fencer=fencer
+hunter=hunter
+ninja=ninja
+plague=plague
+poisoner=poisoner
+reaver=reaver
+rogue=rogue
+scoundrel=scoundrel
+skald=skald
+sniper=sniper
+avenger=avenger
+axman=axman
+brawler=brawler
+commander=commander
+defender=defender
+destroyer=destroyer
+gladiator=gladiator
+guardian=guardian
+marauder=marauder
+swordman=swordman
+warlord=warlord
+pyromancer=pyromancer
+ranger=ranger
+elementalist=elementalist
+berserker=berserker
+sentinel=sentinel
+mercenary=mercenary
+voodoo_witch=voodoowitch
+prophet=prophet
+priest=priest
+cleric=cleric
+assassin=assassin
+loremaster=loremaster
+voodoowitch=Voodoo Witch
+warden=Warden
+archer=Archer
+deathknight=Death Knight
+inquisitor=Inquisitor
+minstrel=Minstrel
+paladin=Paladin
+valkyrie=Valkyrie
+warlock=Warlock
+AdventureCompletedCardback=모험
+AdventureCompletedMadnessCardback=광기
+ObeliskCompletedCardback=오벨리스크
+ObeliskCompletedMadnessCardback=치매
+preturnEffects=턴 시작 효과
+postturnEffects=턴 종료 효과
+characterDies=캐릭터 사망
+followTheLeader=리더 따라가기
+followTheLeaderDesc=게임의 마스터가 선택한 설정을 따라갑니다 (맵 이동, 이벤트, 기타.).
+magnusPet1=그만 쓰다듬어 주세요.. 저는 명예로운 펫이라구요!
+magnusPet2=...그르르... 음... 다시 할 수 있나요?
+conflictTitle=<sprite name=cardrandom>갈등 해결
+conflictDescription=플레이어들 사이에 의견 불일치가 있을 때 누가 승리할지 결정하기 위해 갈등 해결이 필요합니다. 동점 (3)이 여러 개인 경우 당첨자가 무작위로 선택됩니다.
+conflictButton0=가장 낮은 카드
+conflictButton1=2에 가장 가까운 카드
+conflictButton2=가장 높은 카드
+noEnergy=에너지 없음
+physical=물리
+elemental=속성
+mystical=신비
+confirmPerks=특성 저장
+cardsStealAuras={0} 오라 훔치기
+steal=훔치기
+previousRequired=이전 노드를 찍어야합니다
+usedPoints=사용한 포인트 : {0}
+export=공유
+import=불러오기
+pressForCopyPaste=코드를 복사하여 이 구성을 공유하세요
+pressForImportTree=복사한 코드를 붙여넣기하여 구성을 불러오세요
+importPerkTreeNotPoints=이 특성 구성을 가져오기에는 총 특성 포인트({0})가 충분하지 않습니다.
+invalidImportTalentTreeCode=이 코드는 유효하지 않습니다.
+importedTree=특성 구성이 불러와졌습니다
+wantOverwritePerks=이 슬롯을 불러와 특성 구성을 덮어쓰시겠습니까?
+loadThisPerkConf=이 특성 구성 로드 (사용한 포인트 {0})
+wantExitPerks=저장하지 않은 변경 사항이 있습니다. 특성 구성 창을 닫으시겠습니까?
+itemInitialCurrencySingle=초기 골드 {0}
+itemInitialShardsSingle=초기 샤드 {0}
+default=기본
+perkTreeDescription=게임이 시작되기 전 또는 첫 번째 마을(일부 제한 있음)에서 특성을 찍을 수 있습니다.<br><br>게임이 시작되기 전에 다양한 특성 구성을 저장하고 불러올 수도 있습니다.
+saveSlots=저장된 슬롯
+inputConfigSaveName=이 구성의 이름을 입력하세요
+savedConfigDeleteConfirm=이 구성을 제거하시겠습니까?
+savedConfigCant=저장된 슬롯은 게임이 시작되기 전에만 사용할 수 있습니다.
+perkBarDescription=모든 영웅은 게임을 플레이하여 특성 포인트를 얻을 수 있습니다.
+chooseOnePerk=다음 특성 중<u>한개를</u> 선택하세요.
+slashing=베기 /// this must have the same translate as "slash"
+customMainperkPoison2b=독 스택을 쌓을 경우 스택 당 그림자 저항을 0.3% 감소시킵니다.
+customMainperkPoison2c=독은 적에게 50%의 추가 데미지를 입히지만 턴이 끝나면 모든 스택이 사라집니다.
+customMainperkDark2b=이 영웅의 암흑은 35 스택이 쌓이면 폭발합니다.
+customMainperkDark2c=암흑 폭발이 적에게 25% 더 많은 피해를 입힙니다.
+customMainperkDark2d=암흑 스택이 턴 종료 시 폭발합니다.
+customMainperkThorns1a=이 영웅의 가시는 공격을 받아도 스택이 사라지지 않습니다.
+customMainperkThorns1b=이 영웅의 가시는 신성 피해를 입힙니다.
+customMainperkThorns1c=이 영웅의 가시는 공격자에게 피해를 입히는 대신 스택의 50%를 독으로 적용합니다.
+customMainperkSanctify2b=적에게 신성을 입히면 스택 당 신성 저항이 1.5% 감소합니다.
+customMainperkSanctify2c=이 영웅이 신성으로 몬스터를 공격 시 대상 신성 스택의 25% 신성 피해를 입힙니다.
+customMainperkChill2b=적에게 입힌 추위는 스택 당 둔기 저항을 0.3% 감소시킵니다.
+customMainperkChill2c=적에게 입힌 추위는 스택 4회 당 속도가 1 감소합니다.
+customMainperkChill2d=이 영웅에게 추위를 입히면 스택 8회 당 1씩 속도가 감소하고 턴이 끝날 때 스택 16회 도달 시 스택 당 1개의 강화 효과를 얻습니다. 
+customMainperkBurn2b=이 영웅에게 화상을 입히면 스택 8회 당 속도가 1씩 증가하고 스택 당 화염 저항이 0.3% 감소합니다.
+customMainperkBurn2c=화상이 추위 데미지를 입힙니다.
+customMainperkVulnerable0b=Maximum charges of Vulnerable on enemies increased to 12 and reduced by 1 at the end of the turn.
+customMainperkVulnerable0c=Vulnerable on enemies only reduces Slashing, Piercing and Blunt resistances, but the reduction is increased to 8% per charge.
+customMainperkDecay1b=Decay on enemies decreases healing received by 75%.
+customMainperkDecay1c=Decay on enemies reduces Shadow resistance by 5% per charge.
+customMainperkTaunt1b=Taunt on this hero increases Slashing, Piercing and Blunt resistances by 10% per charge.
+customMainperkTaunt1c=Taunt on this hero increases Fire, Cold and Lightning resistances by 10% per charge.
+customMainperkTaunt1d=Taunt on this hero increases Holy, Shadow and Mind resistances by 10% per charge.
+customMainperkBless1a=Bless on this hero increases damage done by 1.5 per charge but no longer increases healing received.
+customMainperkBless1b=Bless on this hero increases healing done by 1% per charge.
+customMainperkBless1c=Bless on heroes increases Holy resistance by 0.5% per charge and does not lose charges at the end of the turn.
+customMainperkVitality1a=Vitality on this hero increases Max. HP by 8 per charge.
+customMainperkVitality1b=When this hero gains Vitality, removes Bleed.
+customMainperkVitality1c=Vitality on heroes increases Mind resistance by 0.5% per charge and does not lose charges at the start of the turn.
+customMainperkRegeneration1a=Regeneration on this hero also heals the heroes at their side.
+customMainperkRegeneration1b=Regeneration on heroes increases healing received by 1% per charge.
+customMainperkRegeneration1c=Regeneration on heroes increases Shadow resistance by 0.5% per charge and does not lose charges at the start of the turn.
+customMainperkPowerful1b=Powerful maximum charges on this hero increased to 12. Charges are reduced by 1 at the end of the turn.
+customMainperkPowerful1c=Powerful on this hero increases damage and healing done by 10% per charge and loses all charges at the end of the turn.
+customMainperkEnergy2a=When this hero plays a card that costs 6 Energy or more, refund 1 Energy.
+customMainperkEnergy2b=On round 2, this hero gains 1 Energy at the start of the turn.
+customMainperkEnergy2c=On round 4, this hero gains 2 Energy at the start of the turn.
+customMainperkMark1a=이 영웅은 표식에 면역입니다.
+customMainperkMark1b=적에게 입힌 표식은 더 이상 은신을 방지할 때와 턴 종료 시 스택을 잃지 않습니다.
+customMainperkMark1c=적에게 입힌 표식은 스택 당 베기 저항을 0.3% 감소시킵니다.
+customMainperkSight1b=적에 대한 관측은 적용 시 은신을 제거하고 지정하지 않는 한 해제할 수 없습니다.
+customMainperkSight1c=Charges that you apply +3. Sight on enemies cannot be prevented by Buffer or immunity to Sight, but loses all charges at the end of the turn.  
+customMainperkStealth1a=Stealth on heroes increases damage and healing done by 25% per charge.
+customMainperkStealth1b=Stealth on this hero does not lose charges at the start of the turn.
+customMainperkStealth1c=Stealth on heroes increases 모든 저항 by 5% per charge.
+customMainperkFury1b=Fury on this hero increases damage by 1% per charge and no longer applies Bleed at the end of the turn.
+customMainperkFury1c=Fury on this hero increases damage by 5% per charge. Bleed on this hero deals 50% more damage and cannot be prevented by Buffer or immunity to Bleed. 
+customMainperkBleed2b=Bleed on this hero deals its damage at the end of the turn and cannot be dispelled unless specified. Fury maximum charges on this hero are 25. 
+customMainperkBleed2c=Charges that you apply +2. Bleed on enemies deals damage at the end of the turn and cannot be prevented by Buffer or immunity to Bleed.
+customMainperkSharp1a=Sharp on this hero increases Slashing damage by 1.5 per charge and no longer increases Piercing damage.
+customMainperkSharp1b=Sharp on this hero increases Piercing damage by 1.5 per charge and no longer increases Slashing damage.
+customMainperkSharp1c=Sharp on heroes does not lose charges at the end of the turn and cannot be purged unless specified.
+customMainperkStanza0a=This hero gains Stanza I on their first turn.
+customMainperkStanza0b=Stanza I on this hero gives 1 Inspire at the end of the turn.
+customMainperkStanza0c=This hero can't gain Stanza III.
+customMainperkReinforce0=This hero gains 1 Reinforce on their first turn. Reinforce on this hero cannot be purged unless specified.
+customMainperkReinforce1b=Reinforce on heroes increases the Slashing, Piercing and Blunt resistances by 35%.
+customMainperkReinforce1c=Reinforce on this hero can stack and increases the Slashing, Piercing and Blunt resistances by 5% per charge. Maximum charges are 10. 
+customMainperkInsulate0=This hero gains 1 Insulate on their first turn. Insulate on this hero cannot be purged unless specified.
+customMainperkInsulate1b=Insulate on heroes increases the Fire, Cold and Lightning resistances by 35%.
+customMainperkInsulate1c=Insulate on this hero can stack and increases the Fire, Cold and Lightning resistances by 5% per charge. Maximum charges are 10. 
+customMainperkCourage0=This hero gains 1 Courage on their first turn. Courage on this hero cannot be purged unless specified.
+customMainperkCourage1b=Courage on heroes increases the Holy, Shadow and Mind resistances by 35%.
+customMainperkCourage1c=Courage on this hero can stack and increases the Holy, Shadow and Mind resistances by 5% per charge. Maximum charges are 10.
+customMainperkInspire0a=This hero gains 1 Inspire at the start of the combat.
+customMainperkInspire0b=Inspire maximum charges on this hero are 1, but Inspire draws 2 cards at the start of the turn.
+customMainperkInspire0c=This hero is immune to Stress.
+customMainperkInsane2b=Insane on enemies reduces their max HP by 2 per charge.
+customMainperkInsane2c=Insane on heroes reduces Mind resistance by 0.5 per charge and damage done by 0.3% charge.
+customMainperkWet1a=Wet on enemies also increases the Cold damage taken by 1 per charge.
+customMainperkWet1b=Wet on enemies reduces Lightning resistance by 1% per charge and does not lose charges at the end of the turn.
+customMainperkWet1c=Wet on heroes prevents 3 Burn charges per charge and does not lose charges at the end of the turn.
+customMainperkFortify1a=Fortify on this hero can stack and increases Blunt and Fire damage by 1 per charge. Maximum charges are 10. 
+customMainperkFortify1b=This hero gains 1 Fortify on their first turn. Fortify on this hero cannot be purged unless specified.
+customMainperkFortify1c=Fortify on heroes grants 5 Block per charge at the end of the round.
+customMainperkSpark2b=Spark on enemies also applies 30% of its charges as Spark charges to the sides, at the start of the turn. 
+customMainperkSpark2c=Spark on enemies applies 1 Slow per 16 charges at the end of the turn.
+customMainperkCrack2b=Crack on enemies reduces the Block charges gained by 0.5 per charge.
+customMainperkCrack2c=Crack on enemies applies 1 Vulnerable per 16 charges at the end of the turn.
+emptySave=[빈 슬롯]
+madnessCorruptor1Help=모든 히어로가 받는 치유량이 -3, 받는 치유량 <nobr>-25%</nobr> 및 생명력 회복은 얻은 체력의 50%만 회복
+faeborg=페이보그 숲
+act1Intro=일행은 오벨리스크를 가로질러 순식간에 세넨시아의 숲에서 멀리 떨어진 곳에 도착하였습니다.<br><br>방금 오벨리스크의 비밀 중 하나가 그들에 의해 밝혀졌습니다... 고대에 오벨리스크는 텔레포트 용으로 사용되었습니다.<br><br>그들은 공주나 궁정 마법사의 흔적을 찾았고, 그 지역에서 멀어지는 발자국의 흔적을 발견하였습니다.<br><br>일행은 저 멀리 바라보았고 이 지역에 활성화 된 또 다른 오벨리스크가 존재하는 것을 발견하였습니다. 의심할 여지 없이 공주와 궁정 마법사는 오벨리스크가 작동 한 것과 관련이 있습니다. 일행의 다음 목적지는 정해졌습니다. 
+act2Intro=The group crossed through their second obelisk, and as before, found a more recent trail of the princess and Lord Hanshek.<br><br>They remembered that the queen of Senenthia, known for her great magical powers, also disappeared a few years ago. Could the princess have inherited those powers? And is Lord Hanshek taking advantage of this?<br><br>They had too many questions to turn back now. They must reach Lord Hanshek at all costs.<br><br>In this area, they were not surprised to see that there was also an active obelisk on the horizon.<br><br>This time the group had the feeling that if they hurried, they might be able to catch up.
+act3Intro=Although they had become accustomed to crossing the obelisks, this time the sensation had been somewhat different.<br><br>When they looked around, they were astonished. Endless clouds and ancient ruins floated around them... Where were they? Certainly, this place could not be reached on foot or in any normal way.<br><br>The group could feel how intense the magic was, and without a doubt, this had to be Lord Hanshek's goal with the obelisks.<br><br>On the horizon they saw a large staircase rising above the clouds... That was where the group had to go to find out what Lord Hanshek was up to.
+actEndGame=축하합니다! 보통 난이도로 게임을 클리어하였습니다.<br><br>광기 난이도를 잠금 해제하였습니다. 이제 게임의 난이도를 높이고 모든 전투에서 임의의 적을 갖는 것과 같이 원하는대로 조정할 수 있습니다.<br><br>또한 새로운 오염된 아이템이 광기 난이도에 등장합니다. 이 아이템들은 일반 아이템보다 훨씬 더 강력합니다. 난이도가 올라갈수록 이러한 아이템과 오염된 카드가 나타날 확률이 높아집니다.<br><br>즐거운 게임이 되셨기를 바랍니다. 아직 더 많은 것이 남아있으니 즐거운 플레이 되십시오.
+cinematicIntro0=모든 것은 공주의 16번째 생일에 시작되었습니다.
+cinematicIntro1=갑자기 공주의 방에서 미확인 에너지가 폭발하였고
+cinematicIntro2=세넨시아 왕국을 휩쓸었습니다.
+cinematicIntro3=왕실 경비병들은 이후 성의 구석 구석을 탐색했고, 
+cinematicIntro4=공주와 궁정 마술사의 흔적을 찾지 못했습니다.
+cinematicIntro5=왕은 다른 나라에 병사를 보냈지만 아무도 돌아오지 않았습니다.
+cinematicIntro6=공주의 마지막 흔적은 오래된 숲 깊숙한 곳에서 사라졌고, 
+cinematicIntro7=그곳은 수세기 동안 아무런 동작이 없던 고대 오벨리스크 근처였습니다...
+cinematicIntro8=절망한 왕은 칙령을 선포하였습니다.
+cinematicIntro9=공주님을 무사히 집으로 데려온 사람에게 보상을 주겠느니라.
+cinematicIntro10=그 소식은 왕국 전체에 빠르게 퍼졌습니다.
+cinematicIntro11=많은 모험가 그룹이 오벨리스크를 조사할 준비를 했습니다.
+cinematicIntro12=이것은 한 그룹의 이야기입니다.
+cinematicOutro0=이것은 그들이 나를 어떻게 구했는지에 대한 이야기입니다...
+selectLanguage=언어
+selectLanguageChanged=언어 변경 사항은 다음에 게임을 시작할 때 적용됩니다.
+steamErrorConnect=스팀 API 초기화에 실패하였습니다. 재접속 해주세요.
+immortal=불멸
+emotes=이모티콘
+selectTheTarget=대상을 선택하세요
+credits=크레딧
+gameDeveloper=게임 개발자
+gameDesigner=게임 디자이너
+gameArtDirector=아트 디렉터
+gameLeadArtist=리드 아티스트
+gameSeniorArtis=시니어 아티스트
+effects=효과
+paradoxPublishing=패러독스 퍼블리싱
+collaborations=협업
+music=음악
+sound=사운드
+art=아트
+iconArt=아이콘 아트
+specialThanks=도움을 준 사람들
+huntress=huntress
+reaper=reaper
+creditsAnd={0} 그리고 더 나은 게임을 만들기 위해 도와주시는 분들께 감사드립니다.
+partyMembersWithPerk=이 특성을 쓰고 있는 파티 멤버:
+multiplayerNotWorkLowerVersion={0} 이하 버전에서는 멀티플레이어 게임이 동작하지 않습니다.
+pleaseUpdate=게임을 업데이트 해주세요
+crackedVersion=누군가 크랙 버전의 게임을 사용하고 있습니다. 게임이 종료됩니다.
+lastPlayedCard=마지막으로 낸 카드
+restart=재시작
+restartInfo=You will rollback all the selections done and the process will begin again
+restartClient={0} asks for a rollback. Do you want to restart this screen?
+exhaust=<u>Exhaust:</u> When you cause your deck to reshuffle during your turn, you suffer Exhaust, causing any new cards added to your hand from your draw pile, discard pile, or vanish pile to cost 1 more until end of turn. Exhaust can stack, cannot be dispelled, and is removed at the end of the turn.
+madnessCorruptor3Help=All monsters gain an additional +10% to all resistances. Maximum Vulnerable charges on monsters are 6.
+resistantMonstersDesc=All monsters gain an additional +10% to all resistances. Maximum Vulnerable charges on monsters are 6.
+customMainperkPowerful1b=Powerful maximum charges on this hero increased by 2. Charges are instead reduced by 1 at the end of the turn.
+customMainperkVulnerable0b=Maximum charges of Vulnerable on enemies increased by 1. Charges are instead reduced by 1 at the end of the turn.
+customMainperkReinforce0=This hero gains 1 Reinforce at the start of the combat. Reinforce on this hero cannot be purged unless specified.
+customMainperkInsulate0=This hero gains 1 Insulate at the start of the combat. Insulate on this hero cannot be purged unless specified.
+customMainperkCourage0=This hero gains 1 Courage at the start of the combat. Courage on this hero cannot be purged unless specified.
+customMainperkBurn2c=Burn on enemies deals Cold damage and reduces Fire and Cold resistance by 0.3% per charge.
+customMainperkBurn2d=Burn on enemies deals double damage if the target have two or less curses (Burn included)
+customMainperkSharp1d=Sharp on heroes also increases the Shadow damage by 1 per charge.
+customMainperkStanza0a=Stanza on heroes increases all damage instead of only Mind damage.
+abortMultiplayerPlayer=One player was disconnected. When the player rejoins, you will be able to continue the game from the last save point.
+abortMultiplayerMaster=The master of the game disconnected. The game will close now. You can recreate a new game and load from the last save point.
+errorSteamAuth=There was a Steam authentication failure. Please try again later.
+lfmRoom=Looking for members
+joinOldGame=You seem to have disconnected from the game. Want to try to rejoin your old game?
+darkestnight=Darkest Night
+darkestnightDesc=Dark charges also explode at the end of the turn.
+challengeSpooky=Spooky Night
+customSpookyNight=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br><gl>-Every round-</gl><br>All heroes suffer <rd>3</rd><i=dark>
+customSugarRush=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><gl>-Every round-</gl><br>Shuffle <crd=candy,1> into each hero deck.
+customDeathGrip=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><gl>-Every turn-</gl><br>Apply <rd>1<i=shackle> 3</rd><i=dark> to a random character.
+itemApplyRandom=Apply {0} to a random character
+recommended=Recommended
+cardsReduceAura=Reduce aura charges by {0}%
+cardsIncreaseCurse=Increase curse charges by {0}%
+cardsIncreaseAura=Increase aura charges by {0}%
+transmute=Transmute
+transform=Transform
+upgrade=Upgrade
+cardbackDLCSpooky=Trick
+cardbackWeeklyHalloween=Treat
+requiredDLC=You need to own the DLC <nobr>"<color=#FFF>{0}</color>"</nobr>
+requiredWeekly=You need to complete the Weekly Challenge <nobr>"<color=#FFF>{0}</color>"</nobr><br><line-height=-20%><br><line-height=100%><size=-3>*Some challenges are only available during special events
+weeklyCardbackReward=Completing the challenge will grant you this cardback.
+customTrickorTreat=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br><gl>-Combat start-</gl><br>Shuffle <crd=trick,1> or <crd=treat,1> at the top of each hero deck.
+minDeckCards=Minimum number of cards in a deck (excluding Boons and Injuries): <size=+1><color=#FFFFFF><n></color>
+profileMenu=Current profile: <size=+5><color=#B0B0B0>{0}</color></size>
+profileCreate=[Create profile]
+challengeThirdFloorReward=Reach the third floor of the challenge to unlock this cardback.
+langCommunity=*Created by the community
+itemCorruptionUpgrade=* When a hero equips the same item twice, the item will transform into its corrupted version.
+//////////////////////////////////////////////////////////////////////////////////////////
+challengeYlmer=Forest Awakens
+challengeYogger=Threatening Howls
+challengeIgnidoh=Floor Is Lava
+challengeFaeborg=Frozen To The Bone
+challengeTulah=Green Blood
+challengeMinotaur=Wild Champions
+challengeNhir=Pitch Black
+
+sacredthorns=Sacred Thorns
+sacredthornsDesc=Thorns deals Holy damage instead of Piercing.
+extremeburning=Extreme Burning
+extremeburningDesc=Burn deals double damage if the target have two or less curses (Burn included)
+frostfire=Frostfire
+frostfireDesc=Burn deals Cold damage and reduces Fire and Cold resistance by 0.3% per charge.
+intensecold=Intense Cold
+intensecoldDesc=Chill reduces Speed by 1 per 4 charges instead of every 5 charges.
+lethalpoison=Lethal Poison
+lethalpoisonDesc=Poison deals 50% more damage but loses all charges at the end of the turn.
+hemorrhage=Hemorrhage
+hemorrageDesc=Bleed charges +2. Bleed deals damage at the end of the turn but cannot be prevented by Buffer or immunity to Bleed.
+containedfury=Contained Fury
+containedfuryDesc=Fury increases damage by 2% per charge but no longer applies Bleed at the end of the turn.
+
+customChaoticWind=<gl>All monsters gain:</gl><br>Speed <bl>+1</bl><br><gl>-Every turn-</gl><br>Apply <rd>1<i=fast> 2</rd><i=insane> to a random character.
+customChaoticWindA=<gl>All monsters gain:</gl><br>Speed <bl>+1</bl><br><gl>-Every turn-</gl><br>Apply <rd>2<i=fast> 2</rd><i=insane> to a random character.
+customChaoticWindB=<gl>All monsters gain:</gl><br>Speed <bl>+2</bl><br><gl>-Every turn-</gl><br>Apply <rd>2<i=fast> 2</rd><i=insane> to a random character.
+customChaoticWindRare=<gl>All monsters gain:</gl><br>Speed <bl>+3</bl><br><gl>-Every turn-</gl><br>Apply <rd>2<i=fast> 3</rd><i=insane> to a random character.
+
+customLivingForest=<gl>All monsters gain:</gl><br>Max HP <bl>+15</bl><br>All damage <bl>+2</bl><br><gl>-Every turn-</gl><br>A random monster gains <rd>3<i=thorns> 2</rd><i=regeneration>
+customLivingForestA=<gl>All monsters gain:</gl><br>Max HP <bl>+25</bl><br>All damage <bl>+2</bl><br><gl>-Every turn-</gl><br>A random monster gains <rd>4<i=thorns> 3</rd><i=regeneration>
+customLivingForestB=<gl>All monsters gain:</gl><br>Max HP <bl>+35</bl><br>All damage <bl>+3</bl><br><gl>-Every turn-</gl><br>A random monster gains <rd>4<i=thorns> 4</rd><i=regeneration>
+customLivingForestRare=<gl>All monsters gain:</gl><br>Max HP <bl>+45</bl><br>All damage <bl>+4</bl><br><gl>-Every turn-</gl><br>A random monster gains <rd>5<i=thorns> 4</rd><i=regeneration>
+
+customStarryNight=<gl>All monsters gain:</gl><br>Max HP <bl>+15</bl><br><gl>-Every turn-</gl><br>Deal <rd>4<i=holy></rd> and apply <rd>1<i=sanctify> 1</rd><i=burn> to a random hero.
+customStarryNightA=<gl>All monsters gain:</gl><br>Max HP <bl>+15</bl><br><gl>-Every turn-</gl><br>Deal <rd>5<i=holy></rd> and apply <rd>2<i=sanctify> 2</rd><i=burn> to a random hero.
+customStarryNightB=<gl>All monsters gain:</gl><br>Max HP <bl>+15</bl><br><gl>-Every turn-</gl><br>Deal <rd>6<i=holy></rd> and apply <rd>3<i=sanctify> 3</rd><i=burn> to a random hero.
+customStarryNightRare=<gl>All monsters gain:</gl><br>Max HP <bl>+15</bl><br><gl>-Every turn-</gl><br>Deal <rd>7<i=holy></rd> and apply <rd>4<i=sanctify> 4</rd><i=burn> to a random hero.
+
+customRoseGarden=<gl>All monsters gain:</gl><br>Max HP <bl>+15</bl><br><gl>-Combat start-</gl><br>Gain <bl>5</bl><i=thorns>
+customRoseGardenA=<gl>All monsters gain:</gl><br>Max HP <bl>+20</bl><br><gl>-Combat start-</gl><br>Gain <bl>9</bl><i=thorns>
+customRoseGardenB=<gl>All monsters gain:</gl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Gain <bl>12</bl><i=thorns>
+customRoseGardenRare=<gl>All monsters gain:</gl><br>Max HP <bl>+30</bl><br><gl>-Combat start-</gl><br>Gain <bl>16</bl><i=thorns>
+
+customBombLottery=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br><gl>-Every round-</gl><br>Shuffle <crd=bomb,1> into a random hero's deck.
+customBombLotteryA=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><gl>-Every round-</gl><br>Shuffle <crd=bomb,1> into a random hero's deck.
+customBombLotteryB=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br><gl>-Every round-</gl><br>Shuffle <crd=bomb,1> into a random hero's deck.
+customBombLotteryRare=<gl>All monsters gain:</gl><br>All damage <bl>+3</bl><br><gl>-Every round-</gl><br>Shuffle <crd=bomb,1> into a random hero's deck.
+
+customAshySky=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br>All resistances <bl>+5%</bl><br><gl>-Every round-</gl><br>Add <crd=ashstorm,1> to a random monster.
+customAshySkyA=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br>All resistances <bl>+10%</bl><br><gl>-Every round-</gl><br>Add <crd=ashstorm,1> to a random monster.
+customAshySkyB=<gl>All monsters gain:</gl><br>All damage <bl>+3</bl><br>All resistances <bl>+15%</bl><br><gl>-Every round-</gl><br>Add <crd=ashstorm,1> to a random monster.
+customAshySkyRare=<gl>All monsters gain:</gl><br>All damage <bl>+4</bl><br>All resistances <bl>+20%</bl><br><gl>-Every round-</gl><br>Add <crd=ashstorm,1> to a random monster.
+
+customSnowfall=<gl>All monsters gain:</gl><br>Max HP <bl>+15</bl><br><gl>-Combat start-</gl><br>Place <crd=coldhands,1> at the top of each hero's deck and apply <rd>5<i=chill>
+customSnowfallA=<gl>All monsters gain:</gl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Place <crd=coldhands,1> at the top of each hero's deck and apply <rd>8<i=chill>
+customSnowfallB=<gl>All monsters gain:</gl><br>Max HP <bl>+35</bl><br><gl>-Combat start-</gl><br>Place <crd=coldhands,1> at the top of each hero's deck and apply <rd>10<i=chill>
+customSnowfallRare=<gl>All monsters gain:</gl><br>Max HP <bl>+45</bl><br><gl>-Combat start-</gl><br>Place <crd=coldhands,1> at the top of each hero's deck and apply <rd>12<i=chill>
+
+customMeatFeast=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><gl>-Every round-</gl><br>Add <crd=premiummeato,1>, <crd=meato,1> or <crd=spoiledmeato,1> to all monsters.
+
+customMeatBag=<gl>[First turn]</gl><br>Shuffle <crd=premiummeat,1>, <crd=meat,1> or <crd=spoiledmeat,1> into your deck.
+customMeatBagA=Max HP <bl>+3</bl><br><gl>[First turn]</gl><br>Shuffle <crd=premiummeat,1>, <crd=meat,1> or <crd=spoiledmeat,1> into your deck.
+customMeatBagB=Max HP <bl>+6</bl><br><gl>[First turn]</gl><br>Shuffle <crd=premiummeat,1>, <crd=meat,1> or <crd=spoiledmeat,1> into your deck.
+
+customForestAllies=<gl>All monsters gain:</gl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Add <crd=forestallya,1>, <crd=forestallyb,1> or <crd=forestallyc,1> to all monsters.
+
+customLavaBursts=<gl>All monsters gain:</gl><br>Max HP <bl>+25</bl><br><gl>-Every turn-</gl><br>Deal <rd>5<i=fire></rd> and apply <rd>2<i=burn></rd> to a random hero.
+
+customColdFront=<gl>All monsters gain:</gl><br>Max HP <bl>+25</bl><br><gl>-Every turn-</gl><br>Deal <rd>5<i=cold></rd> and apply <rd>2<i=chill></rd> to a random hero.
+
+customLonelyBlob=<gl>All monsters gain:</gl><br>Max HP <bl>+15</bl><br><gl>-Combat start-</gl><br>Add a random <i=card><color=#5E3016>Blob</color> to a random monster.
+customLonelyBlobA=<gl>All monsters gain:</gl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Add a random <i=card><color=#5E3016>Blob</color> to a random monster.
+customLonelyBlobB=<gl>All monsters gain:</gl><br>Max HP <bl>+35</bl><br><gl>-Combat start-</gl><br>Add a random <i=card><color=#5E3016>Blob</color> to a random monster.
+customLonelyBlobRare=<gl>All monsters gain:</gl><br>Max HP <bl>+45</bl><br><gl>-Combat start-</gl><br>Add a random <i=card><color=#5E3016>Blob</color> to a random monster.
+
+customColorfulPuddle=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br>Max HP <bl>+15</bl><br><gl>-Combat start-</gl><br>Add a random <i=card><color=#5E3016>Blob</color> to all monsters.
+customColorfulPuddleA=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Add a random <i=card><color=#5E3016>Blob</color> to all monsters.
+customColorfulPuddleB=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br>Max HP <bl>+35</bl><br><gl>-Combat start-</gl><br>Add a random <i=card><color=#5E3016>Blob</color> to all monsters.
+customColorfulPuddleRare=<gl>All monsters gain:</gl><br>All damage <bl>+3</bl><br>Max HP <bl>+45</bl><br><gl>-Combat start-</gl><br>Add a random <i=card><color=#5E3016>Blob</color> to all monsters.
+
+customBloodPuddle=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Add <crd=bloodblob,1> to all monsters.
+customChaosPuddle=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Add <crd=chaosblob,1> to all monsters.
+customDarkPuddle=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Add <crd=darkblob,1> to all monsters.
+customElectricPuddle=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Add <crd=electricblob,1> to all monsters.
+customHolyPuddle=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Add <crd=holyblob,1> to all monsters.
+customIcyPuddle=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Add <crd=icyblob,1> to all monsters.
+customLavaPuddle=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Add <crd=lavablob,1> to all monsters.
+customMetalPuddle=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Add <crd=metalblob,1> to all monsters.
+customToxicPuddle=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Add <crd=toxicblob,1> to all monsters.
+customWaterPuddle=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Add <crd=waterblob,1> to all monsters.
+
+customGainPerHero=Gain {0} per hero.
+customGainPerHeroAnd=Gain {0} and {1} per hero.
+itemEveryRoundRound=Every Round
+menuLog=Combat Log
+youMustSelectHero=You must select the following hero:<br><color=#FFC555>{0}</color>
+townTutorial=Town tutorial
+townTutorialStep0=Go inside the Magic forge and buy a "{0}" card for {1}.
+townTutorialStep1=Go to the Altar and upgrade the "{0}" card for {1}.
+townTutorialStep2=Go inside the Armory and buy a "{0}" for {1}.
+tutorialTownNeedComplete=You need to complete the Town Tutorial
+tutorialTownCraftTitle=Craft cards
+tutorialTownCraft=Once a card has been unlocked by looting it, you will be able to craft it for your heroes.<line-height=160%><br></line-height><color=#FFC555>Craft the "{0}" card with {1}</color>.
+tutorialTownCraftDoneTitle=Craft cards
+tutorialTownCraftDone=You will unlock new cards during your adventures. Now go to the Altar for the next tutorial step.
+tutorialTownUpgradeTitle=Transform cards
+tutorialTownUpgrade=Paying an amount of shards you will be able to upgrade your cards into more powerful versions.<line-height=160%><br></line-height><color=#FFC555>Upgrade the card "{0}" from {1}</color>.
+tutorialTownUpgradeDoneTitle=Transform cards
+tutorialTownUpgradeDone=Bear in mind that the cost of upgrading a card will be based on the rarity of the card. Now go to the Armory to finish the town tutorial.
+tutorialTownLootTitle=Buy items
+tutorialTownLoot=In the towns and shops scattered around the world, you can buy items for your heroes that will improve their stats and performance.<line-height=160%><br></line-height><color=#FFC555>Buy the "{0}" with {1}</color>.
+tutorialTownLootDoneTitle=Buy items
+tutorialTownLootDone=Congratulations! You have finished the town tutorial and are ready to begin your adventure!
+terrainCondition=Terrain condition
+terrainConditionDesc=A special type of terrain where heroes start combat with different conditions:
+heavyRain=Heavy Rain
+extremeHeat=Extreme Heat
+freezingCold=Freezing Cold
+holyGround=Holy Ground
+graveyard=Graveyard
+poisonousAir=Poisonous Air
+frozenSewers=The Frozen Sewers
+blackForge=The Black Forge
+wolfWars=The Wolf Wars
+wolfWarsIntro=Several years after marrying the King of Senenthia, Queen Amelia initiated a campaign to strengthen ties and welcome all the different races of the kingdom under one banner.<br><br>Most of the races, always harassed and hunted by werewolves, accepted the proposal with hope. However, Chieftain Gorio wanted to continue ruling the northeastern part of the forest and claimed the right to hunt freely for his werewolves.<br><br>After months of talks between Queen Amelia and Chieftain Gorio, the latter broke off the negotiations. Gorio declared that his werewolves would not be tamed and that anyone who entered the forest would be his prey.<br><br>Moved by the plea of all the races of the kingdom and hoping to protect them, Queen Amelia decided to launch an offensive to overthrow Gorio.
+bandit=Bandit
+food=Food
+roadmapHomeText=<tit>Welcome, everyone!</tit>We have just released version 1.1 of the game, with a lot of free content such as two new sub-zones, new items, and new features like the combat log.<br><br>Also, we have released our first story DLC, The Wolf Wars, which includes a new hero, skins, etc. We hope you like it!<br><br><tit>What's next?</tit>We'll work on the heropedia with a little twist. And we will focus on the first big DLC, a big zone for acts 2 and 3 full of new enemies, items, events, and new heroes!
+requiredEvent=You need to complete the event "{0}"
+
+challengeHydra=Dangerous Waters
+icydeluge=Icy Deluge
+icydelugeDesc=Wet charges +1. Wet also increases the Cold damage taken by 1 per charge.
+
+cardbackDangerousWaters=rptd_challengeHydra
+cardbackFloorIsLava=rptd_challengeIgnidoh
+cardbackForestAwakens=rptd_challengeYlmer
+cardbackFrozenToTheBone=rptd_challengeFaeborg
+cardbackGreenBlood=rptd_challengeTulah
+cardbackPitchBlack=rptd_challengeNhir
+cardbackThreateningHowls=rptd_challengeYogger
+cardbackWildChampions=rptd_challengeMinotaur
+
+////////////////////////// new no enviado /////
+dlcAcronymForCharSelection=DLC
+
+cardbackTitle0=Character
+cardbackTitle1=General
+cardbackTitle2=Others
+
+customHeavenlyArmaments=<gl>All monsters gain:</gl><br>Max HP <bl>+15</bl><br>Immune to <i=sanctify><br><gl>-Every round-</gl><br>Gain <bl>2</bl><i=bless><bl>2</bl><i=regeneration><bl>2</bl><i=vitality><bl>1</bl><i=fast>
+customHeavenlyArmamentsA=<gl>All monsters gain:</gl><br>Max HP <bl>+30</bl><br>Immune to <i=sanctify><br><gl>-Every round-</gl><br>Gain <bl>3</bl><i=bless><bl>3</bl><i=regeneration><bl>2</bl><i=vitality><bl>1</bl><i=fast>
+customHeavenlyArmamentsB=<gl>All monsters gain:</gl><br>Max HP <bl>+45</bl><br>Immune to <i=sanctify><br><gl>-Every round-</gl><br>Gain <bl>4</bl><i=bless><bl>3</bl><i=regeneration><bl>3</bl><i=vitality><bl>2</bl><i=fast>
+customHeavenlyArmamentsRare=<gl>All monsters gain:</gl><br>Max HP <bl>+60</bl><br>Immune to <i=sanctify><br><gl>-Every round-</gl><br>Gain <bl>4</bl><i=bless><bl>4</bl><i=regeneration><bl>3</bl><i=vitality><bl>2</bl><i=fast>
+
+itemRecoverLowestHPHero=lowest HP hero recovers {0} HP
+
+customButchersTable=Max HP <bl>+10</bl><br><gl>[Every turn]</gl><br>Put <crd=premiummeat,1>, <crd=meat,1> or <crd=spoiledmeat,1> into your hand.
+customButchersTableRare=Max HP <bl>+20</bl><br><gl>[Every turn]</gl><br>Put <crd=premiummeat,1>, <crd=meat,1> or <crd=bloodsausage,1> into your hand.
+
+customMainperkFortify1c=Fortify on heroes loses all charges at the end of the round and also grants 10 Block per removed charge.
+requiredDLCandQuest=You need to own the DLC <nobr>"<color=#FFF>{0}</color>"</nobr> and complete an event
+characterSkin=Character Skin
+playerDontHaveDLC=This player doesn't have the DLC <nobr>"<color=#FFF>{0}</color>"</nobr>
+enableKeysOption=Activate keyboard shortcuts in combat.
+enableKeysOptionDes=Shortcut numbers will also be shown during combat.
+
+consoleDraw=<color=#AAA>Draws cards ({0})</color> {1} // 0 is the number of cards and 1 is a list of auras
+consoleCardToHand={0} <color=#AAA>puts into hand</color> // {0} is character name
+consoleCardToTopDeck={0} <color=#AAA>places into top deck</color> // {0} is character name
+consoleCardToBottomDeck={0} <color=#AAA>places into bottom deck</color> // {0} is character name
+consoleCardToRandomDeck={0} <color=#AAA>shuffles into deck</color> // {0} is character name
+consoleCardToDiscard={0} <color=#AAA>discards</color>
+consoleCardToVanish={0} <color=#AAA>moves to vanish</color> // {0} is character name
+consoleCardModification={0} <color=#AAA>modifies card</color> // {0} is character name
+consoleCorruptionActivated=Corruption activated
+consoleItemActivated=Item activated
+consoleTraitActivated=Trait activated
+consoleCharacterCasted={0} <color=#AAA>casted</color> // {0} is character name
+consoleBeginTurn=<b>{0}</b> <link={1}><color=#B7789E><u>Begin turn</u></color></link> // {0} is character name
+consoleEndTurn=<b>{0}</b> <link={1}><color=#B7789E><u>End turn</u></color></link> // {0} is character name
+consoleCombatStatus=Combat status
+
+/////////////////  Ulminin translation ///////////////////////////////////
+
+yoggerPet1=Who do you think I am? Magnus?
+yoggerPet2=How dare you! I turn you into minced meat!
+
+fallen=Fallen
+zealot=Zealot
+vanguard=Vanguard
+wraith=Wraith
+revenant=Revenant
+zeal=Zeal
+scourge=Scourge
+dualClassReward=* Dual-class characters always get 4 card rewards (2 for each character class).
+
+cardsXEqualsYourSpeed=(X equals your speed {0})
+cardsXEqualsTargetSpeed=(X equals target speed {0})
+cardsXEqualsDifferenceSpeed=(X equals speed difference between you and the target {0})
+
+customBookoftheDead=All damage <bl>+4</bl><br><color=#4D4D4D>[Character dies]</color><br>Cast <crd=raisemage,1>, <crd=raisepriest,1> or <crd=raisewarlock,1><br><color=#4D4D4D>[1 time / combat]
+customBookoftheDeadrare=All damage <bl>+6</bl><br><color=#4D4D4D>[Character dies]</color><br>Cast <crd=raisemagerare,1>, <crd=raisepriestrare,1> or <crd=raisewarlockrare,1><br><color=#4D4D4D>[1 time / combat]
+
+customMixedSalad=Max HP <bl>+5</bl><br><gl>[Every turn]</gl><br>Put <crd=tomato,1>, <crd=carrot,1> or <crd=broccoli,1> into your hand.
+customMixedSaladrare=Max HP <bl>+15</bl><br><gl>[Every turn]</gl><br>Put <crd=tomato,1>, <crd=carrot,1> or <crd=broccoli,1> into your hand.
+
+customBurningBlood=Transform<i=bleed>into<i=burn>x0.3<br>Gain <bl>X</bl><i=fury><br><size=-.15><gl>(X equals your<i=bleed>x0.3)</gl></size>
+customBurningBloodA=Transform<i=bleed>into<i=burn>x0.3<br>Grant <bl>X</bl><i=fury><br><size=-.15><gl>(X equals target<i=bleed>x0.3)</gl></size>
+customBurningBloodRare=Transform<i=bleed>into<i=burn>x0.5<br>Grant <bl>X</bl><i=fury><br><size=-.15><gl>(X equals target<i=bleed>)</gl></size>
+
+pickRandomHero=Pick a random hero
+cardsXEqualsYourDiscardedCards=(X equals discarded <space=.1><sprite name=card>{0})
+cardsXEqualsYourVanishedCards=(X equals vanished <space=.1><sprite name=card>{0})
+cardsXEqualsTargetMissingHealth=(X equals target missing health {0})
+cardsXEqualsYourMissingHealth=(X equals your missing health {0})
+itemEveryRoundRoundN=Every {0} rounds
+itemReduceCost=(with cost >= {0})
+scarabBonus=Scarab bonus: {0} /per hero
+itemTwicePerCombat=Twice per combat
+itemThricePerCombat=Thrice per combat
+customCrystallize=Generates an additional reward of 150<i=dust> per hero.
+escapes=Escapes
+luckyscarab=Lucky Scarab
+useSupplies=Use supplies to increase this character's rank.
+useSuppliesAvailable=[ {0}  <sprite name=supply> available ]  /// 10 <supplies> available
+useSuppliesRequirement=*Requires character rank 10 and Town upgrades fully unlocked.
+
+customMeatBagA=<i=slashing>resistance <bl>+3%</bl><br><act>[First turn]</act><br>Shuffle <crd=premiummeat,1>, <crd=meat,1> or <crd=spoiledmeat,1> into your deck.
+customMeatBagB=<i=slashing> resistance <bl>+5</bl><br><act>[First turn]</act><br>Shuffle <crd=premiummeat,1>, <crd=meat,1> or <crd=spoiledmeat,1> into your deck.
+cardsVanish=Vanish {0}
+
+itemSixPerTurn=6 times/turn
+itemSevenPerTurn=7 times/turn
+itemEightPerTurn=8 times/turn
+cardsIDPlaceDiscard=Place {0} on your discard pile// 0 => cardname
+ulminin=The Ulminin Desert
+impedingDoomDesc=All heroes suffer 3 "Doom" when the performance reaches underwhelming.
+resistantMonstersDesc=All monsters gain an additional +10% to all resistances.
+decadenceDesc=All heroes have <nobr>-20%</nobr> to healing received and Vitality heals only 50% of the max HP gained.
+
+customMainperkPowerful1c=Powerful on this hero increases damage and healing done by 10% per charge. Maximum charges reduced by 3 and loses all charges at the end of the turn.
+customMainperkInspire0a=This hero gains 1 Inspire on their first turn.
+customMainperkSharp1d=Sharp on this hero also increases the Shadow damage by 1 per charge.
+
+pyramid=The Ancient Pyramid
+cardPlayerPairsDescription=After these cards have been shuffled, characters will alternately select one card at a time. If you make a pair, <color=#C59559>both characters will get the reward</color>, otherwise, the cards will be hidden again.<br><br>The card selection order is random and will be shuffled every 2 rounds. The master can finish the game at the end of each round.
+finishGame=Finish game
+cardPlayerPairsRound=<color=#FFF>Round [{0}/{1}]</color><br><color={2}>{3}'s turn</color>
+
+customArmagedon=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><i=fire><i=blunt> resistances <bl>+30%</bl><br><gl>-Every round-</gl><br>Add <crd=meteorite,1> to all monsters.
+customArmagedonA=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><i=fire><i=blunt> resistances <bl>+40%</bl><br><gl>-Every round-</gl><br>Add <crd=meteorite,1> to all monsters.
+customArmagedonB=<gl>All monsters gain:</gl><br>All damage <bl>+3</bl><br><i=fire><i=blunt> resistances <bl>+45%</bl><br><gl>-Every round-</gl><br>Add <crd=meteorite,1> to all monsters.
+customArmagedonRare=<gl>All monsters gain:</gl><br>All damage <bl>+4</bl><br><i=fire><i=blunt> resistances <bl>+45%</bl><br><gl>-Every round-</gl><br>Add <crd=meteorite,1> to all monsters.
+
+customHeavenlyArmaments=<gl>All monsters gain:</gl><br>Max HP <bl>+15</bl><br><gl>-Every round-</gl><br>Gain <bl>2</bl><i=bless><bl>2</bl><i=regeneration><bl>2</bl><i=vitality><bl>1</bl><i=zeal><bl>1</bl><i=fast>
+customHeavenlyArmamentsA=<gl>All monsters gain:</gl><br>Max HP <bl>+30</bl><br><gl>-Every round-</gl><br>Gain <bl>3</bl><i=bless><bl>3</bl><i=regeneration><bl>2</bl><i=vitality><bl>2</bl><i=zeal><bl>1</bl><i=fast>
+customHeavenlyArmamentsB=<gl>All monsters gain:</gl><br>Max HP <bl>+45</bl><br><gl>-Every round-</gl><br>Gain <bl>3</bl><i=bless><bl>3</bl><i=regeneration><bl>3</bl><i=vitality><bl>2</bl><i=zeal><bl>2</bl><i=fast>
+customHeavenlyArmamentsRare=<gl>All monsters gain:</gl><br>Max HP <bl>+60</bl><br><gl>-Every round-</gl><br>Gain <bl>3</bl><i=bless><bl>3</bl><i=regeneration><bl>3</bl><i=vitality><bl>3</bl><i=zeal><bl>2</bl><i=fast>
+
+customPutrefaction=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br>Immune to <i=scourge><i=decay><br><gl>When a monster deals damage,</gl> it applies <rd>2</rd><i=dark><rd>1</rd><i=decay>
+customPutrefactionA=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br>Immune to <i=scourge><i=decay><br><gl>When a monster deals damage,</gl> it applies <rd>3</rd><i=dark><rd>1</rd><i=decay>
+customPutrefactionB=<gl>All monsters gain:</gl><br>All damage <bl>+3</bl><br>Immune to <i=scourge><i=decay><br><gl>When a monster deals damage,</gl> it applies <rd>3</rd><i=dark><rd>2</rd><i=decay>
+customPutrefactionRare=<gl>All monsters gain:</gl><br>All damage <bl>+4</bl><br>Immune to <i=scourge><i=decay><br><gl>When a monster deals damage,</gl> it applies <rd>4</rd><i=dark><rd>2</rd><i=decay>
+
+customMelancholy=<gl>All monsters gain:</gl><br>Max HP <bl>+15</bl><br>All resistances <bl>+10%</bl><br><i=mind> resistance <bl>+20%</bl><br><gl>-Every round-</gl><br>Shuffle <crd=sad,2> into each hero deck.</color>
+customMelancholyA=<gl>All monsters gain:</gl><br>Max HP <bl>+25</bl><br>All resistances <bl>+15%</bl><br><i=mind> resistance <bl>+20%</bl><br><gl>-Every round-</gl><br>Shuffle <crd=sad,2> into each hero deck.</color>
+customMelancholyB=<gl>All monsters gain:</gl><br>Max HP <bl>+35</bl><br>All resistances <bl>+20%</bl><br><i=mind> resistance <bl>+25%</bl><br><gl>-Every round-</gl><br>Shuffle <crd=sad,2> into each hero deck.</color>
+customMelancholyRare=<gl>All monsters gain:</gl><br>Max HP <bl>+45</bl><br>All resistances <bl>+25%</bl><br><i=mind> resistance <bl>+25%</bl><br><gl>-Every round-</gl><br>Shuffle <crd=sad,2> into each hero deck.</color>
+
+customNoxiousParasites=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><i=slashing><i=piercing><i=shadow> resistances <bl>+30%</bl><br><gl>-Every round-</gl><br>Shuffle <crd=hatchcorrupt,1> into each hero deck.
+customNoxiousParasitesA=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><i=slashing><i=piercing><i=shadow> resistances <bl>+40%</bl><br><gl>-Every round-</gl><br>Shuffle <crd=hatchcorrupt,1> into each hero deck.
+customNoxiousParasitesB=<gl>All monsters gain:</gl><br>All damage <bl>+3</bl><br><i=slashing><i=piercing><i=shadow> resistances <bl>+45%</bl><br><gl>-Every round-</gl><br>Shuffle <crd=hatchcorrupt,1> into each hero deck.
+customNoxiousParasitesRare=<gl>All monsters gain:</gl><br>All damage <bl>+4</bl><br><i=slashing><i=piercing><i=shadow> resistances <bl>+45%</bl><br><gl>-Every round-</gl><br>Shuffle <crd=hatchcorrupt,1> into each hero deck.
+
+customPoisonFields=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br>All resistances <bl>+5%</bl><br><gl>-Every round-</gl><br>All heroes suffer <rd>3<rd><i=poison>
+customPoisonFieldsA=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br>All resistances <bl>+10%</bl><br><gl>-Every round-</gl><br>All heroes suffer <rd>5<rd><i=poison>
+customPoisonFieldsB=<gl>All monsters gain:</gl><br>All damage <bl>+3</bl><br>All resistances <bl>+15%</bl><br><gl>-Every round-</gl><br>All heroes suffer <rd>7<rd><i=poison>
+customPoisonFieldsRare=<gl>All monsters gain:</gl><br>All damage <bl>+4</bl><br>All resistances <bl>+20%</bl><br><gl>-Every round-</gl><br>All heroes suffer <rd>9<rd><i=poison>
+
+customRevenge=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><i=slashing><i=blunt><i=piercing> resistances <bl>+20%</bl><br><gl>When a hero plays an "Attack",</gl> all monsters gain <bl>3</bl><i=fury>
+customRevengeA=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><i=slashing><i=blunt><i=piercing> resistances <bl>+25%</bl><br>><gl>When a hero plays an "Attack",</gl> all monsters gain <bl>4</bl><i=fury>
+customRevengeB=<gl>All monsters gain:</gl><br>All damage <bl>+3</bl><br><i=slashing><i=blunt><i=piercing> resistances <bl>+30%</bl><br><gl>When a hero plays an "Attack",</gl> all monsters gain <bl>5</bl><i=fury>
+customRevengeRare=<gl>All monsters gain:</gl><br>All damage <bl>+4</bl><br><i=slashing><i=blunt><i=piercing> resistances <bl>+35%</bl><br><gl>When a hero plays an "Attack",</gl> all monsters gain <bl>6</bl><i=fury>
+
+customSubZero=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><i=cold> resistance <bl>+30%</bl><br>Immune to <i=slow><br><gl>-Every two rounds-</gl><br>Add <crd=freezecorruption,1> to all monsters.
+customSubZeroA=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><i=cold> resistance <bl>+40%</bl><br>Immune to <i=slow><br><gl>-Every two rounds-</gl><br>Add <crd=freezecorruption,1> to all monsters.
+customSubZeroB=<gl>All monsters gain:</gl><br>All damage <bl>+3</bl><br><i=cold> resistance <bl>+45%</bl><br>Immune to <i=slow><br><gl>-Every two rounds-</gl><br>Add <crd=freezecorruption,1> to all monsters.
+customSubZeroRare=<gl>All monsters gain:</gl><br>All damage <bl>+4</bl><br><i=cold> resistance <bl>+45%</bl><br>Immune to <i=slow><br><gl>-Every two rounds-</gl><br>Add <crd=freezecorruption,1> to all monsters.
+
+sandbox=Sandbox
+sandboxMode=Sandbox mode
+sandboxModeTitle=Sandbox mode <size=-2><color=#888>(Only available after you've completed the adventure)
+sandboxEnable=Enable Sandbox
+sandboxDisable=Disable Sandbox
+sandboxMideDescription=In this mode, your score will not be saved and you will not unlock any madness level.
+sandboxStartingOptions=Starting options
+sandboxCombatOptions=Combat options
+sandboxStartingEnergy=<sprite name=energy>Starting energy
+sandboxSpeed=<sprite name=speedMini>Hero speed
+sandboxGold=<sprite name=gold>Starting gold
+sandboxShards=<sprite name=dust>Starting shards
+sandboxAdventureOptions=Adventure options
+sandboxCraft=<sprite name=cards>Card craft cost
+sandboxRemove=<sprite name=cards>Card remove cost
+sandboxTransform=<sprite name=cards>Card transform cost
+sandboxUpgrade=<sprite name=cards>Card upgrade cost
+sandboxEquipment=<sprite name=armor>Equipment cost
+sandboxPets=<sprite name=pet>Pets cost
+sandboxAllCards=<sprite name=cards>All cards unlocked
+sandboxRarity=<sprite name=cards>Card craft rarity
+sandboxCraftAvailable=<sprite name=cards>Available card limit
+sandboxDeckSize=<sprite name=cards>Minimum deck size
+sandboxRerolls=<sprite name=nodeShop>Armory rerolls
+sandboxRerollsTimes=<sprite name=nodeShop>Maximum rerolls
+sandboxDivination=<sprite name=cardrandom>Divination cost
+sandboxEvents=<sprite name=dice>Event rolls succeed
+sandboxHeroes=<sprite name=experience>Total heroes
+sandboxMonstersHP=<sprite name=heart>Monster HP
+sandboxMonstersDamage=<sprite name=damage>Monster Damage
+sandboxRemoveMonsters=<sprite name=doom>Remove monsters
+sandboxDoubleChampions=<sprite name=boss>Double champions
+yesRandomCombats=Yes <color=#888><size=-.5>(random combats must be enabled)
+yes=Yes
+unlimited=Unlimited
+always=Always
+all=All
+disabled=Disabled
+
+card=Card
+////////////// Christmas DLC
+keyQ=Q
+keyW=W
+keyE=E
+keyR=R
+keyT=T
+keyY=Y
+keyU=U
+keyI=I
+keyO=O
+keyP=P
+keyA=A
+keyS=S
+keyD=D
+keyF=F
+keyG=G
+keyH=H
+keyJ=J
+keyK=K
+keyL=L
+keyZ=Z
+keyX=X
+keyC=C
+keyV=V
+keyB=B
+keyN=N
+keyM=M
+keyShift=Shift
+keyReturn=Accept
+keyDelete=Delete
+
+customScaraby=All resistances <bl>+5%</bl><br>Increases the chance of a scarab spawning in Acts 2 and 3 by up to <bl>40%</bl>.
+customScarabyrare=All resistances <bl>+8%</bl><br>Increases the chance of a scarab spawning in Acts 2 and 3 by up to <bl>50%</bl>.<br>Scourge scarabs do not spawn.
+
+queen=Queen
+princess=Princess
+empress=Empress
+engineer=Engineer
+mechanic=Mechanic
+artificer=Artificer
+chatWelcome=Welcome to <u>{0}</u> game. You will be able to communicate with the rest of the players through this chat window. Also note that each one of them will be referenced with the same color for the rest of the game. Enjoy!
+maximumEnchantments=A character can have a maximum of three active enchantments. If a new one is applied, the oldest will be removed.

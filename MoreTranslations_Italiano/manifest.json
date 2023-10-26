@@ -1,9 +1,9 @@
 {
     "name": "MoreTranslations_Italiano",
-    "version_number": "1.0.5",
+    "version_number": "1.1.0",
     "website_url": "https://github.com/donttouchfranky/AcrossTheObelisk_MoreTranslations",
     "description": "Italian translation | Traduzione italiana",
     "dependencies": [
-        "DontTouchFranky-MoreTranslations-1.0.5"
+        "DontTouchFranky-MoreTranslations-1.1.0"
     ]
 }

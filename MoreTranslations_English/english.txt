@@ -797,10 +797,10 @@ itemTheNext=The next {0}{1}
 itemRecoverSelf=recover {0} HP
 itemRecoverLowestHPMonster=lowest HP monster recovers {0} HP
 itemRecoverHeroes=All heroes recover {0} HP/// All heroes gain "haste"
-itemReduce=Reduce the cost of {0} random {1} in your hand by {2}/// reduce the cost of 1 random "Song" in your hand by 1
-itemReduceTurn=Reduce the cost of {0} random {1} in your hand by {2} until discarded/// reduce the cost of 1 random "Song" in your hand by 1 this turn
-itemReduceHighestTurn=Reduce the cost of the {0}highest cost {1} in your hand by {2} until discarded/// reduce the cost of 1 random "Song" in your hand by 1 this turn
-itemReduceHighestPermanent=Reduce the cost of the {0}highest cost {1} in your hand by {2}
+itemReduce=Reduce the cost of {0} random {1} in your hand {3} by {2}/// reduce the cost of 1 random "Song" in your hand by 1
+itemReduceTurn=Reduce the cost of {0} random {1} in your hand {3} by {2} until discarded/// reduce the cost of 1 random "Song" in your hand by 1 this turn
+itemReduceHighestTurn=Reduce the cost of the {0}highest cost {1} in your hand {3} by {2} until discarded/// reduce the cost of 1 random "Song" in your hand by 1 this turn
+itemReduceHighestPermanent=Reduce the cost of the {0}highest cost {1} in your hand {3} by {2}
 itemDiscount={0} extra discount in the Magic forge, altars and item shops
 itemDieRetain=When you die, retain an additional {0} gold and shards
 itemResurrectHP=resurrect with {0} HP
@@ -1204,7 +1204,7 @@ madnessTitle=Madness difficulty selection
 madnessDescription=Select the Madness difficulty that you want for the game. Additionally, you can activate different corruptors that will modify the game and increase the Madness level.
 madnessBasicInfo=This is the basic difficulty level of the game. Complete the adventure to unlock additional levels and corruptors.<br><br>In order to be able to select a new difficulty, you must complete the previous one, whether playing solo or in a cooperative game.
 madnessBasic=<i=taunt> Monsters are stronger and their abilities have been improved.
-madnessObeliskLevel5=<sprite name=perk> Heroes' starting cards, starting items and enchantments are upgraded to blue.<br><sprite name=energy> All Heroes +1 starting energy
+madnessObeliskLevel5=<sprite name=perk> Heroes' starting cards, starting items and enchantments are upgraded to blue.
 madnessObeliskLevel8=<sprite name=perk> Heroes' starting cards, starting items and enchantments are upgraded to yellow.<br><sprite name=energy> All Heroes +1 starting energy<br><sprite name=dice> Random seed
 madnessPerAct=<color=#AAA><size=-.5>(per act, respectively)</size></color>
 madnessExhaust=<i=vanish> Exhaust
@@ -1506,7 +1506,7 @@ customMainperkRegeneration1a=Regeneration on this hero also heals the heroes at 
 customMainperkRegeneration1b=Regeneration on heroes also increases healing received by 1% per charge.
 customMainperkRegeneration1c=Regeneration on heroes also increases Shadow resistance by 0.5% per charge and does not lose charges at the start of the turn.
 customMainperkPowerful1b=Powerful maximum charges on this hero increased to 12. Charges are reduced by 1 at the end of the turn.
-customMainperkPowerful1c=Powerful on this hero increases damage and healing done by 10% per charge and loses all charges at the end of the turn.
+customMainperkPowerful1c=Powerful on this hero increases damage and healing done by 10% per charge.Maximum charges reduced by 3 and loses all charges at the end of the turn.
 customMainperkEnergy2a=When this hero plays a card that costs 6 Energy or more, refund 1 Energy.
 customMainperkEnergy2b=On round 2, this hero gains 1 Energy at the start of the turn.
 customMainperkEnergy2c=On round 4, this hero gains 2 Energy at the start of the turn.
@@ -1537,7 +1537,7 @@ customMainperkInsulate1c=Insulate on this hero can stack and instead increases t
 customMainperkCourage0=This hero gains 1 Courage on their first turn. Courage on this hero cannot be purged unless specified.
 customMainperkCourage1b=Courage on heroes instead increases the Holy, Shadow and Mind resistances by 35%.
 customMainperkCourage1c=Courage on this hero can stack and instead increases the Holy, Shadow and Mind resistances by 7% per charge. Maximum charges are 8.
-customMainperkInspire0a=This hero gains 1 Inspire at the start of the combat.
+customMainperkInspire0a=This hero gains 1 Inspire at the start of the turn.
 customMainperkInspire0b=Inspire maximum charges on this hero are 1, but Inspire draws 2 cards at the start of the turn.
 customMainperkInspire0c=This hero is immune to Stress.
 customMainperkInsane2b=Insane on enemies also reduces their Max HP by 2 per charge.
@@ -1647,10 +1647,10 @@ profileCreate=[Create profile]
 challengeThirdFloorReward=Reach the third floor of the challenge to unlock this cardback.
 langCommunity=*Created by the community
 itemCorruptionUpgrade=* When a hero equips the same item twice, the item will transform into its corrupted version.
-
+//////////////////////////////////////////////////////////////////////////////////////////
 challengeYlmer=Forest Awakens
 challengeYogger=Threatening Howls
-challengeIgnidoh=Floor Is Lava
+challengeIgnidoh=Floor is Lava
 challengeFaeborg=Frozen to the Bone
 challengeTulah=Green Blood
 challengeMinotaur=Wild Champions
@@ -1729,28 +1729,19 @@ customColorfulPuddleB=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br>M
 customColorfulPuddleRare=<gl>All monsters gain:</gl><br>All damage <bl>+3</bl><br>Max HP <bl>+45</bl><br><gl>-Combat start-</gl><br>Add a random <i=card><color=#5E3016>Blob</color> to all monsters.
 
 customBloodPuddle=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Add <crd=bloodblob,1> to all monsters.
-
 customChaosPuddle=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Add <crd=chaosblob,1> to all monsters.
-
 customDarkPuddle=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Add <crd=darkblob,1> to all monsters.
-
 customElectricPuddle=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Add <crd=electricblob,1> to all monsters.
-
 customHolyPuddle=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Add <crd=holyblob,1> to all monsters.
-
 customIcyPuddle=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Add <crd=icyblob,1> to all monsters.
-
 customLavaPuddle=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Add <crd=lavablob,1> to all monsters.
-
 customMetalPuddle=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Add <crd=metalblob,1> to all monsters.
-
 customToxicPuddle=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Add <crd=toxicblob,1> to all monsters.
-
 customWaterPuddle=<gl>All monsters gain:</gl><br>All damage <bl>+1</bl><br>Max HP <bl>+25</bl><br><gl>-Combat start-</gl><br>Add <crd=waterblob,1> to all monsters.
 
 customGainPerHero=Gain {0} per hero.
 customGainPerHeroAnd=Gain {0} and {1} per hero.
-itemEveryRoundRound=Every Round
+itemEveryRoundRound=Every round
 menuLog=Combat Log
 youMustSelectHero=You must select the following hero:<br><color=#FFC555>{0}</color>
 townTutorial=Town tutorial
@@ -1807,11 +1798,6 @@ cardbackTitle0=Character
 cardbackTitle1=General
 cardbackTitle2=Others
 
-customHeavenlyArmaments=<gl>All monsters gain:</gl><br>Max HP <bl>+15</bl><br>Immune to <i=sanctify><br><gl>-Every round-</gl><br>Gain <bl>2</bl><i=bless><bl>2</bl><i=regeneration><bl>2</bl><i=vitality><bl>1</bl><i=fast>
-customHeavenlyArmamentsA=<gl>All monsters gain:</gl><br>Max HP <bl>+30</bl><br>Immune to <i=sanctify><br><gl>-Every round-</gl><br>Gain <bl>3</bl><i=bless><bl>3</bl><i=regeneration><bl>2</bl><i=vitality><bl>1</bl><i=fast>
-customHeavenlyArmamentsB=<gl>All monsters gain:</gl><br>Max HP <bl>+45</bl><br>Immune to <i=sanctify><br><gl>-Every round-</gl><br>Gain <bl>4</bl><i=bless><bl>3</bl><i=regeneration><bl>3</bl><i=vitality><bl>2</bl><i=fast>
-customHeavenlyArmamentsRare=<gl>All monsters gain:</gl><br>Max HP <bl>+60</bl><br>Immune to <i=sanctify><br><gl>-Every round-</gl><br>Gain <bl>4</bl><i=bless><bl>4</bl><i=regeneration><bl>3</bl><i=vitality><bl>2</bl><i=fast>
-
 itemRecoverLowestHPHero=lowest HP hero recovers {0} HP
 
 customButchersTable=Max HP <bl>+10</bl><br><gl>[Every turn]</gl><br>Put <crd=premiummeat,1>, <crd=meat,1> or <crd=spoiledmeat,1> into your hand.
@@ -1821,7 +1807,7 @@ customMainperkFortify1c=Fortify on heroes loses all charges at the end of the ro
 requiredDLCandQuest=You need to own the DLC <nobr>"<color=#FFF>{0}</color>"</nobr> and complete an event
 characterSkin=Character Skin
 playerDontHaveDLC=This player doesn't have the DLC <nobr>"<color=#FFF>{0}</color>"</nobr>
-enableKeysOption=Activate keyboard shortcuts in combat//Show key shortcuts in combat.
+enableKeysOption=Activate keyboard shortcuts
 enableKeysOptionDes=Shortcut numbers will also be shown during combat//This option will also be activated if you use any shortcut key during combat.
 
 consoleDraw=<color=#AAA>Draws cards ({0})</color> {1} // 0 is the number of cards and 1 is a list of auras
@@ -1840,5 +1826,192 @@ consoleBeginTurn=<b>{0}</b> <link={1}><color=#B7789E><u>Begin turn</u></color></
 consoleEndTurn=<b>{0}</b> <link={1}><color=#B7789E><u>End turn</u></color></link> // {0} is character name
 consoleCombatStatus=Combat status
 
+/////////////////  Ulminin translation ///////////////////////////////////
+
 yoggerPet1=Who do you think I am? Magnus?
 yoggerPet2=How dare you! I turn you into minced meat!
+
+fallen=Fallen
+zealot=Zealot
+vanguard=Vanguard
+wraith=Wraith
+revenant=Revenant
+zeal=Zeal
+scourge=Scourge
+dualClassReward=* Dual-class characters always get 4 card rewards (2 for each character class).
+
+cardsXEqualsYourSpeed=(X equals your speed {0})
+cardsXEqualsTargetSpeed=(X equals target speed {0})
+cardsXEqualsDifferenceSpeed=(X equals speed difference between you and the target {0})
+
+customBookoftheDead=All damage <bl>+4</bl><br><color=#4D4D4D>[Character dies]</color><br>Cast <crd=raisemage,1>, <crd=raisepriest,1> or <crd=raisewarlock,1><br><color=#4D4D4D>[1 time / combat]
+customBookoftheDeadrare=All damage <bl>+6</bl><br><color=#4D4D4D>[Character dies]</color><br>Cast <crd=raisemagerare,1>, <crd=raisepriestrare,1> or <crd=raisewarlockrare,1><br><color=#4D4D4D>[1 time / combat]
+
+customMixedSalad=Max HP <bl>+5</bl><br><gl>[Every turn]</gl><br>Put <crd=tomato,1>, <crd=carrot,1> or <crd=broccoli,1> into your hand.
+customMixedSaladrare=Max HP <bl>+15</bl><br><gl>[Every turn]</gl><br>Put <crd=tomato,1>, <crd=carrot,1> or <crd=broccoli,1> into your hand.
+
+customBurningBlood=Transform<i=bleed>into<i=burn>x0.3<br>Gain <bl>X</bl><i=fury><br><size=-.15><gl>(X equals your<i=bleed>x0.3)</gl></size>
+customBurningBloodA=Transform<i=bleed>into<i=burn>x0.3<br>Grant <bl>X</bl><i=fury><br><size=-.15><gl>(X equals target<i=bleed>x0.3)</gl></size>
+customBurningBloodRare=Transform<i=bleed>into<i=burn>x0.5<br>Grant <bl>X</bl><i=fury><br><size=-.15><gl>(X equals target<i=bleed>)</gl></size>
+
+pickRandomHero=Pick a random hero
+cardsXEqualsYourDiscardedCards=(X equals discarded <space=.1><sprite name=card>{0})
+cardsXEqualsYourVanishedCards=(X equals vanished <space=.1><sprite name=card>{0})
+cardsXEqualsTargetMissingHealth=(X equals target missing health {0})
+cardsXEqualsYourMissingHealth=(X equals your missing health {0})
+itemEveryRoundRoundN=Every {0} rounds
+itemReduceCost=(with cost >= {0})
+scarabBonus=Scarab bonus: {0} /per hero
+itemTwicePerCombat=Twice per combat
+itemThricePerCombat=Thrice per combat
+customCrystallize=Generates an additional reward of 150<i=dust> per hero.
+escapes=Escapes
+luckyscarab=Lucky Scarab
+useSupplies=Use supplies to increase this character's rank.
+useSuppliesAvailable=[ {0}  <sprite name=supply> available ]  /// 10 <supplies> available
+useSuppliesRequirement=*Requires character rank 10 and Town upgrades fully unlocked.
+
+customMeatBagA=<i=slashing>resistance <bl>+3%</bl><br><act>[First turn]</act><br>Shuffle <crd=premiummeat,1>, <crd=meat,1> or <crd=spoiledmeat,1> into your deck.
+customMeatBagB=<i=slashing> resistance <bl>+5</bl><br><act>[First turn]</act><br>Shuffle <crd=premiummeat,1>, <crd=meat,1> or <crd=spoiledmeat,1> into your deck.
+cardsVanish=Vanish {0}
+
+itemSixPerTurn=6 times/turn
+itemSevenPerTurn=7 times/turn
+itemEightPerTurn=8 times/turn
+cardsIDPlaceDiscard=Place {0} on your discard pile// 0 => cardname
+ulminin=The Ulminin Desert
+impedingDoomDesc=All heroes suffer 3 "Doom" when the performance reaches underwhelming.
+resistantMonstersDesc=All monsters gain an additional +10% to all resistances.
+decadenceDesc=All heroes have <nobr>-20%</nobr> to healing received and Vitality heals only 50% of the max HP gained.
+
+customMainperkPowerful1c=Powerful on this hero increases damage and healing done by 10% per charge. Maximum charges reduced by 3 and loses all charges at the end of the turn.
+customMainperkInspire0a=This hero gains 1 Inspire on their first turn.
+customMainperkSharp1d=Sharp on this hero also increases the Shadow damage by 1 per charge.
+
+pyramid=The Ancient Pyramid
+cardPlayerPairsDescription=After these cards have been shuffled, characters will alternately select one card at a time. If you make a pair, <color=#C59559>both characters will get the reward</color>, otherwise, the cards will be hidden again.<br><br>The card selection order is random and will be shuffled every 2 rounds. The master can finish the game at the end of each round.
+finishGame=Finish game
+cardPlayerPairsRound=<color=#FFF>Round [{0}/{1}]</color><br><color={2}>{3}'s turn</color>
+
+customArmagedon=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><i=fire><i=blunt> resistances <bl>+30%</bl><br><gl>-Every round-</gl><br>Add <crd=meteorite,1> to all monsters.
+customArmagedonA=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><i=fire><i=blunt> resistances <bl>+40%</bl><br><gl>-Every round-</gl><br>Add <crd=meteorite,1> to all monsters.
+customArmagedonB=<gl>All monsters gain:</gl><br>All damage <bl>+3</bl><br><i=fire><i=blunt> resistances <bl>+45%</bl><br><gl>-Every round-</gl><br>Add <crd=meteorite,1> to all monsters.
+customArmagedonRare=<gl>All monsters gain:</gl><br>All damage <bl>+4</bl><br><i=fire><i=blunt> resistances <bl>+45%</bl><br><gl>-Every round-</gl><br>Add <crd=meteorite,1> to all monsters.
+
+customHeavenlyArmaments=<gl>All monsters gain:</gl><br>Max HP <bl>+15</bl><br><gl>-Every round-</gl><br>Gain <bl>2</bl><i=bless><bl>2</bl><i=regeneration><bl>2</bl><i=vitality><bl>1</bl><i=zeal><bl>1</bl><i=fast>
+customHeavenlyArmamentsA=<gl>All monsters gain:</gl><br>Max HP <bl>+30</bl><br><gl>-Every round-</gl><br>Gain <bl>3</bl><i=bless><bl>3</bl><i=regeneration><bl>2</bl><i=vitality><bl>2</bl><i=zeal><bl>1</bl><i=fast>
+customHeavenlyArmamentsB=<gl>All monsters gain:</gl><br>Max HP <bl>+45</bl><br><gl>-Every round-</gl><br>Gain <bl>3</bl><i=bless><bl>3</bl><i=regeneration><bl>3</bl><i=vitality><bl>2</bl><i=zeal><bl>2</bl><i=fast>
+customHeavenlyArmamentsRare=<gl>All monsters gain:</gl><br>Max HP <bl>+60</bl><br><gl>-Every round-</gl><br>Gain <bl>3</bl><i=bless><bl>3</bl><i=regeneration><bl>3</bl><i=vitality><bl>3</bl><i=zeal><bl>2</bl><i=fast>
+
+customPutrefaction=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br>Immune to <i=scourge><i=decay><br><gl>When a monster deals damage,</gl> it applies <rd>2</rd><i=dark><rd>1</rd><i=decay>
+customPutrefactionA=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br>Immune to <i=scourge><i=decay><br><gl>When a monster deals damage,</gl> it applies <rd>3</rd><i=dark><rd>1</rd><i=decay>
+customPutrefactionB=<gl>All monsters gain:</gl><br>All damage <bl>+3</bl><br>Immune to <i=scourge><i=decay><br><gl>When a monster deals damage,</gl> it applies <rd>3</rd><i=dark><rd>2</rd><i=decay>
+customPutrefactionRare=<gl>All monsters gain:</gl><br>All damage <bl>+4</bl><br>Immune to <i=scourge><i=decay><br><gl>When a monster deals damage,</gl> it applies <rd>4</rd><i=dark><rd>2</rd><i=decay>
+
+customMelancholy=<gl>All monsters gain:</gl><br>Max HP <bl>+15</bl><br>All resistances <bl>+10%</bl><br><i=mind> resistance <bl>+20%</bl><br><gl>-Every round-</gl><br>Shuffle <crd=sad,2> into each hero deck.</color>
+customMelancholyA=<gl>All monsters gain:</gl><br>Max HP <bl>+25</bl><br>All resistances <bl>+15%</bl><br><i=mind> resistance <bl>+20%</bl><br><gl>-Every round-</gl><br>Shuffle <crd=sad,2> into each hero deck.</color>
+customMelancholyB=<gl>All monsters gain:</gl><br>Max HP <bl>+35</bl><br>All resistances <bl>+20%</bl><br><i=mind> resistance <bl>+25%</bl><br><gl>-Every round-</gl><br>Shuffle <crd=sad,2> into each hero deck.</color>
+customMelancholyRare=<gl>All monsters gain:</gl><br>Max HP <bl>+45</bl><br>All resistances <bl>+25%</bl><br><i=mind> resistance <bl>+25%</bl><br><gl>-Every round-</gl><br>Shuffle <crd=sad,2> into each hero deck.</color>
+
+customNoxiousParasites=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><i=slashing><i=piercing><i=shadow> resistances <bl>+30%</bl><br><gl>-Every round-</gl><br>Shuffle <crd=hatchcorrupt,1> into each hero deck.
+customNoxiousParasitesA=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><i=slashing><i=piercing><i=shadow> resistances <bl>+40%</bl><br><gl>-Every round-</gl><br>Shuffle <crd=hatchcorrupt,1> into each hero deck.
+customNoxiousParasitesB=<gl>All monsters gain:</gl><br>All damage <bl>+3</bl><br><i=slashing><i=piercing><i=shadow> resistances <bl>+45%</bl><br><gl>-Every round-</gl><br>Shuffle <crd=hatchcorrupt,1> into each hero deck.
+customNoxiousParasitesRare=<gl>All monsters gain:</gl><br>All damage <bl>+4</bl><br><i=slashing><i=piercing><i=shadow> resistances <bl>+45%</bl><br><gl>-Every round-</gl><br>Shuffle <crd=hatchcorrupt,1> into each hero deck.
+
+customPoisonFields=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br>All resistances <bl>+5%</bl><br><gl>-Every round-</gl><br>All heroes suffer <rd>3<rd><i=poison>
+customPoisonFieldsA=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br>All resistances <bl>+10%</bl><br><gl>-Every round-</gl><br>All heroes suffer <rd>5<rd><i=poison>
+customPoisonFieldsB=<gl>All monsters gain:</gl><br>All damage <bl>+3</bl><br>All resistances <bl>+15%</bl><br><gl>-Every round-</gl><br>All heroes suffer <rd>7<rd><i=poison>
+customPoisonFieldsRare=<gl>All monsters gain:</gl><br>All damage <bl>+4</bl><br>All resistances <bl>+20%</bl><br><gl>-Every round-</gl><br>All heroes suffer <rd>9<rd><i=poison>
+
+customRevenge=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><i=slashing><i=blunt><i=piercing> resistances <bl>+20%</bl><br><gl>When a hero plays an "Attack",</gl> all monsters gain <bl>3</bl><i=fury>
+customRevengeA=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><i=slashing><i=blunt><i=piercing> resistances <bl>+25%</bl><br>><gl>When a hero plays an "Attack",</gl> all monsters gain <bl>4</bl><i=fury>
+customRevengeB=<gl>All monsters gain:</gl><br>All damage <bl>+3</bl><br><i=slashing><i=blunt><i=piercing> resistances <bl>+30%</bl><br><gl>When a hero plays an "Attack",</gl> all monsters gain <bl>5</bl><i=fury>
+customRevengeRare=<gl>All monsters gain:</gl><br>All damage <bl>+4</bl><br><i=slashing><i=blunt><i=piercing> resistances <bl>+35%</bl><br><gl>When a hero plays an "Attack",</gl> all monsters gain <bl>6</bl><i=fury>
+
+customSubZero=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><i=cold> resistance <bl>+30%</bl><br>Immune to <i=slow><br><gl>-Every two rounds-</gl><br>Add <crd=freezecorruption,1> to all monsters.
+customSubZeroA=<gl>All monsters gain:</gl><br>All damage <bl>+2</bl><br><i=cold> resistance <bl>+40%</bl><br>Immune to <i=slow><br><gl>-Every two rounds-</gl><br>Add <crd=freezecorruption,1> to all monsters.
+customSubZeroB=<gl>All monsters gain:</gl><br>All damage <bl>+3</bl><br><i=cold> resistance <bl>+45%</bl><br>Immune to <i=slow><br><gl>-Every two rounds-</gl><br>Add <crd=freezecorruption,1> to all monsters.
+customSubZeroRare=<gl>All monsters gain:</gl><br>All damage <bl>+4</bl><br><i=cold> resistance <bl>+45%</bl><br>Immune to <i=slow><br><gl>-Every two rounds-</gl><br>Add <crd=freezecorruption,1> to all monsters.
+
+sandbox=Sandbox
+sandboxMode=Sandbox mode
+sandboxModeTitle=Sandbox mode <size=-2><color=#888>(Only available after you've completed the adventure)
+sandboxEnable=Enable Sandbox
+sandboxDisable=Disable Sandbox
+sandboxMideDescription=In this mode, your score will not be saved and you will not unlock any madness level.
+sandboxStartingOptions=Starting options
+sandboxCombatOptions=Combat options
+sandboxStartingEnergy=<sprite name=energy>Starting energy
+sandboxSpeed=<sprite name=speedMini>Hero speed
+sandboxGold=<sprite name=gold>Starting gold
+sandboxShards=<sprite name=dust>Starting shards
+sandboxAdventureOptions=Adventure options
+sandboxCraft=<sprite name=cards>Card craft cost
+sandboxRemove=<sprite name=cards>Card remove cost
+sandboxTransform=<sprite name=cards>Card transform cost
+sandboxUpgrade=<sprite name=cards>Card upgrade cost
+sandboxEquipment=<sprite name=armor>Equipment cost
+sandboxPets=<sprite name=pet>Pets cost
+sandboxAllCards=<sprite name=cards>All cards unlocked
+sandboxRarity=<sprite name=cards>Card craft rarity
+sandboxCraftAvailable=<sprite name=cards>Available card limit
+sandboxDeckSize=<sprite name=cards>Minimum deck size
+sandboxRerolls=<sprite name=nodeShop>Armory rerolls
+sandboxRerollsTimes=<sprite name=nodeShop>Maximum rerolls
+sandboxDivination=<sprite name=cardrandom>Divination cost
+sandboxEvents=<sprite name=dice>Event rolls succeed
+sandboxHeroes=<sprite name=experience>Total heroes
+sandboxMonstersHP=<sprite name=heart>Monster HP
+sandboxMonstersDamage=<sprite name=damage>Monster Damage
+sandboxRemoveMonsters=<sprite name=doom>Remove monsters
+sandboxDoubleChampions=<sprite name=boss>Double champions
+yesRandomCombats=Yes <color=#888><size=-.5>(random combats must be enabled)
+yes=Yes
+unlimited=Unlimited
+always=Always
+all=All
+disabled=Disabled
+
+card=Card
+////////////// Christmas DLC
+keyQ=Q
+keyW=W
+keyE=E
+keyR=R
+keyT=T
+keyY=Y
+keyU=U
+keyI=I
+keyO=O
+keyP=P
+keyA=A
+keyS=S
+keyD=D
+keyF=F
+keyG=G
+keyH=H
+keyJ=J
+keyK=K
+keyL=L
+keyZ=Z
+keyX=X
+keyC=C
+keyV=V
+keyB=B
+keyN=N
+keyM=M
+keyShift=Shift
+keyReturn=Accept
+keyDelete=Delete
+
+customScaraby=All resistances <bl>+5%</bl><br>Increases the chance of a scarab spawning in Acts 2 and 3 by up to <bl>40%</bl>.
+customScarabyrare=All resistances <bl>+8%</bl><br>Increases the chance of a scarab spawning in Acts 2 and 3 by up to <bl>50%</bl>.<br>Scourge scarabs do not spawn.
+
+queen=Queen
+princess=Princess
+empress=Empress
+engineer=Engineer
+mechanic=Mechanic
+artificer=Artificer
+chatWelcome=Welcome to <u>{0}</u> game. You will be able to communicate with the rest of the players through this chat window. Also note that each one of them will be referenced with the same color for the rest of the game. Enjoy!
+maximumEnchantments=A character can have a maximum of three active enchantments. If a new one is applied, the oldest will be removed.
